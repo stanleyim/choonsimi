@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>choonsimi</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>📊 choonsimi</h1>
+    <p>KRX AI 투자 신호</p>
+    <p id="updatedAt" class="updated">loading...</p>
+  </div>
+
+  <div id="list" class="list">
+    <div class="card skeleton"></div>
+    <div class="card skeleton"></div>
+    <div class="card skeleton"></div>
+  </div>
+
+<script>
+async function loadData() {
+  try {
+    const metaRes = await fetch('/data.json');
+    const meta = await metaRes.json();
+
+    const res = await fetch(`/data.json?v=${meta.version}`);
+    const json = await res.json();
+
+    const date = new Date(json.generated_at);
+    const updated = `${date.getMonth()+1}월 ${date.getDate()}일 ${date.getHours()}:${String(date.getMinutes()).padStart(2,'0')}`;
+    document.getElementById("updatedAt").innerText = `업데이트: ${updated}`;
+
+    const list = document.getElementById("list");
+    list.innerHTML = "";
+
+    json.top10.forEach((item, idx) => {
+
+      const rank = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : (idx + 1);
+
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
+        <div class="card-top">
+          <div class="rank">${rank} ${item.name}</div>
+          <div class="badge ${item.signal.toLowerCase()}">${item.signal}</div>
+        </div>
+
+        <div class="metrics">
+          <div class="metric">
+            <span class="label">신호강도</span>
+            <span class="value">${item.signal_strength}</span>
+          </div>
+
+          <div class="metric">
+            <span class="label">신뢰도</span>
+            <span class="value confidence">${item.confidence ?? 0}%</span>
+          </div>
+
+          <div class="metric">
+            <span class="label">성장률</span>
+            <span class="value ${item.growth > 0 ? 'positive' : ''}">
+              ${item.growth > 0 ? '+' : ''}${item.growth ?? 0}%
+            </span>
+          </div>
+        </div>
+
+        <div class="reason">${item.reason}</div>
+      `;
+
+      list.appendChild(card);
+    });
+
+  } catch (e) {
+    document.getElementById("list").innerHTML =
+      "<div class='card error'>데이터를 불러오지 못했습니다. 새로고침해주세요.</div>";
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
