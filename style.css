@@ -1,1 +1,81 @@
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif;
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+}
 
+/* 타이틀 */
+h2 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* 카드 */
+.card {
+  background: #1e293b;
+  margin: 12px 0;
+  padding: 18px 20px;
+  border-radius: 16px;
+  border: 1px solid #334155;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+/* 터치 피드백 */
+.card:active {
+  transform: scale(0.97);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+}
+
+/* TOP3 강조 */
+.card:nth-child(1) { border: 2px solid #fbbf24; }
+.card:nth-child(2) { border: 2px solid #cbd5e1; }
+.card:nth-child(3) { border: 2px solid #f59e0b; }
+
+/* 순위 */
+.rank {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* 종목코드 */
+.code {
+  color: #94a3b8;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+/* 점수 */
+.score {
+  color: #22c55e;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+/* 로딩 스켈레톤 */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #1e293b 25%,
+    #334155 50%,
+    #1e293b 75%
+  );
+  background-size: 200% 100%;
+  animation: loading 1.2s infinite;
+  height: 80px;
+  border-radius: 16px;
+  margin: 12px 0;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
