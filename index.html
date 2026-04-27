@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>choonsimi</title>
 
+  <!-- 스타일 -->
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <h2>📊 TOP 10 SIGNAL</h2>
+  <div class="subtitle">매일 08:01 자동 업데이트</div>
+
+  <!-- 데이터 영역 -->
+  <div id="top"></div>
+
+<script>
+async function load() {
+  const el = document.getElementById("top");
+
+  // 🔥 로딩 스켈레톤
+  el.innerHTML = `
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+  `;
+
+  try {
+    const res = await fetch('/data.json');
+    const data = await res.json();
+
+    if (!data.top10 || data.top10.length === 0) {
+      throw "no data";
+    }
+
+    const medals = ["🥇", "🥈", "🥉"];
+
+    el.innerHTML = data.top10.map((x, i) => `
+      <div class="card">
+        <div class="rank">
+          ${medals[i] || (i + 1 + ".")} ${x.name}
+        </div>
+        <div class="code">${x.code}</div>
+        <div class="score">🔥 ${x.score}</div>
+      </div>
+    `).join("");
+
+  } catch (e) {
+    el.innerHTML = `
+      <div style="margin-top:20px; color:#94a3b8;">
+        ⚠️ 데이터 준비중...
+      </div>
+    `;
+  }
+}
+
+// 최초 실행
+load();
+
+// 60초마다 갱신 (가볍게)
+setInterval(load, 60000);
+</script>
+
+</body>
+</html>
