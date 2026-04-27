@@ -1,0 +1,35 @@
+name: Stock Engine
+
+on:
+  schedule:
+    - cron: "0 23 * *"   # UTC 23:00 = KST 08:00
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run choonsimi engine
+        run: python engine/engine.py
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+
+      - name: Commit and push data.json
+        run: |
+          git config --global user.name "choonsimi-bot"
+          git config --global user.email "bot@choonsimi.com"
+          git add data.json
+          git commit -m "update: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')" || exit 0
+          git push
