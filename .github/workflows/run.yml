@@ -32,6 +32,7 @@ jobs:
         run: python engine/engine.py
         env:
           KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
 
       - name: Validate output
         run: |
