@@ -1,874 +1,1864 @@
 {
-  "version": "20260428_2230",
-  "generated_at": "2026-04-28T22:30:28.400590+09:00",
+  "version": "20260428_2325",
+  "generated_at": "2026-04-28T23:25:26.494087+09:00",
   "meta": {
     "krx_count": 200,
     "processed": 200,
-    "corp_map": 0,
+    "corp_map": 3961,
     "dart_cache": 200
   },
   "top10": [
     {
-      "code": "005930",
-      "name": "삼성전자",
-      "market_cap": 1312489547496000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "042700",
+      "name": "한미반도체",
+      "market_cap": 35599106700000,
+      "score": 108.43,
+      "signal": "STRONG_BUY",
+      "roe": 30.91,
+      "debt_ratio": 18.52
     },
     {
       "code": "000660",
       "name": "SK하이닉스",
       "market_cap": 920811455580000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005935",
-      "name": "삼성전자우",
-      "market_cap": 128459629600300,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "market_cap": 108576000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market_cap": 107293069384000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market_cap": 104115166554000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market_cap": 82568331719400,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market_cap": 74973185054000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market_cap": 70638904425000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "207940",
-      "name": "삼성바이오로직스",
-      "market_cap": 69853045059000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    }
-  ],
-  "all": [
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market_cap": 1312489547496000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market_cap": 920811455580000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005935",
-      "name": "삼성전자우",
-      "market_cap": 128459629600300,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "market_cap": 108576000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market_cap": 107293069384000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market_cap": 104115166554000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "market_cap": 82568331719400,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "market_cap": 74973185054000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "329180",
-      "name": "HD현대중공업",
-      "market_cap": 70638904425000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "207940",
-      "name": "삼성바이오로직스",
-      "market_cap": 69853045059000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000270",
-      "name": "기아",
-      "market_cap": 59577023494800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market_cap": 59306794624000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "score": 107.22,
+      "signal": "STRONG_BUY",
+      "roe": 36.39,
+      "debt_ratio": 43.97
     },
     {
       "code": "105560",
       "name": "KB금융",
       "market_cap": 58686661617000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "score": 101.47,
+      "signal": "STRONG_BUY",
+      "roe": 14.67,
+      "debt_ratio": 23.73
     },
     {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market_cap": 51171811550000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "028260",
-      "name": "삼성물산",
-      "market_cap": 50596722072000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "032830",
-      "name": "삼성생명",
-      "market_cap": 50000000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "055550",
-      "name": "신한지주",
-      "market_cap": 47323039791700,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
-      "market_cap": 47077558310000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "068270",
-      "name": "셀트리온",
-      "market_cap": 45275405244000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "042660",
-      "name": "한화오션",
-      "market_cap": 40906188099000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market_cap": 39241842147500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "market_cap": 38442244656000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market_cap": 38325000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "market_cap": 36748043668000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "042700",
-      "name": "한미반도체",
-      "market_cap": 35599106700000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "010130",
-      "name": "고려아연",
-      "market_cap": 34273415098000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "086790",
-      "name": "하나금융지주",
-      "market_cap": 34021600752000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "009540",
-      "name": "HD한국조선해양",
-      "market_cap": 33900322564000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "market_cap": 33723317170000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005490",
-      "name": "POSCO홀딩스",
-      "market_cap": 33083337522500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "034730",
-      "name": "SK",
-      "market_cap": 29871113636000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "010140",
-      "name": "삼성중공업",
-      "market_cap": 29436000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "015760",
-      "name": "한국전력",
-      "market_cap": 29434052930450,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "051910",
-      "name": "LG화학",
-      "market_cap": 26789794168500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000150",
-      "name": "두산",
-      "market_cap": 25618646970000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "064350",
-      "name": "현대로템",
-      "market_cap": 25211869683000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "316140",
-      "name": "우리금융지주",
-      "market_cap": 24371333824000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "272210",
-      "name": "한화시스템",
-      "market_cap": 23822734952900,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "267250",
-      "name": "HD현대",
-      "market_cap": 22473532682500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "003670",
-      "name": "포스코퓨처엠",
-      "market_cap": 22192081890000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "096770",
-      "name": "SK이노베이션",
-      "market_cap": 22044483555200,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "035720",
-      "name": "카카오",
-      "market_cap": 21463398207750,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "086520",
-      "name": "에코프로",
-      "market_cap": 21235390172800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "066570",
-      "name": "LG전자",
-      "market_cap": 21175230310000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "017670",
-      "name": "SK텔레콤",
-      "market_cap": 21049425194000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
-      "market_cap": 20900000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000810",
-      "name": "삼성화재",
-      "market_cap": 20582485053000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "033780",
-      "name": "KT&G",
-      "market_cap": 20389507481000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "247540",
-      "name": "에코프로비엠",
-      "market_cap": 20299815055000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market_cap": 20289326497000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "011200",
-      "name": "HMM",
-      "market_cap": 19760835471500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "138040",
-      "name": "메리츠금융지주",
-      "market_cap": 19194732213100,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000720",
-      "name": "현대건설",
-      "market_cap": 19086378121000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "024110",
-      "name": "기업은행",
-      "market_cap": 17702854291800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "086280",
-      "name": "현대글로비스",
-      "market_cap": 17212500000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "326030",
+      "name": "SK바이오팜",
+      "market_cap": 8019276800000,
+      "score": 101.37,
+      "signal": "STRONG_BUY",
+      "roe": 31.07,
+      "debt_ratio": 19.56
     },
     {
       "code": "278470",
       "name": "에이피알",
       "market_cap": 16809731595000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "score": 100.87,
+      "signal": "STRONG_BUY",
+      "roe": 50,
+      "debt_ratio": 64.23
     },
     {
-      "code": "047810",
-      "name": "한국항공우주",
-      "market_cap": 16736475871900,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "196170",
+      "name": "알테오젠",
+      "market_cap": 20289326497000,
+      "score": 100.5,
+      "signal": "STRONG_BUY",
+      "roe": 28.06,
+      "debt_ratio": 40.98
     },
     {
-      "code": "030200",
-      "name": "KT",
-      "market_cap": 15398524953500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "market_cap": 69853045059000,
+      "score": 100.35,
+      "signal": "STRONG_BUY",
+      "roe": 21.39,
+      "debt_ratio": 48.66
     },
     {
-      "code": "003550",
-      "name": "LG",
-      "market_cap": 14728161367500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "138040",
+      "name": "메리츠금융지주",
+      "market_cap": 19194732213100,
+      "score": 100.35,
+      "signal": "STRONG_BUY",
+      "roe": 36.86,
+      "debt_ratio": 53.96
     },
     {
-      "code": "071050",
-      "name": "한국금융지주",
-      "market_cap": 14516620916000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "047050",
-      "name": "포스코인터내셔널",
-      "market_cap": 14302522664400,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "0126Z0",
-      "name": "삼성에피스홀딩스",
-      "market_cap": 14083805734000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "047040",
-      "name": "대우건설",
-      "market_cap": 13642133581600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "006260",
-      "name": "LS",
-      "market_cap": 13291200000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "018260",
-      "name": "삼성에스디에스",
-      "market_cap": 13138750440000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "259960",
-      "name": "크래프톤",
-      "market_cap": 13084081116000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "010950",
-      "name": "S-Oil",
-      "market_cap": 12992054196800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "277810",
-      "name": "레인보우로보틱스",
-      "market_cap": 12978505002000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market_cap": 12685569352000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "058470",
+      "name": "리노공업",
+      "market_cap": 8368061130000,
+      "score": 100.15,
+      "signal": "STRONG_BUY",
+      "roe": 20.78,
+      "debt_ratio": 8.3
     },
     {
       "code": "443060",
       "name": "HD현대마린솔루션",
       "market_cap": 12575785530000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "score": 99.79,
+      "signal": "STRONG_BUY",
+      "roe": 32.23,
+      "debt_ratio": 41.2
+    }
+  ],
+  "all": [
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market_cap": 35599106700000,
+      "score": 108.43,
+      "signal": "STRONG_BUY",
+      "roe": 30.91,
+      "debt_ratio": 18.52
     },
     {
-      "code": "005940",
-      "name": "NH투자증권",
-      "market_cap": 12561139007250,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market_cap": 920811455580000,
+      "score": 107.22,
+      "signal": "STRONG_BUY",
+      "roe": 36.39,
+      "debt_ratio": 43.97
     },
     {
-      "code": "307950",
-      "name": "현대오토에버",
-      "market_cap": 12093976062000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "105560",
+      "name": "KB금융",
+      "market_cap": 58686661617000,
+      "score": 101.47,
+      "signal": "STRONG_BUY",
+      "roe": 14.67,
+      "debt_ratio": 23.73
     },
     {
-      "code": "323410",
-      "name": "카카오뱅크",
-      "market_cap": 11904154903150,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "326030",
+      "name": "SK바이오팜",
+      "market_cap": 8019276800000,
+      "score": 101.37,
+      "signal": "STRONG_BUY",
+      "roe": 31.07,
+      "debt_ratio": 19.56
     },
     {
-      "code": "039490",
-      "name": "키움증권",
-      "market_cap": 11873898288000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "278470",
+      "name": "에이피알",
+      "market_cap": 16809731595000,
+      "score": 100.87,
+      "signal": "STRONG_BUY",
+      "roe": 50,
+      "debt_ratio": 64.23
     },
     {
-      "code": "007660",
-      "name": "이수페타시스",
-      "market_cap": 11415133554500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "196170",
+      "name": "알테오젠",
+      "market_cap": 20289326497000,
+      "score": 100.5,
+      "signal": "STRONG_BUY",
+      "roe": 28.06,
+      "debt_ratio": 40.98
     },
     {
-      "code": "005830",
-      "name": "DB손해보험",
-      "market_cap": 11220209783700,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "market_cap": 69853045059000,
+      "score": 100.35,
+      "signal": "STRONG_BUY",
+      "roe": 21.39,
+      "debt_ratio": 48.66
     },
     {
-      "code": "352820",
-      "name": "하이브",
-      "market_cap": 10775562250000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "138040",
+      "name": "메리츠금융지주",
+      "market_cap": 19194732213100,
+      "score": 100.35,
+      "signal": "STRONG_BUY",
+      "roe": 36.86,
+      "debt_ratio": 53.96
     },
     {
-      "code": "028050",
-      "name": "삼성E&A",
-      "market_cap": 10642800000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "058470",
+      "name": "리노공업",
+      "market_cap": 8368061130000,
+      "score": 100.15,
+      "signal": "STRONG_BUY",
+      "roe": 20.78,
+      "debt_ratio": 8.3
     },
     {
-      "code": "000250",
-      "name": "삼천당제약",
-      "market_cap": 10438575040000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "443060",
+      "name": "HD현대마린솔루션",
+      "market_cap": 12575785530000,
+      "score": 99.79,
+      "signal": "STRONG_BUY",
+      "roe": 32.23,
+      "debt_ratio": 41.2
     },
     {
-      "code": "016360",
-      "name": "삼성증권",
-      "market_cap": 10064110000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "062040",
+      "name": "산일전기",
+      "market_cap": 7087569275000,
+      "score": 99.1,
+      "signal": "STRONG_BUY",
+      "roe": 25.46,
+      "debt_ratio": 16.29
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market_cap": 1312489547496000,
+      "score": 98.24,
+      "signal": "STRONG_BUY",
+      "roe": 13.25,
+      "debt_ratio": 41.12
+    },
+    {
+      "code": "271560",
+      "name": "오리온",
+      "market_cap": 5590409064800,
+      "score": 96.98,
+      "signal": "STRONG_BUY",
+      "roe": 22.74,
+      "debt_ratio": 10.48
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "market_cap": 33723317170000,
+      "score": 96.86,
+      "signal": "STRONG_BUY",
+      "roe": 11.97,
+      "debt_ratio": 29.32
+    },
+    {
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "market_cap": 47077558310000,
+      "score": 95.85,
+      "signal": "STRONG_BUY",
+      "roe": 34.57,
+      "debt_ratio": 90.33
+    },
+    {
+      "code": "003550",
+      "name": "LG",
+      "market_cap": 14728161367500,
+      "score": 95.3,
+      "signal": "STRONG_BUY",
+      "roe": 8.26,
+      "debt_ratio": 5.29
+    },
+    {
+      "code": "259960",
+      "name": "크래프톤",
+      "market_cap": 13084081116000,
+      "score": 95.02,
+      "signal": "STRONG_BUY",
+      "roe": 10.12,
+      "debt_ratio": 12.34
+    },
+    {
+      "code": "000270",
+      "name": "기아",
+      "market_cap": 59577023494800,
+      "score": 94.59,
+      "signal": "STRONG_BUY",
+      "roe": 13.35,
+      "debt_ratio": 54.73
+    },
+    {
+      "code": "403870",
+      "name": "HPSP",
+      "market_cap": 4510040000000,
+      "score": 94.43,
+      "signal": "STRONG_BUY",
+      "roe": 23.57,
+      "debt_ratio": 19.94
     },
     {
       "code": "003230",
       "name": "삼양식품",
       "market_cap": 9800452515000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "score": 94.01,
+      "signal": "STRONG_BUY",
+      "roe": 30.36,
+      "debt_ratio": 61.74
     },
     {
-      "code": "298380",
-      "name": "에이비엘바이오",
-      "market_cap": 9669034860100,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "009540",
+      "name": "HD한국조선해양",
+      "market_cap": 33900322564000,
+      "score": 93.52,
+      "signal": "STRONG_BUY",
+      "roe": 5.23,
+      "debt_ratio": 9.88
     },
     {
-      "code": "267270",
-      "name": "HD건설기계",
-      "market_cap": 9503672775800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "012330",
+      "name": "현대모비스",
+      "market_cap": 39241842147500,
+      "score": 93.39,
+      "signal": "STRONG_BUY",
+      "roe": 6.9,
+      "debt_ratio": 25.91
     },
     {
-      "code": "000880",
-      "name": "한화",
-      "market_cap": 9292943724200,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "086790",
+      "name": "하나금융지주",
+      "market_cap": 34021600752000,
+      "score": 92.96,
+      "signal": "STRONG_BUY",
+      "roe": 8.93,
+      "debt_ratio": 36.48
     },
     {
-      "code": "003490",
-      "name": "대한항공",
-      "market_cap": 9039817227550,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "code": "055550",
+      "name": "신한지주",
+      "market_cap": 47323039791700,
+      "score": 92.68,
+      "signal": "STRONG_BUY",
+      "roe": 9.06,
+      "debt_ratio": 43.51
+    },
+    {
+      "code": "214150",
+      "name": "클래시스",
+      "market_cap": 3953280935400,
+      "score": 92.44,
+      "signal": "STRONG_BUY",
+      "roe": 24.01,
+      "debt_ratio": 26.77
+    },
+    {
+      "code": "483650",
+      "name": "달바글로벌",
+      "market_cap": 2906314442500,
+      "score": 92.16,
+      "signal": "STRONG_BUY",
+      "roe": 38.15,
+      "debt_ratio": 26.07
+    },
+    {
+      "code": "007660",
+      "name": "이수페타시스",
+      "market_cap": 11415133554500,
+      "score": 91.92,
+      "signal": "STRONG_BUY",
+      "roe": 20.89,
+      "debt_ratio": 57.21
+    },
+    {
+      "code": "161390",
+      "name": "한국타이어앤테크놀로지",
+      "market_cap": 7705029291800,
+      "score": 91.74,
+      "signal": "STRONG_BUY",
+      "roe": 14.71,
+      "debt_ratio": 31.53
+    },
+    {
+      "code": "000990",
+      "name": "DB하이텍",
+      "market_cap": 6917229492000,
+      "score": 91.67,
+      "signal": "STRONG_BUY",
+      "roe": 12.97,
+      "debt_ratio": 20.01
+    },
+    {
+      "code": "071050",
+      "name": "한국금융지주",
+      "market_cap": 14516620916000,
+      "score": 91.54,
+      "signal": "STRONG_BUY",
+      "roe": 18.94,
+      "debt_ratio": 61.94
+    },
+    {
+      "code": "033780",
+      "name": "KT&G",
+      "market_cap": 20389507481000,
+      "score": 90.88,
+      "signal": "STRONG_BUY",
+      "roe": 12.19,
+      "debt_ratio": 50.55
+    },
+    {
+      "code": "316140",
+      "name": "우리금융지주",
+      "market_cap": 24371333824000,
+      "score": 90.85,
+      "signal": "STRONG_BUY",
+      "roe": 4.71,
+      "debt_ratio": 14.38
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "market_cap": 45275405244000,
+      "score": 90.74,
+      "signal": "STRONG_BUY",
+      "roe": 4.87,
+      "debt_ratio": 25.29
+    },
+    {
+      "code": "011200",
+      "name": "HMM",
+      "market_cap": 19760835471500,
+      "score": 90.73,
+      "signal": "STRONG_BUY",
+      "roe": 7.01,
+      "debt_ratio": 24.87
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market_cap": 107293069384000,
+      "score": 90.49,
+      "signal": "STRONG_BUY",
+      "roe": 5.8,
+      "debt_ratio": 40.89
+    },
+    {
+      "code": "086520",
+      "name": "에코프로",
+      "market_cap": 21235390172800,
+      "score": 90.48,
+      "signal": "STRONG_BUY",
+      "roe": 34.89,
+      "debt_ratio": 105.11
+    },
+    {
+      "code": "018260",
+      "name": "삼성에스디에스",
+      "market_cap": 13138750440000,
+      "score": 90.29,
+      "signal": "STRONG_BUY",
+      "roe": 6.57,
+      "debt_ratio": 17.27
+    },
+    {
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market_cap": 22044483555200,
+      "score": 90.03,
+      "signal": "STRONG_BUY",
+      "roe": 10.25,
+      "debt_ratio": 50.38
+    },
+    {
+      "code": "039030",
+      "name": "이오테크닉스",
+      "market_cap": 6221372750000,
+      "score": 89.76,
+      "signal": "STRONG_BUY",
+      "roe": 9.69,
+      "debt_ratio": 12.69
+    },
+    {
+      "code": "214370",
+      "name": "케어젠",
+      "market_cap": 5881792500000,
+      "score": 89.71,
+      "signal": "STRONG_BUY",
+      "roe": 9.46,
+      "debt_ratio": 8.85
+    },
+    {
+      "code": "000100",
+      "name": "유한양행",
+      "market_cap": 7494839254100,
+      "score": 89.34,
+      "signal": "STRONG_BUY",
+      "roe": 9.36,
+      "debt_ratio": 21.22
+    },
+    {
+      "code": "175330",
+      "name": "JB금융지주",
+      "market_cap": 5176973560000,
+      "score": 89.12,
+      "signal": "STRONG_BUY",
+      "roe": 19.24,
+      "debt_ratio": 39.27
     },
     {
       "code": "090430",
       "name": "아모레퍼시픽",
       "market_cap": 8820708057200,
+      "score": 89.02,
+      "signal": "STRONG_BUY",
+      "roe": 6.29,
+      "debt_ratio": 11.23
+    },
+    {
+      "code": "052690",
+      "name": "한전기술",
+      "market_cap": 7342062000000,
+      "score": 88.48,
+      "signal": "STRONG_BUY",
+      "roe": 13.66,
+      "debt_ratio": 41.37
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "market_cap": 13291200000000,
+      "score": 88.33,
+      "signal": "STRONG_BUY",
+      "roe": 5.58,
+      "debt_ratio": 20.55
+    },
+    {
+      "code": "086280",
+      "name": "현대글로비스",
+      "market_cap": 17212500000000,
+      "score": 88.16,
+      "signal": "STRONG_BUY",
+      "roe": 16.88,
+      "debt_ratio": 75.9
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market_cap": 59306794624000,
+      "score": 88.06,
+      "signal": "STRONG_BUY",
+      "roe": 5.81,
+      "debt_ratio": 49.63
+    },
+    {
+      "code": "009970",
+      "name": "영원무역홀딩스",
+      "market_cap": 2821340533000,
+      "score": 87.94,
+      "signal": "STRONG_BUY",
+      "roe": 16.11,
+      "debt_ratio": 4.26
+    },
+    {
+      "code": "064760",
+      "name": "티씨케이",
+      "market_cap": 3398542464000,
+      "score": 87.75,
+      "signal": "STRONG_BUY",
+      "roe": 13.46,
+      "debt_ratio": 9.3
+    },
+    {
+      "code": "439260",
+      "name": "대한조선",
+      "market_cap": 3555978597600,
+      "score": 87.54,
+      "signal": "STRONG_BUY",
+      "roe": 22.79,
+      "debt_ratio": 40.76
+    },
+    {
+      "code": "036570",
+      "name": "NC",
+      "market_cap": 5633761753000,
+      "score": 87.24,
+      "signal": "STRONG_BUY",
+      "roe": 10.59,
+      "debt_ratio": 24.32
+    },
+    {
+      "code": "071970",
+      "name": "HD현대마린엔진",
+      "market_cap": 3917932672500,
+      "score": 87.14,
+      "signal": "STRONG_BUY",
+      "roe": 33.96,
+      "debt_ratio": 69.02
+    },
+    {
+      "code": "214450",
+      "name": "파마리서치",
+      "market_cap": 3449363136000,
+      "score": 86.94,
+      "signal": "STRONG_BUY",
+      "roe": 23.36,
+      "debt_ratio": 41.47
+    },
+    {
+      "code": "095340",
+      "name": "ISC",
+      "market_cap": 5097892449000,
+      "score": 86.9,
+      "signal": "STRONG_BUY",
+      "roe": 8.82,
+      "debt_ratio": 13.24
+    },
+    {
+      "code": "240810",
+      "name": "원익IPS",
+      "market_cap": 5963693971500,
+      "score": 86.7,
+      "signal": "STRONG_BUY",
+      "roe": 8.55,
+      "debt_ratio": 20.31
+    },
+    {
+      "code": "267250",
+      "name": "HD현대",
+      "market_cap": 22473532682500,
+      "score": 86.66,
+      "signal": "STRONG_BUY",
+      "roe": 6.66,
+      "debt_ratio": 49.02
+    },
+    {
+      "code": "111770",
+      "name": "영원무역",
+      "market_cap": 3708869871600,
+      "score": 86.32,
+      "signal": "STRONG_BUY",
+      "roe": 12.36,
+      "debt_ratio": 21.01
+    },
+    {
+      "code": "010130",
+      "name": "고려아연",
+      "market_cap": 34273415098000,
+      "score": 85.83,
+      "signal": "STRONG_BUY",
+      "roe": 7.52,
+      "debt_ratio": 64.96
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market_cap": 29871113636000,
+      "score": 85.64,
+      "signal": "STRONG_BUY",
+      "roe": 8.63,
+      "debt_ratio": 69.54
+    },
+    {
+      "code": "145020",
+      "name": "휴젤",
+      "market_cap": 3297480844000,
+      "score": 85.64,
+      "signal": "STRONG_BUY",
+      "roe": 11.76,
+      "debt_ratio": 11.14
+    },
+    {
+      "code": "138930",
+      "name": "BNK금융지주",
+      "market_cap": 5815528598420,
+      "score": 85.07,
+      "signal": "STRONG_BUY",
+      "roe": 11.08,
+      "debt_ratio": 38.24
+    },
+    {
+      "code": "051910",
+      "name": "LG화학",
+      "market_cap": 26789794168500,
+      "score": 85.06,
+      "signal": "STRONG_BUY",
+      "roe": 6.22,
+      "debt_ratio": 56.53
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market_cap": 38325000000000,
+      "score": 85.03,
+      "signal": "STRONG_BUY",
+      "roe": 14.79,
+      "debt_ratio": 101.31
+    },
+    {
+      "code": "357780",
+      "name": "솔브레인",
+      "market_cap": 3772604510000,
+      "score": 84.44,
+      "signal": "STRONG_BUY",
+      "roe": 7.86,
+      "debt_ratio": 10.87
+    },
+    {
+      "code": "078930",
+      "name": "GS",
+      "market_cap": 7108026417000,
+      "score": 84.41,
+      "signal": "STRONG_BUY",
+      "roe": 3.83,
+      "debt_ratio": 5.2
+    },
+    {
+      "code": "002380",
+      "name": "KCC",
+      "market_cap": 4905331992000,
+      "score": 84.34,
+      "signal": "STRONG_BUY",
+      "roe": 23.32,
+      "debt_ratio": 70.84
+    },
+    {
+      "code": "014680",
+      "name": "한솔케미칼",
+      "market_cap": 3445169085000,
+      "score": 83.86,
+      "signal": "STRONG_BUY",
+      "roe": 14.74,
+      "debt_ratio": 34.49
+    },
+    {
+      "code": "001040",
+      "name": "CJ",
+      "market_cap": 6404351061000,
+      "score": 83.44,
+      "signal": "STRONG_BUY",
+      "roe": 4.51,
+      "debt_ratio": 12.65
+    },
+    {
+      "code": "004800",
+      "name": "효성",
+      "market_cap": 3423413231500,
+      "score": 82.97,
+      "signal": "STRONG_BUY",
+      "roe": 13.33,
+      "debt_ratio": 33.25
+    },
+    {
+      "code": "005490",
+      "name": "POSCO홀딩스",
+      "market_cap": 33083337522500,
+      "score": 82.46,
+      "signal": "STRONG_BUY",
+      "roe": 1.03,
+      "debt_ratio": 8.09
+    },
+    {
+      "code": "100790",
+      "name": "미래에셋벤처투자",
+      "market_cap": 3251227600800,
+      "score": 82.29,
+      "signal": "STRONG_BUY",
+      "roe": 8.32,
+      "debt_ratio": 10.66
+    },
+    {
+      "code": "128940",
+      "name": "한미약품",
+      "market_cap": 6335035049500,
+      "score": 82.28,
+      "signal": "STRONG_BUY",
+      "roe": 14.95,
+      "debt_ratio": 71.09
+    },
+    {
+      "code": "084370",
+      "name": "유진테크",
+      "market_cap": 3116581712000,
+      "score": 81.99,
+      "signal": "STRONG_BUY",
+      "roe": 8.86,
+      "debt_ratio": 13.46
+    },
+    {
+      "code": "028260",
+      "name": "삼성물산",
+      "market_cap": 50596722072000,
+      "score": 81.75,
+      "signal": "STRONG_BUY",
+      "roe": 2.42,
+      "debt_ratio": 45.24
+    },
+    {
+      "code": "035250",
+      "name": "강원랜드",
+      "market_cap": 3671218980000,
+      "score": 81.7,
+      "signal": "STRONG_BUY",
+      "roe": 7.78,
+      "debt_ratio": 22.12
+    },
+    {
+      "code": "022100",
+      "name": "포스코DX",
+      "market_cap": 5412436352400,
+      "score": 81.54,
+      "signal": "STRONG_BUY",
+      "roe": 9.33,
+      "debt_ratio": 45.07
+    },
+    {
+      "code": "237690",
+      "name": "에스티팜",
+      "market_cap": 3491357772500,
+      "score": 81.46,
+      "signal": "STRONG_BUY",
+      "roe": 9.92,
+      "debt_ratio": 29.73
+    },
+    {
+      "code": "307950",
+      "name": "현대오토에버",
+      "market_cap": 12093976062000,
+      "score": 80.33,
+      "signal": "STRONG_BUY",
+      "roe": 9.26,
+      "debt_ratio": 78.76
+    },
+    {
+      "code": "043260",
+      "name": "성호전자",
+      "market_cap": 3046135247850,
+      "score": 80.05,
+      "signal": "STRONG_BUY",
+      "roe": 34.19,
+      "debt_ratio": 84.77
+    },
+    {
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "market_cap": 6481669921200,
+      "score": 79.97,
+      "signal": "STRONG_BUY",
+      "roe": 14.71,
+      "debt_ratio": 82.85
+    },
+    {
+      "code": "012750",
+      "name": "에스원",
+      "market_cap": 3286928897000,
+      "score": 79.91,
+      "signal": "STRONG_BUY",
+      "roe": 11.08,
+      "debt_ratio": 36.04
+    },
+    {
+      "code": "005850",
+      "name": "에스엘",
+      "market_cap": 2977350132000,
+      "score": 79.43,
+      "signal": "STRONG_BUY",
+      "roe": 10.23,
+      "debt_ratio": 29.27
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "market_cap": 5376561440000,
+      "score": 79.15,
+      "signal": "STRONG_BUY",
+      "roe": 5.2,
+      "debt_ratio": 30.96
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market_cap": 21463398207750,
+      "score": 78.98,
+      "signal": "STRONG_BUY",
+      "roe": 3.13,
+      "debt_ratio": 55.0
+    },
+    {
+      "code": "272210",
+      "name": "한화시스템",
+      "market_cap": 23822734952900,
+      "score": 78.94,
+      "signal": "STRONG_BUY",
+      "roe": 7.62,
+      "debt_ratio": 94.0
+    },
+    {
+      "code": "108490",
+      "name": "로보티즈",
+      "market_cap": 5100645744000,
+      "score": 78.73,
+      "signal": "STRONG_BUY",
+      "roe": 2.39,
+      "debt_ratio": 1.41
+    },
+    {
+      "code": "051600",
+      "name": "한전KPS",
+      "market_cap": 2902500000000,
+      "score": 78.64,
+      "signal": "STRONG_BUY",
+      "roe": 9.26,
+      "debt_ratio": 26.23
+    },
+    {
+      "code": "021240",
+      "name": "코웨이",
+      "market_cap": 6093075378600,
+      "score": 78.08,
+      "signal": "STRONG_BUY",
+      "roe": 15.53,
+      "debt_ratio": 91.37
+    },
+    {
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "market_cap": 7038677464000,
+      "score": 77.7,
+      "signal": "STRONG_BUY",
+      "roe": 1.55,
+      "debt_ratio": 5.32
+    },
+    {
+      "code": "277810",
+      "name": "레인보우로보틱스",
+      "market_cap": 12978505002000,
+      "score": 77.52,
+      "signal": "STRONG_BUY",
+      "roe": 0.77,
+      "debt_ratio": 6.95
+    },
+    {
+      "code": "247540",
+      "name": "에코프로비엠",
+      "market_cap": 20299815055000,
+      "score": 77.43,
+      "signal": "STRONG_BUY",
+      "roe": 6.1,
+      "debt_ratio": 86.34
+    },
+    {
+      "code": "000150",
+      "name": "두산",
+      "market_cap": 25618646970000,
+      "score": 77.41,
+      "signal": "STRONG_BUY",
+      "roe": 8.68,
+      "debt_ratio": 108.96
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market_cap": 5856621246000,
+      "score": 77.28,
+      "signal": "STRONG_BUY",
+      "roe": 6.01,
+      "debt_ratio": 50.45
+    },
+    {
+      "code": "005290",
+      "name": "동진쎄미켐",
+      "market_cap": 3126001235200,
+      "score": 76.22,
+      "signal": "STRONG_BUY",
+      "roe": 14.78,
+      "debt_ratio": 66.34
+    },
+    {
+      "code": "030200",
+      "name": "KT",
+      "market_cap": 15398524953500,
+      "score": 75.97,
+      "signal": "STRONG_BUY",
+      "roe": 6.97,
+      "debt_ratio": 94.91
+    },
+    {
+      "code": "180640",
+      "name": "한진칼",
+      "market_cap": 7670985857100,
+      "score": 75.4,
+      "signal": "STRONG_BUY",
+      "roe": 1.26,
+      "debt_ratio": 15.79
+    },
+    {
+      "code": "251270",
+      "name": "넷마블",
+      "market_cap": 4098018550000,
+      "score": 75.39,
+      "signal": "STRONG_BUY",
+      "roe": 4.07,
+      "debt_ratio": 34.23
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "market_cap": 36748043668000,
+      "score": 75.13,
+      "signal": "STRONG_BUY",
+      "roe": 13.18,
+      "debt_ratio": 144.95
+    },
+    {
+      "code": "098460",
+      "name": "고영",
+      "market_cap": 2986481842500,
+      "score": 75.01,
+      "signal": "STRONG_BUY",
+      "roe": 4.84,
+      "debt_ratio": 19.19
+    },
+    {
+      "code": "241560",
+      "name": "두산밥캣",
+      "market_cap": 7332988972500,
+      "score": 74.58,
+      "signal": "STRONG_BUY",
+      "roe": 5.64,
+      "debt_ratio": 70.77
+    },
+    {
+      "code": "0009K0",
+      "name": "에임드바이오",
+      "market_cap": 3291762094900,
+      "score": 74.5,
+      "signal": "STRONG_BUY",
+      "roe": 2.62,
+      "debt_ratio": 3.32
+    },
+    {
+      "code": "017800",
+      "name": "현대엘리베이터",
+      "market_cap": 3854509161000,
+      "score": 74.44,
+      "signal": "STRONG_BUY",
+      "roe": 24.17,
+      "debt_ratio": 114.59
+    },
+    {
+      "code": "139130",
+      "name": "iM금융지주",
+      "market_cap": 3055079568660,
+      "score": 74.2,
+      "signal": "STRONG_BUY",
+      "roe": 6.67,
+      "debt_ratio": 38.86
+    },
+    {
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "market_cap": 74973185054000,
+      "score": 73.98,
+      "signal": "STRONG_BUY",
+      "roe": 15.93,
+      "debt_ratio": 167.57
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market_cap": 82568331719400,
+      "score": 73.53,
+      "signal": "STRONG_BUY",
+      "roe": 8.19,
+      "debt_ratio": 139.77
+    },
+    {
+      "code": "011780",
+      "name": "금호석유화학",
+      "market_cap": 3325798365000,
+      "score": 73.45,
+      "signal": "STRONG_BUY",
+      "roe": 5.19,
+      "debt_ratio": 36.42
+    },
+    {
+      "code": "267270",
+      "name": "HD건설기계",
+      "market_cap": 9503672775800,
+      "score": 73.06,
+      "signal": "STRONG_BUY",
+      "roe": 3.57,
+      "debt_ratio": 69.2
+    },
+    {
+      "code": "012510",
+      "name": "더존비즈온",
+      "market_cap": 3607865134000,
+      "score": 72.86,
+      "signal": "STRONG_BUY",
+      "roe": 13.7,
+      "debt_ratio": 91.11
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "market_cap": 7424970648300,
+      "score": 72.61,
+      "signal": "STRONG_BUY",
+      "roe": 2.99,
+      "debt_ratio": 56.65
+    },
+    {
+      "code": "051900",
+      "name": "LG생활건강",
+      "market_cap": 3886824586000,
+      "score": 72.24,
+      "signal": "STRONG_BUY",
+      "roe": 1.47,
+      "debt_ratio": 10.52
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "market_cap": 10642800000000,
+      "score": 72.21,
+      "signal": "STRONG_BUY",
+      "roe": 11.69,
+      "debt_ratio": 126.98
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "market_cap": 70638904425000,
+      "score": 71.08,
+      "signal": "STRONG_BUY",
+      "roe": 15.16,
+      "debt_ratio": 179.23
+    },
+    {
+      "code": "015760",
+      "name": "한국전력",
+      "market_cap": 29434052930450,
+      "score": 70.13,
+      "signal": "STRONG_BUY",
+      "roe": 27.29,
+      "debt_ratio": 444.27
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market_cap": 3497207624600,
+      "score": 70.07,
+      "signal": "STRONG_BUY",
+      "roe": 6.64,
+      "debt_ratio": 69.34
+    },
+    {
+      "code": "042660",
+      "name": "한화오션",
+      "market_cap": 40906188099000,
+      "score": 69.54,
+      "signal": "BUY",
+      "roe": 22.42,
+      "debt_ratio": 229.06
+    },
+    {
+      "code": "450080",
+      "name": "에코프로머티",
+      "market_cap": 6096276345600,
+      "score": 69.54,
+      "signal": "BUY",
+      "roe": 2.11,
+      "debt_ratio": 51.05
+    },
+    {
+      "code": "047050",
+      "name": "포스코인터내셔널",
+      "market_cap": 14302522664400,
+      "score": 69.42,
+      "signal": "BUY",
+      "roe": 8.87,
+      "debt_ratio": 136.89
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "market_cap": 25211869683000,
+      "score": 68.97,
+      "signal": "BUY",
+      "roe": 24.58,
+      "debt_ratio": 199.26
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "market_cap": 21049425194000,
+      "score": 68.44,
+      "signal": "BUY",
+      "roe": 3.43,
+      "debt_ratio": 109.73
+    },
+    {
+      "code": "032640",
+      "name": "LG유플러스",
+      "market_cap": 7062079872650,
+      "score": 67.18,
+      "signal": "BUY",
+      "roe": 6.08,
+      "debt_ratio": 109.46
+    },
+    {
+      "code": "001440",
+      "name": "대한전선",
+      "market_cap": 8119779915000,
+      "score": 67.11,
+      "signal": "BUY",
+      "roe": 4.87,
+      "debt_ratio": 106.46
+    },
+    {
+      "code": "103140",
+      "name": "풍산",
+      "market_cap": 2819242366800,
+      "score": 66.85,
+      "signal": "BUY",
+      "roe": 6.41,
+      "debt_ratio": 67.41
+    },
+    {
+      "code": "112610",
+      "name": "씨에스윈드",
+      "market_cap": 3116466681700,
+      "score": 66.71,
+      "signal": "BUY",
+      "roe": 4.01,
+      "debt_ratio": 55.54
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market_cap": 2947371144000,
+      "score": 65.94,
+      "signal": "BUY",
+      "roe": 7.53,
+      "debt_ratio": 82.0
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market_cap": 12685569352000,
+      "score": 65.67,
+      "signal": "BUY",
+      "roe": 5.96,
+      "debt_ratio": 134.14
+    },
+    {
+      "code": "000250",
+      "name": "삼천당제약",
+      "market_cap": 10438575040000,
+      "score": 65.57,
+      "signal": "BUY",
+      "roe": 1.39,
+      "debt_ratio": 76.23
+    },
+    {
+      "code": "103590",
+      "name": "일진전기",
+      "market_cap": 5240624361000,
+      "score": 65.41,
+      "signal": "BUY",
+      "roe": 18.48,
+      "debt_ratio": 156.41
+    },
+    {
+      "code": "082740",
+      "name": "한화엔진",
+      "market_cap": 7385072067000,
+      "score": 64.73,
+      "signal": "BUY",
+      "roe": 31.24,
+      "debt_ratio": 204.92
+    },
+    {
+      "code": "079550",
+      "name": "LIG디펜스앤에어로스페이스",
+      "market_cap": 20900000000000,
+      "score": 64.7,
+      "signal": "BUY",
+      "roe": 17.72,
+      "debt_ratio": 447.72
+    },
+    {
+      "code": "031210",
+      "name": "서울보증보험",
+      "market_cap": 3389838582900,
+      "score": 64.67,
+      "signal": "BUY",
+      "roe": 5.11,
+      "debt_ratio": 81.17
+    },
+    {
+      "code": "375500",
+      "name": "DL이앤씨",
+      "market_cap": 3803583140900,
+      "score": 64.3,
+      "signal": "BUY",
+      "roe": 2.32,
+      "debt_ratio": 63.51
+    },
+    {
+      "code": "000500",
+      "name": "가온전선",
+      "market_cap": 3647756857500,
+      "score": 63.68,
+      "signal": "BUY",
+      "roe": 3.05,
+      "debt_ratio": 73.02
+    },
+    {
+      "code": "010140",
+      "name": "삼성중공업",
+      "market_cap": 29436000000000,
+      "score": 63.39,
+      "signal": "BUY",
+      "roe": 13.28,
+      "debt_ratio": 263.18
+    },
+    {
+      "code": "066570",
+      "name": "LG전자",
+      "market_cap": 21175230310000,
+      "score": 62.15,
+      "signal": "BUY",
+      "roe": 8.16,
+      "debt_ratio": 178.01
+    },
+    {
+      "code": "039490",
+      "name": "키움증권",
+      "market_cap": 11873898288000,
+      "score": 62.09,
+      "signal": "BUY",
+      "roe": 18.08,
+      "debt_ratio": 1031.29
+    },
+    {
+      "code": "003670",
+      "name": "포스코퓨처엠",
+      "market_cap": 22192081890000,
+      "score": 61.85,
+      "signal": "BUY",
+      "roe": 0.82,
+      "debt_ratio": 100.68
+    },
+    {
+      "code": "028670",
+      "name": "팬오션",
+      "market_cap": 2972206486720,
+      "score": 61.39,
+      "signal": "BUY",
+      "roe": 5.29,
+      "debt_ratio": 89.98
+    },
+    {
+      "code": "032820",
+      "name": "우리기술",
+      "market_cap": 3960878928300,
+      "score": 60.5,
+      "signal": "BUY",
+      "roe": 3.29,
+      "debt_ratio": 98.79
+    },
+    {
+      "code": "005830",
+      "name": "DB손해보험",
+      "market_cap": 11220209783700,
+      "score": 60.48,
+      "signal": "BUY",
+      "roe": 15.57,
+      "debt_ratio": 502.84
+    },
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "market_cap": 19086378121000,
+      "score": 60.37,
+      "signal": "BUY",
+      "roe": 3.29,
+      "debt_ratio": 144.45
+    },
+    {
+      "code": "047810",
+      "name": "한국항공우주",
+      "market_cap": 16736475871900,
+      "score": 58.51,
+      "signal": "BUY",
+      "roe": 10.26,
+      "debt_ratio": 443.07
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market_cap": 104115166554000,
+      "score": 58.4,
+      "signal": "BUY",
+      "roe": -1.68,
+      "debt_ratio": 5.0
+    },
+    {
+      "code": "016360",
+      "name": "삼성증권",
+      "market_cap": 10064110000000,
+      "score": 58.18,
+      "signal": "BUY",
+      "roe": 12.71,
+      "debt_ratio": 851.75
+    },
+    {
+      "code": "000810",
+      "name": "삼성화재",
+      "market_cap": 20582485053000,
+      "score": 57.49,
+      "signal": "BUY",
+      "roe": 8.2,
+      "debt_ratio": 354.77
+    },
+    {
+      "code": "005940",
+      "name": "NH투자증권",
+      "market_cap": 12561139007250,
+      "score": 57.37,
+      "signal": "BUY",
+      "roe": 10.55,
+      "debt_ratio": 826.75
+    },
+    {
+      "code": "083650",
+      "name": "비에이치아이",
+      "market_cap": 3048020937500,
+      "score": 56.94,
+      "signal": "BUY",
+      "roe": 33.6,
+      "debt_ratio": 357.64
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "market_cap": 38442244656000,
+      "score": 56.84,
+      "signal": "BUY",
+      "roe": 5.71,
+      "debt_ratio": 944.64
+    },
+    {
+      "code": "024110",
+      "name": "기업은행",
+      "market_cap": 17702854291800,
+      "score": 55.56,
+      "signal": "BUY",
+      "roe": 7.13,
+      "debt_ratio": 1266.29
+    },
+    {
+      "code": "003490",
+      "name": "대한항공",
+      "market_cap": 9039817227550,
+      "score": 54.14,
+      "signal": "HOLD",
+      "roe": 8.62,
+      "debt_ratio": 243.74
+    },
+    {
+      "code": "0126Z0",
+      "name": "삼성에피스홀딩스",
+      "market_cap": 14083805734000,
+      "score": 53.73,
+      "signal": "HOLD",
+      "roe": -0.05,
+      "debt_ratio": 0.36
+    },
+    {
+      "code": "323410",
+      "name": "카카오뱅크",
+      "market_cap": 11904154903150,
+      "score": 53.64,
+      "signal": "HOLD",
+      "roe": 7.12,
+      "debt_ratio": 1032.02
+    },
+    {
+      "code": "004990",
+      "name": "롯데지주",
+      "market_cap": 2890249504000,
+      "score": 52.97,
+      "signal": "HOLD",
+      "roe": 1.53,
+      "debt_ratio": 84.06
+    },
+    {
+      "code": "032830",
+      "name": "삼성생명",
+      "market_cap": 50000000000000,
+      "score": 52.29,
+      "signal": "HOLD",
+      "roe": 3.01,
+      "debt_ratio": 449.39
+    },
+    {
+      "code": "004170",
+      "name": "신세계",
+      "market_cap": 3796962762000,
+      "score": 49.97,
+      "signal": "HOLD",
+      "roe": 1.38,
+      "debt_ratio": 118.01
+    },
+    {
+      "code": "029780",
+      "name": "삼성카드",
+      "market_cap": 6140521223000,
+      "score": 49.64,
+      "signal": "HOLD",
+      "roe": 7.28,
+      "debt_ratio": 255.61
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "market_cap": 51171811550000,
+      "score": 48.34,
+      "signal": "HOLD",
+      "roe": -7.83,
+      "debt_ratio": 51.31
+    },
+    {
+      "code": "023530",
+      "name": "롯데쇼핑",
+      "market_cap": 3770891041500,
+      "score": 47.87,
+      "signal": "HOLD",
+      "roe": 0.77,
+      "debt_ratio": 112.72
+    },
+    {
+      "code": "454910",
+      "name": "두산로보틱스",
+      "market_cap": 6566263974000,
+      "score": 47.45,
+      "signal": "HOLD",
+      "roe": -11.57,
+      "debt_ratio": 8.23
+    },
+    {
+      "code": "141080",
+      "name": "리가켐바이오",
+      "market_cap": 7626000108000,
+      "score": 47.42,
+      "signal": "HOLD",
+      "roe": -10.99,
+      "debt_ratio": 14.42
+    },
+    {
+      "code": "036460",
+      "name": "한국가스공사",
+      "market_cap": 3535587900000,
+      "score": 46.31,
+      "signal": "HOLD",
+      "roe": 8.4,
+      "debt_ratio": 501.74
+    },
+    {
+      "code": "010950",
+      "name": "S-Oil",
+      "market_cap": 12992054196800,
+      "score": 44.89,
+      "signal": "HOLD",
+      "roe": 2.1,
+      "debt_ratio": 198.64
+    },
+    {
+      "code": "028300",
+      "name": "HLB",
+      "market_cap": 8240901997600,
+      "score": 44.36,
+      "signal": "HOLD",
+      "roe": -15.76,
+      "debt_ratio": 32.7
+    },
+    {
+      "code": "352820",
+      "name": "하이브",
+      "market_cap": 10775562250000,
+      "score": 44.21,
+      "signal": "HOLD",
+      "roe": -5.28,
+      "debt_ratio": 40.47
+    },
+    {
+      "code": "087010",
+      "name": "펩트론",
+      "market_cap": 6598810050000,
+      "score": 43.99,
+      "signal": "HOLD",
+      "roe": -9.73,
+      "debt_ratio": 26.03
+    },
+    {
+      "code": "347850",
+      "name": "디앤디파마텍",
+      "market_cap": 3583179224600,
+      "score": 43.64,
+      "signal": "HOLD",
+      "roe": -2.04,
+      "debt_ratio": 2.31
+    },
+    {
+      "code": "001720",
+      "name": "신영증권",
+      "market_cap": 3361980000000,
+      "score": 43.63,
+      "signal": "HOLD",
+      "roe": 7.11,
+      "debt_ratio": 490.52
+    },
+    {
+      "code": "139480",
+      "name": "이마트",
+      "market_cap": 2927916395900,
+      "score": 42.53,
+      "signal": "HOLD",
+      "roe": 0.53,
+      "debt_ratio": 112.59
+    },
+    {
+      "code": "097230",
+      "name": "HJ중공업",
+      "market_cap": 2799155664000,
+      "score": 41.79,
+      "signal": "HOLD",
+      "roe": 7.66,
+      "debt_ratio": 265.86
+    },
+    {
+      "code": "263750",
+      "name": "펄어비스",
+      "market_cap": 3867720871000,
+      "score": 41.77,
+      "signal": "HOLD",
+      "roe": -7.69,
+      "debt_ratio": 17.17
+    },
+    {
+      "code": "000880",
+      "name": "한화",
+      "market_cap": 9292943724200,
+      "score": 40.14,
+      "signal": "HOLD",
+      "roe": 1.35,
+      "debt_ratio": 209.65
+    },
+    {
+      "code": "226950",
+      "name": "올릭스",
+      "market_cap": 3989064559500,
+      "score": 39.47,
+      "signal": "WATCH",
+      "roe": -10.82,
+      "debt_ratio": 31.65
+    },
+    {
+      "code": "020150",
+      "name": "롯데에너지머티리얼즈",
+      "market_cap": 3513722567300,
+      "score": 39.05,
+      "signal": "WATCH",
+      "roe": -5.85,
+      "debt_ratio": 23.26
+    },
+    {
+      "code": "088350",
+      "name": "한화생명",
+      "market_cap": 4268824950000,
+      "score": 38.66,
+      "signal": "WATCH",
+      "roe": 2.51,
+      "debt_ratio": 908.73
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "market_cap": 108576000000000,
+      "score": 38.48,
+      "signal": "WATCH",
+      "roe": -3.78,
+      "debt_ratio": 105.59
+    },
+    {
+      "code": "302440",
+      "name": "SK바이오사이언스",
+      "market_cap": 3436397021400,
+      "score": 37.77,
+      "signal": "WATCH",
+      "roe": -3.35,
+      "debt_ratio": 26.64
+    },
+    {
+      "code": "489790",
+      "name": "한화비전",
+      "market_cap": 4483369032000,
+      "score": 37.25,
+      "signal": "WATCH",
+      "roe": -3.32,
+      "debt_ratio": 45.24
+    },
+    {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "market_cap": 9669034860100,
+      "score": 36.07,
+      "signal": "WATCH",
+      "roe": -23.19,
+      "debt_ratio": 78.65
+    },
+    {
+      "code": "310210",
+      "name": "보로노이",
+      "market_cap": 5631064326000,
+      "score": 34.58,
+      "signal": "WATCH",
+      "roe": -40.87,
+      "debt_ratio": 64.59
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "market_cap": 5811563936750,
+      "score": 34.53,
+      "signal": "WATCH",
+      "roe": -0.22,
+      "debt_ratio": 65.84
+    },
+    {
+      "code": "457190",
+      "name": "이수스페셜티케미컬",
+      "market_cap": 3680658609600,
+      "score": 34.41,
+      "signal": "WATCH",
+      "roe": 0.65,
+      "debt_ratio": 175.48
+    },
+    {
+      "code": "009830",
+      "name": "한화솔루션",
+      "market_cap": 8629005307200,
+      "score": 33.14,
+      "signal": "WATCH",
+      "roe": -1.44,
+      "debt_ratio": 89.82
+    },
+    {
+      "code": "011170",
+      "name": "롯데케미칼",
+      "market_cap": 3943893631800,
+      "score": 32.62,
+      "signal": "WATCH",
+      "roe": -8.78,
+      "debt_ratio": 64.41
+    },
+    {
+      "code": "006360",
+      "name": "GS건설",
+      "market_cap": 3487445717500,
+      "score": 31.93,
+      "signal": "WATCH",
+      "roe": 0.88,
+      "debt_ratio": 188.92
+    },
+    {
+      "code": "018880",
+      "name": "한온시스템",
+      "market_cap": 4371878471520,
+      "score": 28.73,
+      "signal": "WATCH",
+      "roe": -5.68,
+      "debt_ratio": 87.33
+    },
+    {
+      "code": "178320",
+      "name": "서진시스템",
+      "market_cap": 2991946058700,
+      "score": 21.6,
+      "signal": "PASS",
+      "roe": -5.86,
+      "debt_ratio": 98.5
+    },
+    {
+      "code": "011790",
+      "name": "SKC",
+      "market_cap": 4722176760600,
+      "score": 20.42,
+      "signal": "PASS",
+      "roe": -67.25,
+      "debt_ratio": 130.38
+    },
+    {
+      "code": "097950",
+      "name": "CJ제일제당",
+      "market_cap": 3522679524000,
+      "score": 17.19,
+      "signal": "PASS",
+      "roe": -12.95,
+      "debt_ratio": 133.05
+    },
+    {
+      "code": "047040",
+      "name": "대우건설",
+      "market_cap": 13642133581600,
+      "score": 13.7,
+      "signal": "PASS",
+      "roe": -37.34,
+      "debt_ratio": 359.46
+    },
+    {
+      "code": "950160",
+      "name": "코오롱티슈진",
+      "market_cap": 8727813150000,
+      "score": 11.2,
+      "signal": "PASS",
+      "roe": -303.22,
+      "debt_ratio": 561.65
+    },
+    {
+      "code": "066970",
+      "name": "엘앤에프",
+      "market_cap": 8234623812000,
+      "score": 10.8,
+      "signal": "PASS",
+      "roe": -76.0,
+      "debt_ratio": 346.59
+    },
+    {
+      "code": "222800",
+      "name": "심텍",
+      "market_cap": 3211430748000,
+      "score": 10.06,
+      "signal": "PASS",
+      "roe": -25.64,
+      "debt_ratio": 159.72
+    },
+    {
+      "code": "034220",
+      "name": "LG디스플레이",
+      "market_cap": 6325000000000,
+      "score": 8.7,
+      "signal": "PASS",
+      "roe": -2.6,
+      "debt_ratio": 557.82
+    },
+    {
+      "code": "440110",
+      "name": "파두",
+      "market_cap": 4071128963100,
+      "score": 5.9,
+      "signal": "PASS",
+      "roe": -487.18,
+      "debt_ratio": 609.76
+    },
+    {
+      "code": "336260",
+      "name": "두산퓨얼셀",
+      "market_cap": 3327081280800,
+      "score": 2.6,
+      "signal": "PASS",
+      "roe": -34.84,
+      "debt_ratio": 221.46
+    },
+    {
+      "code": "140410",
+      "name": "메지온",
+      "market_cap": 2793040147300,
+      "score": 0.1,
+      "signal": "PASS",
+      "roe": -218.45,
+      "debt_ratio": 408.5
+    },
+    {
+      "code": "005935",
+      "name": "삼성전자우",
+      "market_cap": 128459629600300,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": 0,
@@ -884,285 +1874,6 @@
       "debt_ratio": 0
     },
     {
-      "code": "950160",
-      "name": "코오롱티슈진",
-      "market_cap": 8727813150000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "009830",
-      "name": "한화솔루션",
-      "market_cap": 8629005307200,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "058470",
-      "name": "리노공업",
-      "market_cap": 8368061130000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "028300",
-      "name": "HLB",
-      "market_cap": 8240901997600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "066970",
-      "name": "엘앤에프",
-      "market_cap": 8234623812000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "001440",
-      "name": "대한전선",
-      "market_cap": 8119779915000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "326030",
-      "name": "SK바이오팜",
-      "market_cap": 8019276800000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "161390",
-      "name": "한국타이어앤테크놀로지",
-      "market_cap": 7705029291800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "180640",
-      "name": "한진칼",
-      "market_cap": 7670985857100,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "141080",
-      "name": "리가켐바이오",
-      "market_cap": 7626000108000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000100",
-      "name": "유한양행",
-      "market_cap": 7494839254100,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "377300",
-      "name": "카카오페이",
-      "market_cap": 7424970648300,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "082740",
-      "name": "한화엔진",
-      "market_cap": 7385072067000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "052690",
-      "name": "한전기술",
-      "market_cap": 7342062000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "241560",
-      "name": "두산밥캣",
-      "market_cap": 7332988972500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "078930",
-      "name": "GS",
-      "market_cap": 7108026417000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "062040",
-      "name": "산일전기",
-      "market_cap": 7087569275000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "032640",
-      "name": "LG유플러스",
-      "market_cap": 7062079872650,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market_cap": 7038677464000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000990",
-      "name": "DB하이텍",
-      "market_cap": 6917229492000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "087010",
-      "name": "펩트론",
-      "market_cap": 6598810050000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "454910",
-      "name": "두산로보틱스",
-      "market_cap": 6566263974000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "064400",
-      "name": "LG씨엔에스",
-      "market_cap": 6481669921200,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "001040",
-      "name": "CJ",
-      "market_cap": 6404351061000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "128940",
-      "name": "한미약품",
-      "market_cap": 6335035049500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "034220",
-      "name": "LG디스플레이",
-      "market_cap": 6325000000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "039030",
-      "name": "이오테크닉스",
-      "market_cap": 6221372750000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "029780",
-      "name": "삼성카드",
-      "market_cap": 6140521223000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "450080",
-      "name": "에코프로머티",
-      "market_cap": 6096276345600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "021240",
-      "name": "코웨이",
-      "market_cap": 6093075378600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "240810",
-      "name": "원익IPS",
-      "market_cap": 5963693971500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
       "code": "005385",
       "name": "현대차우",
       "market_cap": 5893592400000,
@@ -1172,720 +1883,9 @@
       "debt_ratio": 0
     },
     {
-      "code": "214370",
-      "name": "케어젠",
-      "market_cap": 5881792500000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market_cap": 5856621246000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "138930",
-      "name": "BNK금융지주",
-      "market_cap": 5815528598420,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "004020",
-      "name": "현대제철",
-      "market_cap": 5811563936750,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "036570",
-      "name": "NC",
-      "market_cap": 5633761753000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "310210",
-      "name": "보로노이",
-      "market_cap": 5631064326000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "271560",
-      "name": "오리온",
-      "market_cap": 5590409064800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
       "code": "088980",
       "name": "맥쿼리인프라",
       "market_cap": 5445343060410,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "022100",
-      "name": "포스코DX",
-      "market_cap": 5412436352400,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "353200",
-      "name": "대덕전자",
-      "market_cap": 5376561440000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "103590",
-      "name": "일진전기",
-      "market_cap": 5240624361000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "175330",
-      "name": "JB금융지주",
-      "market_cap": 5176973560000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "108490",
-      "name": "로보티즈",
-      "market_cap": 5100645744000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "095340",
-      "name": "ISC",
-      "market_cap": 5097892449000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "002380",
-      "name": "KCC",
-      "market_cap": 4905331992000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "011790",
-      "name": "SKC",
-      "market_cap": 4722176760600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "403870",
-      "name": "HPSP",
-      "market_cap": 4510040000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "489790",
-      "name": "한화비전",
-      "market_cap": 4483369032000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "018880",
-      "name": "한온시스템",
-      "market_cap": 4371878471520,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "088350",
-      "name": "한화생명",
-      "market_cap": 4268824950000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "251270",
-      "name": "넷마블",
-      "market_cap": 4098018550000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "440110",
-      "name": "파두",
-      "market_cap": 4071128963100,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "226950",
-      "name": "올릭스",
-      "market_cap": 3989064559500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "032820",
-      "name": "우리기술",
-      "market_cap": 3960878928300,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "214150",
-      "name": "클래시스",
-      "market_cap": 3953280935400,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "011170",
-      "name": "롯데케미칼",
-      "market_cap": 3943893631800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "071970",
-      "name": "HD현대마린엔진",
-      "market_cap": 3917932672500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "051900",
-      "name": "LG생활건강",
-      "market_cap": 3886824586000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "263750",
-      "name": "펄어비스",
-      "market_cap": 3867720871000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "017800",
-      "name": "현대엘리베이터",
-      "market_cap": 3854509161000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "375500",
-      "name": "DL이앤씨",
-      "market_cap": 3803583140900,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "004170",
-      "name": "신세계",
-      "market_cap": 3796962762000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "357780",
-      "name": "솔브레인",
-      "market_cap": 3772604510000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "023530",
-      "name": "롯데쇼핑",
-      "market_cap": 3770891041500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "111770",
-      "name": "영원무역",
-      "market_cap": 3708869871600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "457190",
-      "name": "이수스페셜티케미컬",
-      "market_cap": 3680658609600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "035250",
-      "name": "강원랜드",
-      "market_cap": 3671218980000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "000500",
-      "name": "가온전선",
-      "market_cap": 3647756857500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "012510",
-      "name": "더존비즈온",
-      "market_cap": 3607865134000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "347850",
-      "name": "디앤디파마텍",
-      "market_cap": 3583179224600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "439260",
-      "name": "대한조선",
-      "market_cap": 3555978597600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "036460",
-      "name": "한국가스공사",
-      "market_cap": 3535587900000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "097950",
-      "name": "CJ제일제당",
-      "market_cap": 3522679524000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "020150",
-      "name": "롯데에너지머티리얼즈",
-      "market_cap": 3513722567300,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "319400",
-      "name": "현대무벡스",
-      "market_cap": 3497207624600,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "237690",
-      "name": "에스티팜",
-      "market_cap": 3491357772500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "006360",
-      "name": "GS건설",
-      "market_cap": 3487445717500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "214450",
-      "name": "파마리서치",
-      "market_cap": 3449363136000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "014680",
-      "name": "한솔케미칼",
-      "market_cap": 3445169085000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "302440",
-      "name": "SK바이오사이언스",
-      "market_cap": 3436397021400,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "004800",
-      "name": "효성",
-      "market_cap": 3423413231500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "064760",
-      "name": "티씨케이",
-      "market_cap": 3398542464000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "031210",
-      "name": "서울보증보험",
-      "market_cap": 3389838582900,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "001720",
-      "name": "신영증권",
-      "market_cap": 3361980000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "336260",
-      "name": "두산퓨얼셀",
-      "market_cap": 3327081280800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "011780",
-      "name": "금호석유화학",
-      "market_cap": 3325798365000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "145020",
-      "name": "휴젤",
-      "market_cap": 3297480844000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "0009K0",
-      "name": "에임드바이오",
-      "market_cap": 3291762094900,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "012750",
-      "name": "에스원",
-      "market_cap": 3286928897000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
-      "market_cap": 3251227600800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "222800",
-      "name": "심텍",
-      "market_cap": 3211430748000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005290",
-      "name": "동진쎄미켐",
-      "market_cap": 3126001235200,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "084370",
-      "name": "유진테크",
-      "market_cap": 3116581712000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "112610",
-      "name": "씨에스윈드",
-      "market_cap": 3116466681700,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "139130",
-      "name": "iM금융지주",
-      "market_cap": 3055079568660,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "083650",
-      "name": "비에이치아이",
-      "market_cap": 3048020937500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "043260",
-      "name": "성호전자",
-      "market_cap": 3046135247850,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "178320",
-      "name": "서진시스템",
-      "market_cap": 2991946058700,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "098460",
-      "name": "고영",
-      "market_cap": 2986481842500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "005850",
-      "name": "에스엘",
-      "market_cap": 2977350132000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "028670",
-      "name": "팬오션",
-      "market_cap": 2972206486720,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "058610",
-      "name": "에스피지",
-      "market_cap": 2947371144000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "139480",
-      "name": "이마트",
-      "market_cap": 2927916395900,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "483650",
-      "name": "달바글로벌",
-      "market_cap": 2906314442500,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "051600",
-      "name": "한전KPS",
-      "market_cap": 2902500000000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "004990",
-      "name": "롯데지주",
-      "market_cap": 2890249504000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "009970",
-      "name": "영원무역홀딩스",
-      "market_cap": 2821340533000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "103140",
-      "name": "풍산",
-      "market_cap": 2819242366800,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "097230",
-      "name": "HJ중공업",
-      "market_cap": 2799155664000,
-      "score": 0,
-      "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
-    },
-    {
-      "code": "140410",
-      "name": "메지온",
-      "market_cap": 2793040147300,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": 0,
