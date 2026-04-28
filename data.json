@@ -1,6 +1,6 @@
 {
-  "version": "20260428_1101",
-  "generated_at": "2026-04-28T11:01:01.265184+09:00",
+  "version": "20260428_1200",
+  "generated_at": "2026-04-28T12:00:13.686647+09:00",
   "top10": [
     {
       "code": "005930",
@@ -9,8 +9,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000660",
@@ -19,8 +20,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005935",
@@ -29,8 +31,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "373220",
@@ -39,8 +42,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005380",
@@ -49,8 +53,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "402340",
@@ -59,8 +64,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "034020",
@@ -69,8 +75,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "012450",
@@ -79,8 +86,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "329180",
@@ -89,8 +97,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "207940",
@@ -99,8 +108,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     }
   ],
   "all": [
@@ -111,8 +121,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000660",
@@ -121,8 +132,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005935",
@@ -131,8 +143,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "373220",
@@ -141,8 +154,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005380",
@@ -151,8 +165,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "402340",
@@ -161,8 +176,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "034020",
@@ -171,8 +187,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "012450",
@@ -181,8 +198,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "329180",
@@ -191,8 +209,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "207940",
@@ -201,8 +220,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000270",
@@ -211,8 +231,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "009150",
@@ -221,8 +242,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "105560",
@@ -231,8 +253,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "006400",
@@ -241,8 +264,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "028260",
@@ -251,8 +275,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "032830",
@@ -261,8 +286,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "055550",
@@ -271,8 +297,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "267260",
@@ -281,8 +308,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "068270",
@@ -291,8 +319,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "042660",
@@ -301,8 +330,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "012330",
@@ -311,8 +341,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "006800",
@@ -321,8 +352,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "010120",
@@ -331,8 +363,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "298040",
@@ -341,8 +374,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "042700",
@@ -351,8 +385,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "010130",
@@ -361,8 +396,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "086790",
@@ -371,8 +407,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "009540",
@@ -381,8 +418,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "035420",
@@ -391,8 +429,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005490",
@@ -401,8 +440,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "034730",
@@ -411,8 +451,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "010140",
@@ -421,8 +462,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "015760",
@@ -431,8 +473,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "051910",
@@ -441,8 +484,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000150",
@@ -451,8 +495,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "064350",
@@ -461,8 +506,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "316140",
@@ -471,8 +517,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "272210",
@@ -481,8 +528,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "267250",
@@ -491,8 +539,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "003670",
@@ -501,8 +550,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "096770",
@@ -511,8 +561,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "035720",
@@ -521,8 +572,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "086520",
@@ -531,8 +583,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "066570",
@@ -541,8 +594,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "017670",
@@ -551,8 +605,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "079550",
@@ -561,8 +616,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000810",
@@ -571,8 +627,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "033780",
@@ -581,8 +638,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "247540",
@@ -591,8 +649,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "196170",
@@ -601,8 +660,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "011200",
@@ -611,8 +671,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "138040",
@@ -621,8 +682,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000720",
@@ -631,8 +693,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "024110",
@@ -641,8 +704,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "086280",
@@ -651,8 +715,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "278470",
@@ -661,8 +726,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "047810",
@@ -671,8 +737,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "030200",
@@ -681,8 +748,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "003550",
@@ -691,8 +759,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "071050",
@@ -701,8 +770,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "047050",
@@ -711,8 +781,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "0126Z0",
@@ -721,8 +792,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "047040",
@@ -731,8 +803,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "006260",
@@ -741,8 +814,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "018260",
@@ -751,8 +825,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "259960",
@@ -761,8 +836,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "010950",
@@ -771,8 +847,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "277810",
@@ -781,8 +858,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "011070",
@@ -791,8 +869,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "443060",
@@ -801,8 +880,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005940",
@@ -811,8 +891,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "307950",
@@ -821,8 +902,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "323410",
@@ -831,8 +913,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "039490",
@@ -841,8 +924,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "007660",
@@ -851,8 +935,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005830",
@@ -861,8 +946,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "352820",
@@ -871,8 +957,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "028050",
@@ -881,8 +968,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000250",
@@ -891,8 +979,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "016360",
@@ -901,8 +990,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "003230",
@@ -911,8 +1001,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "298380",
@@ -921,8 +1012,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "267270",
@@ -931,8 +1023,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000880",
@@ -941,8 +1034,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "003490",
@@ -951,8 +1045,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "090430",
@@ -961,8 +1056,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005387",
@@ -971,8 +1067,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "950160",
@@ -981,8 +1078,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "009830",
@@ -991,8 +1089,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "058470",
@@ -1001,8 +1100,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "028300",
@@ -1011,8 +1111,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "066970",
@@ -1021,8 +1122,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "001440",
@@ -1031,8 +1133,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "326030",
@@ -1041,8 +1144,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "161390",
@@ -1051,8 +1155,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "180640",
@@ -1061,8 +1166,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "141080",
@@ -1071,8 +1177,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000100",
@@ -1081,8 +1188,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "377300",
@@ -1091,8 +1199,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "082740",
@@ -1101,8 +1210,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "052690",
@@ -1111,8 +1221,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "241560",
@@ -1121,8 +1232,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "078930",
@@ -1131,8 +1243,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "062040",
@@ -1141,8 +1254,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "032640",
@@ -1151,8 +1265,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "010060",
@@ -1161,8 +1276,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000990",
@@ -1171,8 +1287,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "087010",
@@ -1181,8 +1298,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "454910",
@@ -1191,8 +1309,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "064400",
@@ -1201,8 +1320,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "001040",
@@ -1211,8 +1331,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "128940",
@@ -1221,8 +1342,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "034220",
@@ -1231,8 +1353,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "039030",
@@ -1241,8 +1364,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "029780",
@@ -1251,8 +1375,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "450080",
@@ -1261,8 +1386,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "021240",
@@ -1271,8 +1397,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "240810",
@@ -1281,8 +1408,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005385",
@@ -1291,8 +1419,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "214370",
@@ -1301,8 +1430,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "036930",
@@ -1311,8 +1441,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "138930",
@@ -1321,8 +1452,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "004020",
@@ -1331,8 +1463,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "036570",
@@ -1341,8 +1474,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "310210",
@@ -1351,8 +1485,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "271560",
@@ -1361,8 +1496,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "088980",
@@ -1371,8 +1507,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "022100",
@@ -1381,8 +1518,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "353200",
@@ -1391,8 +1529,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "103590",
@@ -1401,8 +1540,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "175330",
@@ -1411,8 +1551,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "108490",
@@ -1421,8 +1562,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "095340",
@@ -1431,8 +1573,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "002380",
@@ -1441,8 +1584,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "011790",
@@ -1451,8 +1595,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "403870",
@@ -1461,8 +1606,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "489790",
@@ -1471,8 +1617,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "018880",
@@ -1481,8 +1628,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "088350",
@@ -1491,8 +1639,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "251270",
@@ -1501,8 +1650,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "440110",
@@ -1511,8 +1661,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "226950",
@@ -1521,8 +1672,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "032820",
@@ -1531,8 +1683,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "214150",
@@ -1541,8 +1694,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "011170",
@@ -1551,8 +1705,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "071970",
@@ -1561,8 +1716,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "051900",
@@ -1571,8 +1727,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "263750",
@@ -1581,8 +1738,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "017800",
@@ -1591,8 +1749,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "375500",
@@ -1601,8 +1760,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "004170",
@@ -1611,8 +1771,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "357780",
@@ -1621,8 +1782,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "023530",
@@ -1631,8 +1793,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "111770",
@@ -1641,8 +1804,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "457190",
@@ -1651,8 +1815,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "035250",
@@ -1661,8 +1826,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "000500",
@@ -1671,8 +1837,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "012510",
@@ -1681,8 +1848,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "347850",
@@ -1691,8 +1859,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "439260",
@@ -1701,8 +1870,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "036460",
@@ -1711,8 +1881,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "097950",
@@ -1721,8 +1892,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "020150",
@@ -1731,8 +1903,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "319400",
@@ -1741,8 +1914,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "237690",
@@ -1751,8 +1925,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "006360",
@@ -1761,8 +1936,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "214450",
@@ -1771,8 +1947,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "014680",
@@ -1781,8 +1958,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "302440",
@@ -1791,8 +1969,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "004800",
@@ -1801,8 +1980,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "064760",
@@ -1811,8 +1991,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "031210",
@@ -1821,8 +2002,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "001720",
@@ -1831,8 +2013,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "336260",
@@ -1841,8 +2024,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "011780",
@@ -1851,8 +2035,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "145020",
@@ -1861,8 +2046,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "0009K0",
@@ -1871,8 +2057,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "012750",
@@ -1881,8 +2068,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "100790",
@@ -1891,8 +2079,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "222800",
@@ -1901,8 +2090,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005290",
@@ -1911,8 +2101,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "084370",
@@ -1921,8 +2112,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "112610",
@@ -1931,8 +2123,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "139130",
@@ -1941,8 +2134,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "083650",
@@ -1951,8 +2145,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "043260",
@@ -1961,8 +2156,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "178320",
@@ -1971,8 +2167,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "098460",
@@ -1981,8 +2178,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "005850",
@@ -1991,8 +2189,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "028670",
@@ -2001,8 +2200,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "058610",
@@ -2011,8 +2211,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "139480",
@@ -2021,8 +2222,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "483650",
@@ -2031,8 +2233,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "051600",
@@ -2041,8 +2244,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "004990",
@@ -2051,8 +2255,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "009970",
@@ -2061,8 +2266,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "103140",
@@ -2071,8 +2277,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "097230",
@@ -2081,8 +2288,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "140410",
@@ -2091,8 +2299,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     },
     {
       "code": "00680K",
@@ -2101,8 +2310,9 @@
       "signal_strength": 0,
       "signal": "KRX_ONLY",
       "growth": 0,
-      "reason": "DART 키 등록 후 실제 분석 시작",
-      "confidence": 0
+      "debt_ratio": 0,
+      "reason": "재무데이터 없음",
+      "confidence": 0.0
     }
   ]
 }
