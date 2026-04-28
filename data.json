@@ -1,16 +1,14 @@
 {
-  "version": "20260428_2325",
-  "generated_at": "2026-04-28T23:25:26.494087+09:00",
+  "version": "20260428_2350",
+  "generated_at": "2026-04-28T23:50:16.113516+09:00",
   "meta": {
-    "krx_count": 200,
-    "processed": 200,
-    "corp_map": 3961,
-    "dart_cache": 200
+    "count": 200,
+    "corp_map": 3961
   },
   "top10": [
     {
       "code": "042700",
-      "name": "한미반도체",
+      "name": "\ud55c\ubbf8\ubc18\ub3c4\uccb4",
       "market_cap": 35599106700000,
       "score": 108.43,
       "signal": "STRONG_BUY",
@@ -19,7 +17,7 @@
     },
     {
       "code": "000660",
-      "name": "SK하이닉스",
+      "name": "SK\ud558\uc774\ub2c9\uc2a4",
       "market_cap": 920811455580000,
       "score": 107.22,
       "signal": "STRONG_BUY",
@@ -28,7 +26,7 @@
     },
     {
       "code": "105560",
-      "name": "KB금융",
+      "name": "KB\uae08\uc735",
       "market_cap": 58686661617000,
       "score": 101.47,
       "signal": "STRONG_BUY",
@@ -37,7 +35,7 @@
     },
     {
       "code": "326030",
-      "name": "SK바이오팜",
+      "name": "SK\ubc14\uc774\uc624\ud31c",
       "market_cap": 8019276800000,
       "score": 101.37,
       "signal": "STRONG_BUY",
@@ -46,7 +44,7 @@
     },
     {
       "code": "278470",
-      "name": "에이피알",
+      "name": "\uc5d0\uc774\ud53c\uc54c",
       "market_cap": 16809731595000,
       "score": 100.87,
       "signal": "STRONG_BUY",
@@ -55,7 +53,7 @@
     },
     {
       "code": "196170",
-      "name": "알테오젠",
+      "name": "\uc54c\ud14c\uc624\uc820",
       "market_cap": 20289326497000,
       "score": 100.5,
       "signal": "STRONG_BUY",
@@ -64,7 +62,7 @@
     },
     {
       "code": "207940",
-      "name": "삼성바이오로직스",
+      "name": "\uc0bc\uc131\ubc14\uc774\uc624\ub85c\uc9c1\uc2a4",
       "market_cap": 69853045059000,
       "score": 100.35,
       "signal": "STRONG_BUY",
@@ -73,7 +71,7 @@
     },
     {
       "code": "138040",
-      "name": "메리츠금융지주",
+      "name": "\uba54\ub9ac\uce20\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 19194732213100,
       "score": 100.35,
       "signal": "STRONG_BUY",
@@ -82,7 +80,7 @@
     },
     {
       "code": "058470",
-      "name": "리노공업",
+      "name": "\ub9ac\ub178\uacf5\uc5c5",
       "market_cap": 8368061130000,
       "score": 100.15,
       "signal": "STRONG_BUY",
@@ -91,7 +89,7 @@
     },
     {
       "code": "443060",
-      "name": "HD현대마린솔루션",
+      "name": "HD\ud604\ub300\ub9c8\ub9b0\uc194\ub8e8\uc158",
       "market_cap": 12575785530000,
       "score": 99.79,
       "signal": "STRONG_BUY",
@@ -102,7 +100,7 @@
   "all": [
     {
       "code": "042700",
-      "name": "한미반도체",
+      "name": "\ud55c\ubbf8\ubc18\ub3c4\uccb4",
       "market_cap": 35599106700000,
       "score": 108.43,
       "signal": "STRONG_BUY",
@@ -111,7 +109,7 @@
     },
     {
       "code": "000660",
-      "name": "SK하이닉스",
+      "name": "SK\ud558\uc774\ub2c9\uc2a4",
       "market_cap": 920811455580000,
       "score": 107.22,
       "signal": "STRONG_BUY",
@@ -120,7 +118,7 @@
     },
     {
       "code": "105560",
-      "name": "KB금융",
+      "name": "KB\uae08\uc735",
       "market_cap": 58686661617000,
       "score": 101.47,
       "signal": "STRONG_BUY",
@@ -129,7 +127,7 @@
     },
     {
       "code": "326030",
-      "name": "SK바이오팜",
+      "name": "SK\ubc14\uc774\uc624\ud31c",
       "market_cap": 8019276800000,
       "score": 101.37,
       "signal": "STRONG_BUY",
@@ -138,7 +136,7 @@
     },
     {
       "code": "278470",
-      "name": "에이피알",
+      "name": "\uc5d0\uc774\ud53c\uc54c",
       "market_cap": 16809731595000,
       "score": 100.87,
       "signal": "STRONG_BUY",
@@ -147,7 +145,7 @@
     },
     {
       "code": "196170",
-      "name": "알테오젠",
+      "name": "\uc54c\ud14c\uc624\uc820",
       "market_cap": 20289326497000,
       "score": 100.5,
       "signal": "STRONG_BUY",
@@ -156,7 +154,7 @@
     },
     {
       "code": "207940",
-      "name": "삼성바이오로직스",
+      "name": "\uc0bc\uc131\ubc14\uc774\uc624\ub85c\uc9c1\uc2a4",
       "market_cap": 69853045059000,
       "score": 100.35,
       "signal": "STRONG_BUY",
@@ -165,7 +163,7 @@
     },
     {
       "code": "138040",
-      "name": "메리츠금융지주",
+      "name": "\uba54\ub9ac\uce20\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 19194732213100,
       "score": 100.35,
       "signal": "STRONG_BUY",
@@ -174,7 +172,7 @@
     },
     {
       "code": "058470",
-      "name": "리노공업",
+      "name": "\ub9ac\ub178\uacf5\uc5c5",
       "market_cap": 8368061130000,
       "score": 100.15,
       "signal": "STRONG_BUY",
@@ -183,7 +181,7 @@
     },
     {
       "code": "443060",
-      "name": "HD현대마린솔루션",
+      "name": "HD\ud604\ub300\ub9c8\ub9b0\uc194\ub8e8\uc158",
       "market_cap": 12575785530000,
       "score": 99.79,
       "signal": "STRONG_BUY",
@@ -192,7 +190,7 @@
     },
     {
       "code": "062040",
-      "name": "산일전기",
+      "name": "\uc0b0\uc77c\uc804\uae30",
       "market_cap": 7087569275000,
       "score": 99.1,
       "signal": "STRONG_BUY",
@@ -201,7 +199,7 @@
     },
     {
       "code": "005930",
-      "name": "삼성전자",
+      "name": "\uc0bc\uc131\uc804\uc790",
       "market_cap": 1312489547496000,
       "score": 98.24,
       "signal": "STRONG_BUY",
@@ -210,7 +208,7 @@
     },
     {
       "code": "271560",
-      "name": "오리온",
+      "name": "\uc624\ub9ac\uc628",
       "market_cap": 5590409064800,
       "score": 96.98,
       "signal": "STRONG_BUY",
@@ -228,7 +226,7 @@
     },
     {
       "code": "267260",
-      "name": "HD현대일렉트릭",
+      "name": "HD\ud604\ub300\uc77c\ub809\ud2b8\ub9ad",
       "market_cap": 47077558310000,
       "score": 95.85,
       "signal": "STRONG_BUY",
@@ -246,7 +244,7 @@
     },
     {
       "code": "259960",
-      "name": "크래프톤",
+      "name": "\ud06c\ub798\ud504\ud1a4",
       "market_cap": 13084081116000,
       "score": 95.02,
       "signal": "STRONG_BUY",
@@ -255,7 +253,7 @@
     },
     {
       "code": "000270",
-      "name": "기아",
+      "name": "\uae30\uc544",
       "market_cap": 59577023494800,
       "score": 94.59,
       "signal": "STRONG_BUY",
@@ -273,7 +271,7 @@
     },
     {
       "code": "003230",
-      "name": "삼양식품",
+      "name": "\uc0bc\uc591\uc2dd\ud488",
       "market_cap": 9800452515000,
       "score": 94.01,
       "signal": "STRONG_BUY",
@@ -282,7 +280,7 @@
     },
     {
       "code": "009540",
-      "name": "HD한국조선해양",
+      "name": "HD\ud55c\uad6d\uc870\uc120\ud574\uc591",
       "market_cap": 33900322564000,
       "score": 93.52,
       "signal": "STRONG_BUY",
@@ -291,7 +289,7 @@
     },
     {
       "code": "012330",
-      "name": "현대모비스",
+      "name": "\ud604\ub300\ubaa8\ube44\uc2a4",
       "market_cap": 39241842147500,
       "score": 93.39,
       "signal": "STRONG_BUY",
@@ -300,7 +298,7 @@
     },
     {
       "code": "086790",
-      "name": "하나금융지주",
+      "name": "\ud558\ub098\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 34021600752000,
       "score": 92.96,
       "signal": "STRONG_BUY",
@@ -309,7 +307,7 @@
     },
     {
       "code": "055550",
-      "name": "신한지주",
+      "name": "\uc2e0\ud55c\uc9c0\uc8fc",
       "market_cap": 47323039791700,
       "score": 92.68,
       "signal": "STRONG_BUY",
@@ -318,7 +316,7 @@
     },
     {
       "code": "214150",
-      "name": "클래시스",
+      "name": "\ud074\ub798\uc2dc\uc2a4",
       "market_cap": 3953280935400,
       "score": 92.44,
       "signal": "STRONG_BUY",
@@ -327,7 +325,7 @@
     },
     {
       "code": "483650",
-      "name": "달바글로벌",
+      "name": "\ub2ec\ubc14\uae00\ub85c\ubc8c",
       "market_cap": 2906314442500,
       "score": 92.16,
       "signal": "STRONG_BUY",
@@ -336,7 +334,7 @@
     },
     {
       "code": "007660",
-      "name": "이수페타시스",
+      "name": "\uc774\uc218\ud398\ud0c0\uc2dc\uc2a4",
       "market_cap": 11415133554500,
       "score": 91.92,
       "signal": "STRONG_BUY",
@@ -345,7 +343,7 @@
     },
     {
       "code": "161390",
-      "name": "한국타이어앤테크놀로지",
+      "name": "\ud55c\uad6d\ud0c0\uc774\uc5b4\uc564\ud14c\ud06c\ub180\ub85c\uc9c0",
       "market_cap": 7705029291800,
       "score": 91.74,
       "signal": "STRONG_BUY",
@@ -354,7 +352,7 @@
     },
     {
       "code": "000990",
-      "name": "DB하이텍",
+      "name": "DB\ud558\uc774\ud14d",
       "market_cap": 6917229492000,
       "score": 91.67,
       "signal": "STRONG_BUY",
@@ -363,7 +361,7 @@
     },
     {
       "code": "071050",
-      "name": "한국금융지주",
+      "name": "\ud55c\uad6d\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 14516620916000,
       "score": 91.54,
       "signal": "STRONG_BUY",
@@ -381,7 +379,7 @@
     },
     {
       "code": "316140",
-      "name": "우리금융지주",
+      "name": "\uc6b0\ub9ac\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 24371333824000,
       "score": 90.85,
       "signal": "STRONG_BUY",
@@ -390,7 +388,7 @@
     },
     {
       "code": "068270",
-      "name": "셀트리온",
+      "name": "\uc140\ud2b8\ub9ac\uc628",
       "market_cap": 45275405244000,
       "score": 90.74,
       "signal": "STRONG_BUY",
@@ -408,7 +406,7 @@
     },
     {
       "code": "005380",
-      "name": "현대차",
+      "name": "\ud604\ub300\ucc28",
       "market_cap": 107293069384000,
       "score": 90.49,
       "signal": "STRONG_BUY",
@@ -417,7 +415,7 @@
     },
     {
       "code": "086520",
-      "name": "에코프로",
+      "name": "\uc5d0\ucf54\ud504\ub85c",
       "market_cap": 21235390172800,
       "score": 90.48,
       "signal": "STRONG_BUY",
@@ -426,7 +424,7 @@
     },
     {
       "code": "018260",
-      "name": "삼성에스디에스",
+      "name": "\uc0bc\uc131\uc5d0\uc2a4\ub514\uc5d0\uc2a4",
       "market_cap": 13138750440000,
       "score": 90.29,
       "signal": "STRONG_BUY",
@@ -435,7 +433,7 @@
     },
     {
       "code": "096770",
-      "name": "SK이노베이션",
+      "name": "SK\uc774\ub178\ubca0\uc774\uc158",
       "market_cap": 22044483555200,
       "score": 90.03,
       "signal": "STRONG_BUY",
@@ -444,7 +442,7 @@
     },
     {
       "code": "039030",
-      "name": "이오테크닉스",
+      "name": "\uc774\uc624\ud14c\ud06c\ub2c9\uc2a4",
       "market_cap": 6221372750000,
       "score": 89.76,
       "signal": "STRONG_BUY",
@@ -453,7 +451,7 @@
     },
     {
       "code": "214370",
-      "name": "케어젠",
+      "name": "\ucf00\uc5b4\uc820",
       "market_cap": 5881792500000,
       "score": 89.71,
       "signal": "STRONG_BUY",
@@ -462,7 +460,7 @@
     },
     {
       "code": "000100",
-      "name": "유한양행",
+      "name": "\uc720\ud55c\uc591\ud589",
       "market_cap": 7494839254100,
       "score": 89.34,
       "signal": "STRONG_BUY",
@@ -471,7 +469,7 @@
     },
     {
       "code": "175330",
-      "name": "JB금융지주",
+      "name": "JB\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 5176973560000,
       "score": 89.12,
       "signal": "STRONG_BUY",
@@ -480,7 +478,7 @@
     },
     {
       "code": "090430",
-      "name": "아모레퍼시픽",
+      "name": "\uc544\ubaa8\ub808\ud37c\uc2dc\ud53d",
       "market_cap": 8820708057200,
       "score": 89.02,
       "signal": "STRONG_BUY",
@@ -489,7 +487,7 @@
     },
     {
       "code": "052690",
-      "name": "한전기술",
+      "name": "\ud55c\uc804\uae30\uc220",
       "market_cap": 7342062000000,
       "score": 88.48,
       "signal": "STRONG_BUY",
@@ -507,7 +505,7 @@
     },
     {
       "code": "086280",
-      "name": "현대글로비스",
+      "name": "\ud604\ub300\uae00\ub85c\ube44\uc2a4",
       "market_cap": 17212500000000,
       "score": 88.16,
       "signal": "STRONG_BUY",
@@ -516,7 +514,7 @@
     },
     {
       "code": "009150",
-      "name": "삼성전기",
+      "name": "\uc0bc\uc131\uc804\uae30",
       "market_cap": 59306794624000,
       "score": 88.06,
       "signal": "STRONG_BUY",
@@ -525,7 +523,7 @@
     },
     {
       "code": "009970",
-      "name": "영원무역홀딩스",
+      "name": "\uc601\uc6d0\ubb34\uc5ed\ud640\ub529\uc2a4",
       "market_cap": 2821340533000,
       "score": 87.94,
       "signal": "STRONG_BUY",
@@ -534,7 +532,7 @@
     },
     {
       "code": "064760",
-      "name": "티씨케이",
+      "name": "\ud2f0\uc528\ucf00\uc774",
       "market_cap": 3398542464000,
       "score": 87.75,
       "signal": "STRONG_BUY",
@@ -543,7 +541,7 @@
     },
     {
       "code": "439260",
-      "name": "대한조선",
+      "name": "\ub300\ud55c\uc870\uc120",
       "market_cap": 3555978597600,
       "score": 87.54,
       "signal": "STRONG_BUY",
@@ -561,7 +559,7 @@
     },
     {
       "code": "071970",
-      "name": "HD현대마린엔진",
+      "name": "HD\ud604\ub300\ub9c8\ub9b0\uc5d4\uc9c4",
       "market_cap": 3917932672500,
       "score": 87.14,
       "signal": "STRONG_BUY",
@@ -570,7 +568,7 @@
     },
     {
       "code": "214450",
-      "name": "파마리서치",
+      "name": "\ud30c\ub9c8\ub9ac\uc11c\uce58",
       "market_cap": 3449363136000,
       "score": 86.94,
       "signal": "STRONG_BUY",
@@ -588,7 +586,7 @@
     },
     {
       "code": "240810",
-      "name": "원익IPS",
+      "name": "\uc6d0\uc775IPS",
       "market_cap": 5963693971500,
       "score": 86.7,
       "signal": "STRONG_BUY",
@@ -597,7 +595,7 @@
     },
     {
       "code": "267250",
-      "name": "HD현대",
+      "name": "HD\ud604\ub300",
       "market_cap": 22473532682500,
       "score": 86.66,
       "signal": "STRONG_BUY",
@@ -606,7 +604,7 @@
     },
     {
       "code": "111770",
-      "name": "영원무역",
+      "name": "\uc601\uc6d0\ubb34\uc5ed",
       "market_cap": 3708869871600,
       "score": 86.32,
       "signal": "STRONG_BUY",
@@ -615,7 +613,7 @@
     },
     {
       "code": "010130",
-      "name": "고려아연",
+      "name": "\uace0\ub824\uc544\uc5f0",
       "market_cap": 34273415098000,
       "score": 85.83,
       "signal": "STRONG_BUY",
@@ -633,7 +631,7 @@
     },
     {
       "code": "145020",
-      "name": "휴젤",
+      "name": "\ud734\uc824",
       "market_cap": 3297480844000,
       "score": 85.64,
       "signal": "STRONG_BUY",
@@ -642,7 +640,7 @@
     },
     {
       "code": "138930",
-      "name": "BNK금융지주",
+      "name": "BNK\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 5815528598420,
       "score": 85.07,
       "signal": "STRONG_BUY",
@@ -651,7 +649,7 @@
     },
     {
       "code": "051910",
-      "name": "LG화학",
+      "name": "LG\ud654\ud559",
       "market_cap": 26789794168500,
       "score": 85.06,
       "signal": "STRONG_BUY",
@@ -669,7 +667,7 @@
     },
     {
       "code": "357780",
-      "name": "솔브레인",
+      "name": "\uc194\ube0c\ub808\uc778",
       "market_cap": 3772604510000,
       "score": 84.44,
       "signal": "STRONG_BUY",
@@ -696,7 +694,7 @@
     },
     {
       "code": "014680",
-      "name": "한솔케미칼",
+      "name": "\ud55c\uc194\ucf00\ubbf8\uce7c",
       "market_cap": 3445169085000,
       "score": 83.86,
       "signal": "STRONG_BUY",
@@ -714,7 +712,7 @@
     },
     {
       "code": "004800",
-      "name": "효성",
+      "name": "\ud6a8\uc131",
       "market_cap": 3423413231500,
       "score": 82.97,
       "signal": "STRONG_BUY",
@@ -723,7 +721,7 @@
     },
     {
       "code": "005490",
-      "name": "POSCO홀딩스",
+      "name": "POSCO\ud640\ub529\uc2a4",
       "market_cap": 33083337522500,
       "score": 82.46,
       "signal": "STRONG_BUY",
@@ -732,7 +730,7 @@
     },
     {
       "code": "100790",
-      "name": "미래에셋벤처투자",
+      "name": "\ubbf8\ub798\uc5d0\uc14b\ubca4\ucc98\ud22c\uc790",
       "market_cap": 3251227600800,
       "score": 82.29,
       "signal": "STRONG_BUY",
@@ -741,7 +739,7 @@
     },
     {
       "code": "128940",
-      "name": "한미약품",
+      "name": "\ud55c\ubbf8\uc57d\ud488",
       "market_cap": 6335035049500,
       "score": 82.28,
       "signal": "STRONG_BUY",
@@ -750,7 +748,7 @@
     },
     {
       "code": "084370",
-      "name": "유진테크",
+      "name": "\uc720\uc9c4\ud14c\ud06c",
       "market_cap": 3116581712000,
       "score": 81.99,
       "signal": "STRONG_BUY",
@@ -759,7 +757,7 @@
     },
     {
       "code": "028260",
-      "name": "삼성물산",
+      "name": "\uc0bc\uc131\ubb3c\uc0b0",
       "market_cap": 50596722072000,
       "score": 81.75,
       "signal": "STRONG_BUY",
@@ -768,7 +766,7 @@
     },
     {
       "code": "035250",
-      "name": "강원랜드",
+      "name": "\uac15\uc6d0\ub79c\ub4dc",
       "market_cap": 3671218980000,
       "score": 81.7,
       "signal": "STRONG_BUY",
@@ -777,7 +775,7 @@
     },
     {
       "code": "022100",
-      "name": "포스코DX",
+      "name": "\ud3ec\uc2a4\ucf54DX",
       "market_cap": 5412436352400,
       "score": 81.54,
       "signal": "STRONG_BUY",
@@ -786,7 +784,7 @@
     },
     {
       "code": "237690",
-      "name": "에스티팜",
+      "name": "\uc5d0\uc2a4\ud2f0\ud31c",
       "market_cap": 3491357772500,
       "score": 81.46,
       "signal": "STRONG_BUY",
@@ -795,7 +793,7 @@
     },
     {
       "code": "307950",
-      "name": "현대오토에버",
+      "name": "\ud604\ub300\uc624\ud1a0\uc5d0\ubc84",
       "market_cap": 12093976062000,
       "score": 80.33,
       "signal": "STRONG_BUY",
@@ -804,7 +802,7 @@
     },
     {
       "code": "043260",
-      "name": "성호전자",
+      "name": "\uc131\ud638\uc804\uc790",
       "market_cap": 3046135247850,
       "score": 80.05,
       "signal": "STRONG_BUY",
@@ -813,7 +811,7 @@
     },
     {
       "code": "064400",
-      "name": "LG씨엔에스",
+      "name": "LG\uc528\uc5d4\uc5d0\uc2a4",
       "market_cap": 6481669921200,
       "score": 79.97,
       "signal": "STRONG_BUY",
@@ -822,7 +820,7 @@
     },
     {
       "code": "012750",
-      "name": "에스원",
+      "name": "\uc5d0\uc2a4\uc6d0",
       "market_cap": 3286928897000,
       "score": 79.91,
       "signal": "STRONG_BUY",
@@ -831,7 +829,7 @@
     },
     {
       "code": "005850",
-      "name": "에스엘",
+      "name": "\uc5d0\uc2a4\uc5d8",
       "market_cap": 2977350132000,
       "score": 79.43,
       "signal": "STRONG_BUY",
@@ -840,7 +838,7 @@
     },
     {
       "code": "353200",
-      "name": "대덕전자",
+      "name": "\ub300\ub355\uc804\uc790",
       "market_cap": 5376561440000,
       "score": 79.15,
       "signal": "STRONG_BUY",
@@ -849,7 +847,7 @@
     },
     {
       "code": "035720",
-      "name": "카카오",
+      "name": "\uce74\uce74\uc624",
       "market_cap": 21463398207750,
       "score": 78.98,
       "signal": "STRONG_BUY",
@@ -858,7 +856,7 @@
     },
     {
       "code": "272210",
-      "name": "한화시스템",
+      "name": "\ud55c\ud654\uc2dc\uc2a4\ud15c",
       "market_cap": 23822734952900,
       "score": 78.94,
       "signal": "STRONG_BUY",
@@ -867,7 +865,7 @@
     },
     {
       "code": "108490",
-      "name": "로보티즈",
+      "name": "\ub85c\ubcf4\ud2f0\uc988",
       "market_cap": 5100645744000,
       "score": 78.73,
       "signal": "STRONG_BUY",
@@ -876,7 +874,7 @@
     },
     {
       "code": "051600",
-      "name": "한전KPS",
+      "name": "\ud55c\uc804KPS",
       "market_cap": 2902500000000,
       "score": 78.64,
       "signal": "STRONG_BUY",
@@ -885,7 +883,7 @@
     },
     {
       "code": "021240",
-      "name": "코웨이",
+      "name": "\ucf54\uc6e8\uc774",
       "market_cap": 6093075378600,
       "score": 78.08,
       "signal": "STRONG_BUY",
@@ -894,7 +892,7 @@
     },
     {
       "code": "010060",
-      "name": "OCI홀딩스",
+      "name": "OCI\ud640\ub529\uc2a4",
       "market_cap": 7038677464000,
       "score": 77.7,
       "signal": "STRONG_BUY",
@@ -903,7 +901,7 @@
     },
     {
       "code": "277810",
-      "name": "레인보우로보틱스",
+      "name": "\ub808\uc778\ubcf4\uc6b0\ub85c\ubcf4\ud2f1\uc2a4",
       "market_cap": 12978505002000,
       "score": 77.52,
       "signal": "STRONG_BUY",
@@ -912,7 +910,7 @@
     },
     {
       "code": "247540",
-      "name": "에코프로비엠",
+      "name": "\uc5d0\ucf54\ud504\ub85c\ube44\uc5e0",
       "market_cap": 20299815055000,
       "score": 77.43,
       "signal": "STRONG_BUY",
@@ -921,7 +919,7 @@
     },
     {
       "code": "000150",
-      "name": "두산",
+      "name": "\ub450\uc0b0",
       "market_cap": 25618646970000,
       "score": 77.41,
       "signal": "STRONG_BUY",
@@ -930,7 +928,7 @@
     },
     {
       "code": "036930",
-      "name": "주성엔지니어링",
+      "name": "\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1",
       "market_cap": 5856621246000,
       "score": 77.28,
       "signal": "STRONG_BUY",
@@ -939,7 +937,7 @@
     },
     {
       "code": "005290",
-      "name": "동진쎄미켐",
+      "name": "\ub3d9\uc9c4\uc384\ubbf8\ucf10",
       "market_cap": 3126001235200,
       "score": 76.22,
       "signal": "STRONG_BUY",
@@ -957,7 +955,7 @@
     },
     {
       "code": "180640",
-      "name": "한진칼",
+      "name": "\ud55c\uc9c4\uce7c",
       "market_cap": 7670985857100,
       "score": 75.4,
       "signal": "STRONG_BUY",
@@ -966,7 +964,7 @@
     },
     {
       "code": "251270",
-      "name": "넷마블",
+      "name": "\ub137\ub9c8\ube14",
       "market_cap": 4098018550000,
       "score": 75.39,
       "signal": "STRONG_BUY",
@@ -975,7 +973,7 @@
     },
     {
       "code": "298040",
-      "name": "효성중공업",
+      "name": "\ud6a8\uc131\uc911\uacf5\uc5c5",
       "market_cap": 36748043668000,
       "score": 75.13,
       "signal": "STRONG_BUY",
@@ -984,7 +982,7 @@
     },
     {
       "code": "098460",
-      "name": "고영",
+      "name": "\uace0\uc601",
       "market_cap": 2986481842500,
       "score": 75.01,
       "signal": "STRONG_BUY",
@@ -993,7 +991,7 @@
     },
     {
       "code": "241560",
-      "name": "두산밥캣",
+      "name": "\ub450\uc0b0\ubc25\ucea3",
       "market_cap": 7332988972500,
       "score": 74.58,
       "signal": "STRONG_BUY",
@@ -1002,7 +1000,7 @@
     },
     {
       "code": "0009K0",
-      "name": "에임드바이오",
+      "name": "\uc5d0\uc784\ub4dc\ubc14\uc774\uc624",
       "market_cap": 3291762094900,
       "score": 74.5,
       "signal": "STRONG_BUY",
@@ -1011,7 +1009,7 @@
     },
     {
       "code": "017800",
-      "name": "현대엘리베이터",
+      "name": "\ud604\ub300\uc5d8\ub9ac\ubca0\uc774\ud130",
       "market_cap": 3854509161000,
       "score": 74.44,
       "signal": "STRONG_BUY",
@@ -1020,7 +1018,7 @@
     },
     {
       "code": "139130",
-      "name": "iM금융지주",
+      "name": "iM\uae08\uc735\uc9c0\uc8fc",
       "market_cap": 3055079568660,
       "score": 74.2,
       "signal": "STRONG_BUY",
@@ -1029,7 +1027,7 @@
     },
     {
       "code": "012450",
-      "name": "한화에어로스페이스",
+      "name": "\ud55c\ud654\uc5d0\uc5b4\ub85c\uc2a4\ud398\uc774\uc2a4",
       "market_cap": 74973185054000,
       "score": 73.98,
       "signal": "STRONG_BUY",
@@ -1038,7 +1036,7 @@
     },
     {
       "code": "034020",
-      "name": "두산에너빌리티",
+      "name": "\ub450\uc0b0\uc5d0\ub108\ube4c\ub9ac\ud2f0",
       "market_cap": 82568331719400,
       "score": 73.53,
       "signal": "STRONG_BUY",
@@ -1047,7 +1045,7 @@
     },
     {
       "code": "011780",
-      "name": "금호석유화학",
+      "name": "\uae08\ud638\uc11d\uc720\ud654\ud559",
       "market_cap": 3325798365000,
       "score": 73.45,
       "signal": "STRONG_BUY",
@@ -1056,7 +1054,7 @@
     },
     {
       "code": "267270",
-      "name": "HD건설기계",
+      "name": "HD\uac74\uc124\uae30\uacc4",
       "market_cap": 9503672775800,
       "score": 73.06,
       "signal": "STRONG_BUY",
@@ -1065,7 +1063,7 @@
     },
     {
       "code": "012510",
-      "name": "더존비즈온",
+      "name": "\ub354\uc874\ube44\uc988\uc628",
       "market_cap": 3607865134000,
       "score": 72.86,
       "signal": "STRONG_BUY",
@@ -1074,7 +1072,7 @@
     },
     {
       "code": "377300",
-      "name": "카카오페이",
+      "name": "\uce74\uce74\uc624\ud398\uc774",
       "market_cap": 7424970648300,
       "score": 72.61,
       "signal": "STRONG_BUY",
@@ -1083,7 +1081,7 @@
     },
     {
       "code": "051900",
-      "name": "LG생활건강",
+      "name": "LG\uc0dd\ud65c\uac74\uac15",
       "market_cap": 3886824586000,
       "score": 72.24,
       "signal": "STRONG_BUY",
@@ -1092,7 +1090,7 @@
     },
     {
       "code": "028050",
-      "name": "삼성E&A",
+      "name": "\uc0bc\uc131E&A",
       "market_cap": 10642800000000,
       "score": 72.21,
       "signal": "STRONG_BUY",
@@ -1101,7 +1099,7 @@
     },
     {
       "code": "329180",
-      "name": "HD현대중공업",
+      "name": "HD\ud604\ub300\uc911\uacf5\uc5c5",
       "market_cap": 70638904425000,
       "score": 71.08,
       "signal": "STRONG_BUY",
@@ -1110,7 +1108,7 @@
     },
     {
       "code": "015760",
-      "name": "한국전력",
+      "name": "\ud55c\uad6d\uc804\ub825",
       "market_cap": 29434052930450,
       "score": 70.13,
       "signal": "STRONG_BUY",
@@ -1119,7 +1117,7 @@
     },
     {
       "code": "319400",
-      "name": "현대무벡스",
+      "name": "\ud604\ub300\ubb34\ubca1\uc2a4",
       "market_cap": 3497207624600,
       "score": 70.07,
       "signal": "STRONG_BUY",
@@ -1128,7 +1126,7 @@
     },
     {
       "code": "042660",
-      "name": "한화오션",
+      "name": "\ud55c\ud654\uc624\uc158",
       "market_cap": 40906188099000,
       "score": 69.54,
       "signal": "BUY",
@@ -1137,7 +1135,7 @@
     },
     {
       "code": "450080",
-      "name": "에코프로머티",
+      "name": "\uc5d0\ucf54\ud504\ub85c\uba38\ud2f0",
       "market_cap": 6096276345600,
       "score": 69.54,
       "signal": "BUY",
@@ -1146,7 +1144,7 @@
     },
     {
       "code": "047050",
-      "name": "포스코인터내셔널",
+      "name": "\ud3ec\uc2a4\ucf54\uc778\ud130\ub0b4\uc154\ub110",
       "market_cap": 14302522664400,
       "score": 69.42,
       "signal": "BUY",
@@ -1155,7 +1153,7 @@
     },
     {
       "code": "064350",
-      "name": "현대로템",
+      "name": "\ud604\ub300\ub85c\ud15c",
       "market_cap": 25211869683000,
       "score": 68.97,
       "signal": "BUY",
@@ -1164,7 +1162,7 @@
     },
     {
       "code": "017670",
-      "name": "SK텔레콤",
+      "name": "SK\ud154\ub808\ucf64",
       "market_cap": 21049425194000,
       "score": 68.44,
       "signal": "BUY",
@@ -1173,7 +1171,7 @@
     },
     {
       "code": "032640",
-      "name": "LG유플러스",
+      "name": "LG\uc720\ud50c\ub7ec\uc2a4",
       "market_cap": 7062079872650,
       "score": 67.18,
       "signal": "BUY",
@@ -1182,7 +1180,7 @@
     },
     {
       "code": "001440",
-      "name": "대한전선",
+      "name": "\ub300\ud55c\uc804\uc120",
       "market_cap": 8119779915000,
       "score": 67.11,
       "signal": "BUY",
@@ -1191,7 +1189,7 @@
     },
     {
       "code": "103140",
-      "name": "풍산",
+      "name": "\ud48d\uc0b0",
       "market_cap": 2819242366800,
       "score": 66.85,
       "signal": "BUY",
@@ -1200,7 +1198,7 @@
     },
     {
       "code": "112610",
-      "name": "씨에스윈드",
+      "name": "\uc528\uc5d0\uc2a4\uc708\ub4dc",
       "market_cap": 3116466681700,
       "score": 66.71,
       "signal": "BUY",
@@ -1209,7 +1207,7 @@
     },
     {
       "code": "058610",
-      "name": "에스피지",
+      "name": "\uc5d0\uc2a4\ud53c\uc9c0",
       "market_cap": 2947371144000,
       "score": 65.94,
       "signal": "BUY",
@@ -1218,7 +1216,7 @@
     },
     {
       "code": "011070",
-      "name": "LG이노텍",
+      "name": "LG\uc774\ub178\ud14d",
       "market_cap": 12685569352000,
       "score": 65.67,
       "signal": "BUY",
@@ -1227,7 +1225,7 @@
     },
     {
       "code": "000250",
-      "name": "삼천당제약",
+      "name": "\uc0bc\ucc9c\ub2f9\uc81c\uc57d",
       "market_cap": 10438575040000,
       "score": 65.57,
       "signal": "BUY",
@@ -1236,7 +1234,7 @@
     },
     {
       "code": "103590",
-      "name": "일진전기",
+      "name": "\uc77c\uc9c4\uc804\uae30",
       "market_cap": 5240624361000,
       "score": 65.41,
       "signal": "BUY",
@@ -1245,7 +1243,7 @@
     },
     {
       "code": "082740",
-      "name": "한화엔진",
+      "name": "\ud55c\ud654\uc5d4\uc9c4",
       "market_cap": 7385072067000,
       "score": 64.73,
       "signal": "BUY",
@@ -1254,7 +1252,7 @@
     },
     {
       "code": "079550",
-      "name": "LIG디펜스앤에어로스페이스",
+      "name": "LIG\ub514\ud39c\uc2a4\uc564\uc5d0\uc5b4\ub85c\uc2a4\ud398\uc774\uc2a4",
       "market_cap": 20900000000000,
       "score": 64.7,
       "signal": "BUY",
@@ -1263,7 +1261,7 @@
     },
     {
       "code": "031210",
-      "name": "서울보증보험",
+      "name": "\uc11c\uc6b8\ubcf4\uc99d\ubcf4\ud5d8",
       "market_cap": 3389838582900,
       "score": 64.67,
       "signal": "BUY",
@@ -1272,7 +1270,7 @@
     },
     {
       "code": "375500",
-      "name": "DL이앤씨",
+      "name": "DL\uc774\uc564\uc528",
       "market_cap": 3803583140900,
       "score": 64.3,
       "signal": "BUY",
@@ -1281,7 +1279,7 @@
     },
     {
       "code": "000500",
-      "name": "가온전선",
+      "name": "\uac00\uc628\uc804\uc120",
       "market_cap": 3647756857500,
       "score": 63.68,
       "signal": "BUY",
@@ -1290,7 +1288,7 @@
     },
     {
       "code": "010140",
-      "name": "삼성중공업",
+      "name": "\uc0bc\uc131\uc911\uacf5\uc5c5",
       "market_cap": 29436000000000,
       "score": 63.39,
       "signal": "BUY",
@@ -1299,7 +1297,7 @@
     },
     {
       "code": "066570",
-      "name": "LG전자",
+      "name": "LG\uc804\uc790",
       "market_cap": 21175230310000,
       "score": 62.15,
       "signal": "BUY",
@@ -1308,7 +1306,7 @@
     },
     {
       "code": "039490",
-      "name": "키움증권",
+      "name": "\ud0a4\uc6c0\uc99d\uad8c",
       "market_cap": 11873898288000,
       "score": 62.09,
       "signal": "BUY",
@@ -1317,7 +1315,7 @@
     },
     {
       "code": "003670",
-      "name": "포스코퓨처엠",
+      "name": "\ud3ec\uc2a4\ucf54\ud4e8\ucc98\uc5e0",
       "market_cap": 22192081890000,
       "score": 61.85,
       "signal": "BUY",
@@ -1326,7 +1324,7 @@
     },
     {
       "code": "028670",
-      "name": "팬오션",
+      "name": "\ud32c\uc624\uc158",
       "market_cap": 2972206486720,
       "score": 61.39,
       "signal": "BUY",
@@ -1335,7 +1333,7 @@
     },
     {
       "code": "032820",
-      "name": "우리기술",
+      "name": "\uc6b0\ub9ac\uae30\uc220",
       "market_cap": 3960878928300,
       "score": 60.5,
       "signal": "BUY",
@@ -1344,7 +1342,7 @@
     },
     {
       "code": "005830",
-      "name": "DB손해보험",
+      "name": "DB\uc190\ud574\ubcf4\ud5d8",
       "market_cap": 11220209783700,
       "score": 60.48,
       "signal": "BUY",
@@ -1353,7 +1351,7 @@
     },
     {
       "code": "000720",
-      "name": "현대건설",
+      "name": "\ud604\ub300\uac74\uc124",
       "market_cap": 19086378121000,
       "score": 60.37,
       "signal": "BUY",
@@ -1362,7 +1360,7 @@
     },
     {
       "code": "047810",
-      "name": "한국항공우주",
+      "name": "\ud55c\uad6d\ud56d\uacf5\uc6b0\uc8fc",
       "market_cap": 16736475871900,
       "score": 58.51,
       "signal": "BUY",
@@ -1371,7 +1369,7 @@
     },
     {
       "code": "402340",
-      "name": "SK스퀘어",
+      "name": "SK\uc2a4\ud018\uc5b4",
       "market_cap": 104115166554000,
       "score": 58.4,
       "signal": "BUY",
@@ -1380,7 +1378,7 @@
     },
     {
       "code": "016360",
-      "name": "삼성증권",
+      "name": "\uc0bc\uc131\uc99d\uad8c",
       "market_cap": 10064110000000,
       "score": 58.18,
       "signal": "BUY",
@@ -1389,7 +1387,7 @@
     },
     {
       "code": "000810",
-      "name": "삼성화재",
+      "name": "\uc0bc\uc131\ud654\uc7ac",
       "market_cap": 20582485053000,
       "score": 57.49,
       "signal": "BUY",
@@ -1398,7 +1396,7 @@
     },
     {
       "code": "005940",
-      "name": "NH투자증권",
+      "name": "NH\ud22c\uc790\uc99d\uad8c",
       "market_cap": 12561139007250,
       "score": 57.37,
       "signal": "BUY",
@@ -1407,7 +1405,7 @@
     },
     {
       "code": "083650",
-      "name": "비에이치아이",
+      "name": "\ube44\uc5d0\uc774\uce58\uc544\uc774",
       "market_cap": 3048020937500,
       "score": 56.94,
       "signal": "BUY",
@@ -1416,7 +1414,7 @@
     },
     {
       "code": "006800",
-      "name": "미래에셋증권",
+      "name": "\ubbf8\ub798\uc5d0\uc14b\uc99d\uad8c",
       "market_cap": 38442244656000,
       "score": 56.84,
       "signal": "BUY",
@@ -1425,7 +1423,7 @@
     },
     {
       "code": "024110",
-      "name": "기업은행",
+      "name": "\uae30\uc5c5\uc740\ud589",
       "market_cap": 17702854291800,
       "score": 55.56,
       "signal": "BUY",
@@ -1434,7 +1432,7 @@
     },
     {
       "code": "003490",
-      "name": "대한항공",
+      "name": "\ub300\ud55c\ud56d\uacf5",
       "market_cap": 9039817227550,
       "score": 54.14,
       "signal": "HOLD",
@@ -1443,7 +1441,7 @@
     },
     {
       "code": "0126Z0",
-      "name": "삼성에피스홀딩스",
+      "name": "\uc0bc\uc131\uc5d0\ud53c\uc2a4\ud640\ub529\uc2a4",
       "market_cap": 14083805734000,
       "score": 53.73,
       "signal": "HOLD",
@@ -1452,7 +1450,7 @@
     },
     {
       "code": "323410",
-      "name": "카카오뱅크",
+      "name": "\uce74\uce74\uc624\ubc45\ud06c",
       "market_cap": 11904154903150,
       "score": 53.64,
       "signal": "HOLD",
@@ -1461,7 +1459,7 @@
     },
     {
       "code": "004990",
-      "name": "롯데지주",
+      "name": "\ub86f\ub370\uc9c0\uc8fc",
       "market_cap": 2890249504000,
       "score": 52.97,
       "signal": "HOLD",
@@ -1470,7 +1468,7 @@
     },
     {
       "code": "032830",
-      "name": "삼성생명",
+      "name": "\uc0bc\uc131\uc0dd\uba85",
       "market_cap": 50000000000000,
       "score": 52.29,
       "signal": "HOLD",
@@ -1479,7 +1477,7 @@
     },
     {
       "code": "004170",
-      "name": "신세계",
+      "name": "\uc2e0\uc138\uacc4",
       "market_cap": 3796962762000,
       "score": 49.97,
       "signal": "HOLD",
@@ -1488,7 +1486,7 @@
     },
     {
       "code": "029780",
-      "name": "삼성카드",
+      "name": "\uc0bc\uc131\uce74\ub4dc",
       "market_cap": 6140521223000,
       "score": 49.64,
       "signal": "HOLD",
@@ -1497,7 +1495,7 @@
     },
     {
       "code": "006400",
-      "name": "삼성SDI",
+      "name": "\uc0bc\uc131SDI",
       "market_cap": 51171811550000,
       "score": 48.34,
       "signal": "HOLD",
@@ -1506,7 +1504,7 @@
     },
     {
       "code": "023530",
-      "name": "롯데쇼핑",
+      "name": "\ub86f\ub370\uc1fc\ud551",
       "market_cap": 3770891041500,
       "score": 47.87,
       "signal": "HOLD",
@@ -1515,7 +1513,7 @@
     },
     {
       "code": "454910",
-      "name": "두산로보틱스",
+      "name": "\ub450\uc0b0\ub85c\ubcf4\ud2f1\uc2a4",
       "market_cap": 6566263974000,
       "score": 47.45,
       "signal": "HOLD",
@@ -1524,7 +1522,7 @@
     },
     {
       "code": "141080",
-      "name": "리가켐바이오",
+      "name": "\ub9ac\uac00\ucf10\ubc14\uc774\uc624",
       "market_cap": 7626000108000,
       "score": 47.42,
       "signal": "HOLD",
@@ -1533,7 +1531,7 @@
     },
     {
       "code": "036460",
-      "name": "한국가스공사",
+      "name": "\ud55c\uad6d\uac00\uc2a4\uacf5\uc0ac",
       "market_cap": 3535587900000,
       "score": 46.31,
       "signal": "HOLD",
@@ -1560,7 +1558,7 @@
     },
     {
       "code": "352820",
-      "name": "하이브",
+      "name": "\ud558\uc774\ube0c",
       "market_cap": 10775562250000,
       "score": 44.21,
       "signal": "HOLD",
@@ -1569,7 +1567,7 @@
     },
     {
       "code": "087010",
-      "name": "펩트론",
+      "name": "\ud3a9\ud2b8\ub860",
       "market_cap": 6598810050000,
       "score": 43.99,
       "signal": "HOLD",
@@ -1578,7 +1576,7 @@
     },
     {
       "code": "347850",
-      "name": "디앤디파마텍",
+      "name": "\ub514\uc564\ub514\ud30c\ub9c8\ud14d",
       "market_cap": 3583179224600,
       "score": 43.64,
       "signal": "HOLD",
@@ -1587,7 +1585,7 @@
     },
     {
       "code": "001720",
-      "name": "신영증권",
+      "name": "\uc2e0\uc601\uc99d\uad8c",
       "market_cap": 3361980000000,
       "score": 43.63,
       "signal": "HOLD",
@@ -1596,7 +1594,7 @@
     },
     {
       "code": "139480",
-      "name": "이마트",
+      "name": "\uc774\ub9c8\ud2b8",
       "market_cap": 2927916395900,
       "score": 42.53,
       "signal": "HOLD",
@@ -1605,7 +1603,7 @@
     },
     {
       "code": "097230",
-      "name": "HJ중공업",
+      "name": "HJ\uc911\uacf5\uc5c5",
       "market_cap": 2799155664000,
       "score": 41.79,
       "signal": "HOLD",
@@ -1614,7 +1612,7 @@
     },
     {
       "code": "263750",
-      "name": "펄어비스",
+      "name": "\ud384\uc5b4\ube44\uc2a4",
       "market_cap": 3867720871000,
       "score": 41.77,
       "signal": "HOLD",
@@ -1623,7 +1621,7 @@
     },
     {
       "code": "000880",
-      "name": "한화",
+      "name": "\ud55c\ud654",
       "market_cap": 9292943724200,
       "score": 40.14,
       "signal": "HOLD",
@@ -1632,7 +1630,7 @@
     },
     {
       "code": "226950",
-      "name": "올릭스",
+      "name": "\uc62c\ub9ad\uc2a4",
       "market_cap": 3989064559500,
       "score": 39.47,
       "signal": "WATCH",
@@ -1641,7 +1639,7 @@
     },
     {
       "code": "020150",
-      "name": "롯데에너지머티리얼즈",
+      "name": "\ub86f\ub370\uc5d0\ub108\uc9c0\uba38\ud2f0\ub9ac\uc5bc\uc988",
       "market_cap": 3513722567300,
       "score": 39.05,
       "signal": "WATCH",
@@ -1650,7 +1648,7 @@
     },
     {
       "code": "088350",
-      "name": "한화생명",
+      "name": "\ud55c\ud654\uc0dd\uba85",
       "market_cap": 4268824950000,
       "score": 38.66,
       "signal": "WATCH",
@@ -1659,7 +1657,7 @@
     },
     {
       "code": "373220",
-      "name": "LG에너지솔루션",
+      "name": "LG\uc5d0\ub108\uc9c0\uc194\ub8e8\uc158",
       "market_cap": 108576000000000,
       "score": 38.48,
       "signal": "WATCH",
@@ -1668,7 +1666,7 @@
     },
     {
       "code": "302440",
-      "name": "SK바이오사이언스",
+      "name": "SK\ubc14\uc774\uc624\uc0ac\uc774\uc5b8\uc2a4",
       "market_cap": 3436397021400,
       "score": 37.77,
       "signal": "WATCH",
@@ -1677,7 +1675,7 @@
     },
     {
       "code": "489790",
-      "name": "한화비전",
+      "name": "\ud55c\ud654\ube44\uc804",
       "market_cap": 4483369032000,
       "score": 37.25,
       "signal": "WATCH",
@@ -1686,7 +1684,7 @@
     },
     {
       "code": "298380",
-      "name": "에이비엘바이오",
+      "name": "\uc5d0\uc774\ube44\uc5d8\ubc14\uc774\uc624",
       "market_cap": 9669034860100,
       "score": 36.07,
       "signal": "WATCH",
@@ -1695,7 +1693,7 @@
     },
     {
       "code": "310210",
-      "name": "보로노이",
+      "name": "\ubcf4\ub85c\ub178\uc774",
       "market_cap": 5631064326000,
       "score": 34.58,
       "signal": "WATCH",
@@ -1704,7 +1702,7 @@
     },
     {
       "code": "004020",
-      "name": "현대제철",
+      "name": "\ud604\ub300\uc81c\ucca0",
       "market_cap": 5811563936750,
       "score": 34.53,
       "signal": "WATCH",
@@ -1713,7 +1711,7 @@
     },
     {
       "code": "457190",
-      "name": "이수스페셜티케미컬",
+      "name": "\uc774\uc218\uc2a4\ud398\uc15c\ud2f0\ucf00\ubbf8\uceec",
       "market_cap": 3680658609600,
       "score": 34.41,
       "signal": "WATCH",
@@ -1722,7 +1720,7 @@
     },
     {
       "code": "009830",
-      "name": "한화솔루션",
+      "name": "\ud55c\ud654\uc194\ub8e8\uc158",
       "market_cap": 8629005307200,
       "score": 33.14,
       "signal": "WATCH",
@@ -1731,7 +1729,7 @@
     },
     {
       "code": "011170",
-      "name": "롯데케미칼",
+      "name": "\ub86f\ub370\ucf00\ubbf8\uce7c",
       "market_cap": 3943893631800,
       "score": 32.62,
       "signal": "WATCH",
@@ -1740,7 +1738,7 @@
     },
     {
       "code": "006360",
-      "name": "GS건설",
+      "name": "GS\uac74\uc124",
       "market_cap": 3487445717500,
       "score": 31.93,
       "signal": "WATCH",
@@ -1749,7 +1747,7 @@
     },
     {
       "code": "018880",
-      "name": "한온시스템",
+      "name": "\ud55c\uc628\uc2dc\uc2a4\ud15c",
       "market_cap": 4371878471520,
       "score": 28.73,
       "signal": "WATCH",
@@ -1758,7 +1756,7 @@
     },
     {
       "code": "178320",
-      "name": "서진시스템",
+      "name": "\uc11c\uc9c4\uc2dc\uc2a4\ud15c",
       "market_cap": 2991946058700,
       "score": 21.6,
       "signal": "PASS",
@@ -1776,7 +1774,7 @@
     },
     {
       "code": "097950",
-      "name": "CJ제일제당",
+      "name": "CJ\uc81c\uc77c\uc81c\ub2f9",
       "market_cap": 3522679524000,
       "score": 17.19,
       "signal": "PASS",
@@ -1785,7 +1783,7 @@
     },
     {
       "code": "047040",
-      "name": "대우건설",
+      "name": "\ub300\uc6b0\uac74\uc124",
       "market_cap": 13642133581600,
       "score": 13.7,
       "signal": "PASS",
@@ -1794,7 +1792,7 @@
     },
     {
       "code": "950160",
-      "name": "코오롱티슈진",
+      "name": "\ucf54\uc624\ub871\ud2f0\uc288\uc9c4",
       "market_cap": 8727813150000,
       "score": 11.2,
       "signal": "PASS",
@@ -1803,7 +1801,7 @@
     },
     {
       "code": "066970",
-      "name": "엘앤에프",
+      "name": "\uc5d8\uc564\uc5d0\ud504",
       "market_cap": 8234623812000,
       "score": 10.8,
       "signal": "PASS",
@@ -1812,7 +1810,7 @@
     },
     {
       "code": "222800",
-      "name": "심텍",
+      "name": "\uc2ec\ud14d",
       "market_cap": 3211430748000,
       "score": 10.06,
       "signal": "PASS",
@@ -1821,7 +1819,7 @@
     },
     {
       "code": "034220",
-      "name": "LG디스플레이",
+      "name": "LG\ub514\uc2a4\ud50c\ub808\uc774",
       "market_cap": 6325000000000,
       "score": 8.7,
       "signal": "PASS",
@@ -1830,7 +1828,7 @@
     },
     {
       "code": "440110",
-      "name": "파두",
+      "name": "\ud30c\ub450",
       "market_cap": 4071128963100,
       "score": 5.9,
       "signal": "PASS",
@@ -1839,7 +1837,7 @@
     },
     {
       "code": "336260",
-      "name": "두산퓨얼셀",
+      "name": "\ub450\uc0b0\ud4e8\uc5bc\uc140",
       "market_cap": 3327081280800,
       "score": 2.6,
       "signal": "PASS",
@@ -1848,7 +1846,7 @@
     },
     {
       "code": "140410",
-      "name": "메지온",
+      "name": "\uba54\uc9c0\uc628",
       "market_cap": 2793040147300,
       "score": 0.1,
       "signal": "PASS",
@@ -1857,48 +1855,48 @@
     },
     {
       "code": "005935",
-      "name": "삼성전자우",
+      "name": "\uc0bc\uc131\uc804\uc790\uc6b0",
       "market_cap": 128459629600300,
       "score": 0,
       "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "roe": null,
+      "debt_ratio": null
     },
     {
       "code": "005387",
-      "name": "현대차2우B",
+      "name": "\ud604\ub300\ucc282\uc6b0B",
       "market_cap": 8740982500000,
       "score": 0,
       "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "roe": null,
+      "debt_ratio": null
     },
     {
       "code": "005385",
-      "name": "현대차우",
+      "name": "\ud604\ub300\ucc28\uc6b0",
       "market_cap": 5893592400000,
       "score": 0,
       "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "roe": null,
+      "debt_ratio": null
     },
     {
       "code": "088980",
-      "name": "맥쿼리인프라",
+      "name": "\ub9e5\ucffc\ub9ac\uc778\ud504\ub77c",
       "market_cap": 5445343060410,
       "score": 0,
       "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "roe": null,
+      "debt_ratio": null
     },
     {
       "code": "00680K",
-      "name": "미래에셋증권2우B",
+      "name": "\ubbf8\ub798\uc5d0\uc14b\uc99d\uad8c2\uc6b0B",
       "market_cap": 2770950000000,
       "score": 0,
       "signal": "KRX_ONLY",
-      "roe": 0,
-      "debt_ratio": 0
+      "roe": null,
+      "debt_ratio": null
     }
   ]
 }
