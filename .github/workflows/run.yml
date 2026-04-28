@@ -1,0 +1,79 @@
+name: Stock Engine
+
+on:
+  schedule:
+    - cron: "0 22 * * 0-4"   # UTC 22:00 = KST 07:00
+    - cron: "0 11 * * 1-5"   # UTC 11:00 = KST 20:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 🔥 동시 실행 방지 (필수)
+concurrency:
+  group: stock-engine
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0   # 🔥 rebase 필수 옵션
+
+      - name: Setup Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+
+      - name: Run choonsimi engine
+        run: python engine/engine.py
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
+      - name: Validate output
+        run: |
+          python - <<EOF
+          import json, sys
+          try:
+              d = json.load(open('data.json'))
+              count = len(d.get('all', []))
+              if count < 10:
+                  print(f'[FAIL] 종목 수 부족: {count}개')
+                  sys.exit(1)
+              print(f'[OK] {count}개 종목 검증 완료')
+          except Exception as e:
+              print(f'[FAIL] data.json 파싱 오류: {e}')
+              sys.exit(1)
+          EOF
+
+      - name: Commit and push (safe)
+        run: |
+          git config --global user.name "choonsimi-bot"
+          git config --global user.email "bot@choonsimi.com"
+
+          git add data.json corp_map.json
+
+          # 변경 없으면 종료
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "update: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
+
+          # 🔥 핵심: 충돌 방지 + rebase
+          git pull origin main --rebase || true
+
+          # 🔥 push 실패 대비 1회 재시도
+          git push origin main || (sleep 3 && git push origin main)
