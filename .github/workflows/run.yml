@@ -5,6 +5,9 @@ on:
     - cron: "0 9 * * 1-5"   # UTC 09:00 = KST 18:00 (월~금)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python 3.10
         uses: actions/setup-python@v4
@@ -35,8 +40,8 @@ jobs:
           try:
               d = json.load(open('data.json'))
               count = len(d.get('all', []))
-              if count == 0:
-                  print('[FAIL] data.json 비어있음')
+              if count < 10:
+                  print(f'[FAIL] 종목 수 부족: {count}개')
                   sys.exit(1)
               print(f'[OK] {count}개 종목 검증 완료')
           except Exception as e:
