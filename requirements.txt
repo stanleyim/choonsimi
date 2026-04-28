@@ -4,3 +4,4 @@ pandas
 numpy
 beautifulsoup4
 lxml
+yfinance
