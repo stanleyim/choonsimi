@@ -1,0 +1,90 @@
+name: Stock Engine
+on:
+  schedule:
+    - cron: "57 22 * * 1-5"   # KST 07:57 (Mon–Fri)
+    - cron: "57 11 * * 1-5"   # KST 20:57 (Mon–Fri)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-engine
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+
+      # ─────────────────────────────
+      # 1. CODE CHECKOUT
+      # ─────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # ─────────────────────────────
+      # 2. PYTHON SETUP
+      # ─────────────────────────────
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      # ─────────────────────────────
+      # 3. DEPENDENCIES
+      # ─────────────────────────────
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+
+      # ─────────────────────────────
+      # 4. BUILD CORP MAP  ← 추가
+      # ─────────────────────────────
+      - name: Build corp map
+        run: python engine/build_corp_map.py
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
+      # ─────────────────────────────
+      # 5. RUN ENGINE
+      # ─────────────────────────────
+      - name: Run Stock Engine
+        run: python engine/engine.py
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
+      # ─────────────────────────────
+      # 6. VALIDATION (FAIL SAFE)
+      # ─────────────────────────────
+      - name: Validate output
+        run: |
+          python - <<EOF
+          import json, sys
+          try:
+              d = json.load(open("data.json"))
+              if len(d.get("all", [])) < 10:
+                  print("[FAIL] insufficient output")
+                  sys.exit(1)
+              print("[OK] validation passed")
+          except Exception as e:
+              print("[FAIL]", e)
+              sys.exit(1)
+          EOF
+
+      # ─────────────────────────────
+      # 7. COMMIT & PUSH
+      # ─────────────────────────────
+      - name: Commit results
+        run: |
+          git config user.name "choonsimi-bot"
+          git config user.email "bot@choonsimi.com"
+          git add data.json corp_map.json history.csv
+          git diff --staged --quiet && echo "no changes, skipping commit" && exit 0
+          git commit -m "update: $(date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --strategy-option=theirs origin main
+          git push origin main
