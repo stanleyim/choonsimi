@@ -1,9 +1,9 @@
 import os, json, math, shutil, requests, time
 from datetime import datetime, timedelta
 
-OUTPUT_PATH = "data.json"
-BACKUP_PATH = "data.json.bak"
-HISTORY_PATH = "history.csv"
+OUTPUT_PATH = "../data.json"
+BACKUP_PATH = "../data.json.bak"
+HISTORY_PATH = "../history.csv"
 CORP_MAP_PATH = "corp_map.json"
 
 KRX_BASE = "https://data-dbg.krx.co.kr/svc/apis/sto"
