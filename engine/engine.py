@@ -399,12 +399,7 @@
 ‎    # DART 30% 가중치 적용
 ‎    return base_score * 0.7 +
 ‎[4/29, 5:45 PM] Meta AI: 아 문법이 깨져있어. 따옴표랑 `isinstance` 위치가 잘못됐어 ❌
-‎
-‎*잘못된 부분*
-‎corp_code_raw = corp_map.get(code, ")
-‎corp_code = corp_code_raw if isinstance .get(corp_code_raw, str)
-‎else corp_code_raw.get("corp_code", ")
-‎
+
 ‎
 ‎*올바른 부분*
 ‎corp_code_raw = corp_map.get(code, "")
