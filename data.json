@@ -1,6 +1,6 @@
 {
-  "version": "20260429_0749",
-  "generated_at": "2026-04-29T07:49:15.186017+09:00",
+  "version": "20260429_1258",
+  "generated_at": "2026-04-29T12:58:57.932153+09:00",
   "meta": {
     "count": 200,
     "corp_map": 3961
@@ -9,8 +9,8 @@
     {
       "code": "042700",
       "name": "\ud55c\ubbf8\ubc18\ub3c4\uccb4",
-      "market_cap": 35599106700000,
-      "score": 108.43,
+      "market_cap": 34979577400000,
+      "score": 108.33,
       "signal": "STRONG_BUY",
       "roe": 30.91,
       "debt_ratio": 18.52
@@ -18,7 +18,7 @@
     {
       "code": "000660",
       "name": "SK\ud558\uc774\ub2c9\uc2a4",
-      "market_cap": 920811455580000,
+      "market_cap": 926513074500000,
       "score": 107.22,
       "signal": "STRONG_BUY",
       "roe": 36.39,
@@ -27,7 +27,7 @@
     {
       "code": "105560",
       "name": "KB\uae08\uc735",
-      "market_cap": 58686661617000,
+      "market_cap": 59208652254000,
       "score": 101.47,
       "signal": "STRONG_BUY",
       "roe": 14.67,
@@ -36,8 +36,8 @@
     {
       "code": "326030",
       "name": "SK\ubc14\uc774\uc624\ud31c",
-      "market_cap": 8019276800000,
-      "score": 101.37,
+      "market_cap": 8034939450000,
+      "score": 101.47,
       "signal": "STRONG_BUY",
       "roe": 31.07,
       "debt_ratio": 19.56
@@ -45,7 +45,7 @@
     {
       "code": "278470",
       "name": "\uc5d0\uc774\ud53c\uc54c",
-      "market_cap": 16809731595000,
+      "market_cap": 17184113145000,
       "score": 100.87,
       "signal": "STRONG_BUY",
       "roe": 50,
@@ -54,7 +54,7 @@
     {
       "code": "196170",
       "name": "\uc54c\ud14c\uc624\uc820",
-      "market_cap": 20289326497000,
+      "market_cap": 20155491889500,
       "score": 100.5,
       "signal": "STRONG_BUY",
       "roe": 28.06,
@@ -63,7 +63,7 @@
     {
       "code": "207940",
       "name": "\uc0bc\uc131\ubc14\uc774\uc624\ub85c\uc9c1\uc2a4",
-      "market_cap": 69853045059000,
+      "market_cap": 69621590304000,
       "score": 100.35,
       "signal": "STRONG_BUY",
       "roe": 21.39,
@@ -72,7 +72,7 @@
     {
       "code": "138040",
       "name": "\uba54\ub9ac\uce20\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 19194732213100,
+      "market_cap": 19295140576900,
       "score": 100.35,
       "signal": "STRONG_BUY",
       "roe": 36.86,
@@ -81,7 +81,7 @@
     {
       "code": "058470",
       "name": "\ub9ac\ub178\uacf5\uc5c5",
-      "market_cap": 8368061130000,
+      "market_cap": 8490000090000,
       "score": 100.15,
       "signal": "STRONG_BUY",
       "roe": 20.78,
@@ -90,8 +90,8 @@
     {
       "code": "443060",
       "name": "HD\ud604\ub300\ub9c8\ub9b0\uc194\ub8e8\uc158",
-      "market_cap": 12575785530000,
-      "score": 99.79,
+      "market_cap": 12374034960000,
+      "score": 99.59,
       "signal": "STRONG_BUY",
       "roe": 32.23,
       "debt_ratio": 41.2
@@ -101,8 +101,8 @@
     {
       "code": "042700",
       "name": "\ud55c\ubbf8\ubc18\ub3c4\uccb4",
-      "market_cap": 35599106700000,
-      "score": 108.43,
+      "market_cap": 34979577400000,
+      "score": 108.33,
       "signal": "STRONG_BUY",
       "roe": 30.91,
       "debt_ratio": 18.52
@@ -110,7 +110,7 @@
     {
       "code": "000660",
       "name": "SK\ud558\uc774\ub2c9\uc2a4",
-      "market_cap": 920811455580000,
+      "market_cap": 926513074500000,
       "score": 107.22,
       "signal": "STRONG_BUY",
       "roe": 36.39,
@@ -119,7 +119,7 @@
     {
       "code": "105560",
       "name": "KB\uae08\uc735",
-      "market_cap": 58686661617000,
+      "market_cap": 59208652254000,
       "score": 101.47,
       "signal": "STRONG_BUY",
       "roe": 14.67,
@@ -128,8 +128,8 @@
     {
       "code": "326030",
       "name": "SK\ubc14\uc774\uc624\ud31c",
-      "market_cap": 8019276800000,
-      "score": 101.37,
+      "market_cap": 8034939450000,
+      "score": 101.47,
       "signal": "STRONG_BUY",
       "roe": 31.07,
       "debt_ratio": 19.56
@@ -137,7 +137,7 @@
     {
       "code": "278470",
       "name": "\uc5d0\uc774\ud53c\uc54c",
-      "market_cap": 16809731595000,
+      "market_cap": 17184113145000,
       "score": 100.87,
       "signal": "STRONG_BUY",
       "roe": 50,
@@ -146,7 +146,7 @@
     {
       "code": "196170",
       "name": "\uc54c\ud14c\uc624\uc820",
-      "market_cap": 20289326497000,
+      "market_cap": 20155491889500,
       "score": 100.5,
       "signal": "STRONG_BUY",
       "roe": 28.06,
@@ -155,7 +155,7 @@
     {
       "code": "207940",
       "name": "\uc0bc\uc131\ubc14\uc774\uc624\ub85c\uc9c1\uc2a4",
-      "market_cap": 69853045059000,
+      "market_cap": 69621590304000,
       "score": 100.35,
       "signal": "STRONG_BUY",
       "roe": 21.39,
@@ -164,7 +164,7 @@
     {
       "code": "138040",
       "name": "\uba54\ub9ac\uce20\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 19194732213100,
+      "market_cap": 19295140576900,
       "score": 100.35,
       "signal": "STRONG_BUY",
       "roe": 36.86,
@@ -173,7 +173,7 @@
     {
       "code": "058470",
       "name": "\ub9ac\ub178\uacf5\uc5c5",
-      "market_cap": 8368061130000,
+      "market_cap": 8490000090000,
       "score": 100.15,
       "signal": "STRONG_BUY",
       "roe": 20.78,
@@ -182,8 +182,8 @@
     {
       "code": "443060",
       "name": "HD\ud604\ub300\ub9c8\ub9b0\uc194\ub8e8\uc158",
-      "market_cap": 12575785530000,
-      "score": 99.79,
+      "market_cap": 12374034960000,
+      "score": 99.59,
       "signal": "STRONG_BUY",
       "roe": 32.23,
       "debt_ratio": 41.2
@@ -191,8 +191,8 @@
     {
       "code": "062040",
       "name": "\uc0b0\uc77c\uc804\uae30",
-      "market_cap": 7087569275000,
-      "score": 99.1,
+      "market_cap": 6796718700000,
+      "score": 99.0,
       "signal": "STRONG_BUY",
       "roe": 25.46,
       "debt_ratio": 16.29
@@ -200,7 +200,7 @@
     {
       "code": "005930",
       "name": "\uc0bc\uc131\uc804\uc790",
-      "market_cap": 1312489547496000,
+      "market_cap": 1297873850976000,
       "score": 98.24,
       "signal": "STRONG_BUY",
       "roe": 13.25,
@@ -209,8 +209,8 @@
     {
       "code": "271560",
       "name": "\uc624\ub9ac\uc628",
-      "market_cap": 5590409064800,
-      "score": 96.98,
+      "market_cap": 5582501838400,
+      "score": 97.08,
       "signal": "STRONG_BUY",
       "roe": 22.74,
       "debt_ratio": 10.48
@@ -218,8 +218,8 @@
     {
       "code": "035420",
       "name": "NAVER",
-      "market_cap": 33723317170000,
-      "score": 96.86,
+      "market_cap": 34429154041000,
+      "score": 96.96,
       "signal": "STRONG_BUY",
       "roe": 11.97,
       "debt_ratio": 29.32
@@ -227,8 +227,8 @@
     {
       "code": "267260",
       "name": "HD\ud604\ub300\uc77c\ub809\ud2b8\ub9ad",
-      "market_cap": 47077558310000,
-      "score": 95.85,
+      "market_cap": 44626353130000,
+      "score": 95.75,
       "signal": "STRONG_BUY",
       "roe": 34.57,
       "debt_ratio": 90.33
@@ -236,8 +236,8 @@
     {
       "code": "003550",
       "name": "LG",
-      "market_cap": 14728161367500,
-      "score": 95.3,
+      "market_cap": 15144559647000,
+      "score": 95.2,
       "signal": "STRONG_BUY",
       "roe": 8.26,
       "debt_ratio": 5.29
@@ -245,8 +245,8 @@
     {
       "code": "259960",
       "name": "\ud06c\ub798\ud504\ud1a4",
-      "market_cap": 13084081116000,
-      "score": 95.02,
+      "market_cap": 13439626798500,
+      "score": 95.12,
       "signal": "STRONG_BUY",
       "roe": 10.12,
       "debt_ratio": 12.34
@@ -254,8 +254,8 @@
     {
       "code": "000270",
       "name": "\uae30\uc544",
-      "market_cap": 59577023494800,
-      "score": 94.59,
+      "market_cap": 60748262488800,
+      "score": 94.49,
       "signal": "STRONG_BUY",
       "roe": 13.35,
       "debt_ratio": 54.73
@@ -263,8 +263,8 @@
     {
       "code": "403870",
       "name": "HPSP",
-      "market_cap": 4510040000000,
-      "score": 94.43,
+      "market_cap": 4419510000000,
+      "score": 94.33,
       "signal": "STRONG_BUY",
       "roe": 23.57,
       "debt_ratio": 19.94
@@ -272,34 +272,34 @@
     {
       "code": "003230",
       "name": "\uc0bc\uc591\uc2dd\ud488",
-      "market_cap": 9800452515000,
+      "market_cap": 9679924275000,
       "score": 94.01,
       "signal": "STRONG_BUY",
       "roe": 30.36,
       "debt_ratio": 61.74
     },
     {
-      "code": "009540",
-      "name": "HD\ud55c\uad6d\uc870\uc120\ud574\uc591",
-      "market_cap": 33900322564000,
-      "score": 93.52,
-      "signal": "STRONG_BUY",
-      "roe": 5.23,
-      "debt_ratio": 9.88
-    },
-    {
       "code": "012330",
       "name": "\ud604\ub300\ubaa8\ube44\uc2a4",
-      "market_cap": 39241842147500,
+      "market_cap": 40557464601000,
       "score": 93.39,
       "signal": "STRONG_BUY",
       "roe": 6.9,
       "debt_ratio": 25.91
     },
     {
+      "code": "009540",
+      "name": "HD\ud55c\uad6d\uc870\uc120\ud574\uc591",
+      "market_cap": 33157204846000,
+      "score": 93.32,
+      "signal": "STRONG_BUY",
+      "roe": 5.23,
+      "debt_ratio": 9.88
+    },
+    {
       "code": "086790",
       "name": "\ud558\ub098\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 34021600752000,
+      "market_cap": 34844703996000,
       "score": 92.96,
       "signal": "STRONG_BUY",
       "roe": 8.93,
@@ -308,25 +308,16 @@
     {
       "code": "055550",
       "name": "\uc2e0\ud55c\uc9c0\uc8fc",
-      "market_cap": 47323039791700,
+      "market_cap": 47417970663900,
       "score": 92.68,
       "signal": "STRONG_BUY",
       "roe": 9.06,
       "debt_ratio": 43.51
     },
     {
-      "code": "214150",
-      "name": "\ud074\ub798\uc2dc\uc2a4",
-      "market_cap": 3953280935400,
-      "score": 92.44,
-      "signal": "STRONG_BUY",
-      "roe": 24.01,
-      "debt_ratio": 26.77
-    },
-    {
       "code": "483650",
       "name": "\ub2ec\ubc14\uae00\ub85c\ubc8c",
-      "market_cap": 2906314442500,
+      "market_cap": 2918708107500,
       "score": 92.16,
       "signal": "STRONG_BUY",
       "roe": 38.15,
@@ -335,8 +326,8 @@
     {
       "code": "007660",
       "name": "\uc774\uc218\ud398\ud0c0\uc2dc\uc2a4",
-      "market_cap": 11415133554500,
-      "score": 91.92,
+      "market_cap": 11055428381400,
+      "score": 91.82,
       "signal": "STRONG_BUY",
       "roe": 20.89,
       "debt_ratio": 57.21
@@ -353,34 +344,34 @@
     {
       "code": "000990",
       "name": "DB\ud558\uc774\ud14d",
-      "market_cap": 6917229492000,
+      "market_cap": 6730159763600,
       "score": 91.67,
       "signal": "STRONG_BUY",
       "roe": 12.97,
       "debt_ratio": 20.01
     },
     {
+      "code": "214150",
+      "name": "\ud074\ub798\uc2dc\uc2a4",
+      "market_cap": 3751050392500,
+      "score": 91.54,
+      "signal": "STRONG_BUY",
+      "roe": 24.01,
+      "debt_ratio": 26.77
+    },
+    {
       "code": "071050",
       "name": "\ud55c\uad6d\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 14516620916000,
-      "score": 91.54,
+      "market_cap": 14405168932000,
+      "score": 91.34,
       "signal": "STRONG_BUY",
       "roe": 18.94,
       "debt_ratio": 61.94
     },
     {
-      "code": "033780",
-      "name": "KT&G",
-      "market_cap": 20389507481000,
-      "score": 90.88,
-      "signal": "STRONG_BUY",
-      "roe": 12.19,
-      "debt_ratio": 50.55
-    },
-    {
       "code": "316140",
       "name": "\uc6b0\ub9ac\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 24371333824000,
+      "market_cap": 24591556720000,
       "score": 90.85,
       "signal": "STRONG_BUY",
       "roe": 4.71,
@@ -389,16 +380,25 @@
     {
       "code": "068270",
       "name": "\uc140\ud2b8\ub9ac\uc628",
-      "market_cap": 45275405244000,
-      "score": 90.74,
+      "market_cap": 45941220027000,
+      "score": 90.84,
       "signal": "STRONG_BUY",
       "roe": 4.87,
       "debt_ratio": 25.29
     },
     {
+      "code": "033780",
+      "name": "KT&G",
+      "market_cap": 20412442810000,
+      "score": 90.78,
+      "signal": "STRONG_BUY",
+      "roe": 12.19,
+      "debt_ratio": 50.55
+    },
+    {
       "code": "011200",
       "name": "HMM",
-      "market_cap": 19760835471500,
+      "market_cap": 19572187877500,
       "score": 90.73,
       "signal": "STRONG_BUY",
       "roe": 7.01,
@@ -407,8 +407,8 @@
     {
       "code": "005380",
       "name": "\ud604\ub300\ucc28",
-      "market_cap": 107293069384000,
-      "score": 90.49,
+      "market_cap": 113640560130000,
+      "score": 90.59,
       "signal": "STRONG_BUY",
       "roe": 5.8,
       "debt_ratio": 40.89
@@ -416,7 +416,7 @@
     {
       "code": "086520",
       "name": "\uc5d0\ucf54\ud504\ub85c",
-      "market_cap": 21235390172800,
+      "market_cap": 21927848548000,
       "score": 90.48,
       "signal": "STRONG_BUY",
       "roe": 34.89,
@@ -425,8 +425,8 @@
     {
       "code": "018260",
       "name": "\uc0bc\uc131\uc5d0\uc2a4\ub514\uc5d0\uc2a4",
-      "market_cap": 13138750440000,
-      "score": 90.29,
+      "market_cap": 13347670500000,
+      "score": 90.09,
       "signal": "STRONG_BUY",
       "roe": 6.57,
       "debt_ratio": 17.27
@@ -434,7 +434,7 @@
     {
       "code": "096770",
       "name": "SK\uc774\ub178\ubca0\uc774\uc158",
-      "market_cap": 22044483555200,
+      "market_cap": 22484020804000,
       "score": 90.03,
       "signal": "STRONG_BUY",
       "roe": 10.25,
@@ -443,8 +443,8 @@
     {
       "code": "039030",
       "name": "\uc774\uc624\ud14c\ud06c\ub2c9\uc2a4",
-      "market_cap": 6221372750000,
-      "score": 89.76,
+      "market_cap": 6319929150000,
+      "score": 89.96,
       "signal": "STRONG_BUY",
       "roe": 9.69,
       "debt_ratio": 12.69
@@ -452,8 +452,8 @@
     {
       "code": "214370",
       "name": "\ucf00\uc5b4\uc820",
-      "market_cap": 5881792500000,
-      "score": 89.71,
+      "market_cap": 5747505000000,
+      "score": 89.31,
       "signal": "STRONG_BUY",
       "roe": 9.46,
       "debt_ratio": 8.85
@@ -461,8 +461,8 @@
     {
       "code": "000100",
       "name": "\uc720\ud55c\uc591\ud589",
-      "market_cap": 7494839254100,
-      "score": 89.34,
+      "market_cap": 7462980213700,
+      "score": 89.24,
       "signal": "STRONG_BUY",
       "roe": 9.36,
       "debt_ratio": 21.22
@@ -470,7 +470,7 @@
     {
       "code": "175330",
       "name": "JB\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 5176973560000,
+      "market_cap": 5139322843200,
       "score": 89.12,
       "signal": "STRONG_BUY",
       "roe": 19.24,
@@ -479,8 +479,8 @@
     {
       "code": "090430",
       "name": "\uc544\ubaa8\ub808\ud37c\uc2dc\ud53d",
-      "market_cap": 8820708057200,
-      "score": 89.02,
+      "market_cap": 8551641365800,
+      "score": 88.82,
       "signal": "STRONG_BUY",
       "roe": 6.29,
       "debt_ratio": 11.23
@@ -488,98 +488,89 @@
     {
       "code": "052690",
       "name": "\ud55c\uc804\uae30\uc220",
-      "market_cap": 7342062000000,
-      "score": 88.48,
+      "market_cap": 7334418000000,
+      "score": 88.58,
       "signal": "STRONG_BUY",
       "roe": 13.66,
       "debt_ratio": 41.37
     },
     {
-      "code": "006260",
-      "name": "LS",
-      "market_cap": 13291200000000,
-      "score": 88.33,
+      "code": "064760",
+      "name": "\ud2f0\uc528\ucf00\uc774",
+      "market_cap": 3532695456000,
+      "score": 88.55,
       "signal": "STRONG_BUY",
-      "roe": 5.58,
-      "debt_ratio": 20.55
+      "roe": 13.46,
+      "debt_ratio": 9.3
+    },
+    {
+      "code": "009150",
+      "name": "\uc0bc\uc131\uc804\uae30",
+      "market_cap": 62668010944000,
+      "score": 88.16,
+      "signal": "STRONG_BUY",
+      "roe": 5.81,
+      "debt_ratio": 49.63
     },
     {
       "code": "086280",
       "name": "\ud604\ub300\uae00\ub85c\ube44\uc2a4",
-      "market_cap": 17212500000000,
+      "market_cap": 17587500000000,
       "score": 88.16,
       "signal": "STRONG_BUY",
       "roe": 16.88,
       "debt_ratio": 75.9
     },
     {
-      "code": "009150",
-      "name": "\uc0bc\uc131\uc804\uae30",
-      "market_cap": 59306794624000,
-      "score": 88.06,
+      "code": "031980",
+      "name": "\ud53c\uc5d0\uc2a4\ucf00\uc774\ud640\ub529\uc2a4",
+      "market_cap": 2863486056000,
+      "score": 87.82,
       "signal": "STRONG_BUY",
-      "roe": 5.81,
-      "debt_ratio": 49.63
+      "roe": 19.71,
+      "debt_ratio": 14.45
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "market_cap": 12558000000000,
+      "score": 87.73,
+      "signal": "STRONG_BUY",
+      "roe": 5.58,
+      "debt_ratio": 20.55
     },
     {
       "code": "009970",
       "name": "\uc601\uc6d0\ubb34\uc5ed\ud640\ub529\uc2a4",
-      "market_cap": 2821340533000,
-      "score": 87.94,
+      "market_cap": 2780842822000,
+      "score": 87.54,
       "signal": "STRONG_BUY",
       "roe": 16.11,
       "debt_ratio": 4.26
     },
     {
-      "code": "064760",
-      "name": "\ud2f0\uc528\ucf00\uc774",
-      "market_cap": 3398542464000,
-      "score": 87.75,
-      "signal": "STRONG_BUY",
-      "roe": 13.46,
-      "debt_ratio": 9.3
-    },
-    {
-      "code": "439260",
-      "name": "\ub300\ud55c\uc870\uc120",
-      "market_cap": 3555978597600,
-      "score": 87.54,
-      "signal": "STRONG_BUY",
-      "roe": 22.79,
-      "debt_ratio": 40.76
-    },
-    {
       "code": "036570",
       "name": "NC",
-      "market_cap": 5633761753000,
-      "score": 87.24,
+      "market_cap": 5763025885000,
+      "score": 87.34,
       "signal": "STRONG_BUY",
       "roe": 10.59,
       "debt_ratio": 24.32
     },
     {
-      "code": "071970",
-      "name": "HD\ud604\ub300\ub9c8\ub9b0\uc5d4\uc9c4",
-      "market_cap": 3917932672500,
-      "score": 87.14,
+      "code": "439260",
+      "name": "\ub300\ud55c\uc870\uc120",
+      "market_cap": 3540568072800,
+      "score": 87.34,
       "signal": "STRONG_BUY",
-      "roe": 33.96,
-      "debt_ratio": 69.02
-    },
-    {
-      "code": "214450",
-      "name": "\ud30c\ub9c8\ub9ac\uc11c\uce58",
-      "market_cap": 3449363136000,
-      "score": 86.94,
-      "signal": "STRONG_BUY",
-      "roe": 23.36,
-      "debt_ratio": 41.47
+      "roe": 22.79,
+      "debt_ratio": 40.76
     },
     {
       "code": "095340",
       "name": "ISC",
-      "market_cap": 5097892449000,
-      "score": 86.9,
+      "market_cap": 5034301275000,
+      "score": 87.0,
       "signal": "STRONG_BUY",
       "roe": 8.82,
       "debt_ratio": 13.24
@@ -587,8 +578,8 @@
     {
       "code": "240810",
       "name": "\uc6d0\uc775IPS",
-      "market_cap": 5963693971500,
-      "score": 86.7,
+      "market_cap": 5944060411100,
+      "score": 86.5,
       "signal": "STRONG_BUY",
       "roe": 8.55,
       "debt_ratio": 20.31
@@ -596,34 +587,43 @@
     {
       "code": "267250",
       "name": "HD\ud604\ub300",
-      "market_cap": 22473532682500,
-      "score": 86.66,
+      "market_cap": 22157560342500,
+      "score": 86.36,
       "signal": "STRONG_BUY",
       "roe": 6.66,
       "debt_ratio": 49.02
     },
     {
+      "code": "214450",
+      "name": "\ud30c\ub9c8\ub9ac\uc11c\uce58",
+      "market_cap": 3376635600000,
+      "score": 86.34,
+      "signal": "STRONG_BUY",
+      "roe": 23.36,
+      "debt_ratio": 41.47
+    },
+    {
       "code": "111770",
       "name": "\uc601\uc6d0\ubb34\uc5ed",
-      "market_cap": 3708869871600,
-      "score": 86.32,
+      "market_cap": 3726594458800,
+      "score": 86.22,
       "signal": "STRONG_BUY",
       "roe": 12.36,
       "debt_ratio": 21.01
     },
     {
-      "code": "010130",
-      "name": "\uace0\ub824\uc544\uc5f0",
-      "market_cap": 34273415098000,
-      "score": 85.83,
+      "code": "071970",
+      "name": "HD\ud604\ub300\ub9c8\ub9b0\uc5d4\uc9c4",
+      "market_cap": 3599070619500,
+      "score": 85.74,
       "signal": "STRONG_BUY",
-      "roe": 7.52,
-      "debt_ratio": 64.96
+      "roe": 33.96,
+      "debt_ratio": 69.02
     },
     {
       "code": "034730",
       "name": "SK",
-      "market_cap": 29871113636000,
+      "market_cap": 30016119042000,
       "score": 85.64,
       "signal": "STRONG_BUY",
       "roe": 8.63,
@@ -632,44 +632,62 @@
     {
       "code": "145020",
       "name": "\ud734\uc824",
-      "market_cap": 3297480844000,
+      "market_cap": 3266720761500,
       "score": 85.64,
       "signal": "STRONG_BUY",
       "roe": 11.76,
       "debt_ratio": 11.14
     },
     {
+      "code": "010130",
+      "name": "\uace0\ub824\uc544\uc5f0",
+      "market_cap": 33960320563000,
+      "score": 85.53,
+      "signal": "STRONG_BUY",
+      "roe": 7.52,
+      "debt_ratio": 64.96
+    },
+    {
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "market_cap": 39225000000000,
+      "score": 85.13,
+      "signal": "STRONG_BUY",
+      "roe": 14.79,
+      "debt_ratio": 101.31
+    },
+    {
       "code": "138930",
       "name": "BNK\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 5815528598420,
+      "market_cap": 5852767842380,
       "score": 85.07,
       "signal": "STRONG_BUY",
       "roe": 11.08,
       "debt_ratio": 38.24
     },
     {
+      "code": "004800",
+      "name": "\ud6a8\uc131",
+      "market_cap": 3800072389000,
+      "score": 85.07,
+      "signal": "STRONG_BUY",
+      "roe": 13.33,
+      "debt_ratio": 33.25
+    },
+    {
       "code": "051910",
       "name": "LG\ud654\ud559",
-      "market_cap": 26789794168500,
+      "market_cap": 27813383142000,
       "score": 85.06,
       "signal": "STRONG_BUY",
       "roe": 6.22,
       "debt_ratio": 56.53
     },
     {
-      "code": "010120",
-      "name": "LS ELECTRIC",
-      "market_cap": 38325000000000,
-      "score": 85.03,
-      "signal": "STRONG_BUY",
-      "roe": 14.79,
-      "debt_ratio": 101.31
-    },
-    {
       "code": "357780",
       "name": "\uc194\ube0c\ub808\uc778",
-      "market_cap": 3772604510000,
-      "score": 84.44,
+      "market_cap": 3760936661000,
+      "score": 84.54,
       "signal": "STRONG_BUY",
       "roe": 7.86,
       "debt_ratio": 10.87
@@ -677,8 +695,8 @@
     {
       "code": "078930",
       "name": "GS",
-      "market_cap": 7108026417000,
-      "score": 84.41,
+      "market_cap": 7135901030400,
+      "score": 84.51,
       "signal": "STRONG_BUY",
       "roe": 3.83,
       "debt_ratio": 5.2
@@ -686,53 +704,53 @@
     {
       "code": "002380",
       "name": "KCC",
-      "market_cap": 4905331992000,
-      "score": 84.34,
+      "market_cap": 4914218463000,
+      "score": 84.44,
       "signal": "STRONG_BUY",
       "roe": 23.32,
       "debt_ratio": 70.84
     },
     {
-      "code": "014680",
-      "name": "\ud55c\uc194\ucf00\ubbf8\uce7c",
-      "market_cap": 3445169085000,
-      "score": 83.86,
-      "signal": "STRONG_BUY",
-      "roe": 14.74,
-      "debt_ratio": 34.49
-    },
-    {
       "code": "001040",
       "name": "CJ",
-      "market_cap": 6404351061000,
-      "score": 83.44,
+      "market_cap": 6477293556000,
+      "score": 83.54,
       "signal": "STRONG_BUY",
       "roe": 4.51,
       "debt_ratio": 12.65
     },
     {
-      "code": "004800",
-      "name": "\ud6a8\uc131",
-      "market_cap": 3423413231500,
-      "score": 82.97,
+      "code": "014680",
+      "name": "\ud55c\uc194\ucf00\ubbf8\uce7c",
+      "market_cap": 3359892622500,
+      "score": 83.26,
       "signal": "STRONG_BUY",
-      "roe": 13.33,
-      "debt_ratio": 33.25
+      "roe": 14.74,
+      "debt_ratio": 34.49
     },
     {
       "code": "005490",
       "name": "POSCO\ud640\ub529\uc2a4",
-      "market_cap": 33083337522500,
-      "score": 82.46,
+      "market_cap": 36966172345500,
+      "score": 82.96,
       "signal": "STRONG_BUY",
       "roe": 1.03,
       "debt_ratio": 8.09
     },
     {
+      "code": "084370",
+      "name": "\uc720\uc9c4\ud14c\ud06c",
+      "market_cap": 3254077964000,
+      "score": 82.39,
+      "signal": "STRONG_BUY",
+      "roe": 8.86,
+      "debt_ratio": 13.46
+    },
+    {
       "code": "100790",
       "name": "\ubbf8\ub798\uc5d0\uc14b\ubca4\ucc98\ud22c\uc790",
-      "market_cap": 3251227600800,
-      "score": 82.29,
+      "market_cap": 3203415430200,
+      "score": 82.19,
       "signal": "STRONG_BUY",
       "roe": 8.32,
       "debt_ratio": 10.66
@@ -740,52 +758,43 @@
     {
       "code": "128940",
       "name": "\ud55c\ubbf8\uc57d\ud488",
-      "market_cap": 6335035049500,
-      "score": 82.28,
+      "market_cap": 6296602076500,
+      "score": 82.08,
       "signal": "STRONG_BUY",
       "roe": 14.95,
       "debt_ratio": 71.09
     },
     {
-      "code": "084370",
-      "name": "\uc720\uc9c4\ud14c\ud06c",
-      "market_cap": 3116581712000,
-      "score": 81.99,
+      "code": "022100",
+      "name": "\ud3ec\uc2a4\ucf54DX",
+      "market_cap": 5564471081400,
+      "score": 81.74,
       "signal": "STRONG_BUY",
-      "roe": 8.86,
-      "debt_ratio": 13.46
-    },
-    {
-      "code": "028260",
-      "name": "\uc0bc\uc131\ubb3c\uc0b0",
-      "market_cap": 50596722072000,
-      "score": 81.75,
-      "signal": "STRONG_BUY",
-      "roe": 2.42,
-      "debt_ratio": 45.24
+      "roe": 9.33,
+      "debt_ratio": 45.07
     },
     {
       "code": "035250",
       "name": "\uac15\uc6d0\ub79c\ub4dc",
-      "market_cap": 3671218980000,
+      "market_cap": 3705449460000,
       "score": 81.7,
       "signal": "STRONG_BUY",
       "roe": 7.78,
       "debt_ratio": 22.12
     },
     {
-      "code": "022100",
-      "name": "\ud3ec\uc2a4\ucf54DX",
-      "market_cap": 5412436352400,
-      "score": 81.54,
+      "code": "028260",
+      "name": "\uc0bc\uc131\ubb3c\uc0b0",
+      "market_cap": 50191299619500,
+      "score": 81.65,
       "signal": "STRONG_BUY",
-      "roe": 9.33,
-      "debt_ratio": 45.07
+      "roe": 2.42,
+      "debt_ratio": 45.24
     },
     {
       "code": "237690",
       "name": "\uc5d0\uc2a4\ud2f0\ud31c",
-      "market_cap": 3491357772500,
+      "market_cap": 3516370484900,
       "score": 81.46,
       "signal": "STRONG_BUY",
       "roe": 9.92,
@@ -794,26 +803,17 @@
     {
       "code": "307950",
       "name": "\ud604\ub300\uc624\ud1a0\uc5d0\ubc84",
-      "market_cap": 12093976062000,
-      "score": 80.33,
+      "market_cap": 13108663396000,
+      "score": 80.73,
       "signal": "STRONG_BUY",
       "roe": 9.26,
       "debt_ratio": 78.76
     },
     {
-      "code": "043260",
-      "name": "\uc131\ud638\uc804\uc790",
-      "market_cap": 3046135247850,
-      "score": 80.05,
-      "signal": "STRONG_BUY",
-      "roe": 34.19,
-      "debt_ratio": 84.77
-    },
-    {
       "code": "064400",
       "name": "LG\uc528\uc5d4\uc5d0\uc2a4",
-      "market_cap": 6481669921200,
-      "score": 79.97,
+      "market_cap": 6539801490000,
+      "score": 80.17,
       "signal": "STRONG_BUY",
       "roe": 14.71,
       "debt_ratio": 82.85
@@ -821,8 +821,8 @@
     {
       "code": "012750",
       "name": "\uc5d0\uc2a4\uc6d0",
-      "market_cap": 3286928897000,
-      "score": 79.91,
+      "market_cap": 3256529554600,
+      "score": 80.01,
       "signal": "STRONG_BUY",
       "roe": 11.08,
       "debt_ratio": 36.04
@@ -830,16 +830,25 @@
     {
       "code": "005850",
       "name": "\uc5d0\uc2a4\uc5d8",
-      "market_cap": 2977350132000,
-      "score": 79.43,
+      "market_cap": 3065602320000,
+      "score": 79.93,
       "signal": "STRONG_BUY",
       "roe": 10.23,
       "debt_ratio": 29.27
     },
     {
+      "code": "043260",
+      "name": "\uc131\ud638\uc804\uc790",
+      "market_cap": 2943297154500,
+      "score": 79.45,
+      "signal": "STRONG_BUY",
+      "roe": 34.19,
+      "debt_ratio": 84.77
+    },
+    {
       "code": "353200",
       "name": "\ub300\ub355\uc804\uc790",
-      "market_cap": 5376561440000,
+      "market_cap": 5401269902500,
       "score": 79.15,
       "signal": "STRONG_BUY",
       "roe": 5.2,
@@ -848,8 +857,8 @@
     {
       "code": "035720",
       "name": "\uce74\uce74\uc624",
-      "market_cap": 21463398207750,
-      "score": 78.98,
+      "market_cap": 21640598605750,
+      "score": 78.78,
       "signal": "STRONG_BUY",
       "roe": 3.13,
       "debt_ratio": 55.0
@@ -857,35 +866,35 @@
     {
       "code": "272210",
       "name": "\ud55c\ud654\uc2dc\uc2a4\ud15c",
-      "market_cap": 23822734952900,
-      "score": 78.94,
+      "market_cap": 22651434741100,
+      "score": 78.74,
       "signal": "STRONG_BUY",
       "roe": 7.62,
       "debt_ratio": 94.0
     },
     {
-      "code": "108490",
-      "name": "\ub85c\ubcf4\ud2f0\uc988",
-      "market_cap": 5100645744000,
-      "score": 78.73,
-      "signal": "STRONG_BUY",
-      "roe": 2.39,
-      "debt_ratio": 1.41
-    },
-    {
       "code": "051600",
       "name": "\ud55c\uc804KPS",
-      "market_cap": 2902500000000,
-      "score": 78.64,
+      "market_cap": 2875500000000,
+      "score": 78.54,
       "signal": "STRONG_BUY",
       "roe": 9.26,
       "debt_ratio": 26.23
     },
     {
+      "code": "108490",
+      "name": "\ub85c\ubcf4\ud2f0\uc988",
+      "market_cap": 4785519642000,
+      "score": 78.53,
+      "signal": "STRONG_BUY",
+      "roe": 2.39,
+      "debt_ratio": 1.41
+    },
+    {
       "code": "021240",
       "name": "\ucf54\uc6e8\uc774",
-      "market_cap": 6093075378600,
-      "score": 78.08,
+      "market_cap": 6050614923000,
+      "score": 77.98,
       "signal": "STRONG_BUY",
       "roe": 15.53,
       "debt_ratio": 91.37
@@ -893,70 +902,70 @@
     {
       "code": "010060",
       "name": "OCI\ud640\ub529\uc2a4",
-      "market_cap": 7038677464000,
-      "score": 77.7,
+      "market_cap": 6861310260000,
+      "score": 77.9,
       "signal": "STRONG_BUY",
       "roe": 1.55,
       "debt_ratio": 5.32
     },
     {
-      "code": "277810",
-      "name": "\ub808\uc778\ubcf4\uc6b0\ub85c\ubcf4\ud2f1\uc2a4",
-      "market_cap": 12978505002000,
-      "score": 77.52,
-      "signal": "STRONG_BUY",
-      "roe": 0.77,
-      "debt_ratio": 6.95
-    },
-    {
       "code": "247540",
       "name": "\uc5d0\ucf54\ud504\ub85c\ube44\uc5e0",
-      "market_cap": 20299815055000,
-      "score": 77.43,
+      "market_cap": 20886797659000,
+      "score": 77.73,
       "signal": "STRONG_BUY",
       "roe": 6.1,
       "debt_ratio": 86.34
     },
     {
-      "code": "000150",
-      "name": "\ub450\uc0b0",
-      "market_cap": 25618646970000,
-      "score": 77.41,
-      "signal": "STRONG_BUY",
-      "roe": 8.68,
-      "debt_ratio": 108.96
-    },
-    {
       "code": "036930",
       "name": "\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1",
-      "market_cap": 5856621246000,
-      "score": 77.28,
+      "market_cap": 6065786290500,
+      "score": 77.68,
       "signal": "STRONG_BUY",
       "roe": 6.01,
       "debt_ratio": 50.45
     },
     {
-      "code": "005290",
-      "name": "\ub3d9\uc9c4\uc384\ubbf8\ucf10",
-      "market_cap": 3126001235200,
-      "score": 76.22,
+      "code": "277810",
+      "name": "\ub808\uc778\ubcf4\uc6b0\ub85c\ubcf4\ud2f1\uc2a4",
+      "market_cap": 12959105144000,
+      "score": 77.42,
       "signal": "STRONG_BUY",
-      "roe": 14.78,
-      "debt_ratio": 66.34
+      "roe": 0.77,
+      "debt_ratio": 6.95
+    },
+    {
+      "code": "000150",
+      "name": "\ub450\uc0b0",
+      "market_cap": 25634840805000,
+      "score": 77.31,
+      "signal": "STRONG_BUY",
+      "roe": 8.68,
+      "debt_ratio": 108.96
     },
     {
       "code": "030200",
       "name": "KT",
-      "market_cap": 15398524953500,
+      "market_cap": 15348120616500,
       "score": 75.97,
       "signal": "STRONG_BUY",
       "roe": 6.97,
       "debt_ratio": 94.91
     },
     {
+      "code": "005290",
+      "name": "\ub3d9\uc9c4\uc384\ubbf8\ucf10",
+      "market_cap": 3023172247200,
+      "score": 75.72,
+      "signal": "STRONG_BUY",
+      "roe": 14.78,
+      "debt_ratio": 66.34
+    },
+    {
       "code": "180640",
       "name": "\ud55c\uc9c4\uce7c",
-      "market_cap": 7670985857100,
+      "market_cap": 7657633401300,
       "score": 75.4,
       "signal": "STRONG_BUY",
       "roe": 1.26,
@@ -965,7 +974,7 @@
     {
       "code": "251270",
       "name": "\ub137\ub9c8\ube14",
-      "market_cap": 4098018550000,
+      "market_cap": 4147194772600,
       "score": 75.39,
       "signal": "STRONG_BUY",
       "roe": 4.07,
@@ -974,61 +983,61 @@
     {
       "code": "298040",
       "name": "\ud6a8\uc131\uc911\uacf5\uc5c5",
-      "market_cap": 36748043668000,
+      "market_cap": 37074402848000,
       "score": 75.13,
       "signal": "STRONG_BUY",
       "roe": 13.18,
       "debt_ratio": 144.95
     },
     {
-      "code": "098460",
-      "name": "\uace0\uc601",
-      "market_cap": 2986481842500,
-      "score": 75.01,
-      "signal": "STRONG_BUY",
-      "roe": 4.84,
-      "debt_ratio": 19.19
-    },
-    {
-      "code": "241560",
-      "name": "\ub450\uc0b0\ubc25\ucea3",
-      "market_cap": 7332988972500,
-      "score": 74.58,
-      "signal": "STRONG_BUY",
-      "roe": 5.64,
-      "debt_ratio": 70.77
-    },
-    {
-      "code": "0009K0",
-      "name": "\uc5d0\uc784\ub4dc\ubc14\uc774\uc624",
-      "market_cap": 3291762094900,
-      "score": 74.5,
-      "signal": "STRONG_BUY",
-      "roe": 2.62,
-      "debt_ratio": 3.32
-    },
-    {
       "code": "017800",
       "name": "\ud604\ub300\uc5d8\ub9ac\ubca0\uc774\ud130",
-      "market_cap": 3854509161000,
-      "score": 74.44,
+      "market_cap": 3885783069000,
+      "score": 74.84,
       "signal": "STRONG_BUY",
       "roe": 24.17,
       "debt_ratio": 114.59
     },
     {
+      "code": "241560",
+      "name": "\ub450\uc0b0\ubc25\ucea3",
+      "market_cap": 7332988972500,
+      "score": 74.68,
+      "signal": "STRONG_BUY",
+      "roe": 5.64,
+      "debt_ratio": 70.77
+    },
+    {
       "code": "139130",
       "name": "iM\uae08\uc735\uc9c0\uc8fc",
-      "market_cap": 3055079568660,
-      "score": 74.2,
+      "market_cap": 3096841960240,
+      "score": 74.4,
       "signal": "STRONG_BUY",
       "roe": 6.67,
       "debt_ratio": 38.86
     },
     {
+      "code": "011780",
+      "name": "\uae08\ud638\uc11d\uc720\ud654\ud559",
+      "market_cap": 3464163652500,
+      "score": 74.15,
+      "signal": "STRONG_BUY",
+      "roe": 5.19,
+      "debt_ratio": 36.42
+    },
+    {
+      "code": "0009K0",
+      "name": "\uc5d0\uc784\ub4dc\ubc14\uc774\uc624",
+      "market_cap": 3159186214850,
+      "score": 74.1,
+      "signal": "STRONG_BUY",
+      "roe": 2.62,
+      "debt_ratio": 3.32
+    },
+    {
       "code": "012450",
       "name": "\ud55c\ud654\uc5d0\uc5b4\ub85c\uc2a4\ud398\uc774\uc2a4",
-      "market_cap": 74973185054000,
+      "market_cap": 71930944395000,
       "score": 73.98,
       "signal": "STRONG_BUY",
       "roe": 15.93,
@@ -1037,26 +1046,17 @@
     {
       "code": "034020",
       "name": "\ub450\uc0b0\uc5d0\ub108\ube4c\ub9ac\ud2f0",
-      "market_cap": 82568331719400,
+      "market_cap": 81863714458800,
       "score": 73.53,
       "signal": "STRONG_BUY",
       "roe": 8.19,
       "debt_ratio": 139.77
     },
     {
-      "code": "011780",
-      "name": "\uae08\ud638\uc11d\uc720\ud654\ud559",
-      "market_cap": 3325798365000,
-      "score": 73.45,
-      "signal": "STRONG_BUY",
-      "roe": 5.19,
-      "debt_ratio": 36.42
-    },
-    {
       "code": "267270",
       "name": "HD\uac74\uc124\uae30\uacc4",
-      "market_cap": 9503672775800,
-      "score": 73.06,
+      "market_cap": 9306978892000,
+      "score": 73.16,
       "signal": "STRONG_BUY",
       "roe": 3.57,
       "debt_ratio": 69.2
@@ -1064,8 +1064,8 @@
     {
       "code": "012510",
       "name": "\ub354\uc874\ube44\uc988\uc628",
-      "market_cap": 3607865134000,
-      "score": 72.86,
+      "market_cap": 3647378400000,
+      "score": 72.96,
       "signal": "STRONG_BUY",
       "roe": 13.7,
       "debt_ratio": 91.11
@@ -1073,8 +1073,8 @@
     {
       "code": "377300",
       "name": "\uce74\uce74\uc624\ud398\uc774",
-      "market_cap": 7424970648300,
-      "score": 72.61,
+      "market_cap": 7479068795100,
+      "score": 72.71,
       "signal": "STRONG_BUY",
       "roe": 2.99,
       "debt_ratio": 56.65
@@ -1082,8 +1082,8 @@
     {
       "code": "051900",
       "name": "LG\uc0dd\ud65c\uac74\uac15",
-      "market_cap": 3886824586000,
-      "score": 72.24,
+      "market_cap": 3902127045000,
+      "score": 72.64,
       "signal": "STRONG_BUY",
       "roe": 1.47,
       "debt_ratio": 10.52
@@ -1091,8 +1091,8 @@
     {
       "code": "028050",
       "name": "\uc0bc\uc131E&A",
-      "market_cap": 10642800000000,
-      "score": 72.21,
+      "market_cap": 11034800000000,
+      "score": 72.31,
       "signal": "STRONG_BUY",
       "roe": 11.69,
       "debt_ratio": 126.98
@@ -1100,7 +1100,7 @@
     {
       "code": "329180",
       "name": "HD\ud604\ub300\uc911\uacf5\uc5c5",
-      "market_cap": 70638904425000,
+      "market_cap": 70009137075000,
       "score": 71.08,
       "signal": "STRONG_BUY",
       "roe": 15.16,
@@ -1109,7 +1109,7 @@
     {
       "code": "015760",
       "name": "\ud55c\uad6d\uc804\ub825",
-      "market_cap": 29434052930450,
+      "market_cap": 28695794241900,
       "score": 70.13,
       "signal": "STRONG_BUY",
       "roe": 27.29,
@@ -1118,44 +1118,44 @@
     {
       "code": "319400",
       "name": "\ud604\ub300\ubb34\ubca1\uc2a4",
-      "market_cap": 3497207624600,
-      "score": 70.07,
-      "signal": "STRONG_BUY",
+      "market_cap": 3491638822650,
+      "score": 69.77,
+      "signal": "BUY",
       "roe": 6.64,
       "debt_ratio": 69.34
     },
     {
       "code": "042660",
       "name": "\ud55c\ud654\uc624\uc158",
-      "market_cap": 40906188099000,
+      "market_cap": 41028753456600,
       "score": 69.54,
       "signal": "BUY",
       "roe": 22.42,
       "debt_ratio": 229.06
     },
     {
-      "code": "450080",
-      "name": "\uc5d0\ucf54\ud504\ub85c\uba38\ud2f0",
-      "market_cap": 6096276345600,
-      "score": 69.54,
-      "signal": "BUY",
-      "roe": 2.11,
-      "debt_ratio": 51.05
-    },
-    {
       "code": "047050",
       "name": "\ud3ec\uc2a4\ucf54\uc778\ud130\ub0b4\uc154\ub110",
-      "market_cap": 14302522664400,
+      "market_cap": 14953436980000,
       "score": 69.42,
       "signal": "BUY",
       "roe": 8.87,
       "debt_ratio": 136.89
     },
     {
+      "code": "450080",
+      "name": "\uc5d0\ucf54\ud504\ub85c\uba38\ud2f0",
+      "market_cap": 6039829342400,
+      "score": 69.24,
+      "signal": "BUY",
+      "roe": 2.11,
+      "debt_ratio": 51.05
+    },
+    {
       "code": "064350",
       "name": "\ud604\ub300\ub85c\ud15c",
-      "market_cap": 25211869683000,
-      "score": 68.97,
+      "market_cap": 26685290638500,
+      "score": 69.07,
       "signal": "BUY",
       "roe": 24.58,
       "debt_ratio": 199.26
@@ -1163,34 +1163,34 @@
     {
       "code": "017670",
       "name": "SK\ud154\ub808\ucf64",
-      "market_cap": 21049425194000,
-      "score": 68.44,
+      "market_cap": 20791677130400,
+      "score": 68.24,
       "signal": "BUY",
       "roe": 3.43,
       "debt_ratio": 109.73
     },
     {
-      "code": "032640",
-      "name": "LG\uc720\ud50c\ub7ec\uc2a4",
-      "market_cap": 7062079872650,
-      "score": 67.18,
-      "signal": "BUY",
-      "roe": 6.08,
-      "debt_ratio": 109.46
-    },
-    {
       "code": "001440",
       "name": "\ub300\ud55c\uc804\uc120",
-      "market_cap": 8119779915000,
-      "score": 67.11,
+      "market_cap": 8557931070000,
+      "score": 67.71,
       "signal": "BUY",
       "roe": 4.87,
       "debt_ratio": 106.46
     },
     {
+      "code": "032640",
+      "name": "LG\uc720\ud50c\ub7ec\uc2a4",
+      "market_cap": 7079273006850,
+      "score": 67.38,
+      "signal": "BUY",
+      "roe": 6.08,
+      "debt_ratio": 109.46
+    },
+    {
       "code": "103140",
       "name": "\ud48d\uc0b0",
-      "market_cap": 2819242366800,
+      "market_cap": 2852871500400,
       "score": 66.85,
       "signal": "BUY",
       "roe": 6.41,
@@ -1199,7 +1199,7 @@
     {
       "code": "112610",
       "name": "\uc528\uc5d0\uc2a4\uc708\ub4dc",
-      "market_cap": 3116466681700,
+      "market_cap": 3065860998100,
       "score": 66.71,
       "signal": "BUY",
       "roe": 4.01,
@@ -1208,8 +1208,8 @@
     {
       "code": "058610",
       "name": "\uc5d0\uc2a4\ud53c\uc9c0",
-      "market_cap": 2947371144000,
-      "score": 65.94,
+      "market_cap": 2996161336000,
+      "score": 66.24,
       "signal": "BUY",
       "roe": 7.53,
       "debt_ratio": 82.0
@@ -1217,8 +1217,8 @@
     {
       "code": "011070",
       "name": "LG\uc774\ub178\ud14d",
-      "market_cap": 12685569352000,
-      "score": 65.67,
+      "market_cap": 13655920739000,
+      "score": 66.17,
       "signal": "BUY",
       "roe": 5.96,
       "debt_ratio": 134.14
@@ -1226,7 +1226,7 @@
     {
       "code": "000250",
       "name": "\uc0bc\ucc9c\ub2f9\uc81c\uc57d",
-      "market_cap": 10438575040000,
+      "market_cap": 10133627904000,
       "score": 65.57,
       "signal": "BUY",
       "roe": 1.39,
@@ -1235,71 +1235,71 @@
     {
       "code": "103590",
       "name": "\uc77c\uc9c4\uc804\uae30",
-      "market_cap": 5240624361000,
+      "market_cap": 5321689524000,
       "score": 65.41,
       "signal": "BUY",
       "roe": 18.48,
       "debt_ratio": 156.41
     },
     {
-      "code": "082740",
-      "name": "\ud55c\ud654\uc5d4\uc9c4",
-      "market_cap": 7385072067000,
-      "score": 64.73,
-      "signal": "BUY",
-      "roe": 31.24,
-      "debt_ratio": 204.92
-    },
-    {
-      "code": "079550",
-      "name": "LIG\ub514\ud39c\uc2a4\uc564\uc5d0\uc5b4\ub85c\uc2a4\ud398\uc774\uc2a4",
-      "market_cap": 20900000000000,
+      "code": "375500",
+      "name": "DL\uc774\uc564\uc528",
+      "market_cap": 3865492937700,
       "score": 64.7,
       "signal": "BUY",
-      "roe": 17.72,
-      "debt_ratio": 447.72
+      "roe": 2.32,
+      "debt_ratio": 63.51
     },
     {
       "code": "031210",
       "name": "\uc11c\uc6b8\ubcf4\uc99d\ubcf4\ud5d8",
-      "market_cap": 3389838582900,
+      "market_cap": 3403802902500,
       "score": 64.67,
       "signal": "BUY",
       "roe": 5.11,
       "debt_ratio": 81.17
     },
     {
-      "code": "375500",
-      "name": "DL\uc774\uc564\uc528",
-      "market_cap": 3803583140900,
-      "score": 64.3,
+      "code": "079550",
+      "name": "LIG\ub514\ud39c\uc2a4\uc564\uc5d0\uc5b4\ub85c\uc2a4\ud398\uc774\uc2a4",
+      "market_cap": 20526000000000,
+      "score": 64.5,
       "signal": "BUY",
-      "roe": 2.32,
-      "debt_ratio": 63.51
+      "roe": 17.72,
+      "debt_ratio": 447.72
     },
     {
-      "code": "000500",
-      "name": "\uac00\uc628\uc804\uc120",
-      "market_cap": 3647756857500,
-      "score": 63.68,
+      "code": "082740",
+      "name": "\ud55c\ud654\uc5d4\uc9c4",
+      "market_cap": 6767563216200,
+      "score": 64.13,
       "signal": "BUY",
-      "roe": 3.05,
-      "debt_ratio": 73.02
+      "roe": 31.24,
+      "debt_ratio": 204.92
     },
     {
       "code": "010140",
       "name": "\uc0bc\uc131\uc911\uacf5\uc5c5",
-      "market_cap": 29436000000000,
+      "market_cap": 29348000000000,
       "score": 63.39,
       "signal": "BUY",
       "roe": 13.28,
       "debt_ratio": 263.18
     },
     {
+      "code": "000500",
+      "name": "\uac00\uc628\uc804\uc120",
+      "market_cap": 3589855955000,
+      "score": 63.28,
+      "signal": "BUY",
+      "roe": 3.05,
+      "debt_ratio": 73.02
+    },
+    {
       "code": "066570",
       "name": "LG\uc804\uc790",
-      "market_cap": 21175230310000,
-      "score": 62.15,
+      "market_cap": 22804094180000,
+      "score": 62.65,
       "signal": "BUY",
       "roe": 8.16,
       "debt_ratio": 178.01
@@ -1307,7 +1307,7 @@
     {
       "code": "039490",
       "name": "\ud0a4\uc6c0\uc99d\uad8c",
-      "market_cap": 11873898288000,
+      "market_cap": 11684714778000,
       "score": 62.09,
       "signal": "BUY",
       "roe": 18.08,
@@ -1316,8 +1316,8 @@
     {
       "code": "003670",
       "name": "\ud3ec\uc2a4\ucf54\ud4e8\ucc98\uc5e0",
-      "market_cap": 22192081890000,
-      "score": 61.85,
+      "market_cap": 23392855860000,
+      "score": 62.05,
       "signal": "BUY",
       "roe": 0.82,
       "debt_ratio": 100.68
@@ -1325,26 +1325,17 @@
     {
       "code": "028670",
       "name": "\ud32c\uc624\uc158",
-      "market_cap": 2972206486720,
+      "market_cap": 2982897876960,
       "score": 61.39,
       "signal": "BUY",
       "roe": 5.29,
       "debt_ratio": 89.98
     },
     {
-      "code": "032820",
-      "name": "\uc6b0\ub9ac\uae30\uc220",
-      "market_cap": 3960878928300,
-      "score": 60.5,
-      "signal": "BUY",
-      "roe": 3.29,
-      "debt_ratio": 98.79
-    },
-    {
       "code": "005830",
       "name": "DB\uc190\ud574\ubcf4\ud5d8",
-      "market_cap": 11220209783700,
-      "score": 60.48,
+      "market_cap": 11364310551500,
+      "score": 60.58,
       "signal": "BUY",
       "roe": 15.57,
       "debt_ratio": 502.84
@@ -1352,16 +1343,25 @@
     {
       "code": "000720",
       "name": "\ud604\ub300\uac74\uc124",
-      "market_cap": 19086378121000,
+      "market_cap": 18607548331500,
       "score": 60.37,
       "signal": "BUY",
       "roe": 3.29,
       "debt_ratio": 144.45
     },
     {
+      "code": "032820",
+      "name": "\uc6b0\ub9ac\uae30\uc220",
+      "market_cap": 3806892274500,
+      "score": 60.0,
+      "signal": "BUY",
+      "roe": 3.29,
+      "debt_ratio": 98.79
+    },
+    {
       "code": "047810",
       "name": "\ud55c\uad6d\ud56d\uacf5\uc6b0\uc8fc",
-      "market_cap": 16736475871900,
+      "market_cap": 16375817976000,
       "score": 58.51,
       "signal": "BUY",
       "roe": 10.26,
@@ -1370,7 +1370,7 @@
     {
       "code": "402340",
       "name": "SK\uc2a4\ud018\uc5b4",
-      "market_cap": 104115166554000,
+      "market_cap": 107018251046000,
       "score": 58.4,
       "signal": "BUY",
       "roe": -1.68,
@@ -1379,7 +1379,7 @@
     {
       "code": "016360",
       "name": "\uc0bc\uc131\uc99d\uad8c",
-      "market_cap": 10064110000000,
+      "market_cap": 9930160000000,
       "score": 58.18,
       "signal": "BUY",
       "roe": 12.71,
@@ -1388,8 +1388,8 @@
     {
       "code": "000810",
       "name": "\uc0bc\uc131\ud654\uc7ac",
-      "market_cap": 20582485053000,
-      "score": 57.49,
+      "market_cap": 21564729459000,
+      "score": 57.69,
       "signal": "BUY",
       "roe": 8.2,
       "debt_ratio": 354.77
@@ -1397,34 +1397,34 @@
     {
       "code": "005940",
       "name": "NH\ud22c\uc790\uc99d\uad8c",
-      "market_cap": 12561139007250,
+      "market_cap": 12489870133450,
       "score": 57.37,
       "signal": "BUY",
       "roe": 10.55,
       "debt_ratio": 826.75
     },
     {
-      "code": "083650",
-      "name": "\ube44\uc5d0\uc774\uce58\uc544\uc774",
-      "market_cap": 3048020937500,
-      "score": 56.94,
-      "signal": "BUY",
-      "roe": 33.6,
-      "debt_ratio": 357.64
-    },
-    {
       "code": "006800",
       "name": "\ubbf8\ub798\uc5d0\uc14b\uc99d\uad8c",
-      "market_cap": 38442244656000,
-      "score": 56.84,
+      "market_cap": 38330331280000,
+      "score": 56.74,
       "signal": "BUY",
       "roe": 5.71,
       "debt_ratio": 944.64
     },
     {
+      "code": "083650",
+      "name": "\ube44\uc5d0\uc774\uce58\uc544\uc774",
+      "market_cap": 3013982125000,
+      "score": 56.74,
+      "signal": "BUY",
+      "roe": 33.6,
+      "debt_ratio": 357.64
+    },
+    {
       "code": "024110",
       "name": "\uae30\uc5c5\uc740\ud589",
-      "market_cap": 17702854291800,
+      "market_cap": 17942082052500,
       "score": 55.56,
       "signal": "BUY",
       "roe": 7.13,
@@ -1433,20 +1433,11 @@
     {
       "code": "003490",
       "name": "\ub300\ud55c\ud56d\uacf5",
-      "market_cap": 9039817227550,
-      "score": 54.14,
+      "market_cap": 8966173095350,
+      "score": 54.04,
       "signal": "HOLD",
       "roe": 8.62,
       "debt_ratio": 243.74
-    },
-    {
-      "code": "0126Z0",
-      "name": "\uc0bc\uc131\uc5d0\ud53c\uc2a4\ud640\ub529\uc2a4",
-      "market_cap": 14083805734000,
-      "score": 53.73,
-      "signal": "HOLD",
-      "roe": -0.05,
-      "debt_ratio": 0.36
     },
     {
       "code": "323410",
@@ -1458,10 +1449,19 @@
       "debt_ratio": 1032.02
     },
     {
+      "code": "0126Z0",
+      "name": "\uc0bc\uc131\uc5d0\ud53c\uc2a4\ud640\ub529\uc2a4",
+      "market_cap": 14133571832000,
+      "score": 53.63,
+      "signal": "HOLD",
+      "roe": -0.05,
+      "debt_ratio": 0.36
+    },
+    {
       "code": "004990",
       "name": "\ub86f\ub370\uc9c0\uc8fc",
-      "market_cap": 2890249504000,
-      "score": 52.97,
+      "market_cap": 2910182259200,
+      "score": 53.07,
       "signal": "HOLD",
       "roe": 1.53,
       "debt_ratio": 84.06
@@ -1469,8 +1469,8 @@
     {
       "code": "032830",
       "name": "\uc0bc\uc131\uc0dd\uba85",
-      "market_cap": 50000000000000,
-      "score": 52.29,
+      "market_cap": 50400000000000,
+      "score": 52.39,
       "signal": "HOLD",
       "roe": 3.01,
       "debt_ratio": 449.39
@@ -1478,8 +1478,8 @@
     {
       "code": "004170",
       "name": "\uc2e0\uc138\uacc4",
-      "market_cap": 3796962762000,
-      "score": 49.97,
+      "market_cap": 3848911257500,
+      "score": 50.37,
       "signal": "HOLD",
       "roe": 1.38,
       "debt_ratio": 118.01
@@ -1487,7 +1487,7 @@
     {
       "code": "029780",
       "name": "\uc0bc\uc131\uce74\ub4dc",
-      "market_cap": 6140521223000,
+      "market_cap": 6210036557600,
       "score": 49.64,
       "signal": "HOLD",
       "roe": 7.28,
@@ -1496,7 +1496,7 @@
     {
       "code": "006400",
       "name": "\uc0bc\uc131SDI",
-      "market_cap": 51171811550000,
+      "market_cap": 54798160400000,
       "score": 48.34,
       "signal": "HOLD",
       "roe": -7.83,
@@ -1505,8 +1505,8 @@
     {
       "code": "023530",
       "name": "\ub86f\ub370\uc1fc\ud551",
-      "market_cap": 3770891041500,
-      "score": 47.87,
+      "market_cap": 3751088913000,
+      "score": 47.97,
       "signal": "HOLD",
       "roe": 0.77,
       "debt_ratio": 112.72
@@ -1514,7 +1514,7 @@
     {
       "code": "454910",
       "name": "\ub450\uc0b0\ub85c\ubcf4\ud2f1\uc2a4",
-      "market_cap": 6566263974000,
+      "market_cap": 6488479998000,
       "score": 47.45,
       "signal": "HOLD",
       "roe": -11.57,
@@ -1523,7 +1523,7 @@
     {
       "code": "141080",
       "name": "\ub9ac\uac00\ucf10\ubc14\uc774\uc624",
-      "market_cap": 7626000108000,
+      "market_cap": 7533451563000,
       "score": 47.42,
       "signal": "HOLD",
       "roe": -10.99,
@@ -1532,8 +1532,8 @@
     {
       "code": "036460",
       "name": "\ud55c\uad6d\uac00\uc2a4\uacf5\uc0ac",
-      "market_cap": 3535587900000,
-      "score": 46.31,
+      "market_cap": 3604822650000,
+      "score": 46.51,
       "signal": "HOLD",
       "roe": 8.4,
       "debt_ratio": 501.74
@@ -1541,8 +1541,8 @@
     {
       "code": "010950",
       "name": "S-Oil",
-      "market_cap": 12992054196800,
-      "score": 44.89,
+      "market_cap": 13363577410400,
+      "score": 44.99,
       "signal": "HOLD",
       "roe": 2.1,
       "debt_ratio": 198.64
@@ -1550,7 +1550,7 @@
     {
       "code": "028300",
       "name": "HLB",
-      "market_cap": 8240901997600,
+      "market_cap": 8374034501600,
       "score": 44.36,
       "signal": "HOLD",
       "roe": -15.76,
@@ -1559,8 +1559,8 @@
     {
       "code": "352820",
       "name": "\ud558\uc774\ube0c",
-      "market_cap": 10775562250000,
-      "score": 44.21,
+      "market_cap": 10710908876500,
+      "score": 44.11,
       "signal": "HOLD",
       "roe": -5.28,
       "debt_ratio": 40.47
@@ -1568,53 +1568,44 @@
     {
       "code": "087010",
       "name": "\ud3a9\ud2b8\ub860",
-      "market_cap": 6598810050000,
-      "score": 43.99,
+      "market_cap": 6307343175000,
+      "score": 43.49,
       "signal": "HOLD",
       "roe": -9.73,
       "debt_ratio": 26.03
     },
     {
-      "code": "347850",
-      "name": "\ub514\uc564\ub514\ud30c\ub9c8\ud14d",
-      "market_cap": 3583179224600,
-      "score": 43.64,
-      "signal": "HOLD",
-      "roe": -2.04,
-      "debt_ratio": 2.31
-    },
-    {
       "code": "001720",
       "name": "\uc2e0\uc601\uc99d\uad8c",
-      "market_cap": 3361980000000,
-      "score": 43.63,
+      "market_cap": 3320880000000,
+      "score": 43.43,
       "signal": "HOLD",
       "roe": 7.11,
       "debt_ratio": 490.52
     },
     {
+      "code": "347850",
+      "name": "\ub514\uc564\ub514\ud30c\ub9c8\ud14d",
+      "market_cap": 3447386368900,
+      "score": 42.64,
+      "signal": "HOLD",
+      "roe": -2.04,
+      "debt_ratio": 2.31
+    },
+    {
       "code": "139480",
       "name": "\uc774\ub9c8\ud2b8",
-      "market_cap": 2927916395900,
-      "score": 42.53,
+      "market_cap": 2947233469200,
+      "score": 42.63,
       "signal": "HOLD",
       "roe": 0.53,
       "debt_ratio": 112.59
     },
     {
-      "code": "097230",
-      "name": "HJ\uc911\uacf5\uc5c5",
-      "market_cap": 2799155664000,
-      "score": 41.79,
-      "signal": "HOLD",
-      "roe": 7.66,
-      "debt_ratio": 265.86
-    },
-    {
       "code": "263750",
       "name": "\ud384\uc5b4\ube44\uc2a4",
-      "market_cap": 3867720871000,
-      "score": 41.77,
+      "market_cap": 3893420013000,
+      "score": 42.17,
       "signal": "HOLD",
       "roe": -7.69,
       "debt_ratio": 17.17
@@ -1622,34 +1613,34 @@
     {
       "code": "000880",
       "name": "\ud55c\ud654",
-      "market_cap": 9292943724200,
-      "score": 40.14,
+      "market_cap": 9102572342900,
+      "score": 40.24,
       "signal": "HOLD",
       "roe": 1.35,
       "debt_ratio": 209.65
     },
     {
-      "code": "226950",
-      "name": "\uc62c\ub9ad\uc2a4",
-      "market_cap": 3989064559500,
-      "score": 39.47,
-      "signal": "WATCH",
-      "roe": -10.82,
-      "debt_ratio": 31.65
-    },
-    {
       "code": "020150",
       "name": "\ub86f\ub370\uc5d0\ub108\uc9c0\uba38\ud2f0\ub9ac\uc5bc\uc988",
-      "market_cap": 3513722567300,
-      "score": 39.05,
+      "market_cap": 3529432206200,
+      "score": 38.95,
       "signal": "WATCH",
       "roe": -5.85,
       "debt_ratio": 23.26
     },
     {
+      "code": "226950",
+      "name": "\uc62c\ub9ad\uc2a4",
+      "market_cap": 3761698029900,
+      "score": 38.67,
+      "signal": "WATCH",
+      "roe": -10.82,
+      "debt_ratio": 31.65
+    },
+    {
       "code": "088350",
       "name": "\ud55c\ud654\uc0dd\uba85",
-      "market_cap": 4268824950000,
+      "market_cap": 4320936750000,
       "score": 38.66,
       "signal": "WATCH",
       "roe": 2.51,
@@ -1658,8 +1649,8 @@
     {
       "code": "373220",
       "name": "LG\uc5d0\ub108\uc9c0\uc194\ub8e8\uc158",
-      "market_cap": 108576000000000,
-      "score": 38.48,
+      "market_cap": 110448000000000,
+      "score": 38.38,
       "signal": "WATCH",
       "roe": -3.78,
       "debt_ratio": 105.59
@@ -1667,8 +1658,8 @@
     {
       "code": "302440",
       "name": "SK\ubc14\uc774\uc624\uc0ac\uc774\uc5b8\uc2a4",
-      "market_cap": 3436397021400,
-      "score": 37.77,
+      "market_cap": 3405014400200,
+      "score": 37.57,
       "signal": "WATCH",
       "roe": -3.35,
       "debt_ratio": 26.64
@@ -1676,8 +1667,8 @@
     {
       "code": "489790",
       "name": "\ud55c\ud654\ube44\uc804",
-      "market_cap": 4483369032000,
-      "score": 37.25,
+      "market_cap": 4367245735000,
+      "score": 37.15,
       "signal": "WATCH",
       "roe": -3.32,
       "debt_ratio": 45.24
@@ -1685,26 +1676,17 @@
     {
       "code": "298380",
       "name": "\uc5d0\uc774\ube44\uc5d8\ubc14\uc774\uc624",
-      "market_cap": 9669034860100,
-      "score": 36.07,
+      "market_cap": 7804652342200,
+      "score": 34.87,
       "signal": "WATCH",
       "roe": -23.19,
       "debt_ratio": 78.65
     },
     {
-      "code": "310210",
-      "name": "\ubcf4\ub85c\ub178\uc774",
-      "market_cap": 5631064326000,
-      "score": 34.58,
-      "signal": "WATCH",
-      "roe": -40.87,
-      "debt_ratio": 64.59
-    },
-    {
       "code": "004020",
       "name": "\ud604\ub300\uc81c\ucca0",
-      "market_cap": 5811563936750,
-      "score": 34.53,
+      "market_cap": 5884959118500,
+      "score": 34.73,
       "signal": "WATCH",
       "roe": -0.22,
       "debt_ratio": 65.84
@@ -1712,16 +1694,25 @@
     {
       "code": "457190",
       "name": "\uc774\uc218\uc2a4\ud398\uc15c\ud2f0\ucf00\ubbf8\uceec",
-      "market_cap": 3680658609600,
-      "score": 34.41,
+      "market_cap": 3732030692000,
+      "score": 34.51,
       "signal": "WATCH",
       "roe": 0.65,
       "debt_ratio": 175.48
     },
     {
+      "code": "310210",
+      "name": "\ubcf4\ub85c\ub178\uc774",
+      "market_cap": 5511450214500,
+      "score": 34.38,
+      "signal": "WATCH",
+      "roe": -40.87,
+      "debt_ratio": 64.59
+    },
+    {
       "code": "009830",
       "name": "\ud55c\ud654\uc194\ub8e8\uc158",
-      "market_cap": 8629005307200,
+      "market_cap": 8491491278400,
       "score": 33.14,
       "signal": "WATCH",
       "roe": -1.44,
@@ -1730,8 +1721,8 @@
     {
       "code": "011170",
       "name": "\ub86f\ub370\ucf00\ubbf8\uce7c",
-      "market_cap": 3943893631800,
-      "score": 32.62,
+      "market_cap": 4042277095500,
+      "score": 32.92,
       "signal": "WATCH",
       "roe": -8.78,
       "debt_ratio": 64.41
@@ -1739,8 +1730,8 @@
     {
       "code": "006360",
       "name": "GS\uac74\uc124",
-      "market_cap": 3487445717500,
-      "score": 31.93,
+      "market_cap": 3632934250500,
+      "score": 32.73,
       "signal": "WATCH",
       "roe": 0.88,
       "debt_ratio": 188.92
@@ -1748,8 +1739,8 @@
     {
       "code": "018880",
       "name": "\ud55c\uc628\uc2dc\uc2a4\ud15c",
-      "market_cap": 4371878471520,
-      "score": 28.73,
+      "market_cap": 4515555228800,
+      "score": 28.93,
       "signal": "WATCH",
       "roe": -5.68,
       "debt_ratio": 87.33
@@ -1757,16 +1748,25 @@
     {
       "code": "178320",
       "name": "\uc11c\uc9c4\uc2dc\uc2a4\ud15c",
-      "market_cap": 2991946058700,
-      "score": 21.6,
+      "market_cap": 3051428087700,
+      "score": 21.8,
       "signal": "PASS",
       "roe": -5.86,
       "debt_ratio": 98.5
     },
     {
+      "code": "120110",
+      "name": "\ucf54\uc624\ub871\uc778\ub354",
+      "market_cap": 2994603200000,
+      "score": 21.42,
+      "signal": "PASS",
+      "roe": -1.14,
+      "debt_ratio": 98.4
+    },
+    {
       "code": "011790",
       "name": "SKC",
-      "market_cap": 4722176760600,
+      "market_cap": 4710816271200,
       "score": 20.42,
       "signal": "PASS",
       "roe": -67.25,
@@ -1775,8 +1775,8 @@
     {
       "code": "097950",
       "name": "CJ\uc81c\uc77c\uc81c\ub2f9",
-      "market_cap": 3522679524000,
-      "score": 17.19,
+      "market_cap": 3507625338000,
+      "score": 16.79,
       "signal": "PASS",
       "roe": -12.95,
       "debt_ratio": 133.05
@@ -1784,8 +1784,8 @@
     {
       "code": "047040",
       "name": "\ub300\uc6b0\uac74\uc124",
-      "market_cap": 13642133581600,
-      "score": 13.7,
+      "market_cap": 15265218751700,
+      "score": 14.1,
       "signal": "PASS",
       "roe": -37.34,
       "debt_ratio": 359.46
@@ -1793,8 +1793,8 @@
     {
       "code": "950160",
       "name": "\ucf54\uc624\ub871\ud2f0\uc288\uc9c4",
-      "market_cap": 8727813150000,
-      "score": 11.2,
+      "market_cap": 9041336535000,
+      "score": 11.5,
       "signal": "PASS",
       "roe": -303.22,
       "debt_ratio": 561.65
@@ -1802,7 +1802,7 @@
     {
       "code": "066970",
       "name": "\uc5d8\uc564\uc5d0\ud504",
-      "market_cap": 8234623812000,
+      "market_cap": 8274989615000,
       "score": 10.8,
       "signal": "PASS",
       "roe": -76.0,
@@ -1811,8 +1811,8 @@
     {
       "code": "222800",
       "name": "\uc2ec\ud14d",
-      "market_cap": 3211430748000,
-      "score": 10.06,
+      "market_cap": 3230101857000,
+      "score": 10.16,
       "signal": "PASS",
       "roe": -25.64,
       "debt_ratio": 159.72
@@ -1820,8 +1820,8 @@
     {
       "code": "034220",
       "name": "LG\ub514\uc2a4\ud50c\ub808\uc774",
-      "market_cap": 6325000000000,
-      "score": 8.7,
+      "market_cap": 6375000000000,
+      "score": 8.9,
       "signal": "PASS",
       "roe": -2.6,
       "debt_ratio": 557.82
@@ -1829,7 +1829,7 @@
     {
       "code": "440110",
       "name": "\ud30c\ub450",
-      "market_cap": 4071128963100,
+      "market_cap": 4086151579200,
       "score": 5.9,
       "signal": "PASS",
       "roe": -487.18,
@@ -1838,8 +1838,8 @@
     {
       "code": "336260",
       "name": "\ub450\uc0b0\ud4e8\uc5bc\uc140",
-      "market_cap": 3327081280800,
-      "score": 2.6,
+      "market_cap": 3444969987600,
+      "score": 3.0,
       "signal": "PASS",
       "roe": -34.84,
       "debt_ratio": 221.46
@@ -1847,8 +1847,8 @@
     {
       "code": "140410",
       "name": "\uba54\uc9c0\uc628",
-      "market_cap": 2793040147300,
-      "score": 0.1,
+      "market_cap": 2820393097600,
+      "score": 0.2,
       "signal": "PASS",
       "roe": -218.45,
       "debt_ratio": 408.5
@@ -1856,7 +1856,7 @@
     {
       "code": "005935",
       "name": "\uc0bc\uc131\uc804\uc790\uc6b0",
-      "market_cap": 128459629600300,
+      "market_cap": 128379392480000,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": null,
@@ -1865,7 +1865,7 @@
     {
       "code": "005387",
       "name": "\ud604\ub300\ucc282\uc6b0B",
-      "market_cap": 8740982500000,
+      "market_cap": 9090621800000,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": null,
@@ -1874,7 +1874,7 @@
     {
       "code": "005385",
       "name": "\ud604\ub300\ucc28\uc6b0",
-      "market_cap": 5893592400000,
+      "market_cap": 6103661040000,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": null,
@@ -1883,7 +1883,7 @@
     {
       "code": "088980",
       "name": "\ub9e5\ucffc\ub9ac\uc778\ud504\ub77c",
-      "market_cap": 5445343060410,
+      "market_cap": 5469289160060,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": null,
@@ -1892,7 +1892,7 @@
     {
       "code": "00680K",
       "name": "\ubbf8\ub798\uc5d0\uc14b\uc99d\uad8c2\uc6b0B",
-      "market_cap": 2770950000000,
+      "market_cap": 2784600000000,
       "score": 0,
       "signal": "KRX_ONLY",
       "roe": null,
