@@ -1,4 +1,6 @@
 .env
 __pycache__/
 *.pyc
-
+engine/data.json
+engine/data.json.bak
+engine/history.csv
