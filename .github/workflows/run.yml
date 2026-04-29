@@ -1,0 +1,57 @@
+name: Stock Engine
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5"   # KST 07:00 (UTC 22:00)
+    - cron: "0 11 * * 1-5"   # KST 20:00 (UTC 11:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-engine
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - run: |
+          pip install -U pip
+          pip install -r requirements.txt
+
+      - run: python engine/engine.py
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
+      - run: |
+          python - <<EOF
+          import json, sys
+          d = json.load(open("data.json"))
+          if len(d.get("all", [])) < 10:
+              print("[FAIL]")
+              sys.exit(1)
+          print("[OK]")
+          EOF
+
+      - run: |
+          git config user.name "choonsimi-bot"
+          git config user.email "bot@choonsimi.com"
+
+          git add data.json corp_map.json
+
+          git commit -m "update: $(date '+%Y-%m-%d %H:%M')" || echo "no changes"
+
+          git pull --rebase origin main
+          git push origin main
