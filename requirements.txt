@@ -1,7 +1,2 @@
 requests
 workalendar
-pandas
-numpy
-beautifulsoup4
-lxml
-yfinance
