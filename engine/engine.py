@@ -161,8 +161,9 @@ def main():
         m, l, r, close = features(s)
         
         # corp_code 매핑
-        corp_info = corp_map.get(code, {})
-        corp_code = corp_info.get("corp_code", "")
+        corp_code_raw = corp_map.get(code, ")
+        corp_code = corp_code_raw if isinstance .get(corp_code_raw, str)
+        else corp_code_raw.get("corp_code", ")
         
         # DART 점수 계산
         dart_score = get_dart_financial(corp_code, dart_key)
