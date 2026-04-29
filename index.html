@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CHOONSIMI AI STOCK</title>
+
+<style>
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+  background:#f5f6fa;
+}
+.container{
+  max-width:480px;
+  margin:0 auto;
+  padding-bottom:80px;
+}
+header{
+  background:linear-gradient(135deg,#1e3a8a,#7c3aed);
+  color:#fff;
+  padding:18px;
+  border-radius:0 0 16px 16px;
+}
+.title{font-size:17px;font-weight:800;}
+.sub{font-size:12px;opacity:0.85;margin-top:4px;}
+.card{
+  background:#fff;
+  margin:10px 12px;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid #e5e7eb;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+  position:relative;
+  cursor:pointer;
+}
+.top{display:flex;justify-content:space-between;align-items:center;}
+.name-wrap{display:flex;align-items:center;gap:6px;}
+.name{font-size:14px;font-weight:800;}
+.ticker{
+  font-size:10px;
+  background:#eef2ff;
+  color:#4f46e5;
+  padding:2px 6px;
+  border-radius:6px;
+  font-weight:700;
+}
+.select-btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size:14px;
+  color:#cbd5e1;
+  cursor:pointer;
+}
+.select-btn.active{color:#f59e0b;}
+.state{margin-top:6px;font-size:12px;font-weight:700;}
+.up{color:#10b981;}
+.mid{color:#f59e0b;}
+.down{color:#ef4444;}
+.bar{
+  height:3px;
+  background:#e2e8f0;
+  border-radius:2px;
+  margin-top:6px;
+  overflow:hidden;
+}
+.fill{
+  height:100%;
+  background:linear-gradient(90deg,#ef4444,#f59e0b,#10b981);
+}
+.summary{
+  margin-top:6px;
+  display:flex;
+  flex-wrap:nowrap;
+  gap:6px;
+  font-size:10px;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.item{
+  flex:1;
+  min-width:0;
+  background:#f8fafc;
+  padding:3px 6px;
+  border-radius:6px;
+  display:flex;
+  justify-content:space-between;
+}
+.item b{font-weight:800;}
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.45);
+  display:none;
+  justify-content:center;
+  align-items:center;
+}
+.box{
+  width:90%;
+  max-width:400px;
+  background:#fff;
+  border-radius:14px;
+  padding:16px;
+}
+.close{float:right;cursor:pointer;font-size:18px;}
+.score{font-size:28px;font-weight:900;margin:10px 0;}
+.row{display:flex;justify-content:space-between;font-size:12px;margin:6px 0;}
+.note{font-size:10px;color:#94a3b8;margin-top:10px;}
+.loading{text-align:center;padding:40px;color:#64748b;}
+.error{text-align:center;padding:40px;color:#ef4444;}
+</style>
+</head>
+
+<body>
+<div class="container">
+<header>
+  <div class="title">CHOONSIMI AI STOCK</div>
+  <div class="sub">DART + AI 실시간 분석 시스템</div>
+</header>
+<div id="list"><div class="loading">데이터 불러오는 중...</div></div>
+</div>
+
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="box" id="box"></div>
+</div>
+
+<script>
+let selected = {};
+let data = [];
+
+/* ✔ data.json 로드 + 캐싱 방지 */
+async function loadData(){
+  try{
+    const res = await fetch(`./data.json?t=${Date.now()}`);
+    if(!res.ok) throw new Error('data.json 로드 실패');
+    const raw = await res.json();
+    data = (raw.top10 || []).map(calc).sort((a,b)=>b.final_score-a.final_score);
+    render();
+  }catch(e){
+    document.getElementById("list").innerHTML = `<div class="error">데이터 로드 실패<br><small>${e.message}</small></div>`;
+    console.error(e);
+  }
+}
+
+/* ✔ 점수 계산: engine.py 스키마 호환 */
+function calc(s){
+  // engine.py가 volume, foreign, inst를 안 주면 기본값 0 처리
+  const volume = s.volume || 0;
+  const foreign = s.foreign || 0;
+  const inst = s.inst || 0;
+  const tech = s.tech || 70;
+  const news = s.news || 0;
+  const risk = s.risk || 30;
+
+  const baseAI =
+    (volume*25) +
+    (foreign*25) +
+    (inst*20) +
+    (tech*0.25) +
+    (news*10);
+
+  const dartScore = s.dart_score || 0;
+  const finalScore = Math.min(100, Math.round(baseAI * 0.6 + dartScore * 4)); // DART 가중치 4배
+
+  return {
+   ...s,
+    ticker: s.code || s.ticker || '',
+    name: s.name || s.code || 'Unknown',
+    base_ai: Math.round(baseAI),
+    dart_score: Math.round(dartScore * 10) / 10,
+    final_score: finalScore,
+    volume, foreign, inst, tech, news, risk
+  };
+}
+
+/* ✔ 선택 기능 */
+function toggleSelect(ticker){
+  selected[ticker] =!selected[ticker];
+  render();
+}
+
+/* ✔ 팝업 */
+function openModal(ticker){
+  const s = data.find(x=>x.ticker===ticker);
+  if(!s) return;
+
+  document.getElementById("box").innerHTML = `
+  <div class="close" onclick="closeModal()">×</div>
+  <h3>${s.name}</h3>
+  <div style="font-size:11px;color:#64748b">${s.ticker}</div>
+  <div class="score">${s.final_score}/100</div>
+  <div style="font-size:11px;color:#64748b;margin-bottom:10px;">
+    AI ${s.base_ai} + DART ${s.dart_score} = ${s.final_score}
+  </div>
+  <div class="row"><span>📊 거래량</span><span>${s.volume}</span></div>
+  <div class="row"><span>💰 외국인</span><span>${s.foreign}</span></div>
+  <div class="row"><span>🏦 기관</span><span>${s.inst}</span></div>
+  <div class="row"><span>📉 기술</span><span>${s.tech}</span></div>
+  <div class="row"><span>🏛 DART 공시</span><span>${s.dart_score}/10</span></div>
+  <div class="row"><span>⚠️ 리스크</span><span>${s.risk}%</span></div>
+  <hr>
+  <div class="row"><span>📈 예상 상승</span><span>+${(s.final_score*0.06).toFixed(1)}%</span></div>
+  <div class="note">전일 종가 + DART 공시 기반 AI 분석 참고용</div>
+  `;
+  document.getElementById("modal").style.display="flex";
+}
+
+function closeModal(){
+  document.getElementById("modal").style.display="none";
+}
+
+/* ✔ 렌더 */
+function render(){
+  if(data.length===0){
+    document.getElementById("list").innerHTML = '<div class="loading">데이터가 없습니다</div>';
+    return;
+  }
+
+  document.getElementById("list").innerHTML = data.map(s=>{
+    const isSel = selected[s.ticker];
+    const statusClass = s.final_score>=70?'up':s.final_score>=50?'mid':'down';
+    const statusText = s.final_score>=70?'🟢 상승':s.final_score>=50?'🟡 관망':'🔴 약세';
+
+    return `
+    <div class="card" onclick="openModal('${s.ticker}')">
+      <div class="select-btn ${isSel?'active':''}" onclick="event.stopPropagation();toggleSelect('${s.ticker}')">★</div>
+      <div class="top">
+        <div class="name-wrap">
+          <div class="name">${s.name}</div>
+          <div class="ticker">${s.ticker}</div>
+        </div>
+      </div>
+      <div class="state ${statusClass}">${statusText}</div>
+      <div class="bar"><div class="fill" style="width:${s.final_score}%"></div></div>
+      <div class="summary">
+        <div class="item">AI <b>${s.base_ai}</b></div>
+        <div class="item">DART <b style="color:${s.dart_score>0?'#10b981':'#94a3b8'}">${s.dart_score}</b></div>
+        <div class="item">수급 <b>${(s.volume+s.foreign+s.inst).toFixed(1)}</b></div>
+        <div class="item">기술 <b>${s.tech}</b></div>
+        <div class="item">리스크 <b>${s.risk}%</b></div>
+      </div>
+    </div>
+    `;
+  }).join("");
+}
+
+loadData();
+</script>
+</body>
+</html>
