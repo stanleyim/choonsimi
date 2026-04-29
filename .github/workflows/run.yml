@@ -1,0 +1,106 @@
+name: Stock Engine
+
+on:
+  schedule:
+    - cron: "57 22 * * 1-5"   # KST 07:57
+    - cron: "57 11 * * 1-5"   # KST 20:57
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-engine
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./engine
+
+    steps:
+      # ---------- 코드 가져오기 ----------
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # ---------- Python ----------
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      # ---------- 의존성 ----------
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+
+      # ---------- corp_map 보호 ----------
+      - name: Build corp map (only if missing)
+        run: |
+          if [ ! -f corp_map.json ]; then
+            echo "[INFO] corp_map.json not found → building"
+            python build_corp_map.py
+          else
+            echo "[INFO] corp_map.json exists → skip build"
+          fi
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
+      # ---------- 엔진 실행 ----------
+      - name: Run Stock Engine
+        run: |
+          echo "[RUN] engine.py"
+          python engine.py
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+
+      # ---------- 데이터 검증 ----------
+      - name: Validate output
+        run: |
+          python - <<EOF
+          import json, sys
+          try:
+              d = json.load(open("data.json"))
+              if len(d.get("all", [])) < 50:
+                  print("[FAIL] too few stocks")
+                  sys.exit(1)
+              top = d["all"][0]
+              if top.get("score", 0) <= 0:
+                  print("[FAIL] invalid score")
+                  sys.exit(1)
+              print(f"[OK] {len(d['all'])} stocks")
+              print(f"Top1: {top['name']} / score:{top['score']} / DART:{top.get('dart_score')}")
+          except Exception as e:
+              print("[FAIL]", e)
+              sys.exit(1)
+          EOF
+
+      # ✅ 핵심: engine/data.json → 루트 data.json 복사
+      - name: Copy data to root
+        working-directory: .
+        run: |
+          cp engine/data.json data.json
+          echo "=== data.json 확인 ==="
+          head -5 data.json
+
+      # ---------- 커밋 ----------
+      - name: Commit results
+        working-directory: .
+        run: |
+          git config user.name "choonsimi-bot"
+          git config user.email "bot@choonsimi.com"
+
+          git add -f data.json engine/history.csv engine/corp_map.json
+
+          git diff --staged --quiet && echo "no changes, skip commit" && exit 0
+
+          git commit -m "update: $(date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --strategy-option=theirs origin main
+          git push origin main
