@@ -1,274 +1,267 @@
 {
-  "time": "2026-04-29T21:19:00.294494",
-  "data_date": "20260428",
+  "time": "2026-04-29T23:32:21.196921",
+  "data_date": "20260429",
   "top10": [
     {
       "code": "001040",
       "name": "CJ",
-      "score": 79.7462,
+      "score": 79.7665,
       "dart_score": 59.55,
-      "close": 222000
+      "close": 227500
     },
     {
       "code": "009540",
       "name": "HD한국조선해양",
-      "score": 79.5953,
+      "score": 79.5818,
       "dart_score": 59.71,
-      "close": 468500
+      "close": 472000
     },
     {
       "code": "000210",
       "name": "DL",
-      "score": 79.4011,
+      "score": 79.5575,
       "dart_score": 59.64,
-      "close": 70400
-    },
-    {
-      "code": "027410",
-      "name": "BGF",
-      "score": 79.3767,
-      "dart_score": 59.89,
-      "close": 5100
-    },
-    {
-      "code": "499790",
-      "name": "GS피앤엘",
-      "score": 79.3695,
-      "dart_score": 60.0,
-      "close": 55900
+      "close": 76800
     },
     {
       "code": "078930",
       "name": "GS",
-      "score": 79.354,
+      "score": 79.5173,
       "dart_score": 59.73,
-      "close": 76800
+      "close": 82100
+    },
+    {
+      "code": "499790",
+      "name": "GS피앤엘",
+      "score": 79.5046,
+      "dart_score": 60.0,
+      "close": 59000
+    },
+    {
+      "code": "027410",
+      "name": "BGF",
+      "score": 79.4999,
+      "dart_score": 59.89,
+      "close": 5300
     },
     {
       "code": "365550",
       "name": "ESR켄달스퀘어리츠",
-      "score": 78.8565,
+      "score": 78.9909,
       "dart_score": 59.82,
-      "close": 4580
-    },
-    {
-      "code": "005490",
-      "name": "POSCO홀딩스",
-      "score": 78.8549,
-      "dart_score": 59.86,
-      "close": 466500
+      "close": 4380
     },
     {
       "code": "012630",
       "name": "HDC",
-      "score": 78.7398,
+      "score": 78.7627,
       "dart_score": 59.65,
-      "close": 27900
+      "close": 28800
     },
     {
       "code": "007700",
       "name": "F&F 홀딩스",
-      "score": 78.7305,
+      "score": 78.7009,
       "dart_score": 59.96,
-      "close": 19650
+      "close": 19430
+    },
+    {
+      "code": "005490",
+      "name": "POSCO홀딩스",
+      "score": 78.6349,
+      "dart_score": 59.86,
+      "close": 469000
     }
   ],
   "all": [
     {
       "code": "001040",
       "name": "CJ",
-      "score": 79.7462,
+      "score": 79.7665,
       "dart_score": 59.55,
-      "close": 222000
+      "close": 227500
     },
     {
       "code": "009540",
       "name": "HD한국조선해양",
-      "score": 79.5953,
+      "score": 79.5818,
       "dart_score": 59.71,
-      "close": 468500
+      "close": 472000
     },
     {
       "code": "000210",
       "name": "DL",
-      "score": 79.4011,
+      "score": 79.5575,
       "dart_score": 59.64,
-      "close": 70400
-    },
-    {
-      "code": "027410",
-      "name": "BGF",
-      "score": 79.3767,
-      "dart_score": 59.89,
-      "close": 5100
-    },
-    {
-      "code": "499790",
-      "name": "GS피앤엘",
-      "score": 79.3695,
-      "dart_score": 60.0,
-      "close": 55900
+      "close": 76800
     },
     {
       "code": "078930",
       "name": "GS",
-      "score": 79.354,
+      "score": 79.5173,
       "dart_score": 59.73,
-      "close": 76800
+      "close": 82100
+    },
+    {
+      "code": "499790",
+      "name": "GS피앤엘",
+      "score": 79.5046,
+      "dart_score": 60.0,
+      "close": 59000
+    },
+    {
+      "code": "027410",
+      "name": "BGF",
+      "score": 79.4999,
+      "dart_score": 59.89,
+      "close": 5300
     },
     {
       "code": "365550",
       "name": "ESR켄달스퀘어리츠",
-      "score": 78.8565,
+      "score": 78.9909,
       "dart_score": 59.82,
-      "close": 4580
-    },
-    {
-      "code": "005490",
-      "name": "POSCO홀딩스",
-      "score": 78.8549,
-      "dart_score": 59.86,
-      "close": 466500
+      "close": 4380
     },
     {
       "code": "012630",
       "name": "HDC",
-      "score": 78.7398,
+      "score": 78.7627,
       "dart_score": 59.65,
-      "close": 27900
+      "close": 28800
     },
     {
       "code": "007700",
       "name": "F&F 홀딩스",
-      "score": 78.7305,
+      "score": 78.7009,
       "dart_score": 59.96,
-      "close": 19650
+      "close": 19430
     },
     {
-      "code": "003550",
-      "name": "LG",
-      "score": 78.5763,
-      "dart_score": 59.77,
-      "close": 98200
+      "code": "005490",
+      "name": "POSCO홀딩스",
+      "score": 78.6349,
+      "dart_score": 59.86,
+      "close": 469000
     },
     {
       "code": "383220",
       "name": "F&F",
-      "score": 78.5497,
+      "score": 78.6328,
       "dart_score": 59.28,
-      "close": 67000
+      "close": 67600
+    },
+    {
+      "code": "003550",
+      "name": "LG",
+      "score": 78.5338,
+      "dart_score": 59.77,
+      "close": 98300
     },
     {
       "code": "006260",
       "name": "LS",
-      "score": 78.5205,
+      "score": 78.4477,
       "dart_score": 59.55,
-      "close": 402500
+      "close": 418500
     },
     {
       "code": "010060",
       "name": "OCI홀딩스",
-      "score": 78.5114,
+      "score": 78.4287,
       "dart_score": 59.83,
-      "close": 367500
+      "close": 371500
     },
     {
       "code": "402340",
       "name": "SK스퀘어",
-      "score": 78.3101,
+      "score": 78.3837,
       "dart_score": 59.77,
-      "close": 811000
+      "close": 830000
     },
     {
       "code": "267250",
       "name": "HD현대",
-      "score": 78.1968,
+      "score": 78.3579,
       "dart_score": 58.7,
-      "close": 280500
+      "close": 301000
     },
     {
       "code": "000480",
       "name": "시알홀딩스",
-      "score": 78.0321,
+      "score": 78.0512,
       "dart_score": 59.35,
-      "close": 5070
-    },
-    {
-      "code": "035420",
-      "name": "NAVER",
-      "score": 77.8914,
-      "dart_score": 59.17,
-      "close": 219500
+      "close": 5120
     },
     {
       "code": "001940",
       "name": "KISCO홀딩스",
-      "score": 77.856,
+      "score": 77.873,
       "dart_score": 59.9,
-      "close": 27650
+      "close": 27150
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "score": 77.8697,
+      "dart_score": 59.17,
+      "close": 220000
     },
     {
       "code": "092230",
       "name": "KPX홀딩스",
-      "score": 77.7953,
+      "score": 77.7909,
       "dart_score": 59.89,
-      "close": 89300
+      "close": 90500
     },
     {
       "code": "383800",
       "name": "LX홀딩스",
-      "score": 77.7272,
+      "score": 77.668,
       "dart_score": 59.92,
-      "close": 9220
+      "close": 9290
     },
     {
       "code": "000660",
       "name": "SK하이닉스",
-      "score": 77.3314,
+      "score": 77.3299,
       "dart_score": 58.75,
-      "close": 1300000
+      "close": 1293000
     },
     {
       "code": "181710",
       "name": "NHN",
-      "score": 76.758,
+      "score": 76.9447,
       "dart_score": 59.11,
-      "close": 41200
+      "close": 42100
     },
     {
       "code": "326030",
       "name": "에스케이바이오팜",
-      "score": 76.7376,
+      "score": 76.6798,
       "dart_score": 59.11,
-      "close": 102600
-    },
-    {
-      "code": "025530",
-      "name": "에스제이엠홀딩스",
-      "score": 76.4223,
-      "dart_score": 59.73,
-      "close": 3880
+      "close": 101800
     },
     {
       "code": "096770",
       "name": "SK이노베이션",
-      "score": 76.3384,
+      "score": 76.6392,
       "dart_score": 58.54,
-      "close": 133000
+      "close": 149800
+    },
+    {
+      "code": "025530",
+      "name": "에스제이엠홀딩스",
+      "score": 76.2486,
+      "dart_score": 59.73,
+      "close": 3880
     },
     {
       "code": "015360",
       "name": "INVENI",
-      "score": 76.2609,
+      "score": 76.1919,
       "dart_score": 58.05,
-      "close": 16640
-    },
-    {
-      "code": "096760",
-      "name": "JW홀딩스",
-      "score": 75.6528,
-      "dart_score": 57.78,
-      "close": 4335
+      "close": 16360
     },
     {
       "code": "009440",
@@ -278,284 +271,291 @@
       "close": 756
     },
     {
+      "code": "096760",
+      "name": "JW홀딩스",
+      "score": 75.5141,
+      "dart_score": 57.78,
+      "close": 4380
+    },
+    {
       "code": "006840",
       "name": "AK홀딩스",
-      "score": 75.2841,
+      "score": 75.2885,
       "dart_score": 56.8,
-      "close": 8570
+      "close": 8640
     },
     {
       "code": "002100",
       "name": "경농",
-      "score": 74.9305,
+      "score": 74.8826,
       "dart_score": 58.65,
-      "close": 10260
+      "close": 10160
     },
     {
       "code": "006120",
       "name": "SK디스커버리",
-      "score": 74.6486,
+      "score": 74.8029,
       "dart_score": 57.75,
-      "close": 57200
+      "close": 59000
     },
     {
       "code": "011200",
       "name": "HMM",
-      "score": 73.7589,
+      "score": 73.7033,
       "dart_score": 55.44,
       "close": 20750
     },
     {
       "code": "000990",
       "name": "DB하이텍",
-      "score": 73.4036,
+      "score": 73.4505,
       "dart_score": 54.28,
-      "close": 154700
+      "close": 152600
     },
     {
       "code": "443060",
       "name": "HD현대마린솔루션",
-      "score": 73.1553,
+      "score": 73.2569,
       "dart_score": 54.41,
-      "close": 276000
+      "close": 268500
     },
     {
       "code": "033780",
       "name": "케이티앤지",
-      "score": 72.8176,
+      "score": 72.7633,
       "dart_score": 54.82,
-      "close": 178000
+      "close": 176500
     },
     {
       "code": "267260",
       "name": "HD현대일렉트릭",
-      "score": 71.8049,
+      "score": 71.6791,
       "dart_score": 52.98,
-      "close": 1238000
+      "close": 1260000
     },
     {
       "code": "035250",
       "name": "강원랜드",
-      "score": 69.6206,
+      "score": 69.5445,
       "dart_score": 53.81,
-      "close": 17320
+      "close": 17200
     },
     {
       "code": "030190",
       "name": "NICE평가정보",
-      "score": 68.3095,
+      "score": 68.4647,
       "dart_score": 52.16,
-      "close": 15990
+      "close": 15610
     },
     {
       "code": "114090",
       "name": "GKL",
-      "score": 68.1711,
+      "score": 68.1667,
       "dart_score": 50.79,
-      "close": 11980
+      "close": 12060
     },
     {
       "code": "034730",
       "name": "SK",
-      "score": 67.9577,
+      "score": 68.0076,
       "dart_score": 51.38,
-      "close": 414000
+      "close": 425000
     },
     {
       "code": "400760",
       "name": "NH올원리츠",
-      "score": 66.4816,
+      "score": 66.5697,
       "dart_score": 50.81,
-      "close": 3500
+      "close": 3380
     },
     {
       "code": "395400",
       "name": "SK리츠",
-      "score": 65.7711,
+      "score": 65.7993,
       "dart_score": 50.3,
-      "close": 6990
+      "close": 6570
     },
     {
       "code": "234080",
       "name": "JW생명과학",
-      "score": 64.7458,
+      "score": 64.6484,
       "dart_score": 48.62,
       "close": 13100
     },
     {
       "code": "007340",
       "name": "DN오토모티브",
-      "score": 61.8366,
+      "score": 61.8322,
       "dart_score": 45.15,
-      "close": 41000
+      "close": 42800
     },
     {
       "code": "003570",
       "name": "SNT다이내믹스",
-      "score": 59.8512,
+      "score": 60.0576,
       "dart_score": 45.39,
-      "close": 55000
+      "close": 58200
     },
     {
       "code": "003080",
       "name": "SB성보",
-      "score": 59.6521,
+      "score": 59.6479,
       "dart_score": 45.75,
-      "close": 2710
-    },
-    {
-      "code": "108320",
-      "name": "LX세미콘",
-      "score": 58.907,
-      "dart_score": 43.68,
-      "close": 60500
+      "close": 2685
     },
     {
       "code": "001460",
       "name": "BYC",
-      "score": 58.8318,
+      "score": 58.959,
       "dart_score": 42.94,
-      "close": 52200
+      "close": 50200
+    },
+    {
+      "code": "108320",
+      "name": "LX세미콘",
+      "score": 58.7524,
+      "dart_score": 43.68,
+      "close": 61800
     },
     {
       "code": "071970",
       "name": "HD현대마린엔진",
-      "score": 58.7385,
+      "score": 58.7312,
       "dart_score": 42.52,
-      "close": 106100
+      "close": 109700
     },
     {
       "code": "069730",
       "name": "DSR제강",
-      "score": 58.5135,
+      "score": 58.4013,
       "dart_score": 42.97,
-      "close": 5680
+      "close": 5720
     },
     {
       "code": "001060",
       "name": "JW중외제약",
-      "score": 58.255,
+      "score": 58.2194,
       "dart_score": 42.93,
-      "close": 32500
+      "close": 32100
     },
     {
       "code": "008260",
       "name": "NI스틸",
-      "score": 57.3958,
+      "score": 57.0579,
       "dart_score": 42.77,
-      "close": 4095
+      "close": 4000
     },
     {
       "code": "155660",
       "name": "DSR",
-      "score": 56.2908,
+      "score": 56.4335,
       "dart_score": 41.31,
-      "close": 4470
-    },
-    {
-      "code": "100840",
-      "name": "SNT에너지",
-      "score": 56.2847,
-      "dart_score": 42.31,
-      "close": 57300
-    },
-    {
-      "code": "023150",
-      "name": "MH에탄올",
-      "score": 56.242,
-      "dart_score": 42.5,
-      "close": 4690
+      "close": 4600
     },
     {
       "code": "178920",
       "name": "PI첨단소재",
-      "score": 56.1149,
+      "score": 56.3304,
       "dart_score": 41.92,
-      "close": 25950
+      "close": 26650
+    },
+    {
+      "code": "100840",
+      "name": "SNT에너지",
+      "score": 56.2744,
+      "dart_score": 42.31,
+      "close": 58500
+    },
+    {
+      "code": "023150",
+      "name": "MH에탄올",
+      "score": 56.1639,
+      "dart_score": 42.5,
+      "close": 4630
     },
     {
       "code": "012030",
       "name": "DB",
-      "score": 55.7053,
+      "score": 55.9354,
       "dart_score": 40.28,
-      "close": 2085
+      "close": 2050
     },
     {
       "code": "001390",
       "name": "KG케미칼",
-      "score": 55.4553,
+      "score": 55.6247,
       "dart_score": 40.85,
-      "close": 6140
+      "close": 6360
     },
     {
       "code": "064960",
       "name": "SNT모티브",
-      "score": 55.4283,
+      "score": 55.4475,
       "dart_score": 41.84,
-      "close": 36300
+      "close": 37250
     },
     {
       "code": "060980",
       "name": "HL홀딩스",
-      "score": 55.2445,
+      "score": 55.1786,
       "dart_score": 40.38,
-      "close": 43750
+      "close": 44250
     },
     {
       "code": "044450",
       "name": "KSS해운",
-      "score": 54.5123,
+      "score": 54.4322,
       "dart_score": 40.16,
-      "close": 12980
+      "close": 12860
     },
     {
       "code": "002170",
       "name": "SYTS",
-      "score": 54.1708,
+      "score": 54.3354,
       "dart_score": 41.35,
-      "close": 60900
+      "close": 60200
     },
     {
       "code": "051900",
       "name": "LG생활건강",
-      "score": 54.0031,
+      "score": 54.0541,
       "dart_score": 39.38,
-      "close": 255000
+      "close": 254500
     },
     {
       "code": "002900",
       "name": "TYM",
-      "score": 53.9447,
+      "score": 53.9175,
       "dart_score": 40.86,
-      "close": 7800
+      "close": 7950
     },
     {
       "code": "285130",
       "name": "SK케미칼",
-      "score": 53.1615,
+      "score": 53.2937,
       "dart_score": 39.82,
-      "close": 57700
+      "close": 62400
     },
     {
       "code": "036530",
       "name": "SNT홀딩스",
-      "score": 52.8573,
+      "score": 53.0623,
       "dart_score": 39.99,
-      "close": 63000
+      "close": 63900
     },
     {
       "code": "329180",
       "name": "HD현대중공업",
-      "score": 52.7057,
+      "score": 52.7949,
       "dart_score": 37.18,
-      "close": 667000
+      "close": 690000
     },
     {
       "code": "016380",
       "name": "KG스틸",
-      "score": 52.6385,
+      "score": 52.5897,
       "dart_score": 38.24,
-      "close": 6730
+      "close": 6760
     },
     {
       "code": "015590",
@@ -567,23 +567,23 @@
     {
       "code": "017670",
       "name": "SK텔레콤",
-      "score": 51.8654,
+      "score": 51.8389,
       "dart_score": 38.33,
-      "close": 96800
+      "close": 95600
     },
     {
       "code": "322000",
       "name": "HD현대에너지솔루션",
-      "score": 51.5698,
+      "score": 51.6218,
       "dart_score": 36.24,
-      "close": 197500
+      "close": 215500
     },
     {
-      "code": "037270",
-      "name": "YG PLUS",
-      "score": 50.8189,
-      "dart_score": 38.29,
-      "close": 5170
+      "code": "077970",
+      "name": "STX엔진",
+      "score": 51.0115,
+      "dart_score": 37.62,
+      "close": 66500
     },
     {
       "code": "001380",
@@ -593,114 +593,121 @@
       "close": 1098
     },
     {
+      "code": "037270",
+      "name": "YG PLUS",
+      "score": 50.7027,
+      "dart_score": 38.29,
+      "close": 5230
+    },
+    {
       "code": "093050",
       "name": "LF",
-      "score": 50.6526,
+      "score": 50.6633,
       "dart_score": 37.17,
       "close": 25500
     },
     {
       "code": "079550",
       "name": "LIG디펜스앤에어로스페이스",
-      "score": 49.9661,
+      "score": 50.0354,
       "dart_score": 35.62,
-      "close": 933000
+      "close": 968000
     },
     {
       "code": "033530",
       "name": "SJG세종",
-      "score": 49.7301,
+      "score": 49.6843,
       "dart_score": 37.01,
-      "close": 8110
+      "close": 8170
     },
     {
       "code": "002380",
       "name": "케이씨씨",
-      "score": 49.4522,
+      "score": 49.5502,
       "dart_score": 35.24,
-      "close": 553000
+      "close": 576000
     },
     {
       "code": "375500",
       "name": "DL이앤씨",
-      "score": 49.3648,
+      "score": 49.172,
       "dart_score": 34.18,
-      "close": 99900
+      "close": 101100
     },
     {
       "code": "025000",
       "name": "KPX케미칼",
-      "score": 47.871,
+      "score": 48.2141,
       "dart_score": 34.9,
-      "close": 52900
+      "close": 53800
     },
     {
       "code": "069260",
       "name": "티케이지휴켐스",
-      "score": 47.5762,
+      "score": 47.6242,
       "dart_score": 35.54,
-      "close": 18450
+      "close": 18950
     },
     {
       "code": "298050",
       "name": "HS효성첨단소재",
-      "score": 47.4046,
+      "score": 47.336,
       "dart_score": 33.31,
-      "close": 264000
-    },
-    {
-      "code": "030200",
-      "name": "케이티",
-      "score": 46.7288,
-      "dart_score": 33.21,
-      "close": 60900
+      "close": 277500
     },
     {
       "code": "004250",
       "name": "엔피씨",
-      "score": 46.7125,
+      "score": 46.7436,
       "dart_score": 34.6,
-      "close": 3920
-    },
-    {
-      "code": "089470",
-      "name": "HDC현대EP",
-      "score": 46.5604,
-      "dart_score": 33.21,
-      "close": 5510
+      "close": 3965
     },
     {
       "code": "100090",
       "name": "SK오션플랜트",
-      "score": 46.5602,
+      "score": 46.7277,
       "dart_score": 34.13,
-      "close": 23450
+      "close": 24250
+    },
+    {
+      "code": "030200",
+      "name": "케이티",
+      "score": 46.6321,
+      "dart_score": 33.21,
+      "close": 60500
+    },
+    {
+      "code": "089470",
+      "name": "HDC현대EP",
+      "score": 46.5256,
+      "dart_score": 33.21,
+      "close": 5590
     },
     {
       "code": "036570",
       "name": "NC",
-      "score": 46.2852,
+      "score": 46.463,
       "dart_score": 33.09,
-      "close": 267500
+      "close": 277500
     },
     {
       "code": "097950",
       "name": "CJ제일제당",
-      "score": 44.4845,
+      "score": 44.6656,
       "dart_score": 30.35,
-      "close": 233000
+      "close": 243500
     },
     {
       "code": "487570",
       "name": "HS효성",
-      "score": 44.1374,
+      "score": 44.3697,
       "dart_score": 31.0,
-      "close": 58500
+      "close": 65500
     },
     {
       "code": "000500",
       "name": "가온전선",
-      "score": 43.5526,
+      "score": 43.5748,
       "dart_score": 31.72,
       "close": 217000
     },
@@ -712,158 +719,158 @@
       "close": 4200
     },
     {
+      "code": "229640",
+      "name": "LS에코에너지",
+      "score": 43.0693,
+      "dart_score": 30.13,
+      "close": 90900
+    },
+    {
       "code": "064400",
       "name": "LG씨엔에스",
-      "score": 43.1137,
+      "score": 42.9946,
       "dart_score": 30.21,
-      "close": 67500
+      "close": 66700
     },
     {
       "code": "039570",
       "name": "HDC랩스",
-      "score": 43.0692,
+      "score": 42.9728,
       "dart_score": 30.36,
-      "close": 8470
-    },
-    {
-      "code": "229640",
-      "name": "LS에코에너지",
-      "score": 42.7636,
-      "dart_score": 30.13,
-      "close": 72700
+      "close": 8400
     },
     {
       "code": "000120",
       "name": "CJ대한통운",
-      "score": 42.6922,
+      "score": 42.6401,
       "dart_score": 28.92,
-      "close": 101200
+      "close": 101800
     },
     {
       "code": "001770",
       "name": "SHD",
-      "score": 42.6757,
+      "score": 42.6247,
       "dart_score": 31.5,
-      "close": 16930
+      "close": 16840
     },
     {
       "code": "000590",
       "name": "CS홀딩스",
-      "score": 42.6107,
+      "score": 42.564,
       "dart_score": 29.87,
-      "close": 79400
+      "close": 79800
     },
     {
       "code": "010120",
       "name": "엘에스일렉트릭",
-      "score": 42.5486,
+      "score": 42.4439,
       "dart_score": 29.34,
-      "close": 261500
-    },
-    {
-      "code": "004840",
-      "name": "DRB동일",
-      "score": 41.9961,
-      "dart_score": 29.41,
-      "close": 5420
+      "close": 273000
     },
     {
       "code": "032640",
       "name": "LG유플러스",
-      "score": 41.802,
+      "score": 41.8276,
       "dart_score": 29.44,
-      "close": 16470
+      "close": 16050
+    },
+    {
+      "code": "004840",
+      "name": "DRB동일",
+      "score": 41.758,
+      "dart_score": 29.41,
+      "close": 5420
     },
     {
       "code": "001530",
       "name": "디아이동일",
-      "score": 41.7426,
+      "score": 41.6863,
       "dart_score": 28.5,
-      "close": 32400
-    },
-    {
-      "code": "001340",
-      "name": "PKC",
-      "score": 41.4894,
-      "dart_score": 29.81,
-      "close": 7440
-    },
-    {
-      "code": "003580",
-      "name": "HLB글로벌",
-      "score": 41.4362,
-      "dart_score": 29.27,
-      "close": 2230
+      "close": 31700
     },
     {
       "code": "338100",
       "name": "NH프라임리츠",
-      "score": 41.3398,
+      "score": 41.53,
       "dart_score": 30.0,
-      "close": 4865
+      "close": 4735
     },
     {
       "code": "095570",
       "name": "AJ네트웍스",
-      "score": 41.282,
+      "score": 41.3545,
       "dart_score": 28.1,
-      "close": 5270
+      "close": 5360
     },
     {
-      "code": "008970",
-      "name": "KBI동양철관",
-      "score": 41.1838,
-      "dart_score": 28.46,
-      "close": 2035
+      "code": "001340",
+      "name": "PKC",
+      "score": 41.3346,
+      "dart_score": 29.81,
+      "close": 7520
+    },
+    {
+      "code": "003580",
+      "name": "HLB글로벌",
+      "score": 41.3301,
+      "dart_score": 29.27,
+      "close": 2220
     },
     {
       "code": "051910",
       "name": "LG화학",
-      "score": 41.1087,
+      "score": 41.1552,
       "dart_score": 28.34,
-      "close": 394000
+      "close": 407500
     },
     {
       "code": "011150",
       "name": "CJ씨푸드",
-      "score": 40.8969,
+      "score": 40.8379,
       "dart_score": 28.11,
-      "close": 2720
+      "close": 2710
+    },
+    {
+      "code": "008970",
+      "name": "KBI동양철관",
+      "score": 40.834,
+      "dart_score": 28.46,
+      "close": 1970
     },
     {
       "code": "302440",
       "name": "SK바이오사이언스",
-      "score": 40.8347,
+      "score": 40.8034,
       "dart_score": 29.44,
-      "close": 43400
+      "close": 43650
     },
     {
       "code": "361610",
       "name": "SK아이이테크놀로지",
-      "score": 40.6634,
+      "score": 40.6775,
       "dart_score": 29.35,
-      "close": 26950
+      "close": 27300
     },
     {
       "code": "123700",
       "name": "에스제이엠",
-      "score": 40.5552,
+      "score": 40.4648,
       "dart_score": 29.73,
-      "close": 3905
+      "close": 3900
     },
     {
       "code": "432320",
       "name": "KB스타리츠",
-      "score": 40.2696,
+      "score": 40.3612,
       "dart_score": 28.33,
-      "close": 2205
+      "close": 2140
     },
     {
       "code": "011420",
       "name": "갤럭시아에스엠",
-      "score": 40.0858,
+      "score": 40.1038,
       "dart_score": 30.05,
-      "close": 1880
+      "close": 1882
     },
     {
       "code": "004060",
@@ -873,88 +880,81 @@
       "close": 489
     },
     {
-      "code": "034120",
-      "name": "SBS",
-      "score": 39.9606,
-      "dart_score": 28.91,
-      "close": 15840
-    },
-    {
       "code": "024070",
       "name": "WISCOM",
-      "score": 39.8488,
+      "score": 39.9301,
       "dart_score": 29.57,
-      "close": 2455
+      "close": 2435
     },
     {
-      "code": "002710",
-      "name": "TCC스틸",
-      "score": 39.7479,
-      "dart_score": 28.43,
-      "close": 22600
+      "code": "034120",
+      "name": "SBS",
+      "score": 39.93,
+      "dart_score": 28.91,
+      "close": 15800
     },
     {
       "code": "002460",
       "name": "HS화성",
-      "score": 39.5694,
+      "score": 39.5324,
       "dart_score": 27.66,
       "close": 13110
     },
     {
-      "code": "011790",
-      "name": "SKC",
-      "score": 39.4053,
-      "dart_score": 27.66,
-      "close": 124400
-    },
-    {
       "code": "034310",
       "name": "NICE",
-      "score": 39.2057,
+      "score": 39.5298,
       "dart_score": 28.19,
-      "close": 13820
+      "close": 14500
     },
     {
-      "code": "017860",
-      "name": "DS단석",
-      "score": 39.1705,
-      "dart_score": 26.31,
-      "close": 23700
+      "code": "002710",
+      "name": "TCC스틸",
+      "score": 39.4932,
+      "dart_score": 28.43,
+      "close": 21350
     },
     {
       "code": "009160",
       "name": "SIMPAC",
-      "score": 39.1447,
+      "score": 39.4698,
       "dart_score": 28.22,
-      "close": 5600
+      "close": 6120
+    },
+    {
+      "code": "011790",
+      "name": "SKC",
+      "score": 39.3255,
+      "dart_score": 27.66,
+      "close": 123000
+    },
+    {
+      "code": "017860",
+      "name": "DS단석",
+      "score": 39.1403,
+      "dart_score": 26.31,
+      "close": 24250
     },
     {
       "code": "058850",
       "name": "KTcs",
-      "score": 39.01,
+      "score": 38.9897,
       "dart_score": 27.58,
-      "close": 2675
-    },
-    {
-      "code": "005090",
-      "name": "SGC에너지",
-      "score": 38.6576,
-      "dart_score": 27.23,
-      "close": 59700
+      "close": 2700
     },
     {
       "code": "035000",
       "name": "HS애드",
-      "score": 38.5949,
+      "score": 38.6659,
       "dart_score": 26.93,
       "close": 8890
     },
     {
-      "code": "000860",
-      "name": "강남제비스코",
-      "score": 38.5508,
-      "dart_score": 28.28,
-      "close": 17720
+      "code": "005090",
+      "name": "SGC에너지",
+      "score": 38.6412,
+      "dart_score": 27.23,
+      "close": 60500
     },
     {
       "code": "092220",
@@ -964,228 +964,242 @@
       "close": 1838
     },
     {
-      "code": "267270",
-      "name": "HD건설기계",
-      "score": 38.4178,
-      "dart_score": 25.33,
-      "close": 194000
-    },
-    {
-      "code": "456040",
-      "name": "OCI",
-      "score": 38.3573,
-      "dart_score": 26.69,
-      "close": 140900
+      "code": "000860",
+      "name": "강남제비스코",
+      "score": 38.5332,
+      "dart_score": 28.28,
+      "close": 17310
     },
     {
       "code": "001120",
       "name": "LX인터내셔널",
-      "score": 38.2669,
+      "score": 38.2994,
       "dart_score": 26.6,
-      "close": 55700
+      "close": 56700
+    },
+    {
+      "code": "267270",
+      "name": "HD건설기계",
+      "score": 38.2554,
+      "dart_score": 25.33,
+      "close": 196000
     },
     {
       "code": "475150",
       "name": "SK이터닉스",
-      "score": 37.9385,
+      "score": 38.2489,
       "dart_score": 26.76,
-      "close": 55000
+      "close": 59000
+    },
+    {
+      "code": "456040",
+      "name": "OCI",
+      "score": 38.2189,
+      "dart_score": 26.69,
+      "close": 141500
     },
     {
       "code": "084870",
       "name": "티비에이치글로벌",
-      "score": 37.7793,
+      "score": 37.8616,
       "dart_score": 27.93,
-      "close": 2110
+      "close": 2225
     },
     {
       "code": "294870",
       "name": "IPARK현대산업개발",
-      "score": 37.7047,
+      "score": 37.6424,
       "dart_score": 25.53,
-      "close": 23700
+      "close": 23500
     },
     {
       "code": "002820",
       "name": "SUN&L",
-      "score": 37.1971,
+      "score": 37.1638,
       "dart_score": 27.48,
-      "close": 2385
+      "close": 2375
     },
     {
       "code": "001740",
       "name": "SK네트웍스",
-      "score": 36.8399,
+      "score": 36.733,
       "dart_score": 25.95,
-      "close": 5970
+      "close": 5940
     },
     {
       "code": "009070",
       "name": "케이씨티시",
-      "score": 36.7008,
+      "score": 36.5512,
       "dart_score": 25.19,
-      "close": 5960
+      "close": 6050
     },
     {
-      "code": "204320",
-      "name": "HL만도",
-      "score": 34.7655,
-      "dart_score": 22.76,
-      "close": 57600
+      "code": "007980",
+      "name": "TP",
+      "score": 36.4411,
+      "dart_score": 26.51,
+      "close": 2225
     },
     {
       "code": "058860",
       "name": "KTis",
-      "score": 34.6761,
+      "score": 34.882,
       "dart_score": 24.23,
-      "close": 2865
+      "close": 2875
+    },
+    {
+      "code": "204320",
+      "name": "HL만도",
+      "score": 34.671,
+      "dart_score": 22.76,
+      "close": 57900
     },
     {
       "code": "018670",
       "name": "SK가스",
-      "score": 34.3915,
+      "score": 34.5373,
       "dart_score": 23.77,
-      "close": 266500
+      "close": 284500
     },
     {
       "code": "003620",
       "name": "KG모빌리티",
-      "score": 33.9698,
+      "score": 33.992,
       "dart_score": 22.85,
-      "close": 4340
+      "close": 4420
     },
     {
       "code": "017940",
       "name": "E1",
-      "score": 33.2884,
+      "score": 33.4233,
       "dart_score": 21.64,
-      "close": 104100
+      "close": 108400
     },
     {
       "code": "007070",
       "name": "GS리테일",
-      "score": 33.235,
+      "score": 33.2441,
       "dart_score": 21.7,
-      "close": 23250
+      "close": 23550
     },
     {
       "code": "066570",
       "name": "LG전자",
-      "score": 33.0814,
+      "score": 32.9221,
       "dart_score": 21.48,
-      "close": 140000
+      "close": 135800
     },
     {
       "code": "001250",
       "name": "GS글로벌",
-      "score": 32.9844,
+      "score": 32.8606,
       "dart_score": 21.12,
-      "close": 5200
-    },
-    {
-      "code": "011070",
-      "name": "LG이노텍",
-      "score": 32.5925,
-      "dart_score": 21.08,
-      "close": 577000
-    },
-    {
-      "code": "108670",
-      "name": "LX하우시스",
-      "score": 32.4474,
-      "dart_score": 21.99,
-      "close": 33350
-    },
-    {
-      "code": "079160",
-      "name": "CJ CGV",
-      "score": 32.3254,
-      "dart_score": 20.75,
-      "close": 4895
+      "close": 5420
     },
     {
       "code": "010950",
       "name": "S-Oil",
-      "score": 32.2715,
+      "score": 32.571,
       "dart_score": 21.59,
-      "close": 118700
+      "close": 134300
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "score": 32.5043,
+      "dart_score": 21.08,
+      "close": 592000
     },
     {
       "code": "210980",
       "name": "SK디앤디",
-      "score": 32.1875,
+      "score": 32.3642,
       "dart_score": 22.8,
-      "close": 12850
+      "close": 12930
+    },
+    {
+      "code": "108670",
+      "name": "LX하우시스",
+      "score": 32.3355,
+      "dart_score": 21.99,
+      "close": 34000
+    },
+    {
+      "code": "079160",
+      "name": "CJ CGV",
+      "score": 32.3172,
+      "dart_score": 20.75,
+      "close": 4885
     },
     {
       "code": "000040",
       "name": "KR모터스",
-      "score": 31.9365,
+      "score": 31.9084,
       "dart_score": 21.98,
-      "close": 447
+      "close": 442
     },
     {
       "code": "344820",
       "name": "케이씨씨글라스",
-      "score": 31.7819,
+      "score": 31.7666,
       "dart_score": 21.2,
-      "close": 28950
+      "close": 29300
     },
     {
       "code": "006360",
       "name": "GS건설",
-      "score": 31.7494,
+      "score": 31.5033,
       "dart_score": 19.71,
-      "close": 42450
+      "close": 41700
     },
     {
       "code": "097230",
       "name": "HJ중공업",
-      "score": 31.4107,
+      "score": 31.3844,
       "dart_score": 19.91,
-      "close": 30300
+      "close": 30450
     },
     {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "score": 31.3701,
+      "score": 31.3069,
       "dart_score": 20.06,
-      "close": 472000
-    },
-    {
-      "code": "282330",
-      "name": "BGF리테일",
-      "score": 30.9375,
-      "dart_score": 18.99,
-      "close": 131400
+      "close": 473000
     },
     {
       "code": "034220",
       "name": "LG디스플레이",
-      "score": 30.9082,
+      "score": 30.8697,
       "dart_score": 20,
-      "close": 12750
+      "close": 12430
+    },
+    {
+      "code": "282330",
+      "name": "BGF리테일",
+      "score": 30.8538,
+      "dart_score": 18.99,
+      "close": 133000
     },
     {
       "code": "014790",
       "name": "HL D&I",
-      "score": 30.2802,
+      "score": 30.2076,
       "dart_score": 19.81,
-      "close": 3590
+      "close": 3640
     },
     {
       "code": "000680",
       "name": "LS네트웍스",
-      "score": 29.3687,
+      "score": 29.6785,
       "dart_score": 19.39,
-      "close": 4060
+      "close": 4630
     },
     {
       "code": "465770",
       "name": "STX그린로지스",
-      "score": 28.5441,
+      "score": 28.618,
       "dart_score": 19.95,
-      "close": 4975
+      "close": 4825
     },
     {
       "code": "002360",
@@ -1197,9 +1211,9 @@
     {
       "code": "092780",
       "name": "DYP",
-      "score": 26.5862,
+      "score": 26.551,
       "dart_score": 16.57,
-      "close": 5080
+      "close": 5090
     },
     {
       "code": "011810",
@@ -1211,14 +1225,14 @@
     {
       "code": "016610",
       "name": "DB증권",
-      "score": 25.1416,
+      "score": 25.0608,
       "dart_score": 14.78,
-      "close": 14190
+      "close": 14080
     },
     {
       "code": "037560",
       "name": "LG헬로비전",
-      "score": 24.8966,
+      "score": 24.8897,
       "dart_score": 16.1,
       "close": 2395
     },
@@ -1232,72 +1246,58 @@
     {
       "code": "005830",
       "name": "DB손해보험",
-      "score": 19.815,
+      "score": 19.8157,
       "dart_score": 9.78,
-      "close": 173500
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "score": 18.9682,
-      "dart_score": 9.47,
-      "close": 158800
+      "close": 172200
     },
     {
       "code": "138930",
       "name": "BNK금융지주",
-      "score": 18.9248,
+      "score": 19.0125,
       "dart_score": 9.07,
       "close": 18860
     },
     {
-      "code": "175330",
-      "name": "JB금융지주",
-      "score": 17.8629,
-      "dart_score": 9.05,
-      "close": 27300
+      "code": "105560",
+      "name": "KB금융",
+      "score": 18.9437,
+      "dart_score": 9.47,
+      "close": 160600
     },
     {
-      "code": "001510",
-      "name": "SK증권",
-      "score": 17.4453,
-      "dart_score": 9.36,
-      "close": 5510
+      "code": "175330",
+      "name": "JB금융지주",
+      "score": 17.8922,
+      "dart_score": 9.05,
+      "close": 27100
     },
     {
       "code": "139130",
       "name": "iM금융지주",
-      "score": 17.0799,
+      "score": 17.1565,
       "dart_score": 9.99,
-      "close": 19280
+      "close": 19000
+    },
+    {
+      "code": "001510",
+      "name": "SK증권",
+      "score": 17.1285,
+      "dart_score": 9.36,
+      "close": 5320
     },
     {
       "code": "005940",
       "name": "NH투자증권",
-      "score": 8.0969,
+      "score": 8.0667,
       "dart_score": 1.47,
-      "close": 35050
+      "close": 34600
     },
     {
       "code": "415640",
       "name": "KB발해인프라",
-      "score": 6.5659,
+      "score": 6.5267,
       "dart_score": 0,
-      "close": 10160
-    },
-    {
-      "code": "077970",
-      "name": "STX엔진",
-      "score": 5.6768,
-      "dart_score": 0,
-      "close": 59100
-    },
-    {
-      "code": "007980",
-      "name": "TP",
-      "score": 4.622,
-      "dart_score": 0,
-      "close": 2160
+      "close": 9920
     }
   ]
 }
