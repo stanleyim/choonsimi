@@ -1,10 +1,12 @@
 import os, json, math, shutil, requests, time
 from datetime import datetime, timedelta
 
-OUTPUT_PATH = "../data.json"
-BACKUP_PATH = "../data.json.bak"
-HISTORY_PATH = "../history.csv"
-CORP_MAP_PATH = "corp_map.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+OUTPUT_PATH = os.path.join(BASE_DIR, "..", "data.json")
+BACKUP_PATH = os.path.join(BASE_DIR, "..", "data.json.bak")
+HISTORY_PATH = os.path.join(BASE_DIR, "..", "history.csv")
+CORP_MAP_PATH = os.path.join(BASE_DIR, "corp_map.json")
 
 KRX_BASE = "https://data-dbg.krx.co.kr/svc/apis/sto"
 KOSPI_URL = f"{KRX_BASE}/stk_bydd_trd"
