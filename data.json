@@ -1,1058 +1,1268 @@
 {
-  "time": "2026-04-29T09:57:38.102341",
+  "time": "2026-04-29T11:31:53.631906",
   "data_date": "20260428",
-  "mode": "v7.4_history",
+  "mode": "v7.5_dart",
   "top10": [
     {
       "code": "000660",
-      "score": 12.5867,
+      "score": 8.8107,
+      "dart_score": 0,
       "close": 1300000
     },
     {
       "code": "005930",
-      "score": 12.2615,
+      "score": 8.5831,
+      "dart_score": 0,
       "close": 222000
     },
     {
       "code": "005380",
-      "score": 12.1765,
+      "score": 8.5235,
+      "dart_score": 0,
       "close": 555000
     },
     {
       "code": "012450",
-      "score": 12.0073,
+      "score": 8.4051,
+      "dart_score": 0,
       "close": 1395000
     },
     {
       "code": "402340",
-      "score": 11.9967,
+      "score": 8.3977,
+      "dart_score": 0,
       "close": 811000
     },
     {
       "code": "006400",
-      "score": 11.9431,
+      "score": 8.3602,
+      "dart_score": 0,
       "close": 680000
     },
     {
       "code": "009150",
-      "score": 11.9337,
+      "score": 8.3536,
+      "dart_score": 0,
       "close": 839000
     },
     {
       "code": "298040",
-      "score": 11.8713,
+      "score": 8.3099,
+      "dart_score": 0,
       "close": 3976000
     },
     {
       "code": "005935",
-      "score": 11.8141,
+      "score": 8.2699,
+      "dart_score": 0,
       "close": 160000
     },
     {
       "code": "267260",
-      "score": 11.7959,
+      "score": 8.2571,
+      "dart_score": 0,
       "close": 1238000
     }
   ],
   "all": [
     {
       "code": "000660",
-      "score": 12.5867,
+      "score": 8.8107,
+      "dart_score": 0,
       "close": 1300000
     },
     {
       "code": "005930",
-      "score": 12.2615,
+      "score": 8.5831,
+      "dart_score": 0,
       "close": 222000
     },
     {
       "code": "005380",
-      "score": 12.1765,
+      "score": 8.5235,
+      "dart_score": 0,
       "close": 555000
     },
     {
       "code": "012450",
-      "score": 12.0073,
+      "score": 8.4051,
+      "dart_score": 0,
       "close": 1395000
     },
     {
       "code": "402340",
-      "score": 11.9967,
+      "score": 8.3977,
+      "dart_score": 0,
       "close": 811000
     },
     {
       "code": "006400",
-      "score": 11.9431,
+      "score": 8.3602,
+      "dart_score": 0,
       "close": 680000
     },
     {
       "code": "009150",
-      "score": 11.9337,
+      "score": 8.3536,
+      "dart_score": 0,
       "close": 839000
     },
     {
       "code": "298040",
-      "score": 11.8713,
+      "score": 8.3099,
+      "dart_score": 0,
       "close": 3976000
     },
     {
       "code": "005935",
-      "score": 11.8141,
+      "score": 8.2699,
+      "dart_score": 0,
       "close": 160000
     },
     {
       "code": "267260",
-      "score": 11.7959,
+      "score": 8.2571,
+      "dart_score": 0,
       "close": 1238000
     },
     {
       "code": "329180",
-      "score": 11.7892,
+      "score": 8.2524,
+      "dart_score": 0,
       "close": 667000
     },
     {
       "code": "373220",
-      "score": 11.7352,
+      "score": 8.2147,
+      "dart_score": 0,
       "close": 472000
     },
     {
       "code": "005490",
-      "score": 11.6321,
+      "score": 8.1424,
+      "dart_score": 0,
       "close": 466500
     },
     {
       "code": "207940",
-      "score": 11.6292,
+      "score": 8.1405,
+      "dart_score": 0,
       "close": 1504000
     },
     {
       "code": "034020",
-      "score": 11.571,
+      "score": 8.0997,
+      "dart_score": 0,
       "close": 127800
     },
     {
       "code": "010120",
-      "score": 11.5454,
+      "score": 8.0818,
+      "dart_score": 0,
       "close": 261500
     },
     {
       "code": "042700",
-      "score": 11.4962,
+      "score": 8.0473,
+      "dart_score": 0,
       "close": 367000
     },
     {
       "code": "000270",
-      "score": 11.4088,
+      "score": 7.9862,
+      "dart_score": 0,
       "close": 155600
     },
     {
       "code": "105560",
-      "score": 11.3389,
+      "score": 7.9372,
+      "dart_score": 0,
       "close": 158800
     },
     {
       "code": "012330",
-      "score": 11.3319,
+      "score": 7.9323,
+      "dart_score": 0,
       "close": 447000
     },
     {
       "code": "028260",
-      "score": 11.3114,
+      "score": 7.918,
+      "dart_score": 0,
       "close": 309500
     },
     {
       "code": "000150",
-      "score": 11.2911,
+      "score": 7.9038,
+      "dart_score": 0,
       "close": 1583000
     },
     {
       "code": "010130",
-      "score": 11.2551,
+      "score": 7.8786,
+      "dart_score": 0,
       "close": 1627000
     },
     {
       "code": "032830",
-      "score": 11.2077,
+      "score": 7.8454,
+      "dart_score": 0,
       "close": 252000
     },
     {
       "code": "042660",
-      "score": 11.1786,
+      "score": 7.825,
+      "dart_score": 0,
       "close": 133900
     },
     {
       "code": "068270",
-      "score": 11.1549,
+      "score": 7.8084,
+      "dart_score": 0,
       "close": 207000
     },
     {
       "code": "035420",
-      "score": 11.0812,
+      "score": 7.7568,
+      "dart_score": 0,
       "close": 219500
     },
     {
       "code": "009540",
-      "score": 11.0747,
+      "score": 7.7523,
+      "dart_score": 0,
       "close": 468500
     },
     {
       "code": "055550",
-      "score": 11.0564,
+      "score": 7.7395,
+      "dart_score": 0,
       "close": 99900
     },
     {
       "code": "051910",
-      "score": 11.0351,
+      "score": 7.7246,
+      "dart_score": 0,
       "close": 394000
     },
     {
       "code": "079550",
-      "score": 11.0201,
+      "score": 7.7141,
+      "dart_score": 0,
       "close": 933000
     },
     {
       "code": "064350",
-      "score": 10.9917,
+      "score": 7.6942,
+      "dart_score": 0,
       "close": 244500
     },
     {
       "code": "006800",
-      "score": 10.9817,
+      "score": 7.6872,
+      "dart_score": 0,
       "close": 68500
     },
     {
       "code": "066570",
-      "score": 10.9808,
+      "score": 7.6866,
+      "dart_score": 0,
       "close": 140000
     },
     {
       "code": "034730",
-      "score": 10.953,
+      "score": 7.6671,
+      "dart_score": 0,
       "close": 414000
     },
     {
       "code": "086790",
-      "score": 10.9445,
+      "score": 7.6612,
+      "dart_score": 0,
       "close": 127000
     },
     {
       "code": "003670",
-      "score": 10.9173,
+      "score": 7.6421,
+      "dart_score": 0,
       "close": 263000
     },
     {
       "code": "086520",
-      "score": 10.8421,
+      "score": 7.5895,
+      "dart_score": 0,
       "close": 161500
     },
     {
       "code": "000810",
-      "score": 10.8173,
+      "score": 7.5721,
+      "dart_score": 0,
       "close": 483000
     },
     {
       "code": "272210",
-      "score": 10.6999,
+      "score": 7.49,
+      "dart_score": 0,
       "close": 119900
     },
     {
       "code": "047040",
-      "score": 10.6816,
+      "score": 7.4771,
+      "dart_score": 0,
       "close": 37150
     },
     {
       "code": "196170",
-      "score": 10.6762,
+      "score": 7.4733,
+      "dart_score": 0,
       "close": 376500
     },
     {
       "code": "000720",
-      "score": 10.6725,
+      "score": 7.4708,
+      "dart_score": 0,
       "close": 167100
     },
     {
       "code": "010140",
-      "score": 10.6299,
+      "score": 7.4409,
+      "dart_score": 0,
       "close": 33350
     },
     {
       "code": "247540",
-      "score": 10.6275,
+      "score": 7.4392,
+      "dart_score": 0,
       "close": 213500
     },
     {
       "code": "011070",
-      "score": 10.6257,
+      "score": 7.438,
+      "dart_score": 0,
       "close": 577000
     },
     {
       "code": "096770",
-      "score": 10.615,
+      "score": 7.4305,
+      "dart_score": 0,
       "close": 133000
     },
     {
       "code": "267250",
-      "score": 10.5903,
+      "score": 7.4132,
+      "dart_score": 0,
       "close": 280500
     },
     {
       "code": "015760",
-      "score": 10.5647,
+      "score": 7.3953,
+      "dart_score": 0,
       "close": 44700
     },
     {
       "code": "278470",
-      "score": 10.5376,
+      "score": 7.3763,
+      "dart_score": 0,
       "close": 459000
     },
     {
       "code": "307950",
-      "score": 10.4756,
+      "score": 7.3329,
+      "dart_score": 0,
       "close": 478000
     },
     {
       "code": "086280",
-      "score": 10.4173,
+      "score": 7.2921,
+      "dart_score": 0,
       "close": 234500
     },
     {
       "code": "277810",
-      "score": 10.3922,
+      "score": 7.2746,
+      "dart_score": 0,
       "close": 668000
     },
     {
       "code": "316140",
-      "score": 10.3559,
+      "score": 7.2491,
+      "dart_score": 0,
       "close": 33500
     },
     {
       "code": "047810",
-      "score": 10.3506,
+      "score": 7.2454,
+      "dart_score": 0,
       "close": 168000
     },
     {
       "code": "017670",
-      "score": 10.3332,
+      "score": 7.2332,
+      "dart_score": 0,
       "close": 96800
     },
     {
       "code": "006260",
-      "score": 10.3228,
+      "score": 7.226,
+      "dart_score": 0,
       "close": 402500
     },
     {
       "code": "033780",
-      "score": 10.3123,
+      "score": 7.2186,
+      "dart_score": 0,
       "close": 178000
     },
     {
       "code": "035720",
-      "score": 10.2636,
+      "score": 7.1845,
+      "dart_score": 0,
       "close": 48850
     },
     {
       "code": "071050",
-      "score": 10.2257,
+      "score": 7.158,
+      "dart_score": 0,
       "close": 258500
     },
     {
       "code": "003230",
-      "score": 10.1834,
+      "score": 7.1284,
+      "dart_score": 0,
       "close": 1285000
     },
     {
       "code": "0126Z0",
-      "score": 10.1784,
+      "score": 7.1249,
+      "dart_score": 0,
       "close": 568000
     },
     {
       "code": "443060",
-      "score": 10.1179,
+      "score": 7.0825,
+      "dart_score": 0,
       "close": 276000
     },
     {
       "code": "259960",
-      "score": 10.1101,
+      "score": 7.077,
+      "dart_score": 0,
       "close": 283500
     },
     {
       "code": "039490",
-      "score": 10.1021,
+      "score": 7.0715,
+      "dart_score": 0,
       "close": 445500
     },
     {
       "code": "047050",
-      "score": 10.0967,
+      "score": 7.0677,
+      "dart_score": 0,
       "close": 85000
     },
     {
       "code": "138040",
-      "score": 10.0791,
+      "score": 7.0554,
+      "dart_score": 0,
       "close": 115300
     },
     {
       "code": "018260",
-      "score": 10.0638,
+      "score": 7.0447,
+      "dart_score": 0,
       "close": 172500
     },
     {
       "code": "000250",
-      "score": 10.0381,
+      "score": 7.0267,
+      "dart_score": 0,
       "close": 432000
     },
     {
       "code": "007660",
-      "score": 10.0239,
+      "score": 7.0167,
+      "dart_score": 0,
       "close": 150600
     },
     {
       "code": "267270",
-      "score": 9.9963,
+      "score": 6.9974,
+      "dart_score": 0,
       "close": 194000
     },
     {
       "code": "028050",
-      "score": 9.9625,
+      "score": 6.9738,
+      "dart_score": 0,
       "close": 56300
     },
     {
       "code": "010950",
-      "score": 9.9608,
+      "score": 6.9725,
+      "dart_score": 0,
       "close": 118700
     },
     {
       "code": "001440",
-      "score": 9.9222,
+      "score": 6.9455,
+      "dart_score": 0,
       "close": 45900
     },
     {
       "code": "003550",
-      "score": 9.8915,
+      "score": 6.924,
+      "dart_score": 0,
       "close": 98200
     },
     {
       "code": "352820",
-      "score": 9.8902,
+      "score": 6.9232,
+      "dart_score": 0,
       "close": 248500
     },
     {
       "code": "009830",
-      "score": 9.8595,
+      "score": 6.9016,
+      "dart_score": 0,
       "close": 49400
     },
     {
       "code": "298380",
-      "score": 9.8462,
+      "score": 6.8924,
+      "dart_score": 0,
       "close": 139400
     },
     {
       "code": "005387",
-      "score": 9.8412,
+      "score": 6.8888,
+      "dart_score": 0,
       "close": 260000
     },
     {
       "code": "030200",
-      "score": 9.8202,
+      "score": 6.8741,
+      "dart_score": 0,
       "close": 60900
     },
     {
       "code": "024110",
-      "score": 9.7515,
+      "score": 6.826,
+      "dart_score": 0,
       "close": 22500
     },
     {
       "code": "011200",
-      "score": 9.7126,
+      "score": 6.7988,
+      "dart_score": 0,
       "close": 20750
     },
     {
       "code": "066970",
-      "score": 9.6975,
+      "score": 6.7882,
+      "dart_score": 0,
       "close": 205000
     },
     {
       "code": "005830",
-      "score": 9.6884,
+      "score": 6.7819,
+      "dart_score": 0,
       "close": 173500
     },
     {
       "code": "058470",
-      "score": 9.6745,
+      "score": 6.7722,
+      "dart_score": 0,
       "close": 111400
     },
     {
       "code": "010060",
-      "score": 9.6477,
+      "score": 6.7534,
+      "dart_score": 0,
       "close": 367500
     },
     {
       "code": "090430",
-      "score": 9.6347,
+      "score": 6.7443,
+      "dart_score": 0,
       "close": 146200
     },
     {
       "code": "016360",
-      "score": 9.5737,
+      "score": 6.7016,
+      "dart_score": 0,
       "close": 111200
     },
     {
       "code": "950160",
-      "score": 9.5652,
+      "score": 6.6956,
+      "dart_score": 0,
       "close": 106700
     },
     {
       "code": "141080",
-      "score": 9.5372,
+      "score": 6.676,
+      "dart_score": 0,
       "close": 203500
     },
     {
       "code": "062040",
-      "score": 9.4832,
+      "score": 6.6382,
+      "dart_score": 0,
       "close": 222000
     },
     {
       "code": "005940",
-      "score": 9.4736,
+      "score": 6.6315,
+      "dart_score": 0,
       "close": 35050
     },
     {
       "code": "000880",
-      "score": 9.4447,
+      "score": 6.6113,
+      "dart_score": 0,
       "close": 129100
     },
     {
       "code": "082740",
-      "score": 9.3126,
+      "score": 6.5188,
+      "dart_score": 0,
       "close": 81100
     },
     {
       "code": "039030",
-      "score": 9.2956,
+      "score": 6.5069,
+      "dart_score": 0,
       "close": 513000
     },
     {
       "code": "052690",
-      "score": 9.2857,
+      "score": 6.5,
+      "dart_score": 0,
       "close": 191900
     },
     {
       "code": "323410",
-      "score": 9.2703,
+      "score": 6.4892,
+      "dart_score": 0,
       "close": 24950
     },
     {
       "code": "000990",
-      "score": 9.2675,
+      "score": 6.4873,
+      "dart_score": 0,
       "close": 154700
     },
     {
       "code": "028300",
-      "score": 9.2481,
+      "score": 6.4737,
+      "dart_score": 0,
       "close": 62900
     },
     {
       "code": "128940",
-      "score": 9.2124,
+      "score": 6.4487,
+      "dart_score": 0,
       "close": 491500
     },
     {
       "code": "036930",
-      "score": 9.2089,
+      "score": 6.4462,
+      "dart_score": 0,
       "close": 130500
     },
     {
       "code": "326030",
-      "score": 9.1604,
+      "score": 6.4123,
+      "dart_score": 0,
       "close": 102600
     },
     {
       "code": "003490",
-      "score": 9.1123,
+      "score": 6.3786,
+      "dart_score": 0,
       "close": 24350
     },
     {
       "code": "087010",
-      "score": 9.0952,
+      "score": 6.3666,
+      "dart_score": 0,
       "close": 270500
     },
     {
       "code": "241560",
-      "score": 9.0802,
+      "score": 6.3562,
+      "dart_score": 0,
       "close": 76500
     },
     {
       "code": "005385",
-      "score": 9.0788,
+      "score": 6.3552,
+      "dart_score": 0,
       "close": 261500
     },
     {
       "code": "000100",
-      "score": 9.0559,
+      "score": 6.3391,
+      "dart_score": 0,
       "close": 93700
     },
     {
       "code": "001040",
-      "score": 9.047,
+      "score": 6.3329,
+      "dart_score": 0,
       "close": 222000
     },
     {
       "code": "450080",
-      "score": 9.0317,
+      "score": 6.3222,
+      "dart_score": 0,
       "close": 85600
     },
     {
       "code": "180640",
-      "score": 9.0181,
+      "score": 6.3126,
+      "dart_score": 0,
       "close": 114700
     },
     {
       "code": "161390",
-      "score": 9.0073,
+      "score": 6.3051,
+      "dart_score": 0,
       "close": 62200
     },
     {
       "code": "108490",
-      "score": 9.0063,
+      "score": 6.3044,
+      "dart_score": 0,
       "close": 326500
     },
     {
       "code": "454910",
-      "score": 8.9783,
+      "score": 6.2848,
+      "dart_score": 0,
       "close": 100100
     },
     {
       "code": "078930",
-      "score": 8.9747,
+      "score": 6.2823,
+      "dart_score": 0,
       "close": 76800
     },
     {
       "code": "064400",
-      "score": 8.9603,
+      "score": 6.2722,
+      "dart_score": 0,
       "close": 67500
     },
     {
       "code": "240810",
-      "score": 8.9079,
+      "score": 6.2355,
+      "dart_score": 0,
       "close": 121100
     },
     {
       "code": "036570",
-      "score": 8.8905,
+      "score": 6.2233,
+      "dart_score": 0,
       "close": 267500
     },
     {
       "code": "103590",
-      "score": 8.8867,
+      "score": 6.2207,
+      "dart_score": 0,
       "close": 111600
     },
     {
       "code": "377300",
-      "score": 8.8817,
+      "score": 6.2172,
+      "dart_score": 0,
       "close": 55300
     },
     {
       "code": "095340",
-      "score": 8.8317,
+      "score": 6.1822,
+      "dart_score": 0,
       "close": 237500
     },
     {
       "code": "004020",
-      "score": 8.7907,
+      "score": 6.1535,
+      "dart_score": 0,
       "close": 44100
     },
     {
       "code": "353200",
-      "score": 8.7702,
+      "score": 6.1392,
+      "dart_score": 0,
       "close": 109300
     },
     {
       "code": "310210",
-      "score": 8.7223,
+      "score": 6.1056,
+      "dart_score": 0,
       "close": 299500
     },
     {
       "code": "034220",
-      "score": 8.7015,
+      "score": 6.0911,
+      "dart_score": 0,
       "close": 12750
     },
     {
       "code": "002380",
-      "score": 8.6682,
+      "score": 6.0677,
+      "dart_score": 0,
       "close": 553000
     },
     {
       "code": "011790",
-      "score": 8.6501,
+      "score": 6.0551,
+      "dart_score": 0,
       "close": 124400
     },
     {
       "code": "021240",
-      "score": 8.6234,
+      "score": 6.0364,
+      "dart_score": 0,
       "close": 85500
     },
     {
       "code": "375500",
-      "score": 8.6174,
+      "score": 6.0322,
+      "dart_score": 0,
       "close": 99900
     },
     {
       "code": "403870",
-      "score": 8.5814,
+      "score": 6.007,
+      "dart_score": 0,
       "close": 53700
     },
     {
       "code": "214370",
-      "score": 8.5772,
+      "score": 6.0041,
+      "dart_score": 0,
       "close": 107000
     },
     {
       "code": "032640",
-      "score": 8.5255,
+      "score": 5.9679,
+      "dart_score": 0,
       "close": 16470
     },
     {
       "code": "004800",
-      "score": 8.5233,
+      "score": 5.9663,
+      "dart_score": 0,
       "close": 227000
     },
     {
       "code": "440110",
-      "score": 8.5169,
+      "score": 5.9618,
+      "dart_score": 0,
       "close": 81600
     },
     {
       "code": "022100",
-      "score": 8.5041,
+      "score": 5.9529,
+      "dart_score": 0,
       "close": 36600
     },
     {
       "code": "489790",
-      "score": 8.4863,
+      "score": 5.9404,
+      "dart_score": 0,
       "close": 86500
     },
     {
       "code": "004170",
-      "score": 8.4828,
+      "score": 5.938,
+      "dart_score": 0,
       "close": 407500
     },
     {
       "code": "271560",
-      "score": 8.4654,
+      "score": 5.9258,
+      "dart_score": 0,
       "close": 141200
     },
     {
       "code": "029780",
-      "score": 8.3921,
+      "score": 5.8745,
+      "dart_score": 0,
       "close": 53600
     },
     {
       "code": "226950",
-      "score": 8.3561,
+      "score": 5.8493,
+      "dart_score": 0,
       "close": 185300
     },
     {
       "code": "357780",
-      "score": 8.3321,
+      "score": 5.8325,
+      "dart_score": 0,
       "close": 483500
     },
     {
       "code": "051900",
-      "score": 8.2663,
+      "score": 5.7864,
+      "dart_score": 0,
       "close": 255000
     },
     {
       "code": "006360",
-      "score": 8.2463,
+      "score": 5.7724,
+      "dart_score": 0,
       "close": 42450
     },
     {
       "code": "457190",
-      "score": 8.2385,
+      "score": 5.7669,
+      "dart_score": 0,
       "close": 123500
     },
     {
       "code": "263750",
-      "score": 8.229,
+      "score": 5.7603,
+      "dart_score": 0,
       "close": 60600
     },
     {
       "code": "032820",
-      "score": 8.216,
+      "score": 5.7512,
+      "dart_score": 0,
       "close": 22250
     },
     {
       "code": "011170",
-      "score": 8.2082,
+      "score": 5.7458,
+      "dart_score": 0,
       "close": 94500
     },
     {
       "code": "138930",
-      "score": 8.2011,
+      "score": 5.7407,
+      "dart_score": 0,
       "close": 18860
     },
     {
       "code": "017800",
-      "score": 8.1387,
+      "score": 5.6971,
+      "dart_score": 0,
       "close": 99400
     },
     {
       "code": "064760",
-      "score": 8.1076,
+      "score": 5.6754,
+      "dart_score": 0,
       "close": 316000
     },
     {
       "code": "071970",
-      "score": 8.1002,
+      "score": 5.6702,
+      "dart_score": 0,
       "close": 106100
     },
     {
       "code": "023530",
-      "score": 8.0708,
+      "score": 5.6496,
+      "dart_score": 0,
       "close": 132600
     },
     {
       "code": "018880",
-      "score": 8.0597,
+      "score": 5.6418,
+      "dart_score": 0,
       "close": 4400
     },
     {
       "code": "000500",
-      "score": 8.0482,
+      "score": 5.6337,
+      "dart_score": 0,
       "close": 217000
     },
     {
       "code": "237690",
-      "score": 8.0441,
+      "score": 5.6308,
+      "dart_score": 0,
       "close": 168700
     },
     {
       "code": "175330",
-      "score": 8.0145,
+      "score": 5.6101,
+      "dart_score": 0,
       "close": 27300
     },
     {
       "code": "088980",
-      "score": 7.9983,
+      "score": 5.5988,
+      "dart_score": 0,
       "close": 11420
     },
     {
       "code": "251270",
-      "score": 7.9292,
+      "score": 5.5505,
+      "dart_score": 0,
       "close": 50600
     },
     {
       "code": "214150",
-      "score": 7.9107,
+      "score": 5.5375,
+      "dart_score": 0,
       "close": 57500
     },
     {
       "code": "214450",
-      "score": 7.9055,
+      "score": 5.5339,
+      "dart_score": 0,
       "close": 325000
     },
     {
       "code": "012510",
-      "score": 7.8429,
+      "score": 5.49,
+      "dart_score": 0,
       "close": 120000
     },
     {
       "code": "020150",
-      "score": 7.8153,
+      "score": 5.4707,
+      "dart_score": 0,
       "close": 67400
     },
     {
       "code": "097950",
-      "score": 7.8085,
+      "score": 5.466,
+      "dart_score": 0,
       "close": 233000
     },
     {
       "code": "336260",
-      "score": 7.7656,
+      "score": 5.4359,
+      "dart_score": 0,
       "close": 52600
     },
     {
       "code": "319400",
-      "score": 7.7568,
+      "score": 5.4297,
+      "dart_score": 0,
       "close": 31350
     },
     {
       "code": "011780",
-      "score": 7.7562,
+      "score": 5.4294,
+      "dart_score": 0,
       "close": 137700
     },
     {
       "code": "439260",
-      "score": 7.7446,
+      "score": 5.4212,
+      "dart_score": 0,
       "close": 91900
     },
     {
       "code": "084370",
-      "score": 7.7419,
+      "score": 5.4194,
+      "dart_score": 0,
       "close": 142000
     },
     {
       "code": "014680",
-      "score": 7.7218,
+      "score": 5.4053,
+      "dart_score": 0,
       "close": 295500
     },
     {
       "code": "347850",
-      "score": 7.7164,
+      "score": 5.4015,
+      "dart_score": 0,
       "close": 78700
     },
     {
       "code": "111770",
-      "score": 7.6948,
+      "score": 5.3864,
+      "dart_score": 0,
       "close": 84100
     },
     {
       "code": "100790",
-      "score": 7.6767,
+      "score": 5.3737,
+      "dart_score": 0,
       "close": 60300
     },
     {
       "code": "088350",
-      "score": 7.6722,
+      "score": 5.3705,
+      "dart_score": 0,
       "close": 4975
     },
     {
       "code": "222800",
-      "score": 7.6583,
+      "score": 5.3608,
+      "dart_score": 0,
       "close": 86500
     },
     {
       "code": "058610",
-      "score": 7.6487,
+      "score": 5.3541,
+      "dart_score": 0,
       "close": 135100
     },
     {
       "code": "120110",
-      "score": 7.6435,
+      "score": 5.3504,
+      "dart_score": 0,
       "close": 100000
     },
     {
       "code": "036460",
-      "score": 7.6066,
+      "score": 5.3246,
+      "dart_score": 0,
       "close": 39050
     },
     {
       "code": "178320",
-      "score": 7.5846,
+      "score": 5.3092,
+      "dart_score": 0,
       "close": 51300
     },
     {
       "code": "145020",
-      "score": 7.556,
+      "score": 5.2892,
+      "dart_score": 0,
       "close": 265500
     },
     {
       "code": "031980",
-      "score": 7.4602,
+      "score": 5.2222,
+      "dart_score": 0,
       "close": 132800
     },
     {
       "code": "035250",
-      "score": 7.4072,
+      "score": 5.185,
+      "dart_score": 0,
       "close": 17320
     },
     {
       "code": "483650",
-      "score": 7.3991,
+      "score": 5.1793,
+      "dart_score": 0,
       "close": 235500
     },
     {
       "code": "112610",
-      "score": 7.396,
+      "score": 5.1772,
+      "dart_score": 0,
       "close": 72700
     },
     {
       "code": "005290",
-      "score": 7.3939,
+      "score": 5.1757,
+      "dart_score": 0,
       "close": 58800
     },
     {
       "code": "083650",
-      "score": 7.3662,
+      "score": 5.1564,
+      "dart_score": 0,
       "close": 97400
     },
     {
       "code": "005850",
-      "score": 7.3002,
+      "score": 5.1101,
+      "dart_score": 0,
       "close": 66000
     },
     {
       "code": "043260",
-      "score": 7.2939,
+      "score": 5.1058,
+      "dart_score": 0,
       "close": 41500
     },
     {
       "code": "001720",
-      "score": 7.2909,
+      "score": 5.1036,
+      "dart_score": 0,
       "close": 202000
     },
     {
       "code": "139480",
-      "score": 7.2179,
+      "score": 5.0525,
+      "dart_score": 0,
       "close": 106800
     },
     {
       "code": "302440",
-      "score": 7.1624,
+      "score": 5.0137,
+      "dart_score": 0,
       "close": 43400
     },
     {
       "code": "0009K0",
-      "score": 7.1401,
+      "score": 4.9981,
+      "dart_score": 0,
       "close": 48850
     },
     {
       "code": "012750",
-      "score": 7.1393,
+      "score": 4.9975,
+      "dart_score": 0,
       "close": 85700
     },
     {
       "code": "031210",
-      "score": 7.1333,
+      "score": 4.9933,
+      "dart_score": 0,
       "close": 48750
     },
     {
       "code": "103140",
-      "score": 7.1049,
+      "score": 4.9734,
+      "dart_score": 0,
       "close": 101800
     },
     {
       "code": "140410",
-      "score": 7.0243,
+      "score": 4.917,
+      "dart_score": 0,
       "close": 92800
     },
     {
       "code": "051600",
-      "score": 6.9378,
+      "score": 4.8564,
+      "dart_score": 0,
       "close": 63900
     },
     {
       "code": "139130",
-      "score": 6.8983,
+      "score": 4.8288,
+      "dart_score": 0,
       "close": 19280
     },
     {
       "code": "009970",
-      "score": 6.8565,
+      "score": 4.7995,
+      "dart_score": 0,
       "close": 206000
     },
     {
       "code": "004990",
-      "score": 6.5994,
+      "score": 4.6196,
+      "dart_score": 0,
       "close": 29200
     },
     {
       "code": "028670",
-      "score": 6.5816,
+      "score": 4.6071,
+      "dart_score": 0,
       "close": 5580
     },
     {
       "code": "00680K",
-      "score": 6.5745,
+      "score": 4.6021,
+      "dart_score": 0,
       "close": 20400
     }
   ]
