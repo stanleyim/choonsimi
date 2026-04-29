@@ -2,7 +2,7 @@ name: Stock Engine
 on:
   schedule:
     - cron: "57 22 * * 1-5"   # KST 07:57 (Mon–Fri)
-    - cron: "57 11 * 1-5"   # KST 20:57 (Mon–Fri)
+    - cron: "57 11 * * 1-5"   # KST 20:57 (Mon–Fri)
   workflow_dispatch:
 
 permissions:
