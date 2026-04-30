@@ -1,5 +1,5 @@
 {
-  "time": "2026-04-30T06:20:56.101438",
+  "time": "2026-04-30T17:39:41.731075",
   "data_date": "20260429",
   "mode": "v9.0_multifactor",
   "market_ret": 0,
@@ -7,13 +7,13 @@
     {
       "code": "005490",
       "name": "POSCO홀딩스",
-      "score": 62.36,
+      "score": 61.36,
       "signal": "WATCH",
       "dart_score": 99.44,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.4,
         "relative": 50,
         "momentum": 50
@@ -25,13 +25,13 @@
     {
       "code": "010060",
       "name": "OCI홀딩스",
-      "score": 62.34,
+      "score": 61.34,
       "signal": "WATCH",
       "dart_score": 99.34,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.3,
         "relative": 50,
         "momentum": 50
@@ -43,13 +43,13 @@
     {
       "code": "402340",
       "name": "SK스퀘어",
-      "score": 62.27,
+      "score": 61.27,
       "signal": "WATCH",
       "dart_score": 99.09,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.1,
         "relative": 50,
         "momentum": 50
@@ -61,13 +61,13 @@
     {
       "code": "003550",
       "name": "LG",
-      "score": 62.27,
+      "score": 61.27,
       "signal": "WATCH",
       "dart_score": 99.08,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.1,
         "relative": 50,
         "momentum": 50
@@ -79,13 +79,13 @@
     {
       "code": "009970",
       "name": "영원무역홀딩스",
-      "score": 62.27,
+      "score": 61.27,
       "signal": "WATCH",
       "dart_score": 99.07,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.1,
         "relative": 50,
         "momentum": 50
@@ -97,13 +97,13 @@
     {
       "code": "078930",
       "name": "GS",
-      "score": 62.23,
+      "score": 61.23,
       "signal": "WATCH",
       "dart_score": 98.9,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.9,
         "relative": 50,
         "momentum": 50
@@ -115,13 +115,13 @@
     {
       "code": "009540",
       "name": "HD한국조선해양",
-      "score": 62.21,
+      "score": 61.21,
       "signal": "WATCH",
       "dart_score": 98.84,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.8,
         "relative": 50,
         "momentum": 50
@@ -133,13 +133,13 @@
     {
       "code": "064760",
       "name": "티씨케이",
-      "score": 62.21,
+      "score": 61.21,
       "signal": "WATCH",
       "dart_score": 98.85,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.8,
         "relative": 50,
         "momentum": 50
@@ -151,13 +151,13 @@
     {
       "code": "145020",
       "name": "휴젤",
-      "score": 62.18,
+      "score": 61.18,
       "signal": "WATCH",
       "dart_score": 98.71,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.7,
         "relative": 50,
         "momentum": 50
@@ -169,13 +169,13 @@
     {
       "code": "259960",
       "name": "크래프톤",
-      "score": 62.16,
+      "score": 61.16,
       "signal": "WATCH",
       "dart_score": 98.63,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.6,
         "relative": 50,
         "momentum": 50
@@ -189,13 +189,13 @@
     {
       "code": "005490",
       "name": "POSCO홀딩스",
-      "score": 62.36,
+      "score": 61.36,
       "signal": "WATCH",
       "dart_score": 99.44,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.4,
         "relative": 50,
         "momentum": 50
@@ -207,13 +207,13 @@
     {
       "code": "010060",
       "name": "OCI홀딩스",
-      "score": 62.34,
+      "score": 61.34,
       "signal": "WATCH",
       "dart_score": 99.34,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.3,
         "relative": 50,
         "momentum": 50
@@ -225,13 +225,13 @@
     {
       "code": "402340",
       "name": "SK스퀘어",
-      "score": 62.27,
+      "score": 61.27,
       "signal": "WATCH",
       "dart_score": 99.09,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.1,
         "relative": 50,
         "momentum": 50
@@ -243,13 +243,13 @@
     {
       "code": "003550",
       "name": "LG",
-      "score": 62.27,
+      "score": 61.27,
       "signal": "WATCH",
       "dart_score": 99.08,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.1,
         "relative": 50,
         "momentum": 50
@@ -261,13 +261,13 @@
     {
       "code": "009970",
       "name": "영원무역홀딩스",
-      "score": 62.27,
+      "score": 61.27,
       "signal": "WATCH",
       "dart_score": 99.07,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 99.1,
         "relative": 50,
         "momentum": 50
@@ -279,13 +279,13 @@
     {
       "code": "078930",
       "name": "GS",
-      "score": 62.23,
+      "score": 61.23,
       "signal": "WATCH",
       "dart_score": 98.9,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.9,
         "relative": 50,
         "momentum": 50
@@ -297,13 +297,13 @@
     {
       "code": "009540",
       "name": "HD한국조선해양",
-      "score": 62.21,
+      "score": 61.21,
       "signal": "WATCH",
       "dart_score": 98.84,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.8,
         "relative": 50,
         "momentum": 50
@@ -315,13 +315,13 @@
     {
       "code": "064760",
       "name": "티씨케이",
-      "score": 62.21,
+      "score": 61.21,
       "signal": "WATCH",
       "dart_score": 98.85,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.8,
         "relative": 50,
         "momentum": 50
@@ -333,13 +333,13 @@
     {
       "code": "145020",
       "name": "휴젤",
-      "score": 62.18,
+      "score": 61.18,
       "signal": "WATCH",
       "dart_score": 98.71,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.7,
         "relative": 50,
         "momentum": 50
@@ -351,13 +351,13 @@
     {
       "code": "259960",
       "name": "크래프톤",
-      "score": 62.16,
+      "score": 61.16,
       "signal": "WATCH",
       "dart_score": 98.63,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.6,
         "relative": 50,
         "momentum": 50
@@ -369,13 +369,13 @@
     {
       "code": "058470",
       "name": "리노공업",
-      "score": 62.13,
+      "score": 61.13,
       "signal": "WATCH",
       "dart_score": 98.51,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.5,
         "relative": 50,
         "momentum": 50
@@ -387,13 +387,13 @@
     {
       "code": "062040",
       "name": "산일전기",
-      "score": 62.09,
+      "score": 61.09,
       "signal": "WATCH",
       "dart_score": 98.35,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.3,
         "relative": 50,
         "momentum": 50
@@ -405,13 +405,13 @@
     {
       "code": "006260",
       "name": "LS",
-      "score": 62.05,
+      "score": 61.05,
       "signal": "WATCH",
       "dart_score": 98.18,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.2,
         "relative": 50,
         "momentum": 50
@@ -423,13 +423,13 @@
     {
       "code": "001040",
       "name": "CJ",
-      "score": 62.05,
+      "score": 61.05,
       "signal": "WATCH",
       "dart_score": 98.19,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.2,
         "relative": 50,
         "momentum": 50
@@ -441,13 +441,13 @@
     {
       "code": "214370",
       "name": "케어젠",
-      "score": 62.05,
+      "score": 61.05,
       "signal": "WATCH",
       "dart_score": 98.2,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.2,
         "relative": 50,
         "momentum": 50
@@ -459,13 +459,13 @@
     {
       "code": "180640",
       "name": "한진칼",
-      "score": 62.03,
+      "score": 61.03,
       "signal": "WATCH",
       "dart_score": 98.14,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 98.1,
         "relative": 50,
         "momentum": 50
@@ -477,13 +477,13 @@
     {
       "code": "004800",
       "name": "효성",
-      "score": 61.93,
+      "score": 60.93,
       "signal": "WATCH",
       "dart_score": 97.71,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 97.7,
         "relative": 50,
         "momentum": 50
@@ -495,13 +495,13 @@
     {
       "code": "042700",
       "name": "한미반도체",
-      "score": 61.76,
+      "score": 60.76,
       "signal": "WATCH",
       "dart_score": 97.03,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 97.0,
         "relative": 50,
         "momentum": 50
@@ -513,13 +513,13 @@
     {
       "code": "483650",
       "name": "달바글로벌",
-      "score": 61.67,
+      "score": 60.67,
       "signal": "WATCH",
       "dart_score": 96.69,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.7,
         "relative": 50,
         "momentum": 50
@@ -531,13 +531,13 @@
     {
       "code": "035420",
       "name": "NAVER",
-      "score": 61.66,
+      "score": 60.66,
       "signal": "WATCH",
       "dart_score": 96.66,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.7,
         "relative": 50,
         "momentum": 50
@@ -549,13 +549,13 @@
     {
       "code": "214150",
       "name": "클래시스",
-      "score": 61.64,
+      "score": 60.64,
       "signal": "WATCH",
       "dart_score": 96.55,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.5,
         "relative": 50,
         "momentum": 50
@@ -567,13 +567,13 @@
     {
       "code": "326030",
       "name": "에스케이바이오팜",
-      "score": 61.61,
+      "score": 60.61,
       "signal": "WATCH",
       "dart_score": 96.44,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.4,
         "relative": 50,
         "momentum": 50
@@ -585,13 +585,13 @@
     {
       "code": "207940",
       "name": "삼성바이오로직스",
-      "score": 61.52,
+      "score": 60.52,
       "signal": "WATCH",
       "dart_score": 96.1,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.1,
         "relative": 50,
         "momentum": 50
@@ -603,13 +603,13 @@
     {
       "code": "403870",
       "name": "HPSP",
-      "score": 61.5,
+      "score": 60.5,
       "signal": "WATCH",
       "dart_score": 96.01,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.0,
         "relative": 50,
         "momentum": 50
@@ -621,13 +621,13 @@
     {
       "code": "031980",
       "name": "피에스케이홀딩스",
-      "score": 61.49,
+      "score": 60.49,
       "signal": "WATCH",
       "dart_score": 95.95,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 96.0,
         "relative": 50,
         "momentum": 50
@@ -639,13 +639,13 @@
     {
       "code": "095340",
       "name": "ISC",
-      "score": 61.47,
+      "score": 60.47,
       "signal": "WATCH",
       "dart_score": 95.89,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 95.9,
         "relative": 50,
         "momentum": 50
@@ -657,13 +657,13 @@
     {
       "code": "000660",
       "name": "SK하이닉스",
-      "score": 61.25,
+      "score": 60.25,
       "signal": "WATCH",
       "dart_score": 94.98,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 95.0,
         "relative": 50,
         "momentum": 50
@@ -675,13 +675,13 @@
     {
       "code": "267250",
       "name": "HD현대",
-      "score": 61.2,
+      "score": 60.2,
       "signal": "WATCH",
       "dart_score": 94.8,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 94.8,
         "relative": 50,
         "momentum": 50
@@ -693,13 +693,13 @@
     {
       "code": "096770",
       "name": "SK이노베이션",
-      "score": 61.04,
+      "score": 60.04,
       "signal": "WATCH",
       "dart_score": 94.15,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 94.2,
         "relative": 50,
         "momentum": 50
@@ -711,13 +711,13 @@
     {
       "code": "036930",
       "name": "주성엔지니어링",
-      "score": 60.91,
+      "score": 59.91,
       "signal": "WATCH",
       "dart_score": 93.65,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 93.7,
         "relative": 50,
         "momentum": 50
@@ -729,13 +729,13 @@
     {
       "code": "003230",
       "name": "삼양식품",
-      "score": 60.64,
+      "score": 59.64,
       "signal": "WATCH",
       "dart_score": 92.57,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 92.6,
         "relative": 50,
         "momentum": 50
@@ -747,13 +747,13 @@
     {
       "code": "214450",
       "name": "파마리서치",
-      "score": 60.22,
+      "score": 59.22,
       "signal": "WATCH",
       "dart_score": 90.86,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.9,
         "relative": 50,
         "momentum": 50
@@ -765,13 +765,13 @@
     {
       "code": "068270",
       "name": "셀트리온",
-      "score": 60.17,
+      "score": 59.17,
       "signal": "WATCH",
       "dart_score": 90.69,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.7,
         "relative": 50,
         "momentum": 50
@@ -783,13 +783,13 @@
     {
       "code": "011200",
       "name": "HMM",
-      "score": 60.08,
+      "score": 59.08,
       "signal": "WATCH",
       "dart_score": 90.32,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.3,
         "relative": 50,
         "momentum": 50
@@ -801,13 +801,13 @@
     {
       "code": "004990",
       "name": "롯데지주",
-      "score": 60.06,
+      "score": 59.06,
       "signal": "WATCH",
       "dart_score": 90.23,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.2,
         "relative": 50,
         "momentum": 50
@@ -819,13 +819,13 @@
     {
       "code": "489790",
       "name": "한화비전",
-      "score": 60.05,
+      "score": 59.05,
       "signal": "WATCH",
       "dart_score": 90.19,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.2,
         "relative": 50,
         "momentum": 50
@@ -837,13 +837,13 @@
     {
       "code": "014680",
       "name": "한솔케미칼",
-      "score": 60.05,
+      "score": 59.05,
       "signal": "WATCH",
       "dart_score": 90.22,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.2,
         "relative": 50,
         "momentum": 50
@@ -855,13 +855,13 @@
     {
       "code": "141080",
       "name": "리가켐바이오",
-      "score": 60.03,
+      "score": 59.03,
       "signal": "WATCH",
       "dart_score": 90.13,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 90.1,
         "relative": 50,
         "momentum": 50
@@ -873,13 +873,13 @@
     {
       "code": "012510",
       "name": "더존비즈온",
-      "score": 59.92,
+      "score": 58.92,
       "signal": "WATCH",
       "dart_score": 89.7,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 89.7,
         "relative": 50,
         "momentum": 50
@@ -891,13 +891,13 @@
     {
       "code": "000150",
       "name": "두산",
-      "score": 59.81,
+      "score": 58.81,
       "signal": "WATCH",
       "dart_score": 89.25,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 89.2,
         "relative": 50,
         "momentum": 50
@@ -909,13 +909,13 @@
     {
       "code": "000990",
       "name": "DB하이텍",
-      "score": 59.8,
+      "score": 58.8,
       "signal": "WATCH",
       "dart_score": 89.22,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 89.2,
         "relative": 50,
         "momentum": 50
@@ -927,13 +927,13 @@
     {
       "code": "039030",
       "name": "이오테크닉스",
-      "score": 59.8,
+      "score": 58.8,
       "signal": "WATCH",
       "dart_score": 89.2,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 89.2,
         "relative": 50,
         "momentum": 50
@@ -945,13 +945,13 @@
     {
       "code": "035250",
       "name": "강원랜드",
-      "score": 59.49,
+      "score": 58.49,
       "signal": "WATCH",
       "dart_score": 87.97,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 88.0,
         "relative": 50,
         "momentum": 50
@@ -963,13 +963,13 @@
     {
       "code": "084370",
       "name": "유진테크",
-      "score": 59.48,
+      "score": 58.48,
       "signal": "WATCH",
       "dart_score": 87.9,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 87.9,
         "relative": 50,
         "momentum": 50
@@ -981,13 +981,13 @@
     {
       "code": "033780",
       "name": "케이티앤지",
-      "score": 59.41,
+      "score": 58.41,
       "signal": "WATCH",
       "dart_score": 87.66,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 87.7,
         "relative": 50,
         "momentum": 50
@@ -999,13 +999,13 @@
     {
       "code": "443060",
       "name": "HD현대마린솔루션",
-      "score": 59.11,
+      "score": 58.11,
       "signal": "WATCH",
       "dart_score": 86.44,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 86.4,
         "relative": 50,
         "momentum": 50
@@ -1017,13 +1017,13 @@
     {
       "code": "034730",
       "name": "SK",
-      "score": 58.91,
+      "score": 57.91,
       "signal": "WATCH",
       "dart_score": 85.66,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 85.7,
         "relative": 50,
         "momentum": 50
@@ -1035,13 +1035,13 @@
     {
       "code": "267260",
       "name": "HD현대일렉트릭",
-      "score": 58.62,
+      "score": 57.62,
       "signal": "WATCH",
       "dart_score": 84.47,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 84.5,
         "relative": 50,
         "momentum": 50
@@ -1053,13 +1053,13 @@
     {
       "code": "357780",
       "name": "솔브레인",
-      "score": 58.59,
+      "score": 57.59,
       "signal": "WATCH",
       "dart_score": 84.34,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 84.3,
         "relative": 50,
         "momentum": 50
@@ -1071,13 +1071,13 @@
     {
       "code": "278470",
       "name": "에이피알",
-      "score": 58.48,
+      "score": 57.48,
       "signal": "WATCH",
       "dart_score": 83.92,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 83.9,
         "relative": 50,
         "momentum": 50
@@ -1089,13 +1089,13 @@
     {
       "code": "271560",
       "name": "오리온",
-      "score": 58.2,
+      "score": 57.2,
       "signal": "WATCH",
       "dart_score": 82.82,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 82.8,
         "relative": 50,
         "momentum": 50
@@ -1107,13 +1107,13 @@
     {
       "code": "005290",
       "name": "동진쎄미켐",
-      "score": 58.1,
+      "score": 57.1,
       "signal": "WATCH",
       "dart_score": 82.41,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 82.4,
         "relative": 50,
         "momentum": 50
@@ -1125,13 +1125,13 @@
     {
       "code": "196170",
       "name": "알테오젠",
-      "score": 57.97,
+      "score": 56.97,
       "signal": "WATCH",
       "dart_score": 81.87,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 81.9,
         "relative": 50,
         "momentum": 50
@@ -1143,13 +1143,13 @@
     {
       "code": "021240",
       "name": "코웨이",
-      "score": 57.78,
+      "score": 56.78,
       "signal": "WATCH",
       "dart_score": 81.11,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 81.1,
         "relative": 50,
         "momentum": 50
@@ -1161,13 +1161,13 @@
     {
       "code": "439260",
       "name": "대한조선",
-      "score": 57.48,
+      "score": 56.48,
       "signal": "WATCH",
       "dart_score": 79.93,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 79.9,
         "relative": 50,
         "momentum": 50
@@ -1179,13 +1179,13 @@
     {
       "code": "086520",
       "name": "에코프로",
-      "score": 57.05,
+      "score": 56.05,
       "signal": "WATCH",
       "dart_score": 78.19,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 78.2,
         "relative": 50,
         "momentum": 50
@@ -1197,13 +1197,13 @@
     {
       "code": "035720",
       "name": "카카오",
-      "score": 57.0,
+      "score": 56.0,
       "signal": "WATCH",
       "dart_score": 77.99,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 78.0,
         "relative": 50,
         "momentum": 50
@@ -1215,13 +1215,13 @@
     {
       "code": "128940",
       "name": "한미약품",
-      "score": 56.47,
+      "score": 55.47,
       "signal": "WATCH",
       "dart_score": 75.87,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 75.9,
         "relative": 50,
         "momentum": 50
@@ -1233,13 +1233,13 @@
     {
       "code": "263750",
       "name": "펄어비스",
-      "score": 56.4,
+      "score": 55.4,
       "signal": "WATCH",
       "dart_score": 75.6,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 75.6,
         "relative": 50,
         "momentum": 50
@@ -1251,13 +1251,13 @@
     {
       "code": "090430",
       "name": "아모레퍼시픽",
-      "score": 56.23,
+      "score": 55.23,
       "signal": "WATCH",
       "dart_score": 74.92,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 74.9,
         "relative": 50,
         "momentum": 50
@@ -1269,13 +1269,13 @@
     {
       "code": "018260",
       "name": "삼성에스디에스",
-      "score": 56.06,
+      "score": 55.06,
       "signal": "WATCH",
       "dart_score": 74.23,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 74.2,
         "relative": 50,
         "momentum": 50
@@ -1287,13 +1287,13 @@
     {
       "code": "098460",
       "name": "고영",
-      "score": 55.98,
+      "score": 54.98,
       "signal": "WATCH",
       "dart_score": 73.94,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 73.9,
         "relative": 50,
         "momentum": 50
@@ -1305,13 +1305,13 @@
     {
       "code": "007660",
       "name": "이수페타시스",
-      "score": 55.94,
+      "score": 54.94,
       "signal": "WATCH",
       "dart_score": 73.76,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 73.8,
         "relative": 50,
         "momentum": 50
@@ -1323,13 +1323,13 @@
     {
       "code": "064350",
       "name": "현대로템",
-      "score": 55.7,
+      "score": 54.7,
       "signal": "WATCH",
       "dart_score": 72.78,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 72.8,
         "relative": 50,
         "momentum": 50
@@ -1341,13 +1341,13 @@
     {
       "code": "111770",
       "name": "영원무역",
-      "score": 55.51,
+      "score": 54.51,
       "signal": "WATCH",
       "dart_score": 72.03,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 72.0,
         "relative": 50,
         "momentum": 50
@@ -1359,13 +1359,13 @@
     {
       "code": "000270",
       "name": "기아",
-      "score": 55.39,
+      "score": 54.39,
       "signal": "WATCH",
       "dart_score": 71.54,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 71.5,
         "relative": 50,
         "momentum": 50
@@ -1377,13 +1377,13 @@
     {
       "code": "071970",
       "name": "HD현대마린엔진",
-      "score": 55.33,
+      "score": 54.33,
       "signal": "WATCH",
       "dart_score": 71.33,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 71.3,
         "relative": 50,
         "momentum": 50
@@ -1395,13 +1395,13 @@
     {
       "code": "017670",
       "name": "SK텔레콤",
-      "score": 55.25,
+      "score": 54.25,
       "signal": "WATCH",
       "dart_score": 71.02,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 71.0,
         "relative": 50,
         "momentum": 50
@@ -1413,13 +1413,13 @@
     {
       "code": "005380",
       "name": "현대자동차",
-      "score": 55.2,
+      "score": 54.2,
       "signal": "WATCH",
       "dart_score": 70.8,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 70.8,
         "relative": 50,
         "momentum": 50
@@ -1431,13 +1431,13 @@
     {
       "code": "051900",
       "name": "LG생활건강",
-      "score": 55.14,
+      "score": 54.14,
       "signal": "WATCH",
       "dart_score": 70.54,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 70.5,
         "relative": 50,
         "momentum": 50
@@ -1449,13 +1449,13 @@
     {
       "code": "010130",
       "name": "고려아연",
-      "score": 54.97,
+      "score": 53.97,
       "signal": "WATCH",
       "dart_score": 69.89,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 69.9,
         "relative": 50,
         "momentum": 50
@@ -1467,13 +1467,13 @@
     {
       "code": "005850",
       "name": "에스엘",
-      "score": 54.89,
+      "score": 53.89,
       "signal": "WATCH",
       "dart_score": 69.57,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 69.6,
         "relative": 50,
         "momentum": 50
@@ -1485,13 +1485,13 @@
     {
       "code": "178320",
       "name": "서진시스템",
-      "score": 54.63,
+      "score": 53.63,
       "signal": "WATCH",
       "dart_score": 68.53,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 68.5,
         "relative": 50,
         "momentum": 50
@@ -1503,13 +1503,13 @@
     {
       "code": "112610",
       "name": "씨에스윈드",
-      "score": 54.59,
+      "score": 53.59,
       "signal": "WATCH",
       "dart_score": 68.37,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 68.4,
         "relative": 50,
         "momentum": 50
@@ -1521,13 +1521,13 @@
     {
       "code": "004170",
       "name": "신세계",
-      "score": 54.55,
+      "score": 53.55,
       "signal": "WATCH",
       "dart_score": 68.22,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 68.2,
         "relative": 50,
         "momentum": 50
@@ -1539,13 +1539,13 @@
     {
       "code": "012750",
       "name": "에스원",
-      "score": 54.45,
+      "score": 53.45,
       "signal": "WATCH",
       "dart_score": 67.78,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 67.8,
         "relative": 50,
         "momentum": 50
@@ -1557,13 +1557,13 @@
     {
       "code": "028670",
       "name": "팬오션",
-      "score": 54.28,
+      "score": 53.28,
       "signal": "WATCH",
       "dart_score": 67.13,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 67.1,
         "relative": 50,
         "momentum": 50
@@ -1575,13 +1575,13 @@
     {
       "code": "377300",
       "name": "카카오페이",
-      "score": 54.17,
+      "score": 53.17,
       "signal": "WATCH",
       "dart_score": 66.67,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 66.7,
         "relative": 50,
         "momentum": 50
@@ -1593,13 +1593,13 @@
     {
       "code": "011780",
       "name": "금호석유화학",
-      "score": 54.16,
+      "score": 53.16,
       "signal": "WATCH",
       "dart_score": 66.66,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 66.7,
         "relative": 50,
         "momentum": 50
@@ -1611,13 +1611,13 @@
     {
       "code": "241560",
       "name": "두산밥캣",
-      "score": 54.11,
+      "score": 53.11,
       "signal": "WATCH",
       "dart_score": 66.44,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 66.4,
         "relative": 50,
         "momentum": 50
@@ -1629,13 +1629,13 @@
     {
       "code": "022100",
       "name": "포스코DX",
-      "score": 54.0,
+      "score": 53.0,
       "signal": "WATCH",
       "dart_score": 65.99,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 66.0,
         "relative": 50,
         "momentum": 50
@@ -1647,13 +1647,13 @@
     {
       "code": "002380",
       "name": "케이씨씨",
-      "score": 53.97,
+      "score": 52.97,
       "signal": "WATCH",
       "dart_score": 65.86,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 65.9,
         "relative": 50,
         "momentum": 50
@@ -1665,13 +1665,13 @@
     {
       "code": "272210",
       "name": "한화시스템",
-      "score": 53.95,
+      "score": 52.95,
       "signal": "WATCH",
       "dart_score": 65.82,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 65.8,
         "relative": 50,
         "momentum": 50
@@ -1683,13 +1683,13 @@
     {
       "code": "138040",
       "name": "메리츠금융지주",
-      "score": 53.83,
+      "score": 52.83,
       "signal": "WATCH",
       "dart_score": 65.33,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 65.3,
         "relative": 50,
         "momentum": 50
@@ -1701,13 +1701,13 @@
     {
       "code": "237690",
       "name": "에스티팜",
-      "score": 53.63,
+      "score": 52.63,
       "signal": "WATCH",
       "dart_score": 64.53,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 64.5,
         "relative": 50,
         "momentum": 50
@@ -1719,13 +1719,13 @@
     {
       "code": "010120",
       "name": "엘에스일렉트릭",
-      "score": 53.54,
+      "score": 52.54,
       "signal": "WATCH",
       "dart_score": 64.17,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 64.2,
         "relative": 50,
         "momentum": 50
@@ -1737,13 +1737,13 @@
     {
       "code": "108490",
       "name": "로보티즈",
-      "score": 53.5,
+      "score": 52.5,
       "signal": "WATCH",
       "dart_score": 64.0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 64.0,
         "relative": 50,
         "momentum": 50
@@ -1755,13 +1755,13 @@
     {
       "code": "161390",
       "name": "한국타이어앤테크놀로지",
-      "score": 53.49,
+      "score": 52.49,
       "signal": "WATCH",
       "dart_score": 63.98,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 64.0,
         "relative": 50,
         "momentum": 50
@@ -1773,13 +1773,13 @@
     {
       "code": "319400",
       "name": "현대무벡스",
-      "score": 53.36,
+      "score": 52.36,
       "signal": "WATCH",
       "dart_score": 63.45,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 63.5,
         "relative": 50,
         "momentum": 50
@@ -1791,13 +1791,13 @@
     {
       "code": "012330",
       "name": "현대모비스",
-      "score": 53.34,
+      "score": 52.34,
       "signal": "WATCH",
       "dart_score": 63.34,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 63.3,
         "relative": 50,
         "momentum": 50
@@ -1809,13 +1809,13 @@
     {
       "code": "071050",
       "name": "한국금융지주",
-      "score": 53.27,
+      "score": 52.27,
       "signal": "WATCH",
       "dart_score": 63.09,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 63.1,
         "relative": 50,
         "momentum": 50
@@ -1827,13 +1827,13 @@
     {
       "code": "030200",
       "name": "케이티",
-      "score": 53.24,
+      "score": 52.24,
       "signal": "WATCH",
       "dart_score": 62.97,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 63.0,
         "relative": 50,
         "momentum": 50
@@ -1845,13 +1845,13 @@
     {
       "code": "036570",
       "name": "NC",
-      "score": 53.03,
+      "score": 52.03,
       "signal": "WATCH",
       "dart_score": 62.14,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 62.1,
         "relative": 50,
         "momentum": 50
@@ -1863,13 +1863,13 @@
     {
       "code": "103590",
       "name": "일진전기",
-      "score": 52.87,
+      "score": 51.87,
       "signal": "WATCH",
       "dart_score": 61.49,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 61.5,
         "relative": 50,
         "momentum": 50
@@ -1881,13 +1881,13 @@
     {
       "code": "103140",
       "name": "풍산",
-      "score": 52.87,
+      "score": 51.87,
       "signal": "WATCH",
       "dart_score": 61.48,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 61.5,
         "relative": 50,
         "momentum": 50
@@ -1899,13 +1899,13 @@
     {
       "code": "028260",
       "name": "삼성물산",
-      "score": 52.81,
+      "score": 51.81,
       "signal": "WATCH",
       "dart_score": 61.24,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 61.2,
         "relative": 50,
         "momentum": 50
@@ -1917,13 +1917,13 @@
     {
       "code": "086280",
       "name": "현대글로비스",
-      "score": 52.75,
+      "score": 51.75,
       "signal": "WATCH",
       "dart_score": 60.99,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 61.0,
         "relative": 50,
         "momentum": 50
@@ -1935,13 +1935,13 @@
     {
       "code": "352820",
       "name": "하이브",
-      "score": 52.75,
+      "score": 51.75,
       "signal": "WATCH",
       "dart_score": 61.0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 61.0,
         "relative": 50,
         "momentum": 50
@@ -1953,13 +1953,13 @@
     {
       "code": "012450",
       "name": "한화에어로스페이스",
-      "score": 52.68,
+      "score": 51.68,
       "signal": "WATCH",
       "dart_score": 60.72,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.7,
         "relative": 50,
         "momentum": 50
@@ -1971,13 +1971,13 @@
     {
       "code": "000100",
       "name": "유한양행",
-      "score": 52.65,
+      "score": 51.65,
       "signal": "WATCH",
       "dart_score": 60.61,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.6,
         "relative": 50,
         "momentum": 50
@@ -1989,13 +1989,13 @@
     {
       "code": "375500",
       "name": "DL이앤씨",
-      "score": 52.65,
+      "score": 51.65,
       "signal": "WATCH",
       "dart_score": 60.59,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.6,
         "relative": 50,
         "momentum": 50
@@ -2007,13 +2007,13 @@
     {
       "code": "005930",
       "name": "삼성전자",
-      "score": 52.6,
+      "score": 51.6,
       "signal": "WATCH",
       "dart_score": 60.41,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.4,
         "relative": 50,
         "momentum": 50
@@ -2025,13 +2025,13 @@
     {
       "code": "017800",
       "name": "현대엘리베이터",
-      "score": 52.56,
+      "score": 51.56,
       "signal": "WATCH",
       "dart_score": 60.24,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.2,
         "relative": 50,
         "momentum": 50
@@ -2043,13 +2043,13 @@
     {
       "code": "000880",
       "name": "한화",
-      "score": 52.55,
+      "score": 51.55,
       "signal": "WATCH",
       "dart_score": 60.21,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.2,
         "relative": 50,
         "momentum": 50
@@ -2061,13 +2061,13 @@
     {
       "code": "0126Z0",
       "name": "삼성에피스홀딩스",
-      "score": 52.49,
+      "score": 51.49,
       "signal": "WATCH",
       "dart_score": 59.96,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 60.0,
         "relative": 50,
         "momentum": 50
@@ -2079,13 +2079,13 @@
     {
       "code": "032640",
       "name": "LG유플러스",
-      "score": 52.45,
+      "score": 51.45,
       "signal": "WATCH",
       "dart_score": 59.78,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.8,
         "relative": 50,
         "momentum": 50
@@ -2097,13 +2097,13 @@
     {
       "code": "454910",
       "name": "두산로보틱스",
-      "score": 52.42,
+      "score": 51.42,
       "signal": "WATCH",
       "dart_score": 59.7,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.7,
         "relative": 50,
         "momentum": 50
@@ -2115,13 +2115,13 @@
     {
       "code": "0009K0",
       "name": "에임드바이오",
-      "score": 52.41,
+      "score": 51.41,
       "signal": "WATCH",
       "dart_score": 59.65,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.6,
         "relative": 50,
         "momentum": 50
@@ -2133,13 +2133,13 @@
     {
       "code": "051600",
       "name": "한전KPS",
-      "score": 52.41,
+      "score": 51.41,
       "signal": "WATCH",
       "dart_score": 59.65,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.6,
         "relative": 50,
         "momentum": 50
@@ -2151,13 +2151,13 @@
     {
       "code": "064400",
       "name": "LG씨엔에스",
-      "score": 52.38,
+      "score": 51.38,
       "signal": "WATCH",
       "dart_score": 59.51,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.5,
         "relative": 50,
         "momentum": 50
@@ -2169,13 +2169,13 @@
     {
       "code": "277810",
       "name": "레인보우로보틱스",
-      "score": 52.37,
+      "score": 51.37,
       "signal": "WATCH",
       "dart_score": 59.49,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.5,
         "relative": 50,
         "momentum": 50
@@ -2187,13 +2187,13 @@
     {
       "code": "347850",
       "name": "디앤디파마텍",
-      "score": 52.36,
+      "score": 51.36,
       "signal": "WATCH",
       "dart_score": 59.43,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 59.4,
         "relative": 50,
         "momentum": 50
@@ -2205,13 +2205,13 @@
     {
       "code": "028300",
       "name": "HLB",
-      "score": 52.23,
+      "score": 51.23,
       "signal": "WATCH",
       "dart_score": 58.91,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 58.9,
         "relative": 50,
         "momentum": 50
@@ -2223,13 +2223,13 @@
     {
       "code": "087010",
       "name": "펩트론",
-      "score": 52.22,
+      "score": 51.22,
       "signal": "WATCH",
       "dart_score": 58.89,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 58.9,
         "relative": 50,
         "momentum": 50
@@ -2241,13 +2241,13 @@
     {
       "code": "251270",
       "name": "넷마블",
-      "score": 52.2,
+      "score": 51.2,
       "signal": "WATCH",
       "dart_score": 58.79,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 58.8,
         "relative": 50,
         "momentum": 50
@@ -2259,13 +2259,13 @@
     {
       "code": "310210",
       "name": "보로노이",
-      "score": 52.09,
+      "score": 51.09,
       "signal": "WATCH",
       "dart_score": 58.36,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 58.4,
         "relative": 50,
         "momentum": 50
@@ -2277,13 +2277,13 @@
     {
       "code": "020150",
       "name": "롯데에너지머티리얼즈",
-      "score": 52.03,
+      "score": 51.03,
       "signal": "WATCH",
       "dart_score": 58.11,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 58.1,
         "relative": 50,
         "momentum": 50
@@ -2295,13 +2295,13 @@
     {
       "code": "023530",
       "name": "롯데쇼핑",
-      "score": 51.96,
+      "score": 50.96,
       "signal": "WATCH",
       "dart_score": 57.83,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 57.8,
         "relative": 50,
         "momentum": 50
@@ -2313,13 +2313,13 @@
     {
       "code": "302440",
       "name": "SK바이오사이언스",
-      "score": 51.94,
+      "score": 50.94,
       "signal": "WATCH",
       "dart_score": 57.76,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 57.8,
         "relative": 50,
         "momentum": 50
@@ -2331,13 +2331,13 @@
     {
       "code": "000500",
       "name": "가온전선",
-      "score": 51.93,
+      "score": 50.93,
       "signal": "WATCH",
       "dart_score": 57.72,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 57.7,
         "relative": 50,
         "momentum": 50
@@ -2349,13 +2349,13 @@
     {
       "code": "307950",
       "name": "현대오토에버",
-      "score": 51.82,
+      "score": 50.82,
       "signal": "WATCH",
       "dart_score": 57.27,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 57.3,
         "relative": 50,
         "momentum": 50
@@ -2367,13 +2367,13 @@
     {
       "code": "353200",
       "name": "대덕전자",
-      "score": 51.75,
+      "score": 50.75,
       "signal": "WATCH",
       "dart_score": 57.0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 57.0,
         "relative": 50,
         "momentum": 50
@@ -2385,13 +2385,13 @@
     {
       "code": "001440",
       "name": "대한전선",
-      "score": 51.67,
+      "score": 50.67,
       "signal": "WATCH",
       "dart_score": 56.7,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 56.7,
         "relative": 50,
         "momentum": 50
@@ -2403,13 +2403,13 @@
     {
       "code": "240810",
       "name": "원익IPS",
-      "score": 51.65,
+      "score": 50.65,
       "signal": "WATCH",
       "dart_score": 56.61,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 56.6,
         "relative": 50,
         "momentum": 50
@@ -2421,13 +2421,13 @@
     {
       "code": "140410",
       "name": "메지온",
-      "score": 51.58,
+      "score": 50.58,
       "signal": "WATCH",
       "dart_score": 56.31,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 56.3,
         "relative": 50,
         "momentum": 50
@@ -2439,13 +2439,13 @@
     {
       "code": "440110",
       "name": "파두",
-      "score": 51.57,
+      "score": 50.57,
       "signal": "WATCH",
       "dart_score": 56.27,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 56.3,
         "relative": 50,
         "momentum": 50
@@ -2457,13 +2457,13 @@
     {
       "code": "298040",
       "name": "효성중공업",
-      "score": 51.51,
+      "score": 50.51,
       "signal": "WATCH",
       "dart_score": 56.02,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 56.0,
         "relative": 50,
         "momentum": 50
@@ -2475,13 +2475,13 @@
     {
       "code": "267270",
       "name": "HD건설기계",
-      "score": 51.37,
+      "score": 50.37,
       "signal": "WATCH",
       "dart_score": 55.49,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 55.5,
         "relative": 50,
         "momentum": 50
@@ -2493,13 +2493,13 @@
     {
       "code": "028050",
       "name": "삼성E&A",
-      "score": 51.34,
+      "score": 50.34,
       "signal": "WATCH",
       "dart_score": 55.38,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 55.4,
         "relative": 50,
         "momentum": 50
@@ -2511,13 +2511,13 @@
     {
       "code": "298380",
       "name": "에이비엘바이오",
-      "score": 51.32,
+      "score": 50.32,
       "signal": "WATCH",
       "dart_score": 55.27,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 55.3,
         "relative": 50,
         "momentum": 50
@@ -2529,13 +2529,13 @@
     {
       "code": "032820",
       "name": "우리기술",
-      "score": 51.28,
+      "score": 50.28,
       "signal": "WATCH",
       "dart_score": 55.14,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 55.1,
         "relative": 50,
         "momentum": 50
@@ -2547,13 +2547,13 @@
     {
       "code": "052690",
       "name": "한전기술",
-      "score": 51.27,
+      "score": 50.27,
       "signal": "WATCH",
       "dart_score": 55.07,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 55.1,
         "relative": 50,
         "momentum": 50
@@ -2565,13 +2565,13 @@
     {
       "code": "009150",
       "name": "삼성전기",
-      "score": 51.24,
+      "score": 50.24,
       "signal": "WATCH",
       "dart_score": 54.97,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 55.0,
         "relative": 50,
         "momentum": 50
@@ -2583,13 +2583,13 @@
     {
       "code": "006400",
       "name": "삼성SDI",
-      "score": 51.17,
+      "score": 50.17,
       "signal": "WATCH",
       "dart_score": 54.68,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 54.7,
         "relative": 50,
         "momentum": 50
@@ -2601,13 +2601,13 @@
     {
       "code": "058610",
       "name": "에스피지",
-      "score": 51.11,
+      "score": 50.11,
       "signal": "WATCH",
       "dart_score": 54.43,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 54.4,
         "relative": 50,
         "momentum": 50
@@ -2619,13 +2619,13 @@
     {
       "code": "457190",
       "name": "이수스페셜티케미컬",
-      "score": 51.09,
+      "score": 50.09,
       "signal": "WATCH",
       "dart_score": 54.37,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 54.4,
         "relative": 50,
         "momentum": 50
@@ -2637,13 +2637,13 @@
     {
       "code": "000250",
       "name": "삼천당제약",
-      "score": 50.93,
+      "score": 49.93,
       "signal": "WATCH",
       "dart_score": 53.71,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 53.7,
         "relative": 50,
         "momentum": 50
@@ -2655,13 +2655,13 @@
     {
       "code": "097950",
       "name": "CJ제일제당",
-      "score": 50.86,
+      "score": 49.86,
       "signal": "WATCH",
       "dart_score": 53.44,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 53.4,
         "relative": 50,
         "momentum": 50
@@ -2673,13 +2673,13 @@
     {
       "code": "051910",
       "name": "LG화학",
-      "score": 50.84,
+      "score": 49.84,
       "signal": "WATCH",
       "dart_score": 53.37,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 53.4,
         "relative": 50,
         "momentum": 50
@@ -2691,13 +2691,13 @@
     {
       "code": "950160",
       "name": "코오롱티슈진",
-      "score": 50.79,
+      "score": 49.79,
       "signal": "WATCH",
       "dart_score": 53.17,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 53.2,
         "relative": 50,
         "momentum": 50
@@ -2709,13 +2709,13 @@
     {
       "code": "011170",
       "name": "롯데케미칼",
-      "score": 50.76,
+      "score": 49.76,
       "signal": "WATCH",
       "dart_score": 53.03,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 53.0,
         "relative": 50,
         "momentum": 50
@@ -2727,13 +2727,13 @@
     {
       "code": "139480",
       "name": "이마트",
-      "score": 50.74,
+      "score": 49.74,
       "signal": "WATCH",
       "dart_score": 52.95,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 53.0,
         "relative": 50,
         "momentum": 50
@@ -2745,13 +2745,13 @@
     {
       "code": "004020",
       "name": "현대제철",
-      "score": 50.73,
+      "score": 49.73,
       "signal": "WATCH",
       "dart_score": 52.94,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 52.9,
         "relative": 50,
         "momentum": 50
@@ -2763,13 +2763,13 @@
     {
       "code": "047050",
       "name": "포스코인터내셔널",
-      "score": 50.57,
+      "score": 49.57,
       "signal": "WATCH",
       "dart_score": 52.27,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 52.3,
         "relative": 50,
         "momentum": 50
@@ -2781,13 +2781,13 @@
     {
       "code": "120110",
       "name": "코오롱인더",
-      "score": 50.55,
+      "score": 49.55,
       "signal": "WATCH",
       "dart_score": 52.22,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 52.2,
         "relative": 50,
         "momentum": 50
@@ -2799,13 +2799,13 @@
     {
       "code": "373220",
       "name": "LG에너지솔루션",
-      "score": 50.31,
+      "score": 49.31,
       "signal": "WATCH",
       "dart_score": 51.26,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 51.3,
         "relative": 50,
         "momentum": 50
@@ -2817,13 +2817,13 @@
     {
       "code": "329180",
       "name": "HD현대중공업",
-      "score": 50.27,
+      "score": 49.27,
       "signal": "WATCH",
       "dart_score": 51.09,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 51.1,
         "relative": 50,
         "momentum": 50
@@ -2835,13 +2835,13 @@
     {
       "code": "450080",
       "name": "에코프로머티",
-      "score": 50.24,
+      "score": 49.24,
       "signal": "WATCH",
       "dart_score": 50.97,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 51.0,
         "relative": 50,
         "momentum": 50
@@ -2853,13 +2853,13 @@
     {
       "code": "011790",
       "name": "SKC",
-      "score": 50.16,
+      "score": 49.16,
       "signal": "WATCH",
       "dart_score": 50.65,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 50.6,
         "relative": 50,
         "momentum": 50
@@ -2871,13 +2871,13 @@
     {
       "code": "034020",
       "name": "두산에너빌리티",
-      "score": 50.12,
+      "score": 49.12,
       "signal": "WATCH",
       "dart_score": 50.46,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 50.5,
         "relative": 50,
         "momentum": 50
@@ -2889,13 +2889,13 @@
     {
       "code": "009830",
       "name": "한화솔루션",
-      "score": 50.12,
+      "score": 49.12,
       "signal": "WATCH",
       "dart_score": 50.49,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 50.5,
         "relative": 50,
         "momentum": 50
@@ -2907,13 +2907,13 @@
     {
       "code": "043260",
       "name": "성호전자",
-      "score": 50.1,
+      "score": 49.1,
       "signal": "WATCH",
       "dart_score": 50.41,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 50.4,
         "relative": 50,
         "momentum": 50
@@ -2925,13 +2925,13 @@
     {
       "code": "247540",
       "name": "에코프로비엠",
-      "score": 50.04,
+      "score": 49.04,
       "signal": "WATCH",
       "dart_score": 50.15,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 50.1,
         "relative": 50,
         "momentum": 50
@@ -2943,13 +2943,13 @@
     {
       "code": "088980",
       "name": "맥쿼리인프라",
-      "score": 50.0,
+      "score": 49.0,
       "signal": "WATCH",
       "dart_score": 50,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 50,
         "relative": 50,
         "momentum": 50
@@ -2961,13 +2961,13 @@
     {
       "code": "079550",
       "name": "LIG디펜스앤에어로스페이스",
-      "score": 49.88,
+      "score": 48.88,
       "signal": "WATCH",
       "dart_score": 49.52,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 49.5,
         "relative": 50,
         "momentum": 50
@@ -2979,13 +2979,13 @@
     {
       "code": "003490",
       "name": "대한항공",
-      "score": 49.79,
+      "score": 48.79,
       "signal": "WATCH",
       "dart_score": 49.17,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 49.2,
         "relative": 50,
         "momentum": 50
@@ -2997,13 +2997,13 @@
     {
       "code": "018880",
       "name": "한온시스템",
-      "score": 49.76,
+      "score": 48.76,
       "signal": "WATCH",
       "dart_score": 49.03,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 49.0,
         "relative": 50,
         "momentum": 50
@@ -3015,13 +3015,13 @@
     {
       "code": "100790",
       "name": "미래에셋벤처투자",
-      "score": 49.7,
+      "score": 48.7,
       "signal": "WATCH",
       "dart_score": 48.82,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 48.8,
         "relative": 50,
         "momentum": 50
@@ -3033,13 +3033,13 @@
     {
       "code": "011070",
       "name": "LG이노텍",
-      "score": 49.62,
+      "score": 48.62,
       "signal": "WATCH",
       "dart_score": 48.5,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 48.5,
         "relative": 50,
         "momentum": 50
@@ -3051,13 +3051,13 @@
     {
       "code": "000720",
       "name": "현대건설",
-      "score": 49.45,
+      "score": 48.45,
       "signal": "WATCH",
       "dart_score": 47.82,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 47.8,
         "relative": 50,
         "momentum": 50
@@ -3069,13 +3069,13 @@
     {
       "code": "003670",
       "name": "포스코퓨처엠",
-      "score": 49.15,
+      "score": 48.15,
       "signal": "WATCH",
       "dart_score": 46.59,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 46.6,
         "relative": 50,
         "momentum": 50
@@ -3087,13 +3087,13 @@
     {
       "code": "083650",
       "name": "비에이치아이",
-      "score": 49.03,
+      "score": 48.03,
       "signal": "WATCH",
       "dart_score": 46.13,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 46.1,
         "relative": 50,
         "momentum": 50
@@ -3105,13 +3105,13 @@
     {
       "code": "336260",
       "name": "두산퓨얼셀",
-      "score": 48.72,
+      "score": 47.72,
       "signal": "WATCH",
       "dart_score": 44.87,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 44.9,
         "relative": 50,
         "momentum": 50
@@ -3123,13 +3123,13 @@
     {
       "code": "042660",
       "name": "한화오션",
-      "score": 48.69,
+      "score": 47.69,
       "signal": "WATCH",
       "dart_score": 44.75,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 44.8,
         "relative": 50,
         "momentum": 50
@@ -3141,13 +3141,13 @@
     {
       "code": "066570",
       "name": "LG전자",
-      "score": 48.62,
+      "score": 47.62,
       "signal": "WATCH",
       "dart_score": 44.47,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 44.5,
         "relative": 50,
         "momentum": 50
@@ -3159,13 +3159,13 @@
     {
       "code": "006360",
       "name": "GS건설",
-      "score": 48.19,
+      "score": 47.19,
       "signal": "WATCH",
       "dart_score": 42.77,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 42.8,
         "relative": 50,
         "momentum": 50
@@ -3177,13 +3177,13 @@
     {
       "code": "010950",
       "name": "S-Oil",
-      "score": 48.05,
+      "score": 47.05,
       "signal": "WATCH",
       "dart_score": 42.19,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 42.2,
         "relative": 50,
         "momentum": 50
@@ -3195,13 +3195,13 @@
     {
       "code": "226950",
       "name": "올릭스",
-      "score": 47.69,
+      "score": 46.69,
       "signal": "WATCH",
       "dart_score": 40.74,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 40.7,
         "relative": 50,
         "momentum": 50
@@ -3213,13 +3213,13 @@
     {
       "code": "015760",
       "name": "한국전력공사",
-      "score": 47.52,
+      "score": 46.52,
       "signal": "WATCH",
       "dart_score": 40.08,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 40.1,
         "relative": 50,
         "momentum": 50
@@ -3231,13 +3231,13 @@
     {
       "code": "029780",
       "name": "삼성카드",
-      "score": 47.52,
+      "score": 46.52,
       "signal": "WATCH",
       "dart_score": 40.08,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 40.1,
         "relative": 50,
         "momentum": 50
@@ -3249,13 +3249,13 @@
     {
       "code": "010140",
       "name": "삼성중공업",
-      "score": 46.89,
+      "score": 45.89,
       "signal": "WATCH",
       "dart_score": 37.57,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 37.6,
         "relative": 50,
         "momentum": 50
@@ -3267,13 +3267,13 @@
     {
       "code": "222800",
       "name": "심텍",
-      "score": 46.81,
+      "score": 45.81,
       "signal": "WATCH",
       "dart_score": 37.25,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 37.2,
         "relative": 50,
         "momentum": 50
@@ -3285,13 +3285,13 @@
     {
       "code": "323410",
       "name": "카카오뱅크",
-      "score": 46.25,
+      "score": 45.25,
       "signal": "WATCH",
       "dart_score": 35.0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 35.0,
         "relative": 50,
         "momentum": 50
@@ -3303,13 +3303,13 @@
     {
       "code": "082740",
       "name": "한화엔진",
-      "score": 46.25,
+      "score": 45.25,
       "signal": "WATCH",
       "dart_score": 34.99,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 35.0,
         "relative": 50,
         "momentum": 50
@@ -3321,13 +3321,13 @@
     {
       "code": "036460",
       "name": "한국가스공사",
-      "score": 45.4,
-      "signal": "WATCH",
+      "score": 44.4,
+      "signal": "SELL",
       "dart_score": 31.6,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 31.6,
         "relative": 50,
         "momentum": 50
@@ -3339,13 +3339,13 @@
     {
       "code": "047810",
       "name": "한국항공우주",
-      "score": 45.39,
-      "signal": "WATCH",
+      "score": 44.39,
+      "signal": "SELL",
       "dart_score": 31.58,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 31.6,
         "relative": 50,
         "momentum": 50
@@ -3357,13 +3357,13 @@
     {
       "code": "066970",
       "name": "엘앤에프",
-      "score": 45.0,
-      "signal": "WATCH",
+      "score": 44.0,
+      "signal": "SELL",
       "dart_score": 30,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 30,
         "relative": 50,
         "momentum": 50
@@ -3375,13 +3375,13 @@
     {
       "code": "034220",
       "name": "LG디스플레이",
-      "score": 45.0,
-      "signal": "WATCH",
+      "score": 44.0,
+      "signal": "SELL",
       "dart_score": 30,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 30,
         "relative": 50,
         "momentum": 50
@@ -3393,13 +3393,13 @@
     {
       "code": "316140",
       "name": "우리금융지주",
-      "score": 44.67,
+      "score": 43.67,
       "signal": "SELL",
       "dart_score": 28.69,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 28.7,
         "relative": 50,
         "momentum": 50
@@ -3411,13 +3411,13 @@
     {
       "code": "105560",
       "name": "KB금융",
-      "score": 44.47,
+      "score": 43.47,
       "signal": "SELL",
       "dart_score": 27.89,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 27.9,
         "relative": 50,
         "momentum": 50
@@ -3429,13 +3429,13 @@
     {
       "code": "047040",
       "name": "대우건설",
-      "score": 44.47,
+      "score": 43.47,
       "signal": "SELL",
       "dart_score": 27.86,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 27.9,
         "relative": 50,
         "momentum": 50
@@ -3447,13 +3447,13 @@
     {
       "code": "086790",
       "name": "하나금융지주",
-      "score": 44.14,
+      "score": 43.14,
       "signal": "SELL",
       "dart_score": 26.57,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 26.6,
         "relative": 50,
         "momentum": 50
@@ -3465,13 +3465,13 @@
     {
       "code": "138930",
       "name": "BNK금융지주",
-      "score": 44.07,
+      "score": 43.07,
       "signal": "SELL",
       "dart_score": 26.27,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 26.3,
         "relative": 50,
         "momentum": 50
@@ -3483,13 +3483,13 @@
     {
       "code": "139130",
       "name": "iM금융지주",
-      "score": 44.07,
+      "score": 43.07,
       "signal": "SELL",
       "dart_score": 26.27,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 26.3,
         "relative": 50,
         "momentum": 50
@@ -3501,13 +3501,13 @@
     {
       "code": "175330",
       "name": "JB금융지주",
-      "score": 44.05,
+      "score": 43.05,
       "signal": "SELL",
       "dart_score": 26.2,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 26.2,
         "relative": 50,
         "momentum": 50
@@ -3519,13 +3519,13 @@
     {
       "code": "055550",
       "name": "신한지주",
-      "score": 44.04,
+      "score": 43.04,
       "signal": "SELL",
       "dart_score": 26.17,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 26.2,
         "relative": 50,
         "momentum": 50
@@ -3537,13 +3537,13 @@
     {
       "code": "031210",
       "name": "서울보증보험",
-      "score": 42.76,
+      "score": 41.76,
       "signal": "SELL",
       "dart_score": 21.05,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 21.1,
         "relative": 50,
         "momentum": 50
@@ -3555,13 +3555,13 @@
     {
       "code": "039490",
       "name": "키움증권",
-      "score": 40.8,
+      "score": 39.8,
       "signal": "SELL",
       "dart_score": 13.22,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 13.2,
         "relative": 50,
         "momentum": 50
@@ -3573,13 +3573,13 @@
     {
       "code": "001720",
       "name": "신영증권",
-      "score": 40.45,
+      "score": 39.45,
       "signal": "SELL",
       "dart_score": 11.8,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 11.8,
         "relative": 50,
         "momentum": 50
@@ -3591,13 +3591,13 @@
     {
       "code": "006800",
       "name": "미래에셋증권",
-      "score": 39.5,
+      "score": 38.5,
       "signal": "SELL",
       "dart_score": 7.98,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 8.0,
         "relative": 50,
         "momentum": 50
@@ -3609,13 +3609,13 @@
     {
       "code": "032830",
       "name": "삼성생명",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
@@ -3627,13 +3627,13 @@
     {
       "code": "000810",
       "name": "삼성화재해상보험",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
@@ -3645,13 +3645,13 @@
     {
       "code": "024110",
       "name": "기업은행",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
@@ -3663,13 +3663,13 @@
     {
       "code": "005940",
       "name": "NH투자증권",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
@@ -3681,13 +3681,13 @@
     {
       "code": "005830",
       "name": "DB손해보험",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
@@ -3699,13 +3699,13 @@
     {
       "code": "016360",
       "name": "삼성증권",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
@@ -3717,13 +3717,13 @@
     {
       "code": "088350",
       "name": "한화생명",
-      "score": 37.5,
+      "score": 36.5,
       "signal": "SELL",
       "dart_score": 0,
       "rsi": null,
       "factors": {
         "rsi": 50,
-        "volume": 50,
+        "volume": 45,
         "dart": 0,
         "relative": 50,
         "momentum": 50
