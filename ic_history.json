@@ -8,5 +8,10 @@
     "flow_ic": NaN,
     "mom_ic": NaN,
     "dart_ic": 0.04464600442576925
+  },
+  {
+    "flow_ic": NaN,
+    "mom_ic": NaN,
+    "dart_ic": 0.04464600442576925
   }
 ]
