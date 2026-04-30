@@ -1,6 +1,13 @@
 .env
 __pycache__/
 *.pyc
-engine/data.json
-engine/data.json.bak
-engine/history.csv
+
+# input (외부 feed)
+data.json
+data.json.bak
+
+# python cache
+engine/__pycache__/
+
+# optional local artifacts (debug only)
+*.log
