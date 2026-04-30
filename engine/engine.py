@@ -237,5 +237,6 @@ def run_engine(df):
 
 
 if __name__ == "__main__":
-    df = pd.read_json("data.json")
+    raw = pd.read_json("data.json")
+    df = pd.DataFrame(raw["all"])
     run_engine(df)
