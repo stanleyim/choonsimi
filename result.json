@@ -5,15 +5,14 @@
       "name": "삼성전자",
       "close": 70000,
       "volume": 1000000,
-      "foreign_net": 0.0,
-      "inst_net": 0.0,
+      "foreign_net": 0,
+      "inst_net": 0,
       "dart_score": 50,
-      "flow_z": 0.0,
-      "mom_raw": 0.0,
-      "mom_z": 0.0,
-      "dart_z": 0.0,
-      "next_return": null,
-      "score": 0.0
+      "flow": 0,
+      "mom": 0.0,
+      "score": 10.0
     }
-  ]
+  ],
+  "ic": null,
+  "count": 1
 }
