@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-05-01 11:07:41",
   "top10": [
     {
       "code": "005930",
+      "name": "삼성전자",
       "close": 70000,
-      "score": 50.0,
-      "weight": 1.0,
+      "volume": 1000000,
+      "foreign_net": 0.0,
+      "inst_net": 0.0,
+      "dart_score": 50,
       "flow_z": 0.0,
+      "mom_raw": 0.0,
       "mom_z": 0.0,
-      "dart_z": 0.0
+      "dart_z": 0.0,
+      "next_return": null,
+      "score": 0.0
     }
-  ],
-  "changes": {
-    "add": [],
-    "remove": []
-  }
+  ]
 }
