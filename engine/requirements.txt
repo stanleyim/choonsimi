@@ -1,4 +1,3 @@
-requests==2.31.0
 pandas==2.2.2
 numpy==1.26.4
-beautifulsoup4==4.12.3
+FinanceDataReader==0.9.66
