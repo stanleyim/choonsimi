@@ -4,15 +4,18 @@
       "code": "005930",
       "name": "삼성전자",
       "close": 70000,
-      "volume": 1000000,
+      "score": 50.0,
+      "flow_z": 0.0,
+      "mom_z": 0.0,
+      "dart_z": 0.0,
       "foreign_net": 0,
       "inst_net": 0,
       "dart_score": 50,
-      "flow": 0,
-      "mom": 0.0,
-      "score": 10.0
+      "volume": 1000000
     }
   ],
   "ic": null,
-  "count": 1
+  "ic_window": 5,
+  "count": 1,
+  "biz_day": "20260430"
 }
