@@ -1,0 +1,94 @@
+name: KRX Quant Engine
+
+on:
+  schedule:
+    # 장 마감 후 (KST 16:10 = UTC 07:10) — 평일만
+    - cron: '10 7 * * 1-5'
+    # 야간 재평가 (KST 22:00 = UTC 13:00) — 평일만
+    - cron: '0 13 * * 1-5'
+  workflow_dispatch:  # 수동 실행 허용
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ── 1. 레포 체크아웃 ─────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Python 세팅 ───────────────────────────────
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # ── 3. 패키지 설치 ───────────────────────────────
+      - name: Install dependencies
+        run: |
+          pip install pykrx pandas numpy
+
+      # ── 4. Universe 빌드 (핵심 레이어) ──────────────
+      #    fetch_data.py → data.json 생성 (KOSPI+KOSDAQ 전종목)
+      #    engine.py 실행 전 반드시 먼저 실행
+      - name: Build Universe
+        run: |
+          python fetch_data.py
+
+      # ── 5. 퀀트 엔진 실행 ───────────────────────────
+      #    data.json → factor 계산 → result.json / portfolio.json
+      - name: Run Engine
+        run: |
+          python engine/engine.py
+
+      # ── 6. 결과 검증 ────────────────────────────────
+      - name: Validate output
+        run: |
+          python - <<EOF
+          import json, sys
+
+          # result.json 검증
+          with open("result.json") as f:
+              r = json.load(f)
+
+          top10 = r.get("top10", [])
+          print(f"[OK] result.json → {len(top10)}개 종목")
+
+          if len(top10) == 0:
+              print("[FAIL] top10이 비어있음")
+              sys.exit(1)
+
+          for s in top10[:3]:
+              print(f"  [{s['code']}] {s.get('name','')}  score={s['score']}  weight={round(s['weight'],4)}")
+
+          # data.json 검증
+          with open("data.json") as f:
+              d = json.load(f)
+          count = d.get("count", 0)
+          print(f"[OK] data.json → {count}종목")
+
+          if count < 50:
+              print(f"[FAIL] universe 종목 수 부족: {count}")
+              sys.exit(1)
+
+          # changes 출력
+          changes = r.get("changes", {})
+          print(f"[CHANGE] 편입: {changes.get('add',[])}  편출: {changes.get('remove',[])}")
+          EOF
+
+      # ── 7. 결과 커밋 ────────────────────────────────
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add \
+            result.json \
+            portfolio.json \
+            ic_history.json \
+            history.csv \
+            data.json \
+            data.json.bak
+          git diff --cached --quiet || \
+            git commit -m "[auto] update $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M') KST"
+          git push
