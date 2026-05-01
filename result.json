@@ -1,142 +1,31 @@
-[
-  {
-    "code": "214370",
-    "name": "케어젠",
-    "close": 106000,
-    "score": 100.0,
-    "weight": 0.016308041377571816,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5196532036090448,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 98.2,
-    "volume": 73443
-  },
-  {
-    "code": "014680",
-    "name": "한솔케미칼",
-    "close": 295000,
-    "score": 87.5,
-    "weight": 0.0162050533847918,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5163715072273442,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 90.22,
-    "volume": 38360
-  },
-  {
-    "code": "005490",
-    "name": "POSCO홀딩스",
-    "close": 469000,
-    "score": 62.5,
-    "weight": 0.015999077399231322,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5098081144639288,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 99.44,
-    "volume": 599954
-  },
-  {
-    "code": "005830",
-    "name": "DB손해보험",
-    "close": 172200,
-    "score": 62.5,
-    "weight": 0.015999077399231322,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5098081144639288,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 0.0,
-    "volume": 126766
-  },
-  {
-    "code": "016360",
-    "name": "삼성증권",
-    "close": 108700,
-    "score": 62.5,
-    "weight": 0.015999077399231322,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5098081144639288,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 0.0,
-    "volume": 393129
-  },
-  {
-    "code": "005940",
-    "name": "NH투자증권",
-    "close": 34600,
-    "score": 62.5,
-    "weight": 0.015999077399231322,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5098081144639288,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 0.0,
-    "volume": 613100
-  },
-  {
-    "code": "024110",
-    "name": "기업은행",
-    "close": 22550,
-    "score": 62.5,
-    "weight": 0.015999077399231322,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5098081144639288,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 0.0,
-    "volume": 891309
-  },
-  {
-    "code": "088350",
-    "name": "한화생명",
-    "close": 5080,
-    "score": 62.5,
-    "weight": 0.015999077399231322,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.5098081144639288,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 0.0,
-    "volume": 7499580
-  },
-  {
-    "code": "064760",
-    "name": "티씨케이",
-    "close": 316000,
-    "score": 12.5,
-    "weight": 0.01558712542811037,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.49668132893709827,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 98.85,
-    "volume": 93553
-  },
-  {
-    "code": "051600",
-    "name": "한전KPS",
-    "close": 63400,
-    "score": 0.0,
-    "weight": 0.015484137435330789,
-    "flow_z": 0.0,
-    "mom_z": 0,
-    "dart_z": 0.4933996325554116,
-    "foreign_net": 0,
-    "inst_net": 0,
-    "dart_score": 59.65,
-    "volume": 143426
+{
+  "generated_at": "2026-05-01 08:16:55",
+  "top10": [
+    {
+      "code": "005930",
+      "close": 70000,
+      "score": 50.0,
+      "weight": 1.0,
+      "flow_z": 0.0,
+      "mom_z": 0.0,
+      "dart_z": 0.0
+    }
+  ],
+  "changes": {
+    "add": [
+      "005930"
+    ],
+    "remove": [
+      "014680",
+      "214370",
+      "024110",
+      "016360",
+      "088350",
+      "005940",
+      "005490",
+      "005830",
+      "051600",
+      "064760"
+    ]
   }
-]
+}
