@@ -1,5 +1,4 @@
-
 pykrx==1.2.7
 pandas==2.2.2
-numpy==1.26.4
-requests>=2.32.0
+numpy>=2.0
+requests>=2.32.0,<3.0.0
