@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-05-01",
+    "status": "SUCCESS",
+    "engine_version": "v15",
+    "runtime_sec": 3.21,
+    "input_rows": 120,
+    "output_rows": 10,
+    "ic": {
+      "flow_z": 0.12,
+      "mom_z": 0.08,
+      "dart_z": -0.03
+    },
+    "regime": "NORMAL",
+    "top1": "005930",
+    "top5_avg_score": 62.4
+  }
+]
