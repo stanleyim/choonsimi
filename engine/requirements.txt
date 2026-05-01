@@ -1,12 +1,5 @@
-# =========================
-# KRX Quant Engine - Stable Stack
-# CI-tested / reproducible / low-failure
-# =========================
 
 pykrx==1.2.7
-
 pandas==2.2.2
-
 numpy==1.26.4
-
-requests==2.31.0
+requests>=2.32.0
