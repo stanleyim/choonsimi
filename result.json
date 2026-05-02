@@ -1,26 +1,14 @@
 {
+  "version": "v18.0_FINAL",
+  "date": "20260430",
+  "ic": null,
+  "coverage": 1.0,
   "top10": [
     {
       "code": "005930",
-      "name": "\uc0bc\uc131\uc804\uc790",
+      "name": "삼성전자",
       "close": 70000,
-      "volume": 1000000,
-      "foreign_net": 0,
-      "inst_net": 0,
-      "dart_score": 50,
-      "flow_missing": true,
-      "flow_raw": 0,
-      "flow_3d": 0.0,
-      "mom": 0,
-      "turnover": 70000000000,
-      "flow_z": -1.0,
-      "mom_z": 0.0,
-      "dart_z": 0.0,
-      "score": 0.0
+      "score_norm": 0.0
     }
-  ],
-  "ic": null,
-  "flow_coverage": 0.0,
-  "count": 1,
-  "biz_day": "20260430"
+  ]
 }
