@@ -1,0 +1,18 @@
+{
+  "choonsimi_info": {
+    "ticker": "082740",
+    "name": "춘심이",
+    "industry": "화장품",
+    "market_cap": "12,345억",
+    "per": 8.5,
+    "pbr": 1.2
+  },
+  "recent_news": [
+    {
+      "date": "2026-04-28",
+      "title": "춘심이, 1분기 매출 15% 증가",
+      "link": "https://dart.fss.or.kr"
+    }
+  ],
+  "updated_at": "2026-05-01"
+}
