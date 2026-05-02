@@ -1,0 +1,103 @@
+name: Stock Engine
+
+on:
+  schedule:
+    - cron: "0 23 * * 0-4"   # KST 08:00
+    - cron: "0 11 * * 1-5"   # KST 20:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-engine
+  cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      # =========================
+      # CHECKOUT
+      # =========================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # =========================
+      # PYTHON SETUP
+      # =========================
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      # =========================
+      # DEPENDENCIES
+      # =========================
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install pandas numpy requests beautifulsoup4
+
+      # =========================
+      # RUN ENGINE
+      # =========================
+      - name: Run Engine
+        run: |
+          cd engine && python engine.py
+
+      # =========================
+      # VALIDATION
+      # =========================
+      - name: Validate output
+        run: |
+          python - <<EOF
+          import json, sys, os
+
+          try:
+              r = json.load(open("result.json", encoding="utf-8"))
+
+              if not isinstance(r, list) or len(r) == 0:
+                  print("[FAIL] result.json 비어있음")
+                  sys.exit(1)
+
+              top = r[0]
+              if top.get("score", 0) <= 0:
+                  print("[FAIL] invalid score")
+                  sys.exit(1)
+
+              print(f"[OK] result.json → {len(r)}개 종목")
+              print(f"[TOP1] {top.get('name', top['code'])} / score {top['score']}")
+
+              d = json.load(open("data.json", encoding="utf-8"))
+              if len(d.get("all", [])) < 50:
+                  print("[FAIL] data.json insufficient")
+                  sys.exit(1)
+
+              print(f"[OK] data.json → {len(d['all'])}개 종목")
+
+          except Exception as e:
+              print("[FAIL]", e)
+              sys.exit(1)
+          EOF
+
+      # =========================
+      # COMMIT
+      # =========================
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add history.csv portfolio.json ic_history.json result.json || true
+
+          git diff --staged --quiet && echo "no changes" && exit 0
+
+          git commit -m "auto update $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
