@@ -1,7 +1,8 @@
 {
-  "version": "v21.1_FINAL_STABLE",
+  "version": "v22.0_FINAL_PROD",
   "date": "20260502",
   "ic": null,
+  "coverage": 18,
   "top10": [
     {
       "code": "005930",
