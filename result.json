@@ -1,6 +1,8 @@
 {
   "version": "v24.7_FINAL",
   "biz_day": "2026-05-01",
+  "data_quality": "partial",
+  "data_source": "fdr_cache",
   "ic": null,
   "ic_window": 5,
   "count": 2642,
