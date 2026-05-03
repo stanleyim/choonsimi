@@ -1,0 +1,32 @@
+name: Auto Update
+on:
+  schedule:
+    - cron: '30 0 * 1-5'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Fetch Data
+        run: python fetch_data.py
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+      - name: Run Engine
+        run: python engine/engine.py
+      - name: Commit Results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add result.json data.json
+          git diff --staged --quiet || git commit -m "auto update $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
