@@ -1,49 +1,45 @@
 {
   "date": "2026-05-03",
-  "source": "placeholder",
-  "count": 3,
+  "source": "sample",
   "all": [
     {
       "code": "005930",
       "name": "삼성전자",
       "market": "KOSPI",
-      "close": 0.0,
-      "volume": 0,
-      "open": 0.0,
-      "high": 0.0,
-      "low": 0.0,
-      "foreign_net": 0.0,
-      "inst_net": 0.0,
-      "dart_score": 0,
-      "date": "2026-05-03"
+      "close": 75000.0,
+      "volume": 10000000.0,
+      "foreign_net": 500000.0,
+      "inst_net": -300000.0,
+      "open": 74250.0,
+      "high": 76500.0,
+      "low": 73500.0,
+      "dart_score": 0.0
     },
     {
       "code": "000660",
       "name": "SK하이닉스",
       "market": "KOSPI",
-      "close": 0.0,
-      "volume": 0,
-      "open": 0.0,
-      "high": 0.0,
-      "low": 0.0,
-      "foreign_net": 0.0,
-      "inst_net": 0.0,
-      "dart_score": 0,
-      "date": "2026-05-03"
+      "close": 180000.0,
+      "volume": 3000000.0,
+      "foreign_net": -200000.0,
+      "inst_net": 400000.0,
+      "open": 178200.0,
+      "high": 183600.0,
+      "low": 176400.0,
+      "dart_score": 0.0
     },
     {
       "code": "035420",
-      "name": "네이버",
-      "market": "KOSPI",
-      "close": 0.0,
-      "volume": 0,
-      "open": 0.0,
-      "high": 0.0,
-      "low": 0.0,
-      "foreign_net": 0.0,
-      "inst_net": 0.0,
-      "dart_score": 0,
-      "date": "2026-05-03"
+      "name": "NAVER",
+      "market": "KOSDAQ",
+      "close": 220000.0,
+      "volume": 1500000.0,
+      "foreign_net": 100000.0,
+      "inst_net": -50000000.0,
+      "open": 217800.0,
+      "high": 224400.0,
+      "low": 215600.0,
+      "dart_score": 0.0
     }
   ]
 }
