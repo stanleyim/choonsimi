@@ -1,4 +1,4 @@
-name: Auto Update
+name: Stock Engine
 on:
   schedule:
     - cron: '30 0 * * 1-5'
