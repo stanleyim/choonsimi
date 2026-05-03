@@ -1,4 +1,6 @@
 pandas
 numpy
 requests
+finance-datareader
 pytz
+lxml
