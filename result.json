@@ -1,136 +1,129 @@
 {
+  "market_context": {
+    "label": "약세",
+    "score": -0.1537,
+    "foreign_5d": -3488537582736,
+    "inst_5d": 2696324
+  },
   "top10": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "close": 1447000,
-      "volume": 5776641,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 13.0,
-      "momentum": 0.0
+      "code": "018880",
+      "name": "한온시스템",
+      "close": 4850,
+      "volume": 121205936,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 17.226707
     },
     {
-      "code": "005490",
-      "name": "POSCO홀딩스",
-      "close": 502000,
-      "volume": 1080353,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 8.0,
-      "momentum": 0.0
+      "code": "010170",
+      "name": "대한광통신",
+      "close": 17700,
+      "volume": 83718327,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.856674
+    },
+    {
+      "code": "001510",
+      "name": "SK증권",
+      "close": 5190,
+      "volume": 77508271,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.779601
+    },
+    {
+      "code": "035890",
+      "name": "서희건설",
+      "close": 3350,
+      "volume": 50028087,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.341801
+    },
+    {
+      "code": "006910",
+      "name": "보성파워텍",
+      "close": 14350,
+      "volume": 45292645,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.242361
+    },
+    {
+      "code": "006340",
+      "name": "대원전선",
+      "close": 17350,
+      "volume": 41125013,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.145833
     },
     {
       "code": "005930",
       "name": "삼성전자",
       "close": 232500,
       "volume": 32920816,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 7.0,
-      "momentum": 0.0
+      "news": 8.0,
+      "momentum": 0,
+      "score": 15.923322
     },
     {
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "close": 472000,
-      "volume": 425260,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 2.0,
-      "momentum": 0.0
-    },
-    {
-      "code": "034020",
-      "name": "두산에너빌리티",
-      "close": 127200,
-      "volume": 3214565,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 1.0,
-      "momentum": 0.0
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "close": 705000,
-      "volume": 663957,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 1.0,
-      "momentum": 0.0
-    },
-    {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "close": 1465000,
-      "volume": 450389,
-      "flow": -10004158940131.9,
-      "score": 0.0,
+      "code": "900300",
+      "name": "오가닉티코스메틱",
+      "close": 205,
+      "volume": 31085632,
       "news": 0.0,
-      "momentum": 0.0
+      "momentum": 0,
+      "score": 15.865962
     },
     {
-      "code": "000270",
-      "name": "기아",
-      "close": 154000,
-      "volume": 779973,
-      "flow": -10004158940131.9,
-      "score": 0.0,
+      "code": "047040",
+      "name": "대우건설",
+      "close": 32150,
+      "volume": 27071233,
       "news": 0.0,
-      "momentum": 0.0
+      "momentum": 0,
+      "score": 15.727688
     },
     {
-      "code": "042660",
-      "name": "한화오션",
-      "close": 133000,
-      "volume": 1518622,
-      "flow": -10004158940131.9,
-      "score": 0.0,
+      "code": "003470",
+      "name": "유안타증권",
+      "close": 6030,
+      "volume": 22381065,
       "news": 0.0,
-      "momentum": 0.0
-    },
-    {
-      "code": "035720",
-      "name": "카카오",
-      "close": 47100,
-      "volume": 1520475,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 0.0,
-      "momentum": 0.0
+      "momentum": 0,
+      "score": 15.537432
     }
   ],
   "top3": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "close": 1447000,
-      "volume": 5776641,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 13.0,
-      "momentum": 0.0
+      "code": "018880",
+      "name": "한온시스템",
+      "close": 4850,
+      "volume": 121205936,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 17.226707
     },
     {
-      "code": "005490",
-      "name": "POSCO홀딩스",
-      "close": 502000,
-      "volume": 1080353,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 8.0,
-      "momentum": 0.0
+      "code": "010170",
+      "name": "대한광통신",
+      "close": 17700,
+      "volume": 83718327,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.856674
     },
     {
-      "code": "005930",
-      "name": "삼성전자",
-      "close": 232500,
-      "volume": 32920816,
-      "flow": -10004158940131.9,
-      "score": 0.0,
-      "news": 7.0,
-      "momentum": 0.0
+      "code": "001510",
+      "name": "SK증권",
+      "close": 5190,
+      "volume": 77508271,
+      "news": 0.0,
+      "momentum": 0,
+      "score": 16.779601
     }
   ]
 }
