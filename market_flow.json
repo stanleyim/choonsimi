@@ -1,7 +1,13 @@
-[
-  {
-    "date": "2026-05-04",
-    "foreign_net": 100,
-    "inst_net": -30
-  }
-]
+{
+  "date": "2026-04-30",
+  "source": "user_input_raw",
+  "market": "KOSPI+KOSDAQ",
+  "flow": [
+    {"date": "2026-04-23", "inst_net": -446048, "foreign_net": -228196666716},
+    {"date": "2026-04-24", "inst_net": 994039, "foreign_net": -1217115473705},
+    {"date": "2026-04-27", "inst_net": 1219856, "foreign_net": 684090020414},
+    {"date": "2026-04-28", "inst_net": 98926, "foreign_net": -679231438779},
+    {"date": "2026-04-29", "inst_net": 404213, "foreign_net": -609142559540},
+    {"date": "2026-04-30", "inst_net": -20710, "foreign_net": -1667138131126}
+  ]
+}
