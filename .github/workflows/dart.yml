@@ -1,0 +1,40 @@
+name: choonsimi-dart-weekly
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 1 * * 0'   # 매주 일요일 KST 10:00 (UTC 01:00)
+  workflow_dispatch:
+
+jobs:
+  dart:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install deps
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Fetch DART (재무데이터)
+      env:
+        DART_API_KEY: ${{ secrets.DART_API_KEY }}
+      run: python fetch_dart.py
+
+    - name: Commit & Push
+      run: |
+        git config --global user.name "choonsimi-bot"
+        git config --global user.email "bot@choonsimi.com"
+        git add fundamental.json corp_map_cache.json
+        git commit -m "dart weekly update $(date +'%Y-%m-%d')" || echo "no changes"
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
