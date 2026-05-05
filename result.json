@@ -1,155 +1,236 @@
 {
+  "date": "2026-05-05",
+  "regime": "SIDEWAY",
   "market_context": {
-    "label": "약세",
-    "score": -0.1537,
+    "label": "SIDEWAY",
+    "score": -0.0536,
     "foreign_5d": -3488537582736,
     "inst_5d": 2696324
   },
-  "top10": [
-    {
-      "code": "018880",
-      "name": "한온시스템",
-      "close": 4850,
-      "volume": 121205936,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.407143
-    },
-    {
-      "code": "010170",
-      "name": "대한광통신",
-      "close": 17700,
-      "volume": 83718327,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.283427
-    },
-    {
-      "code": "001510",
-      "name": "SK증권",
-      "close": 5190,
-      "volume": 77508271,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.262933
-    },
-    {
-      "code": "035890",
-      "name": "서희건설",
-      "close": 3350,
-      "volume": 50028087,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.172244
-    },
-    {
-      "code": "006910",
-      "name": "보성파워텍",
-      "close": 14350,
-      "volume": 45292645,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.156616
-    },
-    {
-      "code": "006340",
-      "name": "대원전선",
-      "close": 17350,
-      "volume": 41125013,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.142862
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "close": 232500,
-      "volume": 32920816,
-      "change_rate": 0.0,
-      "news": 3.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.137216
-    },
+  "top3": [
     {
       "code": "000660",
       "name": "SK하이닉스",
       "close": 1447000,
       "volume": 5776641,
-      "change_rate": 0.0,
-      "news": 13.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.119064
+      "change_rate": 12.52,
+      "flow": 0.0,
+      "momentum": 12.52,
+      "event": 6.0,
+      "score": 0.341215
     },
     {
-      "code": "900300",
-      "name": "오가닉티코스메틱",
-      "close": 205,
-      "volume": 31085632,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.109731
+      "code": "321260",
+      "name": "프로이천",
+      "close": 3230,
+      "volume": 10019326,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.34
     },
     {
-      "code": "047040",
-      "name": "대우건설",
-      "close": 32150,
-      "volume": 27071233,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.096482
+      "code": "092190",
+      "name": "서울바이오시스",
+      "close": 11230,
+      "volume": 1875104,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.34
     }
   ],
-  "top3": [
+  "top7": [
     {
-      "code": "018880",
-      "name": "한온시스템",
-      "close": 4850,
-      "volume": 121205936,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.407143
+      "code": "006345",
+      "name": "대원전선우",
+      "close": 12920,
+      "volume": 2781852,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.34
     },
     {
-      "code": "010170",
-      "name": "대한광통신",
-      "close": 17700,
-      "volume": 83718327,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.283427
+      "code": "033100",
+      "name": "제룡전기",
+      "close": 91500,
+      "volume": 2662605,
+      "change_rate": 29.97,
+      "flow": 0.0,
+      "momentum": 29.97,
+      "event": 0.0,
+      "score": 0.339938
     },
     {
-      "code": "001510",
-      "name": "SK증권",
-      "close": 5190,
-      "volume": 77508271,
-      "change_rate": 0.0,
-      "news": 0.0,
-      "momentum": 0.0,
-      "volume_ratio": 0,
-      "score": 0.262933
+      "code": "059120",
+      "name": "아진엑스텍",
+      "close": 11580,
+      "volume": 14213226,
+      "change_rate": 29.97,
+      "flow": 0.0,
+      "momentum": 29.97,
+      "event": 0.0,
+      "score": 0.339938
+    },
+    {
+      "code": "015860",
+      "name": "일진홀딩스",
+      "close": 13410,
+      "volume": 3124666,
+      "change_rate": 29.94,
+      "flow": 0.0,
+      "momentum": 29.94,
+      "event": 0.0,
+      "score": 0.339751
+    },
+    {
+      "code": "007610",
+      "name": "선도전기",
+      "close": 10980,
+      "volume": 552967,
+      "change_rate": 29.94,
+      "flow": 0.0,
+      "momentum": 29.94,
+      "event": 0.0,
+      "score": 0.339751
+    },
+    {
+      "code": "189860",
+      "name": "서전기전",
+      "close": 8900,
+      "volume": 2099813,
+      "change_rate": 29.93,
+      "flow": 0.0,
+      "momentum": 29.93,
+      "event": 0.0,
+      "score": 0.339688
+    },
+    {
+      "code": "058450",
+      "name": "한주에이알티",
+      "close": 5450,
+      "volume": 432728,
+      "change_rate": 29.92,
+      "flow": 0.0,
+      "momentum": 29.92,
+      "event": 0.0,
+      "score": 0.339626
+    }
+  ],
+  "top10": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "close": 1447000,
+      "volume": 5776641,
+      "change_rate": 12.52,
+      "flow": 0.0,
+      "momentum": 12.52,
+      "event": 6.0,
+      "score": 0.341215
+    },
+    {
+      "code": "321260",
+      "name": "프로이천",
+      "close": 3230,
+      "volume": 10019326,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.34
+    },
+    {
+      "code": "092190",
+      "name": "서울바이오시스",
+      "close": 11230,
+      "volume": 1875104,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.34
+    },
+    {
+      "code": "006345",
+      "name": "대원전선우",
+      "close": 12920,
+      "volume": 2781852,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.34
+    },
+    {
+      "code": "033100",
+      "name": "제룡전기",
+      "close": 91500,
+      "volume": 2662605,
+      "change_rate": 29.97,
+      "flow": 0.0,
+      "momentum": 29.97,
+      "event": 0.0,
+      "score": 0.339938
+    },
+    {
+      "code": "059120",
+      "name": "아진엑스텍",
+      "close": 11580,
+      "volume": 14213226,
+      "change_rate": 29.97,
+      "flow": 0.0,
+      "momentum": 29.97,
+      "event": 0.0,
+      "score": 0.339938
+    },
+    {
+      "code": "015860",
+      "name": "일진홀딩스",
+      "close": 13410,
+      "volume": 3124666,
+      "change_rate": 29.94,
+      "flow": 0.0,
+      "momentum": 29.94,
+      "event": 0.0,
+      "score": 0.339751
+    },
+    {
+      "code": "007610",
+      "name": "선도전기",
+      "close": 10980,
+      "volume": 552967,
+      "change_rate": 29.94,
+      "flow": 0.0,
+      "momentum": 29.94,
+      "event": 0.0,
+      "score": 0.339751
+    },
+    {
+      "code": "189860",
+      "name": "서전기전",
+      "close": 8900,
+      "volume": 2099813,
+      "change_rate": 29.93,
+      "flow": 0.0,
+      "momentum": 29.93,
+      "event": 0.0,
+      "score": 0.339688
+    },
+    {
+      "code": "058450",
+      "name": "한주에이알티",
+      "close": 5450,
+      "volume": 432728,
+      "change_rate": 29.92,
+      "flow": 0.0,
+      "momentum": 29.92,
+      "event": 0.0,
+      "score": 0.339626
     }
   ]
 }

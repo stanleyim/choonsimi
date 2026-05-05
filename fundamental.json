@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-05",
+  "year": 2026,
+  "quarter": "1Q",
+  "count": 1,
+  "stocks": [
+    {
+      "code": "382800",
+      "equity": 23304331,
+      "total_debt": 30406870270,
+      "op_growth": 0,
+      "net_income": 10072983825,
+      "roe": 43223.66,
+      "debt_ratio": 130477.34
+    }
+  ]
+}
