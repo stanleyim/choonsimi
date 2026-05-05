@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "regime": "SIDEWAY",
   "market_context": {
     "label": "SIDEWAY",
@@ -9,15 +9,15 @@
   },
   "top3": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "close": 1447000,
-      "volume": 5776641,
-      "change_rate": 12.52,
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "close": 1465000,
+      "volume": 450389,
+      "change_rate": 3.39,
       "flow": 0.0,
-      "momentum": 12.52,
-      "event": 6.0,
-      "score": 0.341215
+      "momentum": 3.39,
+      "event": 7.0,
+      "score": 0.451495
     },
     {
       "code": "321260",
@@ -28,7 +28,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.34
+      "score": 0.45
     },
     {
       "code": "092190",
@@ -39,7 +39,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.34
+      "score": 0.45
     }
   ],
   "top7": [
@@ -52,18 +52,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.34
-    },
-    {
-      "code": "033100",
-      "name": "제룡전기",
-      "close": 91500,
-      "volume": 2662605,
-      "change_rate": 29.97,
-      "flow": 0.0,
-      "momentum": 29.97,
-      "event": 0.0,
-      "score": 0.339938
+      "score": 0.45
     },
     {
       "code": "059120",
@@ -74,7 +63,18 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.339938
+      "score": 0.449907
+    },
+    {
+      "code": "033100",
+      "name": "제룡전기",
+      "close": 91500,
+      "volume": 2662605,
+      "change_rate": 29.97,
+      "flow": 0.0,
+      "momentum": 29.97,
+      "event": 0.0,
+      "score": 0.449907
     },
     {
       "code": "015860",
@@ -85,7 +85,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.339751
+      "score": 0.449626
     },
     {
       "code": "007610",
@@ -96,7 +96,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.339751
+      "score": 0.449626
     },
     {
       "code": "189860",
@@ -107,7 +107,7 @@
       "flow": 0.0,
       "momentum": 29.93,
       "event": 0.0,
-      "score": 0.339688
+      "score": 0.449533
     },
     {
       "code": "058450",
@@ -118,20 +118,20 @@
       "flow": 0.0,
       "momentum": 29.92,
       "event": 0.0,
-      "score": 0.339626
+      "score": 0.449439
     }
   ],
   "top10": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "close": 1447000,
-      "volume": 5776641,
-      "change_rate": 12.52,
+      "code": "012450",
+      "name": "한화에어로스페이스",
+      "close": 1465000,
+      "volume": 450389,
+      "change_rate": 3.39,
       "flow": 0.0,
-      "momentum": 12.52,
-      "event": 6.0,
-      "score": 0.341215
+      "momentum": 3.39,
+      "event": 7.0,
+      "score": 0.451495
     },
     {
       "code": "321260",
@@ -142,7 +142,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.34
+      "score": 0.45
     },
     {
       "code": "092190",
@@ -153,7 +153,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.34
+      "score": 0.45
     },
     {
       "code": "006345",
@@ -164,18 +164,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.34
-    },
-    {
-      "code": "033100",
-      "name": "제룡전기",
-      "close": 91500,
-      "volume": 2662605,
-      "change_rate": 29.97,
-      "flow": 0.0,
-      "momentum": 29.97,
-      "event": 0.0,
-      "score": 0.339938
+      "score": 0.45
     },
     {
       "code": "059120",
@@ -186,7 +175,18 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.339938
+      "score": 0.449907
+    },
+    {
+      "code": "033100",
+      "name": "제룡전기",
+      "close": 91500,
+      "volume": 2662605,
+      "change_rate": 29.97,
+      "flow": 0.0,
+      "momentum": 29.97,
+      "event": 0.0,
+      "score": 0.449907
     },
     {
       "code": "015860",
@@ -197,7 +197,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.339751
+      "score": 0.449626
     },
     {
       "code": "007610",
@@ -208,7 +208,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.339751
+      "score": 0.449626
     },
     {
       "code": "189860",
@@ -219,7 +219,7 @@
       "flow": 0.0,
       "momentum": 29.93,
       "event": 0.0,
-      "score": 0.339688
+      "score": 0.449533
     },
     {
       "code": "058450",
@@ -230,7 +230,7 @@
       "flow": 0.0,
       "momentum": 29.92,
       "event": 0.0,
-      "score": 0.339626
+      "score": 0.449439
     }
   ]
 }
