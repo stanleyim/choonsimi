@@ -4,3 +4,4 @@ requests>=2.31.0,<2.33
 lxml>=5.2.1,<6
 finance-datareader==0.9.50
 feedparser>=6.0.0
+beautifulsoup4>=4.12.0
