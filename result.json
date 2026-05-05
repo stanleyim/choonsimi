@@ -3,32 +3,21 @@
   "regime": "SIDEWAY",
   "market_context": {
     "label": "SIDEWAY",
-    "score": -0.0536,
-    "foreign_5d": -3488537582736,
-    "inst_5d": 2696324
+    "score": 0.0,
+    "foreign_5d": 0,
+    "inst_5d": 0
   },
   "top3": [
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "close": 1465000,
-      "volume": 450389,
-      "change_rate": 3.39,
+      "code": "000660",
+      "name": "SK하이닉스",
+      "close": 1447000,
+      "volume": 5776641,
+      "change_rate": 12.52,
       "flow": 0.0,
-      "momentum": 3.39,
-      "event": 7.0,
-      "score": 0.451495
-    },
-    {
-      "code": "321260",
-      "name": "프로이천",
-      "close": 3230,
-      "volume": 10019326,
-      "change_rate": 29.98,
-      "flow": 0.0,
-      "momentum": 29.98,
-      "event": 0.0,
-      "score": 0.45
+      "momentum": 12.52,
+      "event": 5.0,
+      "score": 0.508251
     },
     {
       "code": "092190",
@@ -39,7 +28,18 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.45
+      "score": 0.478571
+    },
+    {
+      "code": "321260",
+      "name": "프로이천",
+      "close": 3230,
+      "volume": 10019326,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.478571
     }
   ],
   "top7": [
@@ -52,7 +52,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.45
+      "score": 0.478571
     },
     {
       "code": "059120",
@@ -63,7 +63,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.449907
+      "score": 0.478478
     },
     {
       "code": "033100",
@@ -74,7 +74,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.449907
+      "score": 0.478478
     },
     {
       "code": "015860",
@@ -85,7 +85,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.449626
+      "score": 0.478198
     },
     {
       "code": "007610",
@@ -96,7 +96,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.449626
+      "score": 0.478198
     },
     {
       "code": "189860",
@@ -107,7 +107,7 @@
       "flow": 0.0,
       "momentum": 29.93,
       "event": 0.0,
-      "score": 0.449533
+      "score": 0.478104
     },
     {
       "code": "058450",
@@ -118,31 +118,20 @@
       "flow": 0.0,
       "momentum": 29.92,
       "event": 0.0,
-      "score": 0.449439
+      "score": 0.478011
     }
   ],
   "top10": [
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
-      "close": 1465000,
-      "volume": 450389,
-      "change_rate": 3.39,
+      "code": "000660",
+      "name": "SK하이닉스",
+      "close": 1447000,
+      "volume": 5776641,
+      "change_rate": 12.52,
       "flow": 0.0,
-      "momentum": 3.39,
-      "event": 7.0,
-      "score": 0.451495
-    },
-    {
-      "code": "321260",
-      "name": "프로이천",
-      "close": 3230,
-      "volume": 10019326,
-      "change_rate": 29.98,
-      "flow": 0.0,
-      "momentum": 29.98,
-      "event": 0.0,
-      "score": 0.45
+      "momentum": 12.52,
+      "event": 5.0,
+      "score": 0.508251
     },
     {
       "code": "092190",
@@ -153,7 +142,18 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.45
+      "score": 0.478571
+    },
+    {
+      "code": "321260",
+      "name": "프로이천",
+      "close": 3230,
+      "volume": 10019326,
+      "change_rate": 29.98,
+      "flow": 0.0,
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.478571
     },
     {
       "code": "006345",
@@ -164,7 +164,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.45
+      "score": 0.478571
     },
     {
       "code": "059120",
@@ -175,7 +175,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.449907
+      "score": 0.478478
     },
     {
       "code": "033100",
@@ -186,7 +186,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.449907
+      "score": 0.478478
     },
     {
       "code": "015860",
@@ -197,7 +197,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.449626
+      "score": 0.478198
     },
     {
       "code": "007610",
@@ -208,7 +208,7 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.449626
+      "score": 0.478198
     },
     {
       "code": "189860",
@@ -219,7 +219,7 @@
       "flow": 0.0,
       "momentum": 29.93,
       "event": 0.0,
-      "score": 0.449533
+      "score": 0.478104
     },
     {
       "code": "058450",
@@ -230,7 +230,7 @@
       "flow": 0.0,
       "momentum": 29.92,
       "event": 0.0,
-      "score": 0.449439
+      "score": 0.478011
     }
   ]
 }
