@@ -1,9 +1,9 @@
 {
   "date": "2026-05-06",
   "regime": "UPTREND",
-  "confidence": 0.872,
-  "score": 0.6216,
-  "volatility": 0.004,
+  "confidence": 0.873,
+  "score": 0.622,
+  "volatility": 0.0004,
   "flow_summary": {
     "KOSPI_foreign": 0.6557,
     "KOSPI_institution": 0.593,
@@ -122,5 +122,5 @@
       "reason": "외국인·기관 순매수 (net 7) / 보합"
     }
   ],
-  "updated_at": "2026-05-06T11:59:33.273683"
+  "updated_at": "2026-05-06T12:57:54.567258"
 }
