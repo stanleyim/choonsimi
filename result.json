@@ -1,13 +1,13 @@
 {
   "regime": "SIDEWAY",
-  "confidence": 0.5,
-  "score": 0.0,
-  "volatility": 0.0,
+  "confidence": 0.56,
+  "score": 0.2236,
+  "volatility": 0.2485,
   "flow_summary": {
-    "KOSPI_foreign": 0.0,
-    "KOSPI_institution": 0.0,
-    "KOSDAQ_foreign": 0.0,
-    "KOSDAQ_institution": 0.0
+    "KOSPI_foreign": 0.6539,
+    "KOSPI_institution": 0.6044,
+    "KOSDAQ_foreign": 0.6281,
+    "KOSDAQ_institution": 0.5627
   },
-  "updated_at": "2026-05-06T05:00:59.285010"
+  "updated_at": "2026-05-06T05:19:32.717259"
 }

@@ -1,10 +1,10 @@
 {
   "date": "2026-05-06",
   "scores": {
-    "KOSPI_foreign": 0.0,
-    "KOSPI_institution": 0.0,
-    "KOSDAQ_foreign": 0.0,
-    "KOSDAQ_institution": 0.0
+    "KOSPI_foreign": 0.6539,
+    "KOSPI_institution": 0.6044,
+    "KOSDAQ_foreign": 0.6281,
+    "KOSDAQ_institution": 0.5627
   },
   "confidences": {
     "KOSPI_foreign": 0.95,
@@ -19,7 +19,7 @@
     "KOSDAQ_institution": "normal"
   },
   "KOSPI_foreign": {
-    "score": 0.0,
+    "score": 0.6539,
     "confidence": 0.95,
     "status": "normal",
     "rows": [
@@ -130,7 +130,7 @@
     ]
   },
   "KOSPI_institution": {
-    "score": 0.0,
+    "score": 0.6044,
     "confidence": 0.95,
     "status": "normal",
     "rows": [
@@ -241,7 +241,7 @@
     ]
   },
   "KOSDAQ_foreign": {
-    "score": 0.0,
+    "score": 0.6281,
     "confidence": 0.95,
     "status": "normal",
     "rows": [
@@ -356,7 +356,7 @@
     ]
   },
   "KOSDAQ_institution": {
-    "score": 0.0,
+    "score": 0.5627,
     "confidence": 0.95,
     "status": "normal",
     "rows": [
@@ -449,12 +449,12 @@
         "net": 9
       },
       {
-        "code": "358570",
-        "net": 10
-      },
-      {
         "code": "170920",
         "net": 9
+      },
+      {
+        "code": "358570",
+        "net": 10
       },
       {
         "code": "397030",
@@ -478,15 +478,15 @@
       }
     ]
   },
-  "updated_at": "2026-05-06T05:00:59.233918",
+  "updated_at": "2026-05-06T05:19:32.666453",
   "history": [
     {
       "date": "2026-05-06",
       "scores": {
-        "KOSPI_foreign": 0.0,
-        "KOSPI_institution": 0.0,
-        "KOSDAQ_foreign": 0.0,
-        "KOSDAQ_institution": 0.0
+        "KOSPI_foreign": 0.6539,
+        "KOSPI_institution": 0.6044,
+        "KOSDAQ_foreign": 0.6281,
+        "KOSDAQ_institution": 0.5627
       }
     }
   ]
