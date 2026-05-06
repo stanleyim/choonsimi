@@ -9,15 +9,15 @@
   },
   "top3": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "close": 1447000,
-      "volume": 5776641,
-      "change_rate": 12.52,
+      "code": "321260",
+      "name": "프로이천",
+      "close": 3230,
+      "volume": 10019326,
+      "change_rate": 29.98,
       "flow": 0.0,
-      "momentum": 12.52,
-      "event": 5.0,
-      "score": 0.508251
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.472222
     },
     {
       "code": "092190",
@@ -28,33 +28,22 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.478571
+      "score": 0.472222
     },
     {
-      "code": "321260",
-      "name": "프로이천",
-      "close": 3230,
-      "volume": 10019326,
+      "code": "006345",
+      "name": "대원전선우",
+      "close": 12920,
+      "volume": 2781852,
       "change_rate": 29.98,
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.478571
+      "score": 0.472222
     }
   ],
   "top7": [
     {
-      "code": "006345",
-      "name": "대원전선우",
-      "close": 12920,
-      "volume": 2781852,
-      "change_rate": 29.98,
-      "flow": 0.0,
-      "momentum": 29.98,
-      "event": 0.0,
-      "score": 0.478571
-    },
-    {
       "code": "059120",
       "name": "아진엑스텍",
       "close": 11580,
@@ -63,7 +52,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.478478
+      "score": 0.472129
     },
     {
       "code": "033100",
@@ -74,18 +63,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.478478
-    },
-    {
-      "code": "015860",
-      "name": "일진홀딩스",
-      "close": 13410,
-      "volume": 3124666,
-      "change_rate": 29.94,
-      "flow": 0.0,
-      "momentum": 29.94,
-      "event": 0.0,
-      "score": 0.478198
+      "score": 0.472129
     },
     {
       "code": "007610",
@@ -96,7 +74,18 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.478198
+      "score": 0.471848
+    },
+    {
+      "code": "015860",
+      "name": "일진홀딩스",
+      "close": 13410,
+      "volume": 3124666,
+      "change_rate": 29.94,
+      "flow": 0.0,
+      "momentum": 29.94,
+      "event": 0.0,
+      "score": 0.471848
     },
     {
       "code": "189860",
@@ -107,7 +96,7 @@
       "flow": 0.0,
       "momentum": 29.93,
       "event": 0.0,
-      "score": 0.478104
+      "score": 0.471755
     },
     {
       "code": "058450",
@@ -118,20 +107,31 @@
       "flow": 0.0,
       "momentum": 29.92,
       "event": 0.0,
-      "score": 0.478011
+      "score": 0.471661
+    },
+    {
+      "code": "332570",
+      "name": "PS일렉트로닉스",
+      "close": 10470,
+      "volume": 12765625,
+      "change_rate": 29.9,
+      "flow": 0.0,
+      "momentum": 29.9,
+      "event": 0.0,
+      "score": 0.471475
     }
   ],
   "top10": [
     {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "close": 1447000,
-      "volume": 5776641,
-      "change_rate": 12.52,
+      "code": "321260",
+      "name": "프로이천",
+      "close": 3230,
+      "volume": 10019326,
+      "change_rate": 29.98,
       "flow": 0.0,
-      "momentum": 12.52,
-      "event": 5.0,
-      "score": 0.508251
+      "momentum": 29.98,
+      "event": 0.0,
+      "score": 0.472222
     },
     {
       "code": "092190",
@@ -142,18 +142,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.478571
-    },
-    {
-      "code": "321260",
-      "name": "프로이천",
-      "close": 3230,
-      "volume": 10019326,
-      "change_rate": 29.98,
-      "flow": 0.0,
-      "momentum": 29.98,
-      "event": 0.0,
-      "score": 0.478571
+      "score": 0.472222
     },
     {
       "code": "006345",
@@ -164,7 +153,7 @@
       "flow": 0.0,
       "momentum": 29.98,
       "event": 0.0,
-      "score": 0.478571
+      "score": 0.472222
     },
     {
       "code": "059120",
@@ -175,7 +164,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.478478
+      "score": 0.472129
     },
     {
       "code": "033100",
@@ -186,18 +175,7 @@
       "flow": 0.0,
       "momentum": 29.97,
       "event": 0.0,
-      "score": 0.478478
-    },
-    {
-      "code": "015860",
-      "name": "일진홀딩스",
-      "close": 13410,
-      "volume": 3124666,
-      "change_rate": 29.94,
-      "flow": 0.0,
-      "momentum": 29.94,
-      "event": 0.0,
-      "score": 0.478198
+      "score": 0.472129
     },
     {
       "code": "007610",
@@ -208,7 +186,18 @@
       "flow": 0.0,
       "momentum": 29.94,
       "event": 0.0,
-      "score": 0.478198
+      "score": 0.471848
+    },
+    {
+      "code": "015860",
+      "name": "일진홀딩스",
+      "close": 13410,
+      "volume": 3124666,
+      "change_rate": 29.94,
+      "flow": 0.0,
+      "momentum": 29.94,
+      "event": 0.0,
+      "score": 0.471848
     },
     {
       "code": "189860",
@@ -219,7 +208,7 @@
       "flow": 0.0,
       "momentum": 29.93,
       "event": 0.0,
-      "score": 0.478104
+      "score": 0.471755
     },
     {
       "code": "058450",
@@ -230,7 +219,18 @@
       "flow": 0.0,
       "momentum": 29.92,
       "event": 0.0,
-      "score": 0.478011
+      "score": 0.471661
+    },
+    {
+      "code": "332570",
+      "name": "PS일렉트로닉스",
+      "close": 10470,
+      "volume": 12765625,
+      "change_rate": 29.9,
+      "flow": 0.0,
+      "momentum": 29.9,
+      "event": 0.0,
+      "score": 0.471475
     }
   ]
 }
