@@ -1,8 +1,8 @@
 {
-  "prev_score": 0.2236,
-  "lock_count": 3,
-  "lock_candidate": "SIDEWAY",
+  "prev_score": 0.5822,
+  "lock_count": 1,
+  "lock_candidate": "UPTREND",
   "last_regime": "SIDEWAY",
-  "last_confidence": 0.56,
-  "updated_at": "2026-05-06T05:19:32.717389"
+  "last_confidence": 0.73,
+  "updated_at": "2026-05-06T09:09:58.357302"
 }

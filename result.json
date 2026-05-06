@@ -1,13 +1,126 @@
 {
+  "date": "2026-05-06",
   "regime": "SIDEWAY",
-  "confidence": 0.56,
-  "score": 0.2236,
-  "volatility": 0.2485,
+  "confidence": 0.73,
+  "score": 0.5822,
+  "volatility": 0.3984,
   "flow_summary": {
-    "KOSPI_foreign": 0.6539,
-    "KOSPI_institution": 0.6044,
-    "KOSDAQ_foreign": 0.6281,
-    "KOSDAQ_institution": 0.5627
+    "KOSPI_foreign": 0.6557,
+    "KOSPI_institution": 0.593,
+    "KOSDAQ_foreign": 0.6267,
+    "KOSDAQ_institution": 0.5828
   },
-  "updated_at": "2026-05-06T05:19:32.717259"
+  "top10": [
+    {
+      "rank": 1,
+      "code": "005930",
+      "name": "삼성전자",
+      "score": 82.4,
+      "price": 266000,
+      "change_pct": 0.0,
+      "volume": 53097996,
+      "flow_net": 8.88,
+      "reason": "외국인·기관 순매수 (net 9) / 보합"
+    },
+    {
+      "rank": 2,
+      "code": "006800",
+      "name": "미래에셋증권",
+      "score": 82.25,
+      "price": 83800,
+      "change_pct": 0.0,
+      "volume": 20671110,
+      "flow_net": 7.56,
+      "reason": "외국인·기관 순매수 (net 8) / 보합"
+    },
+    {
+      "rank": 3,
+      "code": "034220",
+      "name": "LG디스플레이",
+      "score": 80.07,
+      "price": 12760,
+      "change_pct": 0.0,
+      "volume": 8266611,
+      "flow_net": 5.04,
+      "reason": "외국인·기관 순매수 (net 5) / 보합"
+    },
+    {
+      "rank": 4,
+      "code": "098460",
+      "name": "고영",
+      "score": 79.16,
+      "price": 41600,
+      "change_pct": 0.0,
+      "volume": 7300417,
+      "flow_net": 4.64,
+      "reason": "외국인·기관 순매수 (net 5) / 보합"
+    },
+    {
+      "rank": 5,
+      "code": "000660",
+      "name": "SK하이닉스",
+      "score": 78.3,
+      "price": 1601000,
+      "change_pct": 0.0,
+      "volume": 6631934,
+      "flow_net": 4.32,
+      "reason": "외국인·기관 순매수 (net 4) / 보합"
+    },
+    {
+      "rank": 6,
+      "code": "336260",
+      "name": "두산퓨얼셀",
+      "score": 78.21,
+      "price": 78300,
+      "change_pct": 0.0,
+      "volume": 4923975,
+      "flow_net": 7.32,
+      "reason": "외국인·기관 순매수 (net 7) / 보합"
+    },
+    {
+      "rank": 7,
+      "code": "003530",
+      "name": "한화투자증권",
+      "score": 78.17,
+      "price": 9370,
+      "change_pct": 0.0,
+      "volume": 37921388,
+      "flow_net": 3.12,
+      "reason": "외국인·기관 순매수 (net 3) / 보합"
+    },
+    {
+      "rank": 8,
+      "code": "005935",
+      "name": "삼성전자우",
+      "score": 77.16,
+      "price": 189300,
+      "change_pct": 0.0,
+      "volume": 11313435,
+      "flow_net": 2.88,
+      "reason": "외국인·기관 순매수 (net 3) / 보합"
+    },
+    {
+      "rank": 9,
+      "code": "161580",
+      "name": "필옵틱스",
+      "score": 76.9,
+      "price": 63000,
+      "change_pct": 0.0,
+      "volume": 4976140,
+      "flow_net": 4.64,
+      "reason": "외국인·기관 순매수 (net 5) / 보합"
+    },
+    {
+      "rank": 10,
+      "code": "032820",
+      "name": "우리기술",
+      "score": 76.73,
+      "price": 21250,
+      "change_pct": 0.0,
+      "volume": 7689665,
+      "flow_net": 3.12,
+      "reason": "외국인·기관 순매수 (net 3) / 보합"
+    }
+  ],
+  "updated_at": "2026-05-06T09:09:58.356880"
 }
