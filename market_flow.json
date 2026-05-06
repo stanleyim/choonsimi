@@ -1,45 +1,37 @@
-[
-  {"date": "2026-03-03", "foreign_net": -4555337453677, "inst_net": -647086},
-  {"date": "2026-03-04", "foreign_net": 1400548750494, "inst_net": -565539},
-  {"date": "2026-03-05", "foreign_net": 687684587239, "inst_net": -979294},
-  {"date": "2026-03-06", "foreign_net": -2328045916667, "inst_net": -638030},
-  {"date": "2026-03-09", "foreign_net": -3712428852397, "inst_net": -1499374},
-  {"date": "2026-03-10", "foreign_net": 626191075191, "inst_net": 1346248},
-  {"date": "2026-03-11", "foreign_net": -337451341137, "inst_net": 655466},
-  {"date": "2026-03-12", "foreign_net": -3068815683668, "inst_net": 330628},
-  {"date": "2026-03-13", "foreign_net": -1533006423086, "inst_net": -790787},
-  {"date": "2026-03-16", "foreign_net": -1349776382735, "inst_net": -78571},
-  {"date": "2026-03-17", "foreign_net": -232548723725, "inst_net": 698153},
-  {"date": "2026-03-18", "foreign_net": 1372554895477, "inst_net": 3083953},
-  {"date": "2026-03-19", "foreign_net": -2076391400285, "inst_net": -926062},
-  {"date": "2026-03-20", "foreign_net": -1005471980892, "inst_net": -1120205},
-  {"date": "2026-03-23", "foreign_net": -3934233075015, "inst_net": -4017064},
-  {"date": "2026-03-24", "foreign_net": -1813001939395, "inst_net": 984132},
-  {"date": "2026-03-25", "foreign_net": -915235140419, "inst_net": 2345327},
-  {"date": "2026-03-26", "foreign_net": -3233299349700, "inst_net": -433607},
-  {"date": "2026-03-27", "foreign_net": -3662321865242, "inst_net": 838211},
-  {"date": "2026-03-30", "foreign_net": -2225876035825, "inst_net": 727047},
-  {"date": "2026-03-31", "foreign_net": -3719784035769, "inst_net": 956379},
-  {"date": "2026-04-01", "foreign_net": -202550571177, "inst_net": 4502739},
-  {"date": "2026-04-02", "foreign_net": -99950015534, "inst_net": -1957189},
-  {"date": "2026-04-03", "foreign_net": 606973671023, "inst_net": 521634},
-  {"date": "2026-04-06", "foreign_net": -72764616402, "inst_net": 477988},
-  {"date": "2026-04-07", "foreign_net": 2168087899917, "inst_net": -520108},
-  {"date": "2026-04-08", "foreign_net": 2148576432178, "inst_net": 3099693},
-  {"date": "2026-04-09", "foreign_net": 1422724780889, "inst_net": -3020459},
-  {"date": "2026-04-10", "foreign_net": 1062207668972, "inst_net": -109969},
-  {"date": "2026-04-13", "foreign_net": -607025769973, "inst_net": -762124},
-  {"date": "2026-04-14", "foreign_net": 821271042136, "inst_net": 1125679},
-  {"date": "2026-04-15", "foreign_net": 718235687395, "inst_net": 213502},
-  {"date": "2026-04-16", "foreign_net": 235129137392, "inst_net": 1014289},
-  {"date": "2026-04-17", "foreign_net": -1984156490217, "inst_net": 163864},
-  {"date": "2026-04-20", "foreign_net": -212225605264, "inst_net": 133362},
-  {"date": "2026-04-21", "foreign_net": 873504932234, "inst_net": 797821},
-  {"date": "2026-04-22", "foreign_net": -514123717249, "inst_net": -773700},
-  {"date": "2026-04-23", "foreign_net": -228196666716, "inst_net": -446048},
-  {"date": "2026-04-24", "foreign_net": -1217115473705, "inst_net": 994039},
-  {"date": "2026-04-27", "foreign_net": 684090020414, "inst_net": 1219856},
-  {"date": "2026-04-28", "foreign_net": -679231438779, "inst_net": 98926},
-  {"date": "2026-04-29", "foreign_net": -609142559540, "inst_net": 404213},
-  {"date": "2026-04-30", "foreign_net": -1667138131126, "inst_net": -20710}
-]
+{
+  "date": "2026-05-06",
+  "scores": {
+    "KOSPI_foreign": 0.0,
+    "KOSPI_institution": 0.0,
+    "KOSDAQ_foreign": 0.0,
+    "KOSDAQ_institution": 0.0
+  },
+  "KOSPI_foreign": {
+    "rows": [],
+    "score": 0.0
+  },
+  "KOSPI_institution": {
+    "rows": [],
+    "score": 0.0
+  },
+  "KOSDAQ_foreign": {
+    "rows": [],
+    "score": 0.0
+  },
+  "KOSDAQ_institution": {
+    "rows": [],
+    "score": 0.0
+  },
+  "updated_at": "2026-05-06T03:32:10.250193",
+  "history": [
+    {
+      "date": "2026-05-06",
+      "scores": {
+        "KOSPI_foreign": 0.0,
+        "KOSPI_institution": 0.0,
+        "KOSDAQ_foreign": 0.0,
+        "KOSDAQ_institution": 0.0
+      }
+    }
+  ]
+}
