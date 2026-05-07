@@ -5,5 +5,4 @@ lxml>=5.2.1,<6
 finance-datareader==0.9.50
 feedparser>=6.0.0
 beautifulsoup4>=4.12.0
-pykrx>=1.0.35
 OpenDartReader>=0.0.15
