@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '32 11 * * 0'   # 매주 일요일 KST 10:00 (UTC 01:00)
+    - cron: '22 11 * * *'   # 매주 일요일 KST 10:00 (UTC 01:00)
   workflow_dispatch:
 
 jobs:
