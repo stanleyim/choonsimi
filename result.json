@@ -1,6 +1,7 @@
 ﻿{
   "date": "2026-05-09",
   "regime": "UPTREND",
+  "universe_size": 101,
   "confidence": 0.61,
   "data_quality": "full",
   "top20": [
