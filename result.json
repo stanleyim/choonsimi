@@ -8,137 +8,161 @@
       "rank": 1,
       "code": "001440",
       "name": "대한전선",
-      "score": 75.56,
+      "score": 89.0,
       "price": 72300,
       "change_pct": 12.79
     },
     {
       "rank": 2,
-      "code": "319400",
-      "name": "현대무벡스",
-      "score": 70.74,
-      "price": 37950,
-      "change_pct": 22.42
-    },
-    {
-      "rank": 3,
       "code": "090710",
       "name": "휴림로봇",
-      "score": 69.83,
+      "score": 83.22,
       "price": 12790,
       "change_pct": 6.58
     },
     {
-      "rank": 4,
-      "code": "078150",
-      "name": "HB테크놀러지",
-      "score": 64.36,
-      "price": 4830,
-      "change_pct": 6.62
-    },
-    {
-      "rank": 5,
-      "code": "012860",
-      "name": "모베이스전자",
-      "score": 63.74,
-      "price": 4365,
-      "change_pct": 11.64
-    },
-    {
-      "rank": 6,
-      "code": "076610",
-      "name": "해성옵틱스",
-      "score": 61.89,
-      "price": 2785,
+      "rank": 3,
+      "code": "319400",
+      "name": "현대무벡스",
+      "score": 82.06,
+      "price": 37950,
       "change_pct": 22.42
     },
     {
-      "rank": 7,
+      "rank": 4,
       "code": "086960",
       "name": "MDS테크",
-      "score": 61.19,
+      "score": 73.51,
       "price": 3160,
       "change_pct": 13.26
     },
     {
-      "rank": 8,
+      "rank": 5,
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "score": 73.1,
+      "price": 71000,
+      "change_pct": 4.87
+    },
+    {
+      "rank": 6,
+      "code": "086280",
+      "name": "현대글로비스",
+      "score": 73.04,
+      "price": 251000,
+      "change_pct": 8.89
+    },
+    {
+      "rank": 7,
       "code": "223250",
       "name": "드림씨아이에스",
-      "score": 59.93,
+      "score": 72.75,
       "price": 7120,
       "change_pct": 13.92
     },
     {
+      "rank": 8,
+      "code": "012860",
+      "name": "모베이스전자",
+      "score": 72.58,
+      "price": 4365,
+      "change_pct": 11.64
+    },
+    {
       "rank": 9,
-      "code": "010170",
-      "name": "대한광통신",
-      "score": 56.75,
-      "price": 22350,
-      "change_pct": 2.52
+      "code": "005380",
+      "name": "현대차",
+      "score": 72.16,
+      "price": 613000,
+      "change_pct": 7.17
     },
     {
       "rank": 10,
-      "code": "005930",
-      "name": "삼성전자",
-      "score": 54.77,
-      "price": 268500,
-      "change_pct": -1.1
+      "code": "078150",
+      "name": "HB테크놀러지",
+      "score": 71.98,
+      "price": 4830,
+      "change_pct": 6.62
     },
     {
       "rank": 11,
-      "code": "084650",
-      "name": "랩지노믹스",
-      "score": 53.9,
-      "price": 1341,
-      "change_pct": 7.02
+      "code": "307950",
+      "name": "현대오토에버",
+      "score": 70.99,
+      "price": 592000,
+      "change_pct": 29.97
     },
     {
       "rank": 12,
+      "code": "012330",
+      "name": "현대모비스",
+      "score": 70.67,
+      "price": 509000,
+      "change_pct": 15.29
+    },
+    {
+      "rank": 13,
+      "code": "007070",
+      "name": "GS리테일",
+      "score": 70.16,
+      "price": 25800,
+      "change_pct": 9.55
+    },
+    {
+      "rank": 14,
+      "code": "076610",
+      "name": "해성옵틱스",
+      "score": 69.14,
+      "price": 2785,
+      "change_pct": 22.42
+    },
+    {
+      "rank": 15,
+      "code": "204320",
+      "name": "HL만도",
+      "score": 69.02,
+      "price": 59900,
+      "change_pct": 3.99
+    },
+    {
+      "rank": 16,
       "code": "006340",
       "name": "대원전선",
-      "score": 50.81,
+      "score": 68.7,
       "price": 18010,
       "change_pct": 3.27
     },
     {
-      "rank": 13,
-      "code": "079190",
-      "name": "케스피온",
-      "score": 47.37,
-      "price": 1153,
-      "change_pct": 3.04
-    },
-    {
-      "rank": 14,
-      "code": "018880",
-      "name": "한온시스템",
-      "score": 46.29,
-      "price": 4770,
-      "change_pct": -2.65
-    },
-    {
-      "rank": 15,
-      "code": "229000",
-      "name": "젠큐릭스",
-      "score": 45.26,
-      "price": 3675,
-      "change_pct": -4.17
-    },
-    {
-      "rank": 16,
-      "code": "264850",
-      "name": "이랜시스",
-      "score": 42.91,
-      "price": 8050,
-      "change_pct": -0.86
-    },
-    {
       "rank": 17,
-      "code": "003470",
-      "name": "유안타증권",
-      "score": 38.16,
-      "price": 7170,
-      "change_pct": -3.89
+      "code": "066570",
+      "name": "LG전자",
+      "score": 68.27,
+      "price": 154100,
+      "change_pct": 3.63
+    },
+    {
+      "rank": 18,
+      "code": "005930",
+      "name": "삼성전자",
+      "score": 67.59,
+      "price": 268500,
+      "change_pct": -1.1
+    },
+    {
+      "rank": 19,
+      "code": "000270",
+      "name": "기아",
+      "score": 66.88,
+      "price": 164500,
+      "change_pct": 4.38
+    },
+    {
+      "rank": 20,
+      "code": "035420",
+      "name": "NAVER",
+      "score": 66.43,
+      "price": 215000,
+      "change_pct": 3.61
     }
   ],
   "performance_today": {
