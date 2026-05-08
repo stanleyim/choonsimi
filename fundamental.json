@@ -1,10 +1,10 @@
-{
+﻿{
   "date": "2026-05-08",
   "year": 2026,
   "quarter": "1Q",
   "count": 1,
-  "skip": 0,
-  "errors": 20,
+  "skip": 1,
+  "errors": 17,
   "stocks": [
     {
       "code": "006340",
