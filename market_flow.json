@@ -4,7 +4,7 @@
     "KOSPI_foreign": 0.6207,
     "KOSPI_institution": 0.5909,
     "KOSDAQ_foreign": 0.6509,
-    "KOSDAQ_institution": 0.548
+    "KOSDAQ_institution": 0.5465
   },
   "confidences": {
     "KOSPI_foreign": 0.95,
@@ -364,7 +364,7 @@
     ]
   },
   "KOSDAQ_institution": {
-    "score": 0.548,
+    "score": 0.5465,
     "confidence": 0.95,
     "status": "normal",
     "rows": [
@@ -405,12 +405,12 @@
         "net": 8
       },
       {
-        "code": "058610",
-        "net": 9
-      },
-      {
         "code": "319400",
         "net": 11
+      },
+      {
+        "code": "058610",
+        "net": 9
       },
       {
         "code": "290550",
@@ -481,16 +481,16 @@
         "net": 10
       },
       {
-        "code": "226950",
+        "code": "053610",
         "net": 8
       },
       {
-        "code": "330860",
-        "net": 9
+        "code": "226950",
+        "net": 8
       }
     ]
   },
-  "updated_at": "2026-05-08T13:39:36.527747+09:00",
+  "updated_at": "2026-05-08T14:11:33.101692+09:00",
   "history": [
     {
       "date": "2026-05-06",
@@ -516,7 +516,7 @@
         "KOSPI_foreign": 0.6207,
         "KOSPI_institution": 0.5909,
         "KOSDAQ_foreign": 0.6509,
-        "KOSDAQ_institution": 0.548
+        "KOSDAQ_institution": 0.5465
       }
     }
   ]
