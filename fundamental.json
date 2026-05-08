@@ -1,8 +1,20 @@
 {
   "date": "2026-05-08",
-  "year": 0,
-  "quarter": "",
-  "count": 0,
-  "stocks": [],
-  "updated_at": "2026-05-08T09:12:48.697136+09:00"
+  "year": 2026,
+  "quarter": "1Q",
+  "count": 1,
+  "skip": 0,
+  "errors": 20,
+  "stocks": [
+    {
+      "code": "006340",
+      "equity": 167599511520,
+      "total_debt": 202073044984,
+      "net_income": 11209830009,
+      "op_growth": 0,
+      "roe": 6.69,
+      "debt_ratio": 120.57,
+      "reprt_code": "11013"
+    }
+  ]
 }
