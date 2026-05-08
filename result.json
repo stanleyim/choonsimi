@@ -2,6 +2,7 @@
   "date": "2026-05-08",
   "regime": "UPTREND",
   "confidence": 0.61,
+  "data_quality": "full",
   "top20": [
     {
       "rank": 1,
@@ -23,7 +24,7 @@
       "rank": 3,
       "code": "319400",
       "name": "현대무벡스",
-      "score": 71.46,
+      "score": 70.46,
       "price": 37950,
       "change_pct": 22.42
     },
@@ -71,7 +72,7 @@
       "rank": 9,
       "code": "005930",
       "name": "삼성전자",
-      "score": 56.97,
+      "score": 55.97,
       "price": 268500,
       "change_pct": -1.1
     },
@@ -109,19 +110,19 @@
     },
     {
       "rank": 14,
+      "code": "018880",
+      "name": "한온시스템",
+      "score": 46.54,
+      "price": 4770,
+      "change_pct": -2.65
+    },
+    {
+      "rank": 15,
       "code": "229000",
       "name": "젠큐릭스",
       "score": 45.46,
       "price": 3675,
       "change_pct": -4.17
-    },
-    {
-      "rank": 15,
-      "code": "018880",
-      "name": "한온시스템",
-      "score": 45.3,
-      "price": 4770,
-      "change_pct": -2.65
     },
     {
       "rank": 16,
