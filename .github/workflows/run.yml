@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '2 11 * * 1-5'   # KST 20:02 (UTC 11:02) 월~금
+    - cron: '3 10 * * 1-5'   # KST 19:03 (UTC 10:03) 월~금
   workflow_dispatch:
 
 concurrency:
