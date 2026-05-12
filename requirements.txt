@@ -1,9 +1,21 @@
+# core numeric stack
 pandas==2.2.2
 numpy==1.26.4
+
+# http / parsing
 requests>=2.31.0,<2.33
 lxml>=5.2.1,<6
-finance-datareader==0.9.50
-feedparser>=6.0.0
 beautifulsoup4>=4.12.0
+feedparser>=6.0.0
+
+# financial data
+finance-datareader==0.9.50
 opendartreader>=0.0.15
+
+# calendar / time handling (critical fix)
 holidays>=0.40
+pytz>=2024.1
+python-dateutil>=2.9.0
+
+# resilience layer (production stability upgrade)
+tenacity>=8.2.3
