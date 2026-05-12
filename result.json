@@ -1,42 +1,301 @@
-[
-  {
-    "code": "000660",
-    "score": 0.3,
-    "price": 1835000.0,
-    "prev_close": 1835000.0,
-    "change_pct": null,
-    "entry_date": "2026-05-12"
-  },
-  {
-    "code": "005930",
-    "score": 0.3,
-    "price": 279000.0,
-    "prev_close": 279000.0,
-    "change_pct": null,
-    "entry_date": "2026-05-12"
-  },
-  {
-    "code": "005380",
-    "score": 0.3,
-    "price": 646000.0,
-    "prev_close": 646000.0,
-    "change_pct": null,
-    "entry_date": "2026-05-12"
-  },
-  {
-    "code": "010170",
-    "score": 0.3,
-    "price": 29100.0,
-    "prev_close": 29100.0,
-    "change_pct": null,
-    "entry_date": "2026-05-12"
-  },
-  {
-    "code": "009150",
-    "score": 0.3,
-    "price": 958000.0,
-    "prev_close": 958000.0,
-    "change_pct": null,
-    "entry_date": "2026-05-12"
+﻿{
+  "date": "2026-05-12",
+  "regime": "UPTREND",
+  "universe_size": 95,
+  "confidence": 0.61,
+  "top20": [
+    {
+      "rank": 1,
+      "code": "066570",
+      "name": "LG전자",
+      "score": 84.52,
+      "price": 184900,
+      "change_pct": 18.0,
+      "expected_return_5d": 2.07,
+      "roe": 4.27,
+      "debt_ratio": 140.33
+    },
+    {
+      "rank": 2,
+      "code": "012860",
+      "name": "모베이스전자",
+      "score": 82.08,
+      "price": 6030,
+      "change_pct": 29.96,
+      "expected_return_5d": 1.92,
+      "roe": 8.28,
+      "debt_ratio": 208.58
+    },
+    {
+      "rank": 3,
+      "code": "009150",
+      "name": "삼성전기",
+      "score": 79.89,
+      "price": 958000,
+      "change_pct": 6.44,
+      "expected_return_5d": 1.79,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 4,
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "score": 78.14,
+      "price": 73000,
+      "change_pct": 3.55,
+      "expected_return_5d": 1.69,
+      "roe": 14.93,
+      "debt_ratio": 79.68
+    },
+    {
+      "rank": 5,
+      "code": "017670",
+      "name": "SK텔레콤",
+      "score": 76.94,
+      "price": 103400,
+      "change_pct": 5.3,
+      "expected_return_5d": 1.62,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 6,
+      "code": "007610",
+      "name": "선도전기",
+      "score": 76.11,
+      "price": 14600,
+      "change_pct": 13.44,
+      "expected_return_5d": 1.1,
+      "roe": 14.43,
+      "debt_ratio": 101.45
+    },
+    {
+      "rank": 7,
+      "code": "004710",
+      "name": "한솔테크닉스",
+      "score": 73.95,
+      "price": 14580,
+      "change_pct": 3.11,
+      "expected_return_5d": 1.44,
+      "roe": 0.11,
+      "debt_ratio": 102.16
+    },
+    {
+      "rank": 8,
+      "code": "003280",
+      "name": "흥아해운",
+      "score": 73.49,
+      "price": 2780,
+      "change_pct": 4.12,
+      "expected_return_5d": 0.99,
+      "roe": 11.67,
+      "debt_ratio": 74.22
+    },
+    {
+      "rank": 9,
+      "code": "090710",
+      "name": "휴림로봇",
+      "score": 73.12,
+      "price": 12970,
+      "change_pct": 5.19,
+      "expected_return_5d": 1.39,
+      "roe": -14.8,
+      "debt_ratio": 36.13
+    },
+    {
+      "rank": 10,
+      "code": "055550",
+      "name": "신한지주",
+      "score": 72.31,
+      "price": 96700,
+      "change_pct": -0.51,
+      "expected_return_5d": 0.94,
+      "roe": 8.42,
+      "debt_ratio": 1201.94
+    },
+    {
+      "rank": 11,
+      "code": "000660",
+      "name": "SK하이닉스",
+      "score": 71.91,
+      "price": 1835000,
+      "change_pct": -2.39,
+      "expected_return_5d": 0.92,
+      "roe": 35.59,
+      "debt_ratio": 45.95
+    },
+    {
+      "rank": 12,
+      "code": "483650",
+      "name": "달바글로벌",
+      "score": 71.5,
+      "price": 247000,
+      "change_pct": 13.04,
+      "expected_return_5d": 1.29,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 13,
+      "code": "082740",
+      "name": "한화엔진",
+      "score": 70.82,
+      "price": 77600,
+      "change_pct": -1.02,
+      "expected_return_5d": 0.87,
+      "roe": 31.24,
+      "debt_ratio": 204.92
+    },
+    {
+      "rank": 14,
+      "code": "052900",
+      "name": "KX하이텍",
+      "score": 69.94,
+      "price": 1486,
+      "change_pct": 11.73,
+      "expected_return_5d": 0.84,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 15,
+      "code": "215790",
+      "name": "이노인스트루먼트",
+      "score": 69.77,
+      "price": 2305,
+      "change_pct": 16.0,
+      "expected_return_5d": 0.83,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 16,
+      "code": "475150",
+      "name": "SK이터닉스",
+      "score": 68.46,
+      "price": 51700,
+      "change_pct": 4.87,
+      "expected_return_5d": 1.11,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 17,
+      "code": "489790",
+      "name": "한화비전",
+      "score": 67.69,
+      "price": 80200,
+      "change_pct": 1.26,
+      "expected_return_5d": 1.06,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 18,
+      "code": "012030",
+      "name": "DB",
+      "score": 66.55,
+      "price": 2255,
+      "change_pct": 3.68,
+      "expected_return_5d": 0.7,
+      "roe": 10.98,
+      "debt_ratio": 119.77
+    },
+    {
+      "rank": 19,
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "score": 65.89,
+      "price": 125600,
+      "change_pct": -1.88,
+      "expected_return_5d": 0.67,
+      "roe": 1.71,
+      "debt_ratio": 129.1
+    },
+    {
+      "rank": 20,
+      "code": "024110",
+      "name": "기업은행",
+      "score": 65.43,
+      "price": 21350,
+      "change_pct": 0.0,
+      "expected_return_5d": 0.65,
+      "roe": null,
+      "debt_ratio": null
+    }
+  ],
+  "top5_core": [
+    {
+      "rank": 1,
+      "code": "066570",
+      "name": "LG전자",
+      "score": 84.52,
+      "price": 184900,
+      "change_pct": 18.0,
+      "expected_return_5d": 2.07,
+      "roe": 4.27,
+      "debt_ratio": 140.33
+    },
+    {
+      "rank": 2,
+      "code": "012860",
+      "name": "모베이스전자",
+      "score": 82.08,
+      "price": 6030,
+      "change_pct": 29.96,
+      "expected_return_5d": 1.92,
+      "roe": 8.28,
+      "debt_ratio": 208.58
+    },
+    {
+      "rank": 3,
+      "code": "009150",
+      "name": "삼성전기",
+      "score": 79.89,
+      "price": 958000,
+      "change_pct": 6.44,
+      "expected_return_5d": 1.79,
+      "roe": null,
+      "debt_ratio": null
+    },
+    {
+      "rank": 4,
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "score": 78.14,
+      "price": 73000,
+      "change_pct": 3.55,
+      "expected_return_5d": 1.69,
+      "roe": 14.93,
+      "debt_ratio": 79.68
+    },
+    {
+      "rank": 5,
+      "code": "017670",
+      "name": "SK텔레콤",
+      "score": 76.94,
+      "price": 103400,
+      "change_pct": 5.3,
+      "expected_return_5d": 1.62,
+      "roe": null,
+      "debt_ratio": null
+    }
+  ],
+  "entry_top5": [
+    {
+      "rank": 1,
+      "code": "090710",
+      "name": "휴림로봇",
+      "entry_score": 102.67,
+      "base_score": 73.12,
+      "price": 12970,
+      "change_pct": 5.19
+    }
+  ],
+  "performance_today": {
+    "win_rate": 0,
+    "avg_return": 0,
+    "top5_return": 0
   }
-]
+}
