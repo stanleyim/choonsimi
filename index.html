@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="춘시미 Stock — AI 기반 한국 주식 종목 추천">
+<title>춘시미 Stock · AI 종목 추천</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060a18;--bg2:#0c1226;--bg3:#121a32;--bg4:#19223e;--bg5:#212d50;
+  --gold:#f0be30;--gold2:#c49818;--gold3:rgba(240,190,48,.12);--gold4:rgba(240,190,48,.06);
+  --blue:#4a8fff;--blue2:rgba(74,143,255,.18);--blue3:rgba(74,143,255,.08);
+  --green:#00d98e;--green2:rgba(0,217,142,.15);--green3:rgba(0,217,142,.06);
+  --red:#ff4d4d;--red2:rgba(255,77,77,.15);
+  --txt:#d8e4f5;--txt2:#6a84b0;--txt3:#3a4e70;
+  --radius:12px;--radiuss:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{
+  font-family:'Noto Sans KR',sans-serif;
+  background:var(--bg);color:var(--txt);
+  min-height:100vh;overflow-x:hidden;
+  background-image:
+    linear-gradient(rgba(74,143,255,.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(74,143,255,.025) 1px,transparent 1px);
+  background-size:48px 48px;
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse 80% 50% at 15% 10%,rgba(240,190,48,.04) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 60% at 85% 85%,rgba(74,143,255,.05) 0%,transparent 60%);
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--bg5);border-radius:2px}
+
+/* ── HEADER ── */
+header{
+  position:sticky;top:0;z-index:200;
+  background:rgba(6,10,24,.88);backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(74,143,255,.12);
+}
+.hd{
+  max-width:1280px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:11px 16px;gap:12px;
+}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.lm{
+  width:36px;height:36px;border-radius:var(--radiuss);flex-shrink:0;
+  background:linear-gradient(145deg,#1a2e6e,#0c1840);
+  border:1px solid var(--gold2);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Bebas Neue',sans-serif;font-size:21px;color:var(--gold);
+  box-shadow:0 0 12px rgba(240,190,48,.15);
+  position:relative;overflow:hidden;
+}
+.lm::after{
+  content:'';position:absolute;bottom:4px;left:5px;right:5px;height:2.5px;
+  background:linear-gradient(90deg,var(--gold),var(--green));border-radius:2px;
+}
+.lt{display:flex;flex-direction:column;line-height:1}
+.lt .b{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:2.5px;color:#fff}
+.lt .s{font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:3.5px;color:var(--gold);margin-top:1px}
+.hm{
+  display:flex;align-items:center;gap:10px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--txt2);
+}
+.dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--green);box-shadow:0 0 6px var(--green);
+  animation:pulse 2s ease-in-out infinite;
+}
+@keyframes pulse{0%,100%{box-shadow:0 0 6px var(--green)}50%{box-shadow:0 0 14px var(--green);opacity:.7}}
+
+/* ── REGIME ── */
+.regime{
+  padding:22px 16px;position:relative;overflow:hidden;
+  transition:background .6s,border-color .6s;
+  border-bottom:1px solid transparent;
+}
+.regime.up  {background:linear-gradient(135deg,rgba(0,217,142,.05) 0%,transparent 55%);border-color:rgba(0,217,142,.12)}
+.regime.dn  {background:linear-gradient(135deg,rgba(255,77,77,.05) 0%,transparent 55%);border-color:rgba(255,77,77,.12)}
+.regime.sw  {background:linear-gradient(135deg,rgba(74,143,255,.05) 0%,transparent 55%);border-color:rgba(74,143,255,.12)}
+.rg-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.rg-left{display:flex;align-items:center;gap:16px}
+.rg-icon{font-size:38px}
+.rg-eye{font-size:9px;letter-spacing:3px;color:var(--txt3);text-transform:uppercase;margin-bottom:2px}
+.rg-name{
+  font-family:'Bebas Neue',sans-serif;font-size:44px;line-height:1;letter-spacing:4px;
+  transition:color .6s,text-shadow .6s;
+}
+.rg-name.up  {color:var(--green);text-shadow:0 0 24px rgba(0,217,142,.35)}
+.rg-name.dn  {color:var(--red);  text-shadow:0 0 24px rgba(255,77,77,.35)}
+.rg-name.sw  {color:var(--blue); text-shadow:0 0 24px rgba(74,143,255,.35)}
+.rg-kr{font-size:12px;color:var(--txt2);margin-top:2px}
+.rg-right{min-width:220px;display:flex;flex-direction:column;gap:10px}
+.conf-row{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--txt2)}
+.conf-bar{height:5px;background:var(--bg4);border-radius:3px;overflow:hidden}
+.conf-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--blue),var(--green));transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+.rg-stats{display:flex;gap:20px;flex-wrap:wrap;margin-top:4px}
+.rgs{display:flex;flex-direction:column;gap:2px}
+.rgs-lbl{font-size:9px;letter-spacing:2px;color:var(--txt3);text-transform:uppercase}
+.rgs-val{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:700;color:var(--txt)}
+
+/* ── PERF STRIP ── */
+.perf{background:var(--bg2);border-bottom:1px solid rgba(74,143,255,.1);padding:12px 16px}
+.perf-in{max-width:1280px;margin:0 auto;display:flex;overflow-x:auto;scrollbar-width:none}
+.perf-in::-webkit-scrollbar{display:none}
+.pi{
+  flex:1;min-width:110px;display:flex;flex-direction:column;align-items:center;gap:3px;
+  padding:0 14px;border-right:1px solid rgba(74,143,255,.08);
+}
+.pi:last-child{border-right:none}
+.pi-lbl{font-size:9px;letter-spacing:2px;color:var(--txt3);text-transform:uppercase}
+.pi-val{font-family:'JetBrains Mono',monospace;font-size:17px;font-weight:700}
+.pos{color:var(--green)}.neg{color:var(--red)}.neu{color:var(--gold)}
+
+/* ── LAYOUT ── */
+.wrap{max-width:1280px;margin:0 auto;padding:0 16px;position:relative;z-index:1}
+.sec{padding:26px 0}
+.sec-hd{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.sec-ic{
+  width:30px;height:30px;border-radius:var(--radiuss);
+  display:flex;align-items:center;justify-content:center;font-size:15px;
+}
+.ic-g{background:var(--gold3)}.ic-b{background:var(--blue2)}.ic-gr{background:var(--green2)}
+.sec-ttl{font-family:'Bebas Neue',sans-serif;font-size:21px;letter-spacing:3px;color:var(--txt)}
+.sec-badge{
+  margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:10px;
+  background:var(--bg3);border:1px solid rgba(74,143,255,.12);
+  padding:3px 8px;border-radius:4px;color:var(--txt2);
+}
+
+/* ── CORE CARDS ── */
+.core-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.cc{
+  background:var(--bg2);border:1px solid rgba(74,143,255,.1);
+  border-radius:var(--radius);padding:16px;position:relative;overflow:hidden;
+  transition:transform .2s,border-color .2s,box-shadow .2s;
+  animation:fiu .5s ease both;
+}
+.cc:nth-child(1){animation-delay:.04s}.cc:nth-child(2){animation-delay:.08s}
+.cc:nth-child(3){animation-delay:.12s}.cc:nth-child(4){animation-delay:.16s}
+.cc:nth-child(5){animation-delay:.20s}
+@keyframes fiu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.cc:hover{transform:translateY(-3px);border-color:rgba(240,190,48,.25);box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.cc::before{content:'';position:absolute;top:0;left:0;right:0;height:1.5px;background:linear-gradient(90deg,var(--gold),transparent);opacity:0;transition:opacity .2s}
+.cc:hover::before{opacity:1}
+.cc-rank{position:absolute;top:10px;right:12px;font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--txt3);line-height:1}
+.cc-code{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--blue);margin-bottom:3px;letter-spacing:1px}
+.cc-name{font-size:14px;font-weight:700;color:var(--txt);margin-bottom:12px;padding-right:28px;line-height:1.3}
+.arc-row{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.arc{position:relative;width:50px;height:50px;flex-shrink:0}
+.arc svg{transform:rotate(-90deg)}
+.arc-num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--txt)}
+.arc-meta{display:flex;flex-direction:column;gap:3px}
+.cc-price{font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:600;color:var(--txt)}
+.cc-chg{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600}
+.up2{color:var(--green)}.dn2{color:var(--red)}.fl{color:var(--txt2)}
+.cc-ft{display:flex;justify-content:space-between;align-items:center;padding-top:10px;border-top:1px solid rgba(74,143,255,.08)}
+.cc-exlbl{font-size:9px;letter-spacing:1px;color:var(--txt3);text-transform:uppercase}
+.cc-exval{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700}
+
+/* ── ENTRY CARDS ── */
+.entry-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:10px}
+.ec{
+  background:var(--bg2);border:1px solid rgba(0,217,142,.12);
+  border-radius:10px;padding:13px 15px;
+  display:flex;align-items:center;gap:12px;
+  animation:fiu .5s ease both;transition:transform .2s,box-shadow .2s;
+}
+.ec:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,217,142,.08)}
+.ec-badge{
+  width:27px;height:27px;border-radius:50%;flex-shrink:0;
+  background:var(--green2);border:1.5px solid var(--green);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--green);
+}
+.ec-info{flex:1;min-width:0}
+.ec-name{font-size:13px;font-weight:700;color:var(--txt);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ec-code{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt2)}
+.ec-right{text-align:right;flex-shrink:0}
+.ec-price{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:var(--txt)}
+.ec-chg{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--green)}
+
+/* ── TABLE ── */
+.tbl-wrap{background:var(--bg2);border:1px solid rgba(74,143,255,.1);border-radius:var(--radius);overflow:hidden;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:560px}
+thead{background:var(--bg3)}
+thead th{
+  padding:11px 13px;text-align:left;
+  font-family:'JetBrains Mono',monospace;font-size:9px;
+  letter-spacing:2px;color:var(--txt3);text-transform:uppercase;
+  border-bottom:1px solid rgba(74,143,255,.1);font-weight:400;white-space:nowrap;
+}
+th.r,td.r{text-align:right}
+th:first-child,td:first-child{text-align:center;width:44px}
+tbody tr{border-bottom:1px solid rgba(74,143,255,.05);transition:background .12s;animation:fiu .4s ease both}
+tbody tr:hover{background:var(--bg3)}
+tbody tr:last-child{border-bottom:none}
+td{padding:10px 13px;vertical-align:middle}
+td:first-child{font-family:'Bebas Neue',sans-serif;font-size:17px;color:var(--txt3)}
+.tc{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--blue)}
+.tn{font-weight:500;color:var(--txt)}
+.tsw{display:flex;align-items:center;gap:7px}
+.tsv{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:var(--txt);width:36px;text-align:right;flex-shrink:0}
+.tsb{flex:1;height:3px;background:var(--bg4);border-radius:2px;overflow:hidden;min-width:50px}
+.tsf{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--gold));transition:width 1s cubic-bezier(.4,0,.2,1)}
+.tp{font-family:'JetBrains Mono',monospace;font-weight:600;color:var(--txt)}
+.tch{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600}
+.tex{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600}
+.troe{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--txt2)}
+
+/* ── LOADING ── */
+.ld{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:72vh;gap:18px}
+.spin{width:44px;height:44px;border:3px solid var(--bg4);border-top-color:var(--gold);border-radius:50%;animation:sp .75s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.ld-txt{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--txt2);letter-spacing:2px;animation:blink 1.5s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ── ERROR ── */
+.er{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:45vh;gap:12px;color:var(--txt2);font-size:14px}
+.er-ic{font-size:44px}
+
+/* ── FOOTER ── */
+footer{border-top:1px solid rgba(74,143,255,.1);padding:18px 16px;margin-top:30px}
+.ft{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt3)}
+.ft-brand{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:3px;color:var(--gold2)}
+
+/* ── NO DATA ── */
+.nd{padding:36px;text-align:center;color:var(--txt3);font-size:13px}
+
+/* ── MOBILE ── */
+@media(max-width:640px){
+  .rg-name{font-size:32px}
+  .rg-inner{flex-direction:column;align-items:flex-start}
+  .rg-right{width:100%}
+  .core-grid{grid-template-columns:repeat(2,1fr);gap:9px}
+  .entry-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  .cc{padding:13px}
+  .sec-ttl{font-size:17px}
+  .pi-val{font-size:15px}
+  .pi{min-width:90px}
+  .hm span:last-child{display:none}
+}
+@media(max-width:360px){
+  .core-grid,.entry-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <a class="logo" href="#">
+      <div class="lm">C</div>
+      <div class="lt">
+        <span class="b">CHOONSIMI</span>
+        <span class="s">STOCK &middot; AI</span>
+      </div>
+    </a>
+    <div class="hm">
+      <div class="dot"></div>
+      <span id="hd-date">--</span>
+      <span id="hd-cnt" style="color:var(--txt3)"></span>
+    </div>
+  </div>
+</header>
+
+<div id="app">
+  <div class="ld">
+    <div class="spin"></div>
+    <div class="ld-txt">LOADING MARKET DATA...</div>
+  </div>
+</div>
+
+<footer>
+  <div class="ft">
+    <span class="ft-brand">CHOONSIMI STOCK</span>
+    <span>ENGINE v6.5.2 &middot; KIS API &middot; 매일 19:03 자동업데이트</span>
+    <span id="ft-date">--</span>
+  </div>
+</footer>
+
+<script>
+const RESULT = './result.json';
+let cnt = 0;
+let refreshTimer = null;
+
+function getKSTDate(){
+  return new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Seoul'}); // YYYY-MM-DD
+}
+
+function showBadge(text, color){
+  const el = document.getElementById('hd-cnt');
+  if(el){ el.textContent = text; el.style.color = color||'var(--txt3)'; }
+}
+
+function scheduleNext(isToday){
+  clearTimeout(refreshTimer);
+  if(!isToday){
+    // 오늘 데이터 아직 없음 → 5분마다 재확인
+    refreshTimer = setTimeout(load, 5*60*1000);
+  } else {
+    // 오늘 데이터 있음 → 1시간 후 재확인 (혹시 재실행 대비)
+    refreshTimer = setTimeout(load, 60*60*1000);
+  }
+}
+
+const fmt = {
+  price : v => v ? Number(v).toLocaleString('ko-KR')+'원' : '--',
+  pct   : v => v==null ? '--' : (v>=0?'+':'')+Number(v).toFixed(2)+'%',
+  score : v => v!=null ? Number(v).toFixed(1) : '--',
+  exp   : v => v==null ? '--' : (v>=0?'+':'')+Number(v).toFixed(2)+'%',
+  roe   : v => v!=null ? Number(v).toFixed(1)+'%' : '--',
+  conf  : v => v!=null ? Math.round(v*100)+'%' : '--',
+};
+
+const cc = {
+  chg : v => v> .05?'up2':v<-.05?'dn2':'fl',
+  exp : v => v>=0?'pos':'neg',
+};
+
+const REGIME_META = {
+  UPTREND  :{ kr:'상승장', ic:'📈', cls:'up' },
+  DOWNTREND:{ kr:'하락장', ic:'📉', cls:'dn' },
+  SIDEWAY  :{ kr:'횡보장', ic:'➡️', cls:'sw' },
+};
+
+/* Arc SVG */
+function arc(score, sz=50){
+  const r=(sz-8)/2, c=sz/2, circ=2*Math.PI*r;
+  const fill=circ*(score/100);
+  const col=score>=70?'#00d98e':score>=50?'#f0be30':'#4a8fff';
+  return `<svg width="${sz}" height="${sz}" viewBox="0 0 ${sz} ${sz}" style="transform:rotate(-90deg)">
+    <circle cx="${c}" cy="${c}" r="${r}" stroke-width="4" fill="none" stroke="var(--bg4)"/>
+    <circle cx="${c}" cy="${c}" r="${r}" stroke-width="4" fill="none"
+      stroke="${col}" stroke-linecap="round"
+      stroke-dasharray="${fill} ${circ}" stroke-dashoffset="0"/>
+  </svg>`;
+}
+
+/* Core Card */
+function coreCard(s){
+  const chg=s.change_pct??0, sc=s.score??0;
+  return `<div class="cc">
+    <div class="cc-rank">${s.rank}</div>
+    <div class="cc-code">${s.code}</div>
+    <div class="cc-name">${s.name}</div>
+    <div class="arc-row">
+      <div class="arc">${arc(sc)}<div class="arc-num">${fmt.score(sc)}</div></div>
+      <div class="arc-meta">
+        <div class="cc-price">${fmt.price(s.price)}</div>
+        <div class="cc-chg ${cc.chg(chg)}">${fmt.pct(chg)}</div>
+      </div>
+    </div>
+    <div class="cc-ft">
+      <div class="cc-exlbl">5일 예상</div>
+      <div class="cc-exval ${cc.exp(s.expected_return_5d??0)}">${fmt.exp(s.expected_return_5d)}</div>
+    </div>
+  </div>`;
+}
+
+/* Entry Card */
+function entryCard(s){
+  const chg=s.change_pct??0;
+  return `<div class="ec">
+    <div class="ec-badge">${s.rank}</div>
+    <div class="ec-info">
+      <div class="ec-name">${s.name}</div>
+      <div class="ec-code">${s.code} · ${fmt.score(s.entry_score??s.base_score)}</div>
+    </div>
+    <div class="ec-right">
+      <div class="ec-price">${fmt.price(s.price)}</div>
+      <div class="ec-chg">${fmt.pct(chg)}</div>
+    </div>
+  </div>`;
+}
+
+/* Table Row */
+function row(s,i){
+  const chg=s.change_pct??0, sc=s.score??0;
+  return `<tr style="animation-delay:${i*.025}s">
+    <td>${s.rank}</td>
+    <td>
+      <div class="tc">${s.code}</div>
+      <div class="tn">${s.name}</div>
+    </td>
+    <td>
+      <div class="tsw">
+        <span class="tsv">${fmt.score(sc)}</span>
+        <div class="tsb"><div class="tsf" style="width:${Math.round(sc)}%"></div></div>
+      </div>
+    </td>
+    <td class="r tp">${fmt.price(s.price)}</td>
+    <td class="r tch ${cc.chg(chg)}">${fmt.pct(chg)}</td>
+    <td class="r tex ${cc.exp(s.expected_return_5d??0)}">${fmt.exp(s.expected_return_5d)}</td>
+    <td class="r troe">${fmt.roe(s.roe)}</td>
+  </tr>`;
+}
+
+/* Main Render */
+function render(d){
+  const { date, regime='SIDEWAY', universe_size=0, confidence=0,
+          top20=[], top5_core=[], entry_top5=[], performance_today={} } = d;
+  const meta = REGIME_META[regime]||REGIME_META.SIDEWAY;
+  const p = performance_today;
+
+  const today = getKSTDate();
+  const isToday = date === today;
+  document.getElementById('hd-date').textContent = date||'--';
+  document.getElementById('ft-date').textContent = '마지막 업데이트: '+(date||'--');
+  showBadge(
+    isToday ? '✅ 오늘 데이터' : '⏳ 오늘 데이터 대기 중',
+    isToday ? 'var(--green)' : 'var(--gold)'
+  );
+  scheduleNext(isToday);
+
+  const winColor   = (p.win_rate  ??0)>=50 ?'var(--green)':'var(--red)';
+  const avgColor   = (p.avg_return??0)>=0   ?'var(--green)':'var(--red)';
+  const top5Color  = (p.top5_return??0)>=0  ?'var(--green)':'var(--red)';
+
+  document.getElementById('app').innerHTML = `
+
+    <div class="regime ${meta.cls}">
+      <div class="rg-inner">
+        <div class="rg-left">
+          <div class="rg-icon">${meta.ic}</div>
+          <div>
+            <div class="rg-eye">MARKET REGIME</div>
+            <div class="rg-name ${meta.cls}">${regime}</div>
+            <div class="rg-kr">${meta.kr}</div>
+          </div>
+        </div>
+        <div class="rg-right">
+          <div class="conf-row"><span>신뢰도 CONFIDENCE</span><span>${fmt.conf(confidence)}</span></div>
+          <div class="conf-bar"><div class="conf-fill" style="width:${Math.round((confidence||0)*100)}%"></div></div>
+          <div class="rg-stats">
+            <div class="rgs"><span class="rgs-lbl">유니버스</span><span class="rgs-val">${universe_size}종목</span></div>
+            <div class="rgs"><span class="rgs-lbl">승률</span><span class="rgs-val" style="color:${winColor}">${p.win_rate??'--'}%</span></div>
+            <div class="rgs"><span class="rgs-lbl">평균수익</span><span class="rgs-val" style="color:${avgColor}">${p.avg_return!=null?(p.avg_return>=0?'+':'')+p.avg_return+'%':'--'}</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="perf">
+      <div class="perf-in">
+        <div class="pi">
+          <span class="pi-lbl">WIN RATE</span>
+          <span class="pi-val" style="color:${winColor}">${p.win_rate!=null?p.win_rate+'%':'--'}</span>
+        </div>
+        <div class="pi">
+          <span class="pi-lbl">AVG RETURN</span>
+          <span class="pi-val" style="color:${avgColor}">${p.avg_return!=null?(p.avg_return>=0?'+':'')+p.avg_return+'%':'--'}</span>
+        </div>
+        <div class="pi">
+          <span class="pi-lbl">TOP5 RETURN</span>
+          <span class="pi-val" style="color:${top5Color}">${p.top5_return!=null?(p.top5_return>=0?'+':'')+p.top5_return+'%':'--'}</span>
+        </div>
+        <div class="pi">
+          <span class="pi-lbl">UNIVERSE</span>
+          <span class="pi-val neu">${universe_size}</span>
+        </div>
+        <div class="pi">
+          <span class="pi-lbl">TOP 20</span>
+          <span class="pi-val neu">${top20.length}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+
+      <div class="sec">
+        <div class="sec-hd">
+          <div class="sec-ic ic-g">🏆</div>
+          <h2 class="sec-ttl">TOP 5 CORE</h2>
+          <span class="sec-badge">핵심 보유 추천</span>
+        </div>
+        <div class="core-grid">
+          ${top5_core.length ? top5_core.map(coreCard).join('') : '<div class="nd">데이터 없음</div>'}
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="sec-hd">
+          <div class="sec-ic ic-gr">⚡</div>
+          <h2 class="sec-ttl">ENTRY SIGNAL</h2>
+          <span class="sec-badge">오늘 진입 추천</span>
+        </div>
+        ${entry_top5.length
+          ? `<div class="entry-grid">${entry_top5.map(entryCard).join('')}</div>`
+          : `<div class="nd">오늘 조건 충족 종목 없음</div>`}
+      </div>
+
+      <div class="sec">
+        <div class="sec-hd">
+          <div class="sec-ic ic-b">📊</div>
+          <h2 class="sec-ttl">TOP 20 RANKING</h2>
+          <span class="sec-badge">${date}</span>
+        </div>
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th><th>종목</th><th>스코어</th>
+                <th class="r">현재가</th><th class="r">등락률</th>
+                <th class="r">5일 예상</th><th class="r">ROE</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${top20.length ? top20.map((s,i)=>row(s,i)).join('') : '<tr><td colspan="7" class="nd">데이터 없음</td></tr>'}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>`;
+}
+
+/* Fetch */
+async function load(){
+  try{
+    const r = await fetch(RESULT+'?t='+Date.now());
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const d = await r.json();
+    render(d);
+    cnt++;
+  } catch(e){
+    if(cnt===0){
+      document.getElementById('app').innerHTML = `
+        <div class="er">
+          <div class="er-ic">⚠️</div>
+          <div>result.json 로드 실패</div>
+          <div style="font-size:11px;color:var(--txt3);margin-top:4px">${e.message}</div>
+        </div>`;
+    }
+    // 에러 시에도 5분 후 재시도
+    showBadge('⚠️ 재시도 대기 중','var(--red)');
+    scheduleNext(false);
+  }
+}
+
+load();
+</script>
+</body>
+</html>
