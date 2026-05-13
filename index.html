@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="춘시미 Stock — AI 기반 상승 진입 시초 종목 추천">
+<title>춘시미 Stock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#07091a;--bg2:#0c1226;--bg3:#121a32;--bg4:#19223e;--bg5:#212d50;
+  --gold:#f0be30;--gold2:#c49818;--gold3:rgba(240,190,48,.12);
+  --blue:#4a8fff;--blue2:rgba(74,143,255,.15);
+  --green:#00d98e;--green2:rgba(0,217,142,.15);
+  --red:#ff4d4d;--red2:rgba(255,77,77,.15);
+  --txt:#d8e4f5;--txt2:#6a84b0;--txt3:#3a4e70;
+  --border:rgba(74,143,255,.12);
+  --radius:12px;--radiuss:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{
+  font-family:'Noto Sans KR',sans-serif;
+  background:var(--bg);color:var(--txt);
+  min-height:100vh;overflow-x:hidden;
+  background-image:
+    linear-gradient(rgba(74,143,255,.02) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(74,143,255,.02) 1px,transparent 1px);
+  background-size:48px 48px;
+}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--bg5);border-radius:2px}
+
+/* ── HEADER ── */
+header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(7,9,26,.92);backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+}
+.hd{
+  max-width:1200px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:10px 16px;gap:12px;
+}
+.logo{display:flex;align-items:center;gap:10px}
+.lm{
+  width:34px;height:34px;border-radius:var(--radiuss);flex-shrink:0;
+  background:linear-gradient(145deg,#1a2e6e,#0c1840);
+  border:1px solid var(--gold2);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--gold);
+  position:relative;overflow:hidden;
+}
+.lm::after{
+  content:'';position:absolute;bottom:4px;left:4px;right:4px;height:2px;
+  background:linear-gradient(90deg,var(--gold),var(--green));border-radius:2px;
+}
+.lt{display:flex;flex-direction:column;line-height:1}
+.lt .b{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:#fff}
+.lt .s{font-family:'Bebas Neue',sans-serif;font-size:10px;letter-spacing:3px;color:var(--gold);margin-top:1px}
+.hd-right{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.hd-today{font-family:'Noto Sans KR',sans-serif;font-size:14px;font-weight:700;color:var(--txt)}
+.hd-update{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt3)}
+.hd-badge{font-family:'JetBrains Mono',monospace;font-size:10px}
+
+/* ── REGIME ── */
+.regime{
+  padding:18px 16px;
+  border-bottom:1px solid transparent;
+  transition:background .5s,border-color .5s;
+}
+.regime.up  {background:linear-gradient(135deg,rgba(0,217,142,.05),transparent 55%);border-color:rgba(0,217,142,.12)}
+.regime.dn  {background:linear-gradient(135deg,rgba(255,77,77,.05),transparent 55%);border-color:rgba(255,77,77,.12)}
+.regime.sw  {background:linear-gradient(135deg,rgba(74,143,255,.05),transparent 55%);border-color:rgba(74,143,255,.12)}
+.rg-in{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.rg-left{display:flex;align-items:center;gap:14px}
+.rg-ic{font-size:34px}
+.rg-eye{font-size:9px;letter-spacing:3px;color:var(--txt3);text-transform:uppercase;margin-bottom:2px}
+.rg-nm{font-family:'Bebas Neue',sans-serif;font-size:38px;line-height:1;letter-spacing:3px;transition:color .5s}
+.rg-nm.up{color:var(--green);text-shadow:0 0 20px rgba(0,217,142,.3)}
+.rg-nm.dn{color:var(--red);text-shadow:0 0 20px rgba(255,77,77,.3)}
+.rg-nm.sw{color:var(--blue);text-shadow:0 0 20px rgba(74,143,255,.3)}
+.rg-kr{font-size:11px;color:var(--txt2);margin-top:2px}
+.rg-right{min-width:200px;display:flex;flex-direction:column;gap:8px}
+.conf-row{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt2)}
+.conf-bar{height:4px;background:var(--bg4);border-radius:2px;overflow:hidden}
+.conf-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--green));transition:width 1s ease}
+.rg-stats{display:flex;gap:16px;flex-wrap:wrap}
+.rgs{display:flex;flex-direction:column;gap:1px}
+.rgs-l{font-size:9px;letter-spacing:2px;color:var(--txt3);text-transform:uppercase}
+.rgs-v{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700}
+
+/* ── PERF STRIP ── */
+.perf{background:var(--bg2);border-bottom:1px solid var(--border);padding:10px 16px}
+.perf-in{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;scrollbar-width:none}
+.perf-in::-webkit-scrollbar{display:none}
+.pi{flex:1;min-width:100px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:0 12px;border-right:1px solid var(--border)}
+.pi:last-child{border-right:none}
+.pi-l{font-size:9px;letter-spacing:2px;color:var(--txt3);text-transform:uppercase}
+.pi-v{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700}
+.pos{color:var(--green)}.neg{color:var(--red)}.neu{color:var(--gold)}
+
+/* ── LAYOUT ── */
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px;position:relative;z-index:1}
+.sec{padding:22px 0}
+.sec-hd{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.sec-ic{width:28px;height:28px;border-radius:var(--radiuss);display:flex;align-items:center;justify-content:center;font-size:14px}
+.ic-g{background:var(--gold3)}.ic-b{background:var(--blue2)}.ic-gr{background:var(--green2)}
+.sec-ttl{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:3px}
+.sec-badge{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:10px;background:var(--bg3);border:1px solid var(--border);padding:3px 8px;border-radius:4px;color:var(--txt2)}
+
+/* ── CORE CARDS ── */
+.core-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.cc{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:var(--radius);padding:14px;
+  cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s;
+  position:relative;overflow:hidden;
+}
+.cc:hover{transform:translateY(-2px);border-color:rgba(240,190,48,.25);box-shadow:0 6px 20px rgba(0,0,0,.4)}
+.cc::before{content:'';position:absolute;top:0;left:0;right:0;height:1.5px;background:linear-gradient(90deg,var(--gold),transparent);opacity:0;transition:opacity .15s}
+.cc:hover::before{opacity:1}
+.cc-rank{position:absolute;top:10px;right:10px;font-family:'Bebas Neue',sans-serif;font-size:24px;color:var(--txt3)}
+.cc-code{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--blue);margin-bottom:2px}
+.cc-name{font-size:13px;font-weight:700;margin-bottom:10px;padding-right:26px;line-height:1.3}
+.cc-price{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;color:var(--txt)}
+.cc-chg{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;margin-bottom:8px}
+.cc-score-row{display:flex;align-items:center;gap:6px}
+.cc-score-lbl{font-size:9px;color:var(--txt3);letter-spacing:1px}
+.cc-score-val{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--txt)}
+.cc-score-bar{flex:1;height:3px;background:var(--bg4);border-radius:2px;overflow:hidden}
+.cc-score-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--gold))}
+
+/* ── ENTRY CARDS ── */
+.entry-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.ec{
+  background:var(--bg2);border:1px solid rgba(0,217,142,.12);
+  border-radius:10px;padding:12px 14px;
+  display:flex;align-items:center;gap:10px;
+  cursor:pointer;transition:transform .15s,box-shadow .15s;
+}
+.ec:hover{transform:translateY(-2px);box-shadow:0 5px 16px rgba(0,217,142,.1)}
+.ec-badge{width:26px;height:26px;border-radius:50%;flex-shrink:0;background:var(--green2);border:1.5px solid var(--green);display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--green)}
+.ec-info{flex:1;min-width:0}
+.ec-name{font-size:12px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ec-code{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt2)}
+.ec-right{text-align:right;flex-shrink:0}
+.ec-price{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600}
+.ec-chg{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--green)}
+
+/* ── TABLE ── */
+.tbl-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:520px}
+thead{background:var(--bg3)}
+thead th{padding:10px 12px;text-align:left;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:var(--txt3);text-transform:uppercase;border-bottom:1px solid var(--border);font-weight:400;white-space:nowrap}
+th.r,td.r{text-align:right}
+th:first-child,td:first-child{text-align:center;width:42px}
+tbody tr{border-bottom:1px solid rgba(74,143,255,.05);cursor:pointer;transition:background .12s}
+tbody tr:hover{background:var(--bg3)}
+tbody tr:last-child{border-bottom:none}
+td{padding:10px 12px;vertical-align:middle}
+td:first-child{font-family:'Bebas Neue',sans-serif;font-size:16px;color:var(--txt3)}
+.tc{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--blue)}
+.tn{font-weight:500;color:var(--txt)}
+.tsw{display:flex;align-items:center;gap:6px}
+.tsv{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--txt);width:34px;text-align:right;flex-shrink:0}
+.tsb{flex:1;height:3px;background:var(--bg4);border-radius:2px;overflow:hidden;min-width:40px}
+.tsf{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--gold))}
+.tp{font-family:'JetBrains Mono',monospace;font-weight:600}
+.tch,.tex{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600}
+.troe{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--txt2)}
+.up2{color:var(--green)}.dn2{color:var(--red)}.fl{color:var(--txt2)}
+
+/* ── POPUP ── */
+.overlay{
+  position:fixed;inset:0;z-index:500;
+  background:rgba(0,0,0,.65);backdrop-filter:blur(4px);
+  display:none;align-items:center;justify-content:center;
+  padding:16px;
+}
+.overlay.open{display:flex}
+.popup{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:16px;width:100%;max-width:360px;
+  box-shadow:0 20px 60px rgba(0,0,0,.6);
+  overflow:hidden;
+}
+.popup-header{
+  padding:16px 18px 12px;
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:flex-start;justify-content:space-between;
+}
+.popup-name{font-size:17px;font-weight:700;color:var(--txt);line-height:1.2}
+.popup-code{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--blue);margin-top:2px}
+.popup-close{
+  width:28px;height:28px;border-radius:50%;
+  background:var(--bg4);border:1px solid var(--border);
+  color:var(--txt2);font-size:16px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  transition:background .15s;
+}
+.popup-close:hover{background:var(--bg5)}
+.popup-body{padding:14px 18px}
+.popup-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:7px 0;border-bottom:1px solid rgba(74,143,255,.06);
+}
+.popup-row:last-child{border-bottom:none}
+.popup-lbl{font-size:12px;color:var(--txt2)}
+.popup-val{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:var(--txt)}
+.popup-divider{height:1px;background:var(--border);margin:8px 0}
+.popup-footer{
+  padding:10px 18px 14px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt3);
+  border-top:1px solid var(--border);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;
+}
+
+/* ── SCORE BAR POPUP ── */
+.popup-score-bar{
+  display:flex;align-items:center;gap:8px;width:55%;
+}
+.psb{flex:1;height:4px;background:var(--bg4);border-radius:2px;overflow:hidden}
+.psb-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--gold))}
+
+/* ── LOADING / ERROR ── */
+.ld{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:70vh;gap:16px}
+.spin{width:40px;height:40px;border:3px solid var(--bg4);border-top-color:var(--gold);border-radius:50%;animation:sp .75s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.ld-txt{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--txt2);letter-spacing:2px}
+.er{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:40vh;gap:10px;color:var(--txt2);font-size:13px}
+.nd{padding:32px;text-align:center;color:var(--txt3);font-size:13px}
+
+/* ── FOOTER ── */
+footer{border-top:1px solid var(--border);padding:16px;margin-top:24px}
+.ft{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt3)}
+.ft-brand{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:3px;color:var(--gold2)}
+
+/* ── MOBILE ── */
+@media(max-width:640px){
+  .rg-nm{font-size:30px}
+  .rg-in{flex-direction:column;align-items:flex-start}
+  .rg-right{width:100%}
+  .core-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  .entry-grid{grid-template-columns:repeat(2,1fr);gap:7px}
+  .sec-ttl{font-size:17px}
+  .pi-v{font-size:14px}
+  .pi{min-width:85px}
+}
+@media(max-width:360px){
+  .core-grid,.entry-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="hd">
+    <div class="logo">
+      <div class="lm">C</div>
+      <div class="lt">
+        <span class="b">CHOONSIMI</span>
+        <span class="s">STOCK · AI</span>
+      </div>
+    </div>
+    <div class="hd-right">
+      <div class="hd-today" id="hd-today">--</div>
+      <div class="hd-update" id="hd-update">업데이트 --</div>
+      <div class="hd-badge" id="hd-badge"></div>
+    </div>
+  </div>
+</header>
+
+<!-- APP -->
+<div id="app">
+  <div class="ld">
+    <div class="spin"></div>
+    <div class="ld-txt">LOADING...</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft">
+    <span class="ft-brand">CHOONSIMI STOCK</span>
+    <span>ENGINE v7.0.0 · 매일 19:03 업데이트</span>
+    <span id="ft-params"></span>
+  </div>
+</footer>
+
+<!-- POPUP -->
+<div class="overlay" id="overlay" onclick="closePopup(event)">
+  <div class="popup" id="popup">
+    <div class="popup-header">
+      <div>
+        <div class="popup-name" id="pp-name"></div>
+        <div class="popup-code" id="pp-code"></div>
+      </div>
+      <button class="popup-close" onclick="closePopupBtn()">✕</button>
+    </div>
+    <div class="popup-body" id="pp-body"></div>
+    <div class="popup-footer" id="pp-footer"></div>
+  </div>
+</div>
+
+<script>
+// ── CONSTANTS ─────────────────────────────────────────
+const RESULT = './result.json';
+let refreshTimer = null;
+let cnt = 0;
+let _params = {};
+let _runAt  = '';
+
+// ── FORMAT ────────────────────────────────────────────
+const fmt = {
+  price : v => v ? Number(v).toLocaleString('ko-KR')+'원' : '--',
+  pct   : v => v==null ? '--' : (v>=0?'+':'')+Number(v).toFixed(2)+'%',
+  score : v => v!=null ? Number(v).toFixed(1) : '--',
+  exp   : v => v==null ? '--' : (v>=0?'+':'')+Number(v).toFixed(2)+'%',
+  roe   : v => v!=null ? Number(v).toFixed(1)+'%' : '--',
+  vol   : v => v ? Number(v).toLocaleString('ko-KR') : '--',
+  pctile: v => v!=null ? Math.round(v*100)+'%' : '--',
+  conf  : v => v!=null ? Math.round(v*100)+'%' : '--',
+};
+
+const cc = {
+  chg: v => v>.05?'up2':v<-.05?'dn2':'fl',
+  exp: v => v>=0?'pos':'neg',
+};
+
+const REGIME_META = {
+  UPTREND  :{kr:'상승장',ic:'📈',cls:'up'},
+  DOWNTREND:{kr:'하락장',ic:'📉',cls:'dn'},
+  SIDEWAY  :{kr:'횡보장',ic:'➡️',cls:'sw'},
+};
+
+// ── 브라우저 로컬 날짜 (방콕 시계) ────────────────────
+function getTodayStr(){
+  return new Date().toLocaleDateString('ko-KR',{
+    year:'numeric',month:'long',day:'numeric',weekday:'short'
+  });
+}
+
+// ── POPUP ──────────────────────────────────────────────
+function openPopup(s){
+  const chg  = s.change_pct ?? s.change_pct ?? 0;
+  const sc   = s.score ?? s.entry_score ?? 0;
+  const cCls = cc.chg(chg);
+
+  document.getElementById('pp-name').textContent = s.name || '--';
+  document.getElementById('pp-code').textContent = s.code || '--';
+
+  const rows = [
+    ['현재가',   `<span class="popup-val">${fmt.price(s.price)}</span>`],
+    ['등락률',   `<span class="popup-val ${cCls}">${fmt.pct(chg)}</span>`],
+    ['스코어',   `<div class="popup-score-bar">
+                    <span class="popup-val">${fmt.score(sc)}</span>
+                    <div class="psb"><div class="psb-fill" style="width:${Math.round(sc)}%"></div></div>
+                  </div>`],
+    ['거래량 백분위', `<span class="popup-val ${(s.vol_percentile??0)>=.5?'pos':'neu'}">${fmt.pctile(s.vol_percentile)}</span>`],
+    ['거래량',   `<span class="popup-val">${fmt.vol(s.volume)}</span>`],
+    ['5일 예상', `<span class="popup-val ${cc.exp(s.expected_return_5d??0)}">${fmt.exp(s.expected_return_5d)}</span>`],
+  ];
+
+  if(s.entry_score != null){
+    rows.push(['진입 스코어', `<span class="popup-val pos">${fmt.score(s.entry_score)}</span>`]);
+  }
+
+  const divider = `<div class="popup-divider"></div>`;
+
+  const fundRows = [
+    ['ROE',   `<span class="popup-val">${fmt.roe(s.roe)}</span>`],
+    ['부채비율', `<span class="popup-val">${s.debt_ratio!=null?Number(s.debt_ratio).toFixed(1)+'%':'--'}</span>`],
+  ];
+
+  document.getElementById('pp-body').innerHTML =
+    rows.map(([l,v])=>`
+      <div class="popup-row">
+        <span class="popup-lbl">${l}</span>${v}
+      </div>`).join('') +
+    divider +
+    fundRows.map(([l,v])=>`
+      <div class="popup-row">
+        <span class="popup-lbl">${l}</span>${v}
+      </div>`).join('');
+
+  const p = _params;
+  document.getElementById('pp-footer').innerHTML =
+    `<span>레짐: ${p.regime||'--'}</span>
+     <span>진입범위: ${p.chg_min!=null?'+'+p.chg_min+'%':''} ~ ${p.chg_max!=null?'+'+p.chg_max+'%':''}</span>
+     <span>업데이트: ${_runAt||'--'}</span>`;
+
+  document.getElementById('overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closePopupBtn(){
+  document.getElementById('overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closePopup(e){
+  if(e.target === document.getElementById('overlay')) closePopupBtn();
+}
+
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape') closePopupBtn();
+});
+
+// ── TEMPLATES ─────────────────────────────────────────
+function coreCard(s, i){
+  const chg = s.change_pct??0;
+  const sc  = s.score??0;
+  return `<div class="cc" onclick='openPopup(${JSON.stringify(s)})'>
+    <div class="cc-rank">${s.rank}</div>
+    <div class="cc-code">${s.code}</div>
+    <div class="cc-name">${s.name}</div>
+    <div class="cc-price">${fmt.price(s.price)}</div>
+    <div class="cc-chg ${cc.chg(chg)}" style="margin-bottom:8px">${fmt.pct(chg)}</div>
+    <div class="cc-score-row">
+      <span class="cc-score-lbl">SCORE</span>
+      <span class="cc-score-val">${fmt.score(sc)}</span>
+      <div class="cc-score-bar">
+        <div class="cc-score-fill" style="width:${Math.round(sc)}%"></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function entryCard(s, i){
+  const chg = s.change_pct??0;
+  return `<div class="ec" onclick='openPopup(${JSON.stringify(s)})'>
+    <div class="ec-badge">${s.rank}</div>
+    <div class="ec-info">
+      <div class="ec-name">${s.name}</div>
+      <div class="ec-code">${s.code}</div>
+    </div>
+    <div class="ec-right">
+      <div class="ec-price">${fmt.price(s.price)}</div>
+      <div class="ec-chg">${fmt.pct(chg)}</div>
+    </div>
+  </div>`;
+}
+
+function tableRow(s, i){
+  const chg = s.change_pct??0, sc = s.score??0;
+  const safeS = JSON.stringify(s).replace(/'/g,"&#39;");
+  return `<tr onclick='openPopup(${safeS})' style="animation-delay:${i*.02}s">
+    <td>${s.rank}</td>
+    <td>
+      <div class="tc">${s.code}</div>
+      <div class="tn">${s.name}</div>
+    </td>
+    <td>
+      <div class="tsw">
+        <span class="tsv">${fmt.score(sc)}</span>
+        <div class="tsb"><div class="tsf" style="width:${Math.round(sc)}%"></div></div>
+      </div>
+    </td>
+    <td class="r tp">${fmt.price(s.price)}</td>
+    <td class="r tch ${cc.chg(chg)}">${fmt.pct(chg)}</td>
+    <td class="r tex ${cc.exp(s.expected_return_5d??0)}">${fmt.exp(s.expected_return_5d)}</td>
+    <td class="r troe">${fmt.roe(s.roe)}</td>
+  </tr>`;
+}
+
+// ── RENDER ────────────────────────────────────────────
+function render(d){
+  const {
+    date, run_at='', regime='SIDEWAY', confidence=0,
+    universe_size=0, top20=[], top5_core=[], entry_top5=[],
+    performance_today={}, params_used={}
+  } = d;
+
+  _params = params_used;
+  _runAt  = run_at ? run_at.slice(0,16) : date;
+
+  const meta = REGIME_META[regime]||REGIME_META.SIDEWAY;
+  const p    = performance_today;
+
+  // 헤더 업데이트
+  document.getElementById('hd-today').textContent  = getTodayStr();
+  document.getElementById('hd-update').textContent = '업데이트 ' + (run_at ? run_at.slice(0,10) : date);
+
+  const wc = (p.win_rate  ??0)>=50?'var(--green)':'var(--red)';
+  const ac = (p.avg_return??0)>=0 ?'var(--green)':'var(--red)';
+  const t5c= (p.top5_return??0)>=0?'var(--green)':'var(--red)';
+
+  document.getElementById('ft-params').textContent =
+    params_used.regime
+      ? `${params_used.regime} | 진입 ${params_used.chg_min}%~${params_used.chg_max}% | vol≥${params_used.vol_pct_min*100}%tile`
+      : '';
+
+  document.getElementById('app').innerHTML = `
+
+    <div class="regime ${meta.cls}">
+      <div class="rg-in">
+        <div class="rg-left">
+          <div class="rg-ic">${meta.ic}</div>
+          <div>
+            <div class="rg-eye">MARKET REGIME</div>
+            <div class="rg-nm ${meta.cls}">${regime}</div>
+            <div class="rg-kr">${meta.kr}</div>
+          </div>
+        </div>
+        <div class="rg-right">
+          <div class="conf-row"><span>신뢰도</span><span>${fmt.conf(confidence)}</span></div>
+          <div class="conf-bar"><div class="conf-fill" style="width:${Math.round((confidence||0)*100)}%"></div></div>
+          <div class="rg-stats">
+            <div class="rgs"><span class="rgs-l">유니버스</span><span class="rgs-v">${universe_size}종목</span></div>
+            <div class="rgs"><span class="rgs-l">승률</span><span class="rgs-v" style="color:${wc}">${p.win_rate??'--'}%</span></div>
+            <div class="rgs"><span class="rgs-l">평균수익</span><span class="rgs-v" style="color:${ac}">${p.avg_return!=null?(p.avg_return>=0?'+':'')+p.avg_return+'%':'--'}</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="perf">
+      <div class="perf-in">
+        <div class="pi"><span class="pi-l">WIN RATE</span><span class="pi-v" style="color:${wc}">${p.win_rate!=null?p.win_rate+'%':'--'}</span></div>
+        <div class="pi"><span class="pi-l">AVG RETURN</span><span class="pi-v" style="color:${ac}">${p.avg_return!=null?(p.avg_return>=0?'+':'')+p.avg_return+'%':'--'}</span></div>
+        <div class="pi"><span class="pi-l">TOP5 RETURN</span><span class="pi-v" style="color:${t5c}">${p.top5_return!=null?(p.top5_return>=0?'+':'')+p.top5_return+'%':'--'}</span></div>
+        <div class="pi"><span class="pi-l">UNIVERSE</span><span class="pi-v neu">${universe_size}</span></div>
+        <div class="pi"><span class="pi-l">TOP 20</span><span class="pi-v neu">${top20.length}</span></div>
+      </div>
+    </div>
+
+    <div class="wrap">
+
+      <div class="sec">
+        <div class="sec-hd">
+          <div class="sec-ic ic-g">🏆</div>
+          <h2 class="sec-ttl">TOP 5 CORE</h2>
+          <span class="sec-badge">핵심 보유 추천</span>
+        </div>
+        <div class="core-grid">
+          ${top5_core.length ? top5_core.map(coreCard).join('') : '<div class="nd">데이터 없음</div>'}
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="sec-hd">
+          <div class="sec-ic ic-gr">⚡</div>
+          <h2 class="sec-ttl">ENTRY SIGNAL</h2>
+          <span class="sec-badge">오늘 진입 추천</span>
+        </div>
+        ${entry_top5.length
+          ? `<div class="entry-grid">${entry_top5.map(entryCard).join('')}</div>`
+          : `<div class="nd">오늘 조건 충족 종목 없음</div>`}
+      </div>
+
+      <div class="sec">
+        <div class="sec-hd">
+          <div class="sec-ic ic-b">📊</div>
+          <h2 class="sec-ttl">TOP 20 RANKING</h2>
+          <span class="sec-badge">클릭하면 상세정보</span>
+        </div>
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th><th>종목</th><th>스코어</th>
+                <th class="r">현재가</th><th class="r">등락률</th>
+                <th class="r">5일 예상</th><th class="r">ROE</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${top20.length ? top20.map(tableRow).join('') : '<tr><td colspan="7" class="nd">데이터 없음</td></tr>'}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>`;
+}
+
+// ── SMART REFRESH ─────────────────────────────────────
+function getKSTDate(){
+  return new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Seoul'});
+}
+
+function showBadge(text, color){
+  const el = document.getElementById('hd-badge');
+  if(el){el.textContent=text;el.style.color=color||'var(--txt3)'}
+}
+
+function scheduleNext(isToday){
+  clearTimeout(refreshTimer);
+  refreshTimer = setTimeout(load, isToday ? 60*60*1000 : 5*60*1000);
+}
+
+async function load(){
+  try{
+    const r = await fetch(RESULT+'?t='+Date.now());
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const d = await r.json();
+    render(d);
+    cnt++;
+    const isToday = d.date === getKSTDate();
+    showBadge(
+      isToday ? '✅ 오늘 데이터' : '⏳ 오늘 데이터 대기 중',
+      isToday ? 'var(--green)' : 'var(--gold)'
+    );
+    scheduleNext(isToday);
+    // 헤더 날짜는 항상 브라우저 현재 날짜로 갱신
+    const el = document.getElementById('hd-today');
+    if(el) el.textContent = getTodayStr();
+  } catch(e){
+    if(cnt===0){
+      document.getElementById('app').innerHTML=`
+        <div class="er">
+          <div style="font-size:40px">⚠️</div>
+          <div>result.json 로드 실패</div>
+          <div style="font-size:11px;color:var(--txt3);margin-top:4px">${e.message}</div>
+        </div>`;
+    }
+    showBadge('⚠️ 재시도 대기 중','var(--red)');
+    scheduleNext(false);
+  }
+}
+
+// ── INIT ──────────────────────────────────────────────
+document.getElementById('hd-today').textContent = getTodayStr();
+load();
+</script>
+</body>
+</html>
