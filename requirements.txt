@@ -13,7 +13,7 @@ finance-datareader==0.9.50
 opendartreader>=0.0.15
 
 # calendar / time handling (critical fix)
-holidays>=0.57
+holidays>=0.41
 pytz>=2024.1
 python-dateutil>=2.9.0
 
