@@ -1,208 +1,25 @@
 ﻿{
-  "date": "2026-08-04",
-  "run_at": "2026-08-04 21:14:15",
+  "date": "2026-08-05",
+  "run_at": "2026-08-05 21:11:39",
   "analysis_1d": {
     "window": "1D",
-    "signal_day": "2026-08-03",
-    "eval_day": "2026-08-04",
+    "signal_day": "2026-08-04",
+    "eval_day": "2026-08-05",
     "total_signals": 20,
-    "winners": 12,
-    "losers": 4,
-    "failures": [
-      {
-        "rank": 2,
-        "code": "002700",
-        "name": "신일전자",
-        "signal_day": "2026-08-03",
-        "eval_day": "2026-08-04",
-        "entry_price": 1104,
-        "exit_price": 1093,
-        "expected_return_5d": 0.0,
-        "actual_return": -1.0,
-        "miss_by": -1.0,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 12247299,
-          "eval_day_volume": 2638685,
-          "change_pct": -78.5,
-          "interpretation": "거래량 급감 (-78.5%) — 관심 식음",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 12247299,
-            "eval_day_volume": 2638685,
-            "change_pct": -78.5,
-            "interpretation": "거래량 급감 (-78.5%) — 관심 식음",
-            "impact": "high"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "intraday_reversal",
-            "open": 1139,
-            "high": 1144,
-            "close": 1093,
-            "intra_drop_pct": -4.04,
-            "interpretation": "갭상승 후 장중 하락 (-4.04%) — 매도세 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 3
-      },
-      {
-        "rank": 7,
-        "code": "055550",
-        "name": "신한지주",
-        "signal_day": "2026-08-03",
-        "eval_day": "2026-08-04",
-        "entry_price": 102700,
-        "exit_price": 102300,
-        "expected_return_5d": 0.0,
-        "actual_return": -0.39,
-        "miss_by": -0.39,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "gap_down",
-          "open": 100800,
-          "close": 102300,
-          "gap_pct": -1.85,
-          "interpretation": "갭하락 시작 (시초가 -1.85%) — 매도 압력 우세",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 991006,
-            "eval_day_volume": 763199,
-            "change_pct": -23.0,
-            "interpretation": "거래량 감소 (-23.0%)",
-            "impact": "medium"
-          },
-          {
-            "factor": "gap_down",
-            "open": 100800,
-            "close": 102300,
-            "gap_pct": -1.85,
-            "interpretation": "갭하락 시작 (시초가 -1.85%) — 매도 압력 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 2
-      },
-      {
-        "rank": 10,
-        "code": "003490",
-        "name": "대한항공",
-        "signal_day": "2026-08-03",
-        "eval_day": "2026-08-04",
-        "entry_price": 26200,
-        "exit_price": 26100,
-        "expected_return_5d": 0.0,
-        "actual_return": -0.38,
-        "miss_by": -0.38,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 3168112,
-          "eval_day_volume": 1563691,
-          "change_pct": -50.6,
-          "interpretation": "거래량 급감 (-50.6%) — 관심 식음",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 3168112,
-            "eval_day_volume": 1563691,
-            "change_pct": -50.6,
-            "interpretation": "거래량 급감 (-50.6%) — 관심 식음",
-            "impact": "high"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 2
-      },
-      {
-        "rank": 18,
-        "code": "005380",
-        "name": "현대차",
-        "signal_day": "2026-08-03",
-        "eval_day": "2026-08-04",
-        "entry_price": 393000,
-        "exit_price": 392500,
-        "expected_return_5d": 0.0,
-        "actual_return": -0.13,
-        "miss_by": -0.13,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "flow_weakening",
-          "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 826843,
-            "eval_day_volume": 680354,
-            "change_pct": -17.7,
-            "interpretation": "거래량 감소 (-17.7%)",
-            "impact": "medium"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "intraday_reversal",
-            "open": 395500,
-            "high": 396500,
-            "close": 392500,
-            "intra_drop_pct": -0.76,
-            "interpretation": "갭상승 후 장중 하락 (-0.76%) — 매도세 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 3
-      }
-    ],
-    "pattern_stats": {
-      "volume_drop": 4,
-      "flow_weakening": 3,
-      "intraday_reversal": 2,
-      "gap_down": 1
-    },
-    "most_common_failure": "volume_drop"
-  },
-  "analysis_5d": {
-    "window": "5D",
-    "signal_day": "2026-07-28",
-    "eval_day": "2026-08-04",
-    "total_signals": 20,
-    "winners": 15,
+    "winners": 13,
     "losers": 1,
     "failures": [
       {
-        "rank": 19,
-        "code": "138930",
-        "name": "BNK금융지주",
-        "signal_day": "2026-07-28",
-        "eval_day": "2026-08-04",
-        "entry_price": 17270,
-        "exit_price": 15110,
+        "rank": 6,
+        "code": "011200",
+        "name": "HMM",
+        "signal_day": "2026-08-04",
+        "eval_day": "2026-08-05",
+        "entry_price": 21200,
+        "exit_price": 21100,
         "expected_return_5d": 0.0,
-        "actual_return": -12.51,
-        "miss_by": -12.51,
+        "actual_return": -0.47,
+        "miss_by": -0.47,
         "failure_type": "absolute_loss",
         "main_reason": {
           "factor": "flow_weakening",
@@ -214,23 +31,75 @@
             "factor": "flow_weakening",
             "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
             "impact": "high"
-          },
-          {
-            "factor": "gap_down",
-            "open": 14850,
-            "close": 15110,
-            "gap_pct": -14.01,
-            "interpretation": "갭하락 시작 (시초가 -14.01%) — 매도 압력 우세",
-            "impact": "high"
           }
         ],
-        "evidence_count": 2
+        "evidence_count": 1
       }
     ],
     "pattern_stats": {
+      "flow_weakening": 1
+    },
+    "most_common_failure": "flow_weakening"
+  },
+  "analysis_5d": {
+    "window": "5D",
+    "signal_day": "2026-07-29",
+    "eval_day": "2026-08-05",
+    "total_signals": 20,
+    "winners": 14,
+    "losers": 1,
+    "failures": [
+      {
+        "rank": 1,
+        "code": "483650",
+        "name": "달바글로벌",
+        "signal_day": "2026-07-29",
+        "eval_day": "2026-08-05",
+        "entry_price": 265000,
+        "exit_price": 232000,
+        "expected_return_5d": 0.0,
+        "actual_return": -12.45,
+        "miss_by": -12.45,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "volume_drop",
+          "signal_day_volume": 529304,
+          "eval_day_volume": 103468,
+          "change_pct": -80.5,
+          "interpretation": "거래량 급감 (-80.5%) — 관심 식음",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "volume_drop",
+            "signal_day_volume": 529304,
+            "eval_day_volume": 103468,
+            "change_pct": -80.5,
+            "interpretation": "거래량 급감 (-80.5%) — 관심 식음",
+            "impact": "high"
+          },
+          {
+            "factor": "flow_weakening",
+            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
+            "impact": "high"
+          },
+          {
+            "factor": "gap_down",
+            "open": 236000,
+            "close": 232000,
+            "gap_pct": -10.94,
+            "interpretation": "갭하락 시작 (시초가 -10.94%) — 매도 압력 우세",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 3
+      }
+    ],
+    "pattern_stats": {
+      "volume_drop": 1,
       "flow_weakening": 1,
       "gap_down": 1
     },
-    "most_common_failure": "flow_weakening"
+    "most_common_failure": "volume_drop"
   }
 }
