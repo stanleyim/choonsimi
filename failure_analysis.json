@@ -1,148 +1,22 @@
 ﻿{
-  "date": "2026-09-17",
-  "run_at": "2026-09-17 23:52:35",
+  "date": "2026-09-18",
+  "run_at": "2026-09-18 23:26:29",
   "analysis_1d": {
     "window": "1D",
-    "signal_day": "2026-09-16",
-    "eval_day": "2026-09-17",
+    "signal_day": "2026-09-17",
+    "eval_day": "2026-09-18",
     "total_signals": 20,
-    "winners": 12,
-    "losers": 4,
+    "winners": 6,
+    "losers": 10,
     "failures": [
       {
         "rank": 1,
-        "code": "036540",
-        "name": "SFA반도체",
-        "signal_day": "2026-09-16",
-        "eval_day": "2026-09-17",
-        "entry_price": 8920,
-        "exit_price": 8710,
-        "expected_return_5d": 0.0,
-        "actual_return": -2.35,
-        "miss_by": -2.35,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 8402346,
-          "eval_day_volume": 4052496,
-          "change_pct": -51.8,
-          "interpretation": "거래량 급감 (-51.8%) — 관심 식음",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 8402346,
-            "eval_day_volume": 4052496,
-            "change_pct": -51.8,
-            "interpretation": "거래량 급감 (-51.8%) — 관심 식음",
-            "impact": "high"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "intraday_reversal",
-            "open": 8970,
-            "high": 9110,
-            "close": 8710,
-            "intra_drop_pct": -2.9,
-            "interpretation": "갭상승 후 장중 하락 (-2.9%) — 매도세 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 3
-      },
-      {
-        "rank": 7,
-        "code": "001210",
-        "name": "금호전기",
-        "signal_day": "2026-09-16",
-        "eval_day": "2026-09-17",
-        "entry_price": 11080,
-        "exit_price": 10720,
-        "expected_return_5d": 0.0,
-        "actual_return": -3.25,
-        "miss_by": -3.25,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 4547485,
-          "eval_day_volume": 1473934,
-          "change_pct": -67.6,
-          "interpretation": "거래량 급감 (-67.6%) — 관심 식음",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 4547485,
-            "eval_day_volume": 1473934,
-            "change_pct": -67.6,
-            "interpretation": "거래량 급감 (-67.6%) — 관심 식음",
-            "impact": "high"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "intraday_reversal",
-            "open": 11220,
-            "high": 11360,
-            "close": 10720,
-            "intra_drop_pct": -4.46,
-            "interpretation": "갭상승 후 장중 하락 (-4.46%) — 매도세 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 3
-      },
-      {
-        "rank": 17,
-        "code": "017670",
-        "name": "SK텔레콤",
-        "signal_day": "2026-09-16",
-        "eval_day": "2026-09-17",
-        "entry_price": 88400,
-        "exit_price": 87800,
-        "expected_return_5d": 0.0,
-        "actual_return": -0.68,
-        "miss_by": -0.68,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "flow_weakening",
-          "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 666685,
-            "eval_day_volume": 480042,
-            "change_pct": -28.0,
-            "interpretation": "거래량 감소 (-28.0%)",
-            "impact": "medium"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 2
-      },
-      {
-        "rank": 19,
-        "code": "000990",
-        "name": "DB하이텍",
-        "signal_day": "2026-09-16",
-        "eval_day": "2026-09-17",
-        "entry_price": 126200,
-        "exit_price": 125000,
+        "code": "042660",
+        "name": "한화오션",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 84300,
+        "exit_price": 83500,
         "expected_return_5d": 0.0,
         "actual_return": -0.95,
         "miss_by": -0.95,
@@ -155,11 +29,48 @@
         "evidence": [
           {
             "factor": "volume_drop",
-            "signal_day_volume": 945693,
-            "eval_day_volume": 723420,
-            "change_pct": -23.5,
-            "interpretation": "거래량 감소 (-23.5%)",
+            "signal_day_volume": 666345,
+            "eval_day_volume": 535065,
+            "change_pct": -19.7,
+            "interpretation": "거래량 감소 (-19.7%)",
             "impact": "medium"
+          },
+          {
+            "factor": "flow_weakening",
+            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 2
+      },
+      {
+        "rank": 2,
+        "code": "088350",
+        "name": "한화생명",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 6080,
+        "exit_price": 5890,
+        "expected_return_5d": 0.0,
+        "actual_return": -3.12,
+        "miss_by": -3.12,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "volume_drop",
+          "signal_day_volume": 5377383,
+          "eval_day_volume": 3011572,
+          "change_pct": -44.0,
+          "interpretation": "거래량 급감 (-44.0%) — 관심 식음",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "volume_drop",
+            "signal_day_volume": 5377383,
+            "eval_day_volume": 3011572,
+            "change_pct": -44.0,
+            "interpretation": "거래량 급감 (-44.0%) — 관심 식음",
+            "impact": "high"
           },
           {
             "factor": "flow_weakening",
@@ -167,52 +78,25 @@
             "impact": "high"
           },
           {
-            "factor": "overheating",
-            "signal_day_change": 8.14,
-            "eval_day_change": -0.95,
-            "interpretation": "과열 후 조정 (어제 +8.1% → 오늘 -0.9%) — 차익실현 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "intraday_reversal",
-            "open": 130900,
-            "high": 131400,
-            "close": 125000,
-            "intra_drop_pct": -4.51,
-            "interpretation": "갭상승 후 장중 하락 (-4.51%) — 매도세 우세",
-            "impact": "high"
+            "factor": "negative_news",
+            "today_score": -1.0,
+            "interpretation": "부정 뉴스 감지 (악재 키워드 노출)",
+            "impact": "medium"
           }
         ],
-        "evidence_count": 4
-      }
-    ],
-    "pattern_stats": {
-      "volume_drop": 4,
-      "flow_weakening": 4,
-      "intraday_reversal": 3,
-      "overheating": 1
-    },
-    "most_common_failure": "volume_drop"
-  },
-  "analysis_5d": {
-    "window": "5D",
-    "signal_day": "2026-09-09",
-    "eval_day": "2026-09-17",
-    "total_signals": 20,
-    "winners": 3,
-    "losers": 8,
-    "failures": [
+        "evidence_count": 3
+      },
       {
-        "rank": 1,
-        "code": "000660",
-        "name": "SK하이닉스",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 1856000,
-        "exit_price": 1766000,
+        "rank": 3,
+        "code": "034020",
+        "name": "두산에너빌리티",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 86400,
+        "exit_price": 85700,
         "expected_return_5d": 0.0,
-        "actual_return": -4.85,
-        "miss_by": -4.85,
+        "actual_return": -0.81,
+        "miss_by": -0.81,
         "failure_type": "absolute_loss",
         "main_reason": {
           "factor": "flow_weakening",
@@ -221,12 +105,50 @@
         },
         "evidence": [
           {
+            "factor": "flow_weakening",
+            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
+            "impact": "high"
+          },
+          {
+            "factor": "intraday_reversal",
+            "open": 87300,
+            "high": 87800,
+            "close": 85700,
+            "intra_drop_pct": -1.83,
+            "interpretation": "갭상승 후 장중 하락 (-1.83%) — 매도세 우세",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 2
+      },
+      {
+        "rank": 6,
+        "code": "080580",
+        "name": "오킨스전자",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 22700,
+        "exit_price": 22150,
+        "expected_return_5d": 0.0,
+        "actual_return": -2.42,
+        "miss_by": -2.42,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "volume_drop",
+          "signal_day_volume": 593966,
+          "eval_day_volume": 300788,
+          "change_pct": -49.4,
+          "interpretation": "거래량 급감 (-49.4%) — 관심 식음",
+          "impact": "high"
+        },
+        "evidence": [
+          {
             "factor": "volume_drop",
-            "signal_day_volume": 3526484,
-            "eval_day_volume": 2803398,
-            "change_pct": -20.5,
-            "interpretation": "거래량 감소 (-20.5%)",
-            "impact": "medium"
+            "signal_day_volume": 593966,
+            "eval_day_volume": 300788,
+            "change_pct": -49.4,
+            "interpretation": "거래량 급감 (-49.4%) — 관심 식음",
+            "impact": "high"
           },
           {
             "factor": "flow_weakening",
@@ -235,26 +157,60 @@
           },
           {
             "factor": "gap_down",
-            "open": 1770000,
-            "close": 1766000,
-            "gap_pct": -4.63,
-            "interpretation": "갭하락 시작 (시초가 -4.63%) — 매도 압력 우세",
+            "open": 22450,
+            "close": 22150,
+            "gap_pct": -1.1,
+            "interpretation": "갭하락 시작 (시초가 -1.1%) — 매도 압력 우세",
             "impact": "high"
           }
         ],
         "evidence_count": 3
       },
       {
-        "rank": 3,
-        "code": "240810",
-        "name": "원익IPS",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 120100,
-        "exit_price": 119300,
+        "rank": 7,
+        "code": "003490",
+        "name": "대한항공",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 29550,
+        "exit_price": 29150,
         "expected_return_5d": 0.0,
-        "actual_return": -0.67,
-        "miss_by": -0.67,
+        "actual_return": -1.35,
+        "miss_by": -1.35,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "intraday_reversal",
+          "open": 29750,
+          "high": 30100,
+          "close": 29150,
+          "intra_drop_pct": -2.02,
+          "interpretation": "갭상승 후 장중 하락 (-2.02%) — 매도세 우세",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "intraday_reversal",
+            "open": 29750,
+            "high": 30100,
+            "close": 29150,
+            "intra_drop_pct": -2.02,
+            "interpretation": "갭상승 후 장중 하락 (-2.02%) — 매도세 우세",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 1
+      },
+      {
+        "rank": 15,
+        "code": "055550",
+        "name": "신한지주",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 114100,
+        "exit_price": 111100,
+        "expected_return_5d": 0.0,
+        "actual_return": -2.63,
+        "miss_by": -2.63,
         "failure_type": "absolute_loss",
         "main_reason": {
           "factor": "unknown",
@@ -265,124 +221,34 @@
         "evidence_count": 0
       },
       {
-        "rank": 4,
-        "code": "034020",
-        "name": "두산에너빌리티",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 91700,
-        "exit_price": 86400,
+        "rank": 16,
+        "code": "105560",
+        "name": "KB금융",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 179700,
+        "exit_price": 175700,
         "expected_return_5d": 0.0,
-        "actual_return": -5.78,
-        "miss_by": -5.78,
+        "actual_return": -2.23,
+        "miss_by": -2.23,
         "failure_type": "absolute_loss",
         "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 3708953,
-          "eval_day_volume": 1747314,
-          "change_pct": -52.9,
-          "interpretation": "거래량 급감 (-52.9%) — 관심 식음",
+          "factor": "intraday_reversal",
+          "open": 181500,
+          "high": 181600,
+          "close": 175700,
+          "intra_drop_pct": -3.2,
+          "interpretation": "갭상승 후 장중 하락 (-3.2%) — 매도세 우세",
           "impact": "high"
         },
         "evidence": [
           {
-            "factor": "volume_drop",
-            "signal_day_volume": 3708953,
-            "eval_day_volume": 1747314,
-            "change_pct": -52.9,
-            "interpretation": "거래량 급감 (-52.9%) — 관심 식음",
-            "impact": "high"
-          },
-          {
-            "factor": "gap_down",
-            "open": 84700,
-            "close": 86400,
-            "gap_pct": -7.63,
-            "interpretation": "갭하락 시작 (시초가 -7.63%) — 매도 압력 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 2
-      },
-      {
-        "rank": 8,
-        "code": "009830",
-        "name": "한화솔루션",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 30800,
-        "exit_price": 28650,
-        "expected_return_5d": 0.0,
-        "actual_return": -6.98,
-        "miss_by": -6.98,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 3283849,
-          "eval_day_volume": 861731,
-          "change_pct": -73.8,
-          "interpretation": "거래량 급감 (-73.8%) — 관심 식음",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "volume_drop",
-            "signal_day_volume": 3283849,
-            "eval_day_volume": 861731,
-            "change_pct": -73.8,
-            "interpretation": "거래량 급감 (-73.8%) — 관심 식음",
-            "impact": "high"
-          },
-          {
-            "factor": "flow_weakening",
-            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "overheating",
-            "signal_day_change": 5.66,
-            "eval_day_change": -6.98,
-            "interpretation": "과열 후 조정 (어제 +5.7% → 오늘 -7.0%) — 차익실현 추정",
-            "impact": "high"
-          },
-          {
-            "factor": "gap_down",
-            "open": 28700,
-            "close": 28650,
-            "gap_pct": -6.82,
-            "interpretation": "갭하락 시작 (시초가 -6.82%) — 매도 압력 우세",
-            "impact": "high"
-          }
-        ],
-        "evidence_count": 4
-      },
-      {
-        "rank": 15,
-        "code": "010140",
-        "name": "삼성중공업",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 21600,
-        "exit_price": 21550,
-        "expected_return_5d": 0.0,
-        "actual_return": -0.23,
-        "miss_by": -0.23,
-        "failure_type": "absolute_loss",
-        "main_reason": {
-          "factor": "gap_down",
-          "open": 20450,
-          "close": 21550,
-          "gap_pct": -5.32,
-          "interpretation": "갭하락 시작 (시초가 -5.32%) — 매도 압력 우세",
-          "impact": "high"
-        },
-        "evidence": [
-          {
-            "factor": "gap_down",
-            "open": 20450,
-            "close": 21550,
-            "gap_pct": -5.32,
-            "interpretation": "갭하락 시작 (시초가 -5.32%) — 매도 압력 우세",
+            "factor": "intraday_reversal",
+            "open": 181500,
+            "high": 181600,
+            "close": 175700,
+            "intra_drop_pct": -3.2,
+            "interpretation": "갭상승 후 장중 하락 (-3.2%) — 매도세 우세",
             "impact": "high"
           }
         ],
@@ -390,15 +256,15 @@
       },
       {
         "rank": 17,
-        "code": "005930",
-        "name": "삼성전자",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 269500,
-        "exit_price": 256000,
+        "code": "010140",
+        "name": "삼성중공업",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 21550,
+        "exit_price": 21050,
         "expected_return_5d": 0.0,
-        "actual_return": -5.01,
-        "miss_by": -5.01,
+        "actual_return": -2.32,
+        "miss_by": -2.32,
         "failure_type": "absolute_loss",
         "main_reason": {
           "factor": "flow_weakening",
@@ -408,10 +274,10 @@
         "evidence": [
           {
             "factor": "volume_drop",
-            "signal_day_volume": 16370962,
-            "eval_day_volume": 11827514,
-            "change_pct": -27.8,
-            "interpretation": "거래량 감소 (-27.8%)",
+            "signal_day_volume": 4575584,
+            "eval_day_volume": 3388016,
+            "change_pct": -26.0,
+            "interpretation": "거래량 감소 (-26.0%)",
             "impact": "medium"
           },
           {
@@ -420,11 +286,10 @@
             "impact": "high"
           },
           {
-            "factor": "gap_down",
-            "open": 257000,
-            "close": 256000,
-            "gap_pct": -4.64,
-            "interpretation": "갭하락 시작 (시초가 -4.64%) — 매도 압력 우세",
+            "factor": "overheating",
+            "signal_day_change": 6.68,
+            "eval_day_change": -2.32,
+            "interpretation": "과열 후 조정 (어제 +6.7% → 오늘 -2.3%) — 차익실현 추정",
             "impact": "high"
           }
         ],
@@ -432,32 +297,29 @@
       },
       {
         "rank": 18,
-        "code": "001510",
-        "name": "SK증권",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 2515,
-        "exit_price": 2350,
+        "code": "078930",
+        "name": "GS",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 114200,
+        "exit_price": 114000,
         "expected_return_5d": 0.0,
-        "actual_return": -6.56,
-        "miss_by": -6.56,
+        "actual_return": -0.18,
+        "miss_by": -0.18,
         "failure_type": "absolute_loss",
         "main_reason": {
-          "factor": "volume_drop",
-          "signal_day_volume": 2917042,
-          "eval_day_volume": 1730139,
-          "change_pct": -40.7,
-          "interpretation": "거래량 급감 (-40.7%) — 관심 식음",
+          "factor": "flow_weakening",
+          "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
           "impact": "high"
         },
         "evidence": [
           {
             "factor": "volume_drop",
-            "signal_day_volume": 2917042,
-            "eval_day_volume": 1730139,
-            "change_pct": -40.7,
-            "interpretation": "거래량 급감 (-40.7%) — 관심 식음",
-            "impact": "high"
+            "signal_day_volume": 359993,
+            "eval_day_volume": 295200,
+            "change_pct": -18.0,
+            "interpretation": "거래량 감소 (-18.0%)",
+            "impact": "medium"
           },
           {
             "factor": "flow_weakening",
@@ -465,43 +327,50 @@
             "impact": "high"
           },
           {
-            "factor": "gap_down",
-            "open": 2360,
-            "close": 2350,
-            "gap_pct": -6.16,
-            "interpretation": "갭하락 시작 (시초가 -6.16%) — 매도 압력 우세",
+            "factor": "intraday_reversal",
+            "open": 114800,
+            "high": 116100,
+            "close": 114000,
+            "intra_drop_pct": -0.7,
+            "interpretation": "갭상승 후 장중 하락 (-0.7%) — 매도세 우세",
             "impact": "high"
+          },
+          {
+            "factor": "negative_news",
+            "today_score": -0.5,
+            "interpretation": "부정 뉴스 감지 (악재 키워드 노출)",
+            "impact": "medium"
           }
         ],
-        "evidence_count": 3
+        "evidence_count": 4
       },
       {
         "rank": 19,
-        "code": "000270",
-        "name": "기아",
-        "signal_day": "2026-09-09",
-        "eval_day": "2026-09-17",
-        "entry_price": 126800,
-        "exit_price": 121400,
+        "code": "004310",
+        "name": "현대약품",
+        "signal_day": "2026-09-17",
+        "eval_day": "2026-09-18",
+        "entry_price": 10500,
+        "exit_price": 10000,
         "expected_return_5d": 0.0,
-        "actual_return": -4.26,
-        "miss_by": -4.26,
+        "actual_return": -4.76,
+        "miss_by": -4.76,
         "failure_type": "absolute_loss",
         "main_reason": {
           "factor": "volume_drop",
-          "signal_day_volume": 836910,
-          "eval_day_volume": 565032,
-          "change_pct": -32.5,
-          "interpretation": "거래량 급감 (-32.5%) — 관심 식음",
+          "signal_day_volume": 17058943,
+          "eval_day_volume": 3914589,
+          "change_pct": -77.1,
+          "interpretation": "거래량 급감 (-77.1%) — 관심 식음",
           "impact": "high"
         },
         "evidence": [
           {
             "factor": "volume_drop",
-            "signal_day_volume": 836910,
-            "eval_day_volume": 565032,
-            "change_pct": -32.5,
-            "interpretation": "거래량 급감 (-32.5%) — 관심 식음",
+            "signal_day_volume": 17058943,
+            "eval_day_volume": 3914589,
+            "change_pct": -77.1,
+            "interpretation": "거래량 급감 (-77.1%) — 관심 식음",
             "impact": "high"
           },
           {
@@ -510,23 +379,248 @@
             "impact": "high"
           },
           {
-            "factor": "gap_down",
-            "open": 121600,
-            "close": 121400,
-            "gap_pct": -4.1,
-            "interpretation": "갭하락 시작 (시초가 -4.1%) — 매도 압력 우세",
+            "factor": "overheating",
+            "signal_day_change": 5.32,
+            "eval_day_change": -4.76,
+            "interpretation": "과열 후 조정 (어제 +5.3% → 오늘 -4.8%) — 차익실현 추정",
+            "impact": "high"
+          },
+          {
+            "factor": "intraday_reversal",
+            "open": 10650,
+            "high": 10710,
+            "close": 10000,
+            "intra_drop_pct": -6.1,
+            "interpretation": "갭상승 후 장중 하락 (-6.1%) — 매도세 우세",
             "impact": "high"
           }
         ],
-        "evidence_count": 3
+        "evidence_count": 4
       }
     ],
     "pattern_stats": {
       "volume_drop": 6,
-      "flow_weakening": 5,
-      "gap_down": 7,
-      "overheating": 1
+      "flow_weakening": 7,
+      "negative_news": 2,
+      "intraday_reversal": 5,
+      "gap_down": 1,
+      "overheating": 2
     },
-    "most_common_failure": "gap_down"
+    "most_common_failure": "flow_weakening"
+  },
+  "analysis_5d": {
+    "window": "5D",
+    "signal_day": "2026-09-10",
+    "eval_day": "2026-09-18",
+    "total_signals": 20,
+    "winners": 3,
+    "losers": 5,
+    "failures": [
+      {
+        "rank": 6,
+        "code": "080220",
+        "name": "제주반도체",
+        "signal_day": "2026-09-10",
+        "eval_day": "2026-09-18",
+        "entry_price": 78800,
+        "exit_price": 73400,
+        "expected_return_5d": 0.0,
+        "actual_return": -6.85,
+        "miss_by": -6.85,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "volume_drop",
+          "signal_day_volume": 3308755,
+          "eval_day_volume": 629253,
+          "change_pct": -81.0,
+          "interpretation": "거래량 급감 (-81.0%) — 관심 식음",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "volume_drop",
+            "signal_day_volume": 3308755,
+            "eval_day_volume": 629253,
+            "change_pct": -81.0,
+            "interpretation": "거래량 급감 (-81.0%) — 관심 식음",
+            "impact": "high"
+          },
+          {
+            "factor": "flow_weakening",
+            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
+            "impact": "high"
+          },
+          {
+            "factor": "overheating",
+            "signal_day_change": 5.07,
+            "eval_day_change": -6.85,
+            "interpretation": "과열 후 조정 (어제 +5.1% → 오늘 -6.8%) — 차익실현 추정",
+            "impact": "high"
+          },
+          {
+            "factor": "gap_down",
+            "open": 74700,
+            "close": 73400,
+            "gap_pct": -5.2,
+            "interpretation": "갭하락 시작 (시초가 -5.2%) — 매도 압력 우세",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 4
+      },
+      {
+        "rank": 12,
+        "code": "006360",
+        "name": "GS건설",
+        "signal_day": "2026-09-10",
+        "eval_day": "2026-09-18",
+        "entry_price": 37250,
+        "exit_price": 37200,
+        "expected_return_5d": 0.0,
+        "actual_return": -0.13,
+        "miss_by": -0.13,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "unknown",
+          "interpretation": "특이 패턴 미감지 (외부 요인 또는 시장 전반 영향 추정)",
+          "impact": "low"
+        },
+        "evidence": [],
+        "evidence_count": 0
+      },
+      {
+        "rank": 15,
+        "code": "005930",
+        "name": "삼성전자",
+        "signal_day": "2026-09-10",
+        "eval_day": "2026-09-18",
+        "entry_price": 269000,
+        "exit_price": 260000,
+        "expected_return_5d": 0.0,
+        "actual_return": -3.35,
+        "miss_by": -3.35,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "gap_down",
+          "open": 261000,
+          "close": 260000,
+          "gap_pct": -2.97,
+          "interpretation": "갭하락 시작 (시초가 -2.97%) — 매도 압력 우세",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "volume_drop",
+            "signal_day_volume": 22517075,
+            "eval_day_volume": 17489615,
+            "change_pct": -22.3,
+            "interpretation": "거래량 감소 (-22.3%)",
+            "impact": "medium"
+          },
+          {
+            "factor": "gap_down",
+            "open": 261000,
+            "close": 260000,
+            "gap_pct": -2.97,
+            "interpretation": "갭하락 시작 (시초가 -2.97%) — 매도 압력 우세",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 2
+      },
+      {
+        "rank": 17,
+        "code": "088350",
+        "name": "한화생명",
+        "signal_day": "2026-09-10",
+        "eval_day": "2026-09-18",
+        "entry_price": 5980,
+        "exit_price": 5890,
+        "expected_return_5d": 0.0,
+        "actual_return": -1.51,
+        "miss_by": -1.51,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "volume_drop",
+          "signal_day_volume": 4348322,
+          "eval_day_volume": 3011572,
+          "change_pct": -30.7,
+          "interpretation": "거래량 급감 (-30.7%) — 관심 식음",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "volume_drop",
+            "signal_day_volume": 4348322,
+            "eval_day_volume": 3011572,
+            "change_pct": -30.7,
+            "interpretation": "거래량 급감 (-30.7%) — 관심 식음",
+            "impact": "high"
+          },
+          {
+            "factor": "flow_weakening",
+            "interpretation": "외국인/기관 매수상위 제외 — 수급 약화 추정",
+            "impact": "high"
+          },
+          {
+            "factor": "intraday_reversal",
+            "open": 6040,
+            "high": 6100,
+            "close": 5890,
+            "intra_drop_pct": -2.48,
+            "interpretation": "갭상승 후 장중 하락 (-2.48%) — 매도세 우세",
+            "impact": "high"
+          },
+          {
+            "factor": "negative_news",
+            "today_score": -1.0,
+            "interpretation": "부정 뉴스 감지 (악재 키워드 노출)",
+            "impact": "medium"
+          }
+        ],
+        "evidence_count": 4
+      },
+      {
+        "rank": 18,
+        "code": "047040",
+        "name": "대우건설",
+        "signal_day": "2026-09-10",
+        "eval_day": "2026-09-18",
+        "entry_price": 19750,
+        "exit_price": 19020,
+        "expected_return_5d": 0.0,
+        "actual_return": -3.7,
+        "miss_by": -3.7,
+        "failure_type": "absolute_loss",
+        "main_reason": {
+          "factor": "gap_down",
+          "open": 18900,
+          "close": 19020,
+          "gap_pct": -4.3,
+          "interpretation": "갭하락 시작 (시초가 -4.3%) — 매도 압력 우세",
+          "impact": "high"
+        },
+        "evidence": [
+          {
+            "factor": "gap_down",
+            "open": 18900,
+            "close": 19020,
+            "gap_pct": -4.3,
+            "interpretation": "갭하락 시작 (시초가 -4.3%) — 매도 압력 우세",
+            "impact": "high"
+          }
+        ],
+        "evidence_count": 1
+      }
+    ],
+    "pattern_stats": {
+      "volume_drop": 3,
+      "flow_weakening": 2,
+      "overheating": 1,
+      "gap_down": 3,
+      "intraday_reversal": 1,
+      "negative_news": 1
+    },
+    "most_common_failure": "volume_drop"
   }
 }
