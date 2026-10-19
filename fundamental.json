@@ -1,5 +1,5 @@
 ﻿{
-  "date": "2026-10-18",
+  "date": "2026-10-20",
   "year": 2026,
   "quarter": "3Q",
   "count": 135,
@@ -525,17 +525,6 @@
       "name": "삼성전기"
     },
     {
-      "code": "010120",
-      "equity": 2199565794547,
-      "total_debt": 3785908900398,
-      "op_growth": 0,
-      "debt_ratio": 172.12,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "LS ELECTRIC"
-    },
-    {
       "code": "096770",
       "equity": 37809491747000,
       "total_debt": 64173492367000,
@@ -545,6 +534,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "SK이노베이션"
+    },
+    {
+      "code": "010120",
+      "equity": 2199565794547,
+      "total_debt": 3785908900398,
+      "op_growth": 0,
+      "debt_ratio": 172.12,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "LS ELECTRIC"
     },
     {
       "code": "066570",
@@ -893,19 +893,6 @@
       "name": "NC"
     },
     {
-      "code": "006730",
-      "equity": 1396102701411,
-      "total_debt": 1828596151957,
-      "net_income": 6153837717,
-      "op_growth": 0,
-      "roe": 0.44,
-      "debt_ratio": 130.98,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "서부T&D"
-    },
-    {
       "code": "085910",
       "equity": 92575950355,
       "total_debt": 69662283991,
@@ -917,6 +904,19 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "네오티스"
+    },
+    {
+      "code": "006730",
+      "equity": 1396102701411,
+      "total_debt": 1828596151957,
+      "net_income": 6153837717,
+      "op_growth": 0,
+      "roe": 0.44,
+      "debt_ratio": 130.98,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "서부T&D"
     },
     {
       "code": "053800",
@@ -962,14 +962,6 @@
       "name": "아모텍"
     },
     {
-      "code": "051900",
-      "op_growth": 0,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "LG생활건강"
-    },
-    {
       "code": "039490",
       "equity": 7580800460580,
       "total_debt": 100760492991017,
@@ -979,6 +971,14 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "키움증권"
+    },
+    {
+      "code": "051900",
+      "op_growth": 0,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "LG생활건강"
     },
     {
       "code": "140410",
@@ -1018,17 +1018,15 @@
       "name": "카카오게임즈"
     },
     {
-      "code": "035900",
-      "equity": 653171895669,
-      "total_debt": 222124902822,
-      "net_income": 21660591816,
+      "code": "356860",
+      "equity": 144682906913,
+      "total_debt": 130745122388,
       "op_growth": 0,
-      "roe": 3.32,
-      "debt_ratio": 34.01,
+      "debt_ratio": 90.37,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "JYP Ent."
+      "name": "티엘비"
     },
     {
       "code": "319660",
@@ -1044,15 +1042,17 @@
       "name": "피에스케이"
     },
     {
-      "code": "356860",
-      "equity": 144682906913,
-      "total_debt": 130745122388,
+      "code": "035900",
+      "equity": 653171895669,
+      "total_debt": 222124902822,
+      "net_income": 21660591816,
       "op_growth": 0,
-      "debt_ratio": 90.37,
+      "roe": 3.32,
+      "debt_ratio": 34.01,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "티엘비"
+      "name": "JYP Ent."
     },
     {
       "code": "011070",
@@ -1328,17 +1328,6 @@
       "name": "유한양행"
     },
     {
-      "code": "087010",
-      "equity": 129475043009,
-      "total_debt": 38500280616,
-      "op_growth": 0,
-      "debt_ratio": 29.74,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "펩트론"
-    },
-    {
       "code": "052690",
       "equity": 592710504477,
       "total_debt": 198817302069,
@@ -1348,6 +1337,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "한전기술"
+    },
+    {
+      "code": "087010",
+      "equity": 129475043009,
+      "total_debt": 38500280616,
+      "op_growth": 0,
+      "debt_ratio": 29.74,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "펩트론"
     },
     {
       "code": "251970",
