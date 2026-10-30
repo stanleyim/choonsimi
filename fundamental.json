@@ -1,5 +1,5 @@
 ﻿{
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "year": 2026,
   "quarter": "3Q",
   "count": 139,
@@ -17,17 +17,6 @@
       "name": "삼성E&A"
     },
     {
-      "code": "005930",
-      "equity": 579309676000000,
-      "total_debt": 180170840000000,
-      "op_growth": 0,
-      "debt_ratio": 31.1,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "삼성전자"
-    },
-    {
       "code": "100250",
       "equity": 563099216504,
       "total_debt": 290272519602,
@@ -39,6 +28,30 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "진양홀딩스"
+    },
+    {
+      "code": "005930",
+      "equity": 579309676000000,
+      "total_debt": 180170840000000,
+      "op_growth": 0,
+      "debt_ratio": 31.1,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "삼성전자"
+    },
+    {
+      "code": "010640",
+      "equity": 45568150691,
+      "total_debt": 60332792494,
+      "net_income": 1578994409,
+      "op_growth": 0,
+      "roe": 3.47,
+      "debt_ratio": 132.4,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "진양폴리"
     },
     {
       "code": "003780",
@@ -65,17 +78,15 @@
       "name": "SK증권"
     },
     {
-      "code": "010640",
-      "equity": 45568150691,
-      "total_debt": 60332792494,
-      "net_income": 1578994409,
+      "code": "008970",
+      "equity": 141250090067,
+      "total_debt": 106156236413,
       "op_growth": 0,
-      "roe": 3.47,
-      "debt_ratio": 132.4,
+      "debt_ratio": 75.15,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "진양폴리"
+      "name": "KBI동양철관"
     },
     {
       "code": "000660",
@@ -102,17 +113,6 @@
       "name": "에이엔피"
     },
     {
-      "code": "008970",
-      "equity": 141250090067,
-      "total_debt": 106156236413,
-      "op_growth": 0,
-      "debt_ratio": 75.15,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "KBI동양철관"
-    },
-    {
       "code": "093240",
       "equity": 117990013529,
       "total_debt": 96554772328,
@@ -126,6 +126,17 @@
       "name": "형지엘리트"
     },
     {
+      "code": "051630",
+      "equity": 39440432054,
+      "total_debt": 6729761562,
+      "op_growth": 0,
+      "debt_ratio": 17.06,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "진양화학"
+    },
+    {
       "code": "018880",
       "equity": 4267299232206,
       "total_debt": 6707080799641,
@@ -137,17 +148,6 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "한온시스템"
-    },
-    {
-      "code": "051630",
-      "equity": 39440432054,
-      "total_debt": 6729761562,
-      "op_growth": 0,
-      "debt_ratio": 17.06,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "진양화학"
     },
     {
       "code": "005870",
@@ -229,6 +229,17 @@
       "name": "LG디스플레이"
     },
     {
+      "code": "003010",
+      "equity": 135783188107,
+      "total_debt": 125754055196,
+      "op_growth": 0,
+      "debt_ratio": 92.61,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "혜인"
+    },
+    {
       "code": "028670",
       "equity": 6321587000000,
       "total_debt": 6516519000000,
@@ -242,17 +253,6 @@
       "name": "팬오션"
     },
     {
-      "code": "003010",
-      "equity": 135783188107,
-      "total_debt": 125754055196,
-      "op_growth": 0,
-      "debt_ratio": 92.61,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "혜인"
-    },
-    {
       "code": "003280",
       "equity": 282547508920,
       "total_debt": 200049988937,
@@ -262,6 +262,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "흥아해운"
+    },
+    {
+      "code": "010820",
+      "equity": 88511840649,
+      "total_debt": 359600770836,
+      "op_growth": 0,
+      "debt_ratio": 406.27,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "퍼스텍"
     },
     {
       "code": "128820",
@@ -275,17 +286,6 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "대성산업"
-    },
-    {
-      "code": "010820",
-      "equity": 88511840649,
-      "total_debt": 359600770836,
-      "op_growth": 0,
-      "debt_ratio": 406.27,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "퍼스텍"
     },
     {
       "code": "012030",
@@ -312,17 +312,6 @@
       "name": "대한항공"
     },
     {
-      "code": "009830",
-      "equity": 12466968000000,
-      "total_debt": 22903360000000,
-      "op_growth": 0,
-      "debt_ratio": 183.71,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "한화솔루션"
-    },
-    {
       "code": "317400",
       "equity": 708576266089,
       "total_debt": 566636564621,
@@ -336,15 +325,28 @@
       "name": "자이에스앤디"
     },
     {
-      "code": "316140",
-      "equity": 40880143000000,
-      "total_debt": 594299345000000,
+      "code": "009830",
+      "equity": 12466968000000,
+      "total_debt": 22903360000000,
       "op_growth": 0,
-      "debt_ratio": 1453.76,
+      "debt_ratio": 183.71,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "우리금융지주"
+      "name": "한화솔루션"
+    },
+    {
+      "code": "035720",
+      "equity": 15073401181967,
+      "total_debt": 12599593717147,
+      "net_income": 17980431801,
+      "op_growth": 0,
+      "roe": 0.12,
+      "debt_ratio": 83.59,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "카카오"
     },
     {
       "code": "015760",
@@ -360,17 +362,15 @@
       "name": "한국전력"
     },
     {
-      "code": "035720",
-      "equity": 15073401181967,
-      "total_debt": 12599593717147,
-      "net_income": 17980431801,
+      "code": "316140",
+      "equity": 40880143000000,
+      "total_debt": 594299345000000,
       "op_growth": 0,
-      "roe": 0.12,
-      "debt_ratio": 83.59,
+      "debt_ratio": 1453.76,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "카카오"
+      "name": "우리금융지주"
     },
     {
       "code": "001440",
@@ -395,17 +395,6 @@
       "name": "한화오션"
     },
     {
-      "code": "055550",
-      "equity": 62519770000000,
-      "total_debt": 778374567000000,
-      "op_growth": 0,
-      "debt_ratio": 1245.01,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "신한지주"
-    },
-    {
       "code": "032640",
       "equity": 9268511000000,
       "total_debt": 10573319000000,
@@ -428,6 +417,17 @@
       "name": "HMM"
     },
     {
+      "code": "055550",
+      "equity": 62519770000000,
+      "total_debt": 778374567000000,
+      "op_growth": 0,
+      "debt_ratio": 1245.01,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "신한지주"
+    },
+    {
       "code": "272210",
       "equity": 4571658691900,
       "total_debt": 7275666173295,
@@ -441,17 +441,6 @@
       "name": "한화시스템"
     },
     {
-      "code": "105560",
-      "equity": 62701822000000,
-      "total_debt": 804187383000000,
-      "op_growth": 0,
-      "debt_ratio": 1282.56,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "KB금융"
-    },
-    {
       "code": "006800",
       "equity": 16249853000000,
       "total_debt": 179355277000000,
@@ -461,6 +450,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "미래에셋증권"
+    },
+    {
+      "code": "105560",
+      "equity": 62701822000000,
+      "total_debt": 804187383000000,
+      "op_growth": 0,
+      "debt_ratio": 1282.56,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "KB금융"
     },
     {
       "code": "353200",
@@ -476,17 +476,6 @@
       "name": "대덕전자"
     },
     {
-      "code": "010120",
-      "equity": 2199565794547,
-      "total_debt": 3785908900398,
-      "op_growth": 0,
-      "debt_ratio": 172.12,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "LS ELECTRIC"
-    },
-    {
       "code": "064400",
       "equity": 3055951384000,
       "total_debt": 1890781831000,
@@ -496,6 +485,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "LG씨엔에스"
+    },
+    {
+      "code": "010120",
+      "equity": 2199565794547,
+      "total_debt": 3785908900398,
+      "op_growth": 0,
+      "debt_ratio": 172.12,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "LS ELECTRIC"
     },
     {
       "code": "086790",
@@ -530,17 +530,6 @@
       "name": "GS"
     },
     {
-      "code": "024110",
-      "equity": 37934013000000,
-      "total_debt": 488932282000000,
-      "op_growth": 0,
-      "debt_ratio": 1288.9,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "기업은행"
-    },
-    {
       "code": "006400",
       "equity": 26836219617697,
       "total_debt": 20785671482148,
@@ -561,6 +550,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "현대로템"
+    },
+    {
+      "code": "024110",
+      "equity": 37934013000000,
+      "total_debt": 488932282000000,
+      "op_growth": 0,
+      "debt_ratio": 1288.9,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "기업은행"
     },
     {
       "code": "042700",
@@ -598,17 +598,6 @@
       "name": "루닛"
     },
     {
-      "code": "000810",
-      "equity": 36211139597855,
-      "total_debt": 79304501127337,
-      "op_growth": 0,
-      "debt_ratio": 219.01,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "삼성화재"
-    },
-    {
       "code": "007810",
       "equity": 801038423985,
       "total_debt": 653811406166,
@@ -618,6 +607,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "코리아써키트"
+    },
+    {
+      "code": "000810",
+      "equity": 36211139597855,
+      "total_debt": 79304501127337,
+      "op_growth": 0,
+      "debt_ratio": 219.01,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "삼성화재"
     },
     {
       "code": "096770",
@@ -703,17 +703,6 @@
       "name": "LG에너지솔루션"
     },
     {
-      "code": "012330",
-      "equity": 51684366000000,
-      "total_debt": 23771343000000,
-      "op_growth": 0,
-      "debt_ratio": 45.99,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "현대모비스"
-    },
-    {
       "code": "475400",
       "equity": 50887462398,
       "total_debt": 11722254937,
@@ -725,6 +714,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "씨메스로보틱스"
+    },
+    {
+      "code": "012330",
+      "equity": 51684366000000,
+      "total_debt": 23771343000000,
+      "op_growth": 0,
+      "debt_ratio": 45.99,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "현대모비스"
     },
     {
       "code": "352820",
@@ -768,19 +768,6 @@
       "name": "엘앤에프"
     },
     {
-      "code": "226950",
-      "equity": 237420249018,
-      "total_debt": 36644952619,
-      "net_income": -10987509360,
-      "op_growth": 0,
-      "roe": -4.63,
-      "debt_ratio": 15.43,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "올릭스"
-    },
-    {
       "code": "222800",
       "equity": 649985108709,
       "total_debt": 1190130012203,
@@ -794,6 +781,19 @@
       "name": "심텍"
     },
     {
+      "code": "226950",
+      "equity": 237420249018,
+      "total_debt": 36644952619,
+      "net_income": -10987509360,
+      "op_growth": 0,
+      "roe": -4.63,
+      "debt_ratio": 15.43,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "올릭스"
+    },
+    {
       "code": "034730",
       "equity": 117778655000000,
       "total_debt": 127104741000000,
@@ -803,6 +803,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "SK"
+    },
+    {
+      "code": "441270",
+      "equity": 253375388641,
+      "total_debt": 288733725879,
+      "op_growth": 0,
+      "debt_ratio": 113.95,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "파인엠텍"
     },
     {
       "code": "017670",
@@ -816,17 +827,6 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "SK텔레콤"
-    },
-    {
-      "code": "441270",
-      "equity": 253375388641,
-      "total_debt": 288733725879,
-      "op_growth": 0,
-      "debt_ratio": 113.95,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "파인엠텍"
     },
     {
       "code": "096530",
@@ -866,19 +866,6 @@
       "name": "우리로"
     },
     {
-      "code": "192820",
-      "equity": 710417732403,
-      "total_debt": 1961727585627,
-      "net_income": 50008710862,
-      "op_growth": 0,
-      "roe": 7.04,
-      "debt_ratio": 276.14,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "코스맥스"
-    },
-    {
       "code": "122640",
       "equity": 148100322037,
       "total_debt": 101358543764,
@@ -903,6 +890,19 @@
       "name": "네오셈"
     },
     {
+      "code": "192820",
+      "equity": 710417732403,
+      "total_debt": 1961727585627,
+      "net_income": 50008710862,
+      "op_growth": 0,
+      "roe": 7.04,
+      "debt_ratio": 276.14,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "코스맥스"
+    },
+    {
       "code": "086280",
       "equity": 10930701411012,
       "total_debt": 9873023342320,
@@ -912,17 +912,6 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "현대글로비스"
-    },
-    {
-      "code": "028300",
-      "equity": 422438719535,
-      "total_debt": 485540846169,
-      "op_growth": 0,
-      "debt_ratio": 114.94,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "HLB"
     },
     {
       "code": "028260",
@@ -936,15 +925,15 @@
       "name": "삼성물산"
     },
     {
-      "code": "089860",
-      "equity": 1567540752139,
-      "total_debt": 6468133041191,
+      "code": "028300",
+      "equity": 422438719535,
+      "total_debt": 485540846169,
       "op_growth": 0,
-      "debt_ratio": 412.63,
+      "debt_ratio": 114.94,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "롯데렌탈"
+      "name": "HLB"
     },
     {
       "code": "108490",
@@ -958,15 +947,15 @@
       "name": "로보티즈"
     },
     {
-      "code": "161890",
-      "equity": 1771384768408,
-      "total_debt": 1857450483851,
+      "code": "089860",
+      "equity": 1567540752139,
+      "total_debt": 6468133041191,
       "op_growth": 0,
-      "debt_ratio": 104.86,
+      "debt_ratio": 412.63,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "한국콜마"
+      "name": "롯데렌탈"
     },
     {
       "code": "011780",
@@ -1002,6 +991,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "테스"
+    },
+    {
+      "code": "161890",
+      "equity": 1771384768408,
+      "total_debt": 1857450483851,
+      "op_growth": 0,
+      "debt_ratio": 104.86,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "한국콜마"
     },
     {
       "code": "131290",
@@ -1041,19 +1041,6 @@
       "name": "에스피지"
     },
     {
-      "code": "041510",
-      "equity": 1385730211792,
-      "total_debt": 623385573401,
-      "net_income": 29162775105,
-      "op_growth": 0,
-      "roe": 2.1,
-      "debt_ratio": 44.99,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "에스엠"
-    },
-    {
       "code": "420770",
       "equity": 207518761949,
       "total_debt": 36781484176,
@@ -1065,6 +1052,19 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "기가비스"
+    },
+    {
+      "code": "041510",
+      "equity": 1385730211792,
+      "total_debt": 623385573401,
+      "net_income": 29162775105,
+      "op_growth": 0,
+      "roe": 2.1,
+      "debt_ratio": 44.99,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "에스엠"
     },
     {
       "code": "035900",
@@ -1089,17 +1089,6 @@
       "name": "리노공업"
     },
     {
-      "code": "030200",
-      "equity": 20431285000000,
-      "total_debt": 24253763000000,
-      "op_growth": 0,
-      "debt_ratio": 118.71,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "KT"
-    },
-    {
       "code": "232140",
       "equity": 513876456822,
       "total_debt": 137755404658,
@@ -1113,17 +1102,6 @@
       "name": "와이씨"
     },
     {
-      "code": "111770",
-      "equity": 4528519425641,
-      "total_debt": 1687441138085,
-      "op_growth": 0,
-      "debt_ratio": 37.26,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "영원무역"
-    },
-    {
       "code": "064760",
       "equity": 551454177850,
       "total_debt": 53471074316,
@@ -1135,15 +1113,26 @@
       "name": "티씨케이"
     },
     {
-      "code": "181710",
-      "equity": 1810111379058,
-      "total_debt": 1709298807610,
+      "code": "030200",
+      "equity": 20431285000000,
+      "total_debt": 24253763000000,
       "op_growth": 0,
-      "debt_ratio": 94.43,
+      "debt_ratio": 118.71,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "NHN"
+      "name": "KT"
+    },
+    {
+      "code": "111770",
+      "equity": 4528519425641,
+      "total_debt": 1687441138085,
+      "op_growth": 0,
+      "debt_ratio": 37.26,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "영원무역"
     },
     {
       "code": "240810",
@@ -1155,6 +1144,17 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "원익IPS"
+    },
+    {
+      "code": "181710",
+      "equity": 1810111379058,
+      "total_debt": 1709298807610,
+      "op_growth": 0,
+      "debt_ratio": 94.43,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "NHN"
     },
     {
       "code": "064290",
@@ -1181,6 +1181,14 @@
       "name": "카카오뱅크"
     },
     {
+      "code": "047050",
+      "op_growth": 0,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "포스코인터내셔널"
+    },
+    {
       "code": "277810",
       "equity": 132868895611,
       "total_debt": 12049565050,
@@ -1190,14 +1198,6 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "레인보우로보틱스"
-    },
-    {
-      "code": "047050",
-      "op_growth": 0,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "포스코인터내셔널"
     },
     {
       "code": "071050",
@@ -1359,19 +1359,6 @@
       "name": "네오티스"
     },
     {
-      "code": "263750",
-      "equity": 1046052595992,
-      "total_debt": 234421750671,
-      "net_income": 99542325760,
-      "op_growth": 0,
-      "roe": 9.52,
-      "debt_ratio": 22.41,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "펄어비스"
-    },
-    {
       "code": "340450",
       "equity": 79867111272,
       "total_debt": 7959964285,
@@ -1398,15 +1385,28 @@
       "name": "프로티나"
     },
     {
-      "code": "141080",
-      "equity": 440965701090,
-      "total_debt": 153159718685,
+      "code": "263750",
+      "equity": 1046052595992,
+      "total_debt": 234421750671,
+      "net_income": 99542325760,
       "op_growth": 0,
-      "debt_ratio": 34.73,
+      "roe": 9.52,
+      "debt_ratio": 22.41,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "리가켐바이오"
+      "name": "펄어비스"
+    },
+    {
+      "code": "252990",
+      "equity": 194969436265,
+      "total_debt": 78341587713,
+      "op_growth": 0,
+      "debt_ratio": 40.18,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "샘씨엔에스"
     },
     {
       "code": "089890",
@@ -1422,15 +1422,15 @@
       "name": "코세스"
     },
     {
-      "code": "252990",
-      "equity": 194969436265,
-      "total_debt": 78341587713,
+      "code": "141080",
+      "equity": 440965701090,
+      "total_debt": 153159718685,
       "op_growth": 0,
-      "debt_ratio": 40.18,
+      "debt_ratio": 34.73,
       "year": 2026,
       "quarter": "2Q",
       "reprt_code": "11012",
-      "name": "샘씨엔에스"
+      "name": "리가켐바이오"
     },
     {
       "code": "219130",
@@ -1492,19 +1492,6 @@
       "name": "에코프로에이치엔"
     },
     {
-      "code": "080580",
-      "equity": 72373010860,
-      "total_debt": 57536749678,
-      "net_income": 8810271019,
-      "op_growth": 0,
-      "roe": 12.17,
-      "debt_ratio": 79.5,
-      "year": 2026,
-      "quarter": "2Q",
-      "reprt_code": "11012",
-      "name": "오킨스전자"
-    },
-    {
       "code": "319660",
       "equity": 615022515944,
       "total_debt": 135691326456,
@@ -1516,6 +1503,19 @@
       "quarter": "2Q",
       "reprt_code": "11012",
       "name": "피에스케이"
+    },
+    {
+      "code": "080580",
+      "equity": 72373010860,
+      "total_debt": 57536749678,
+      "net_income": 8810271019,
+      "op_growth": 0,
+      "roe": 12.17,
+      "debt_ratio": 79.5,
+      "year": 2026,
+      "quarter": "2Q",
+      "reprt_code": "11012",
+      "name": "오킨스전자"
     },
     {
       "code": "023160",
